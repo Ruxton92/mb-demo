@@ -1,0 +1,137 @@
+{
+  "data": {
+    "summary": {
+      "bannerHeadline": "All-in-Leasing mit 10%",
+      "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+      "topOfferText": "smart time offer",
+      "image": {
+        "sd": {
+            "url": "/images/checkout/sd/image.png",
+            "altText": ""
+        },
+        "md": {
+            "url": "/images/checkout/md/image.png",
+            "altText": ""
+        },
+        "hd": {
+            "url": "/images/checkout/hd/image.png",
+            "altText": ""
+        }
+      },
+      "highlights": {
+        "headline": "Special features of the online edition:",
+        "items": [
+          {
+              "name": "Panoramadach"
+          },
+          {
+              "name": "Panoramadach"
+          },
+          {
+              "name": "Panoramadach"
+          },
+          {
+              "name": "Panoramadach"
+          }
+        ]
+      },
+      "totalMonthlyRate": "466,50",
+      "car": {
+        "offerGroupId": "123",
+        "equipmentLine": "south of siena"
+      },
+      "financing": {
+        "factory": {
+          "headline": "smart forfour proxy mit >>smart time offer<<-Event",
+          "rows": [
+            {
+              "key": "Nettokaufpreis Fahrzeug",
+              "value": "36.623,12 Euro"
+            },
+            {
+              "key": "Zuzüglich derzeit 19% Umsatzsteuer",
+              "value": "8.345,23 Euro"
+            },
+            {
+              "key": "Bruttokaufpreis Fahrzeug",
+              "value": "44.968,35 Euro"
+            },
+            {
+              "key": "Zusätzlich Überführung (600,00 Euro) und Zulassung (55,00 Euro)",
+              "value": "655,00 Euro"
+            },
+            {
+              "key": "Inklusive Special: 2 Tages-Eintrittskarten für die Fashion Week",
+              "value": "0,00 Euro"
+            },
+            {
+              "key": "Gesamtpreis",
+              "value": "44.623,45 Euro"
+            }
+          ]
+        },
+        "financing_optionfinancing_option": {
+          "headline": "Leasing",
+          "rows": [
+            {
+              "key": "Laufzeit",
+              "value": "42 Monate"
+            },
+            {
+              "key": "Gesamtlaufleistung",
+              "value": "50.000 km"
+            },
+            {
+              "key": "Leasing-Sonderzahlung (x% des Kaufpreises)",
+              "value": "4.934,12 Euro"
+            },
+            {
+              "key": "Monatliche Leasingrate für Gebrauchsüberlassung",
+              "value": "352,00 Euro"
+            },
+            {
+              "key": "Monatliche Rate für Überführung und Zulassung",
+              "value": "9,00 Euro"
+            }
+          ]
+        },
+        "additional_offer_components": {
+          "headline": "Zusätzliche Angebotsbestandteile",
+          "rows": [
+            {
+              "key": "Monatliche Rate für Kfz-Versicherung (Haftpflicht und Vollkasko) inklusive Versicherungssteuer",
+              "value": "25,00 Euro"
+            },
+            {
+              "key": "Monatliche Rate für Wartung und Verschleißreparaturen",
+              "value": "83,00 Euro"
+            },
+            {
+              "key": "Monatliche Gesamtleasingrate",
+              "value": "466,50 Euro<br><small>Soweit nicht anders angegeben verstehen sich alle ausgewiesenen Preisangaben inkl. Umsatzsteuer.</small>"
+            }
+          ]
+        }
+      }
+    },
+    "wizard": {
+      "steps": [
+        {
+          "label": "Anmelden oder registrieren."
+        },
+        {
+          "label": "Wohin soll Ihr smart geliefert werden?"
+        },
+        {
+          "label": "Wann soll die Lieferung erfolgen?"
+        },
+        {
+          "label": "Ihre Daten."
+        },
+        {
+          "label": "Besondere Wünsche."
+        }
+      ]
+    }
+  }
+}

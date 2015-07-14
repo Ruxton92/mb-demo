@@ -1,0 +1,28 @@
+{
+  "data": {
+    "upperline": ">> smart times 2015",
+    "headline": "UnFORgettable",
+    "subheadline": "Budapest, Hungary<br>28th to 30th August 2015",
+    "offerNumber": "123123",
+    "campaignButtonText": "Discover the smarttimes offers",
+    "additionalInfoText": "17 special smarttimes offers in store.",
+    "popupLinkText": "Mehr erfahren",
+    "popupHeadline": "",
+    "popupContent": "",
+    "popupImage": "http://placehold.it/800x400",
+    "coverImages": {
+        "sd": {
+            "url": "/images/campaigns/smarttimes/imageTeaser.jpg",
+            "altText": ""
+        },
+        "md": {
+            "url": "/images/campaigns/smarttimes/imageTeaser.jpg",
+            "altText": ""
+        },
+        "hd": {
+            "url": "/images/campaigns/smarttimes/imageTeaser.jpg",
+            "altText": ""
+        }
+    }
+  }
+}

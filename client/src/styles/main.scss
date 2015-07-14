@@ -1,0 +1,19 @@
+//include normalize scss
+@import "../bower_components/normalize-scss/normalize";
+
+//import Jeet Grid System
+@import 'jeet/index';
+
+//import main scss files
+@import "00-variables";
+@import "01-functions";
+@import "10-webfonts";
+@import "20-typography";
+@import "40-layouts";
+@import "60-setup";
+@import "70-buttons";
+@import "80-forms";
+@import "90-styles";
+
+//import app scss files
+

@@ -1,0 +1,18 @@
+{
+  "data": {
+    "stageImages": {
+      "sd": {
+        "url": "/images/catalogue/stage/hero_sd.jpg",
+        "altText": ""
+      },
+      "md": {
+        "url": "/images/catalogue/stage/hero_sd.jpg",
+        "altText": ""
+      },
+      "hd": {
+        "url": "/images/catalogue/stage/hero_sd.jpg",
+        "altText": ""
+      }
+    }
+  }
+}

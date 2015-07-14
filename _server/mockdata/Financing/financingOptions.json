@@ -1,0 +1,72 @@
+{
+  "data": {
+    "financing": {
+      "name": "financing",
+      "annual_percentage_rate": 100,
+      "borrowing_rate": 100,
+      "credit_amount": 100,
+      "costs_additional_km": 100,
+      "duration": 100,
+      "factory_price_brutto": 100,
+      "factory_price_netto": 100,
+      "mileage": 100,
+      "monthly_insurance": 100,
+      "monthly_maintenance": 100,
+      "monthly_special": 100,
+      "monthly_transfer_and_registration": 100,
+      "monthly_usage": 100,
+      "registration_price": 100,
+      "total_monthly_rate": 100,
+      "total_offer_price": 100,
+      "transfer_and_registration_price": 100,
+      "transfer_price": 100,
+      "upfront_payment": 100,
+      "upfront_payment_percentage": 100,
+      "vat": 100,
+      "inclusive": [
+        {
+          "name": "insurance",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam saepe sit doloribus officiis blanditiis harum amet voluptates labore inventore molestiae."
+        },
+        {
+          "name": "service",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo repudiandae, optio sequi tempora hic accusantium."
+        }
+      ]
+    },
+    "leasing": {
+      "name": "financing",
+      "annual_percentage_rate": 100,
+      "borrowing_rate": 100,
+      "credit_amount": 100,
+      "costs_additional_km": 100,
+      "duration": 100,
+      "factory_price_brutto": 100,
+      "factory_price_netto": 100,
+      "mileage": 100,
+      "monthly_insurance": 100,
+      "monthly_maintenance": 100,
+      "monthly_special": 100,
+      "monthly_transfer_and_registration": 100,
+      "monthly_usage": 100,
+      "registration_price": 100,
+      "total_monthly_rate": 100,
+      "total_offer_price": 100,
+      "transfer_and_registration_price": 100,
+      "transfer_price": 100,
+      "upfront_payment": 100,
+      "upfront_payment_percentage": 100,
+      "vat": 100,
+      "inclusive": [
+        {
+          "name": "insurance",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam saepe sit doloribus officiis blanditiis harum amet voluptates labore inventore molestiae."
+        },
+        {
+          "name": "service",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo repudiandae, optio sequi tempora hic accusantium."
+        }
+      ]
+    }
+  }
+}

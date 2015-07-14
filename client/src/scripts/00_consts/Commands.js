@@ -1,0 +1,3 @@
+exports.catalogue = {
+  EXAMPLE: "EXAMPLE"
+};

@@ -1,0 +1,125 @@
+$static-base    : '/client/src';
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// ASSET PATHS
+
+// @static-base: is defined in Gruntfile.js and injected into Less
+$path-fonts         : '$static-base/styles/fonts';
+//$path-img           : '$static-base/img';
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// TYPOGRAPHY
+
+//PUBLICO
+//regular
+$font-publico-light             : 'PublicoHeadline-Light', Arial, sans-serif;
+$font-publico-roman             : 'PublicoHeadline-Roman', Arial, sans-serif;
+$font-publico-medium            : 'PublicoHeadline-Medium', Arial, sans-serif;
+$font-publico-bold              : 'PublicoHeadline-Bold', Arial, sans-serif;
+$font-publico-extrabold         : 'PublicoHeadline-Extrabold', Arial, sans-serif;
+$font-publico-black             : 'PublicoHeadline-Black', Arial, sans-serif;
+
+//italic
+$font-publico-light-italic      : 'PublicoHeadline-LightItalic', Arial, sans-serif;
+$font-publico-italic            : 'PublicoHeadline-Italic', Arial, sans-serif;
+$font-publico-medium-italic     : 'PublicoHeadline-MediumItalic', Arial, sans-serif;
+$font-publico-bold-italic       : 'PublicoHeadline-BoldItalic', Arial, sans-serif;
+$font-publico-extrabold-italic  : 'PublicoHeadline-ExtraboldItalic', Arial, sans-serif;
+$font-publico-black-italic      : 'ExtraboldItalic', Arial, sans-serif;
+
+
+//QUATTROCENTO
+$font-Quattrocento-roman        : 'Quattrocento Sans', Arial, sans-serif;
+
+$font-family-base                 : $font-Quattrocento-roman;
+
+$font-size-default   : 14px;
+$line-height-default : 1.8;
+
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+$pagePaddingRight: calc((100vw - 960px) * 0.2);
+$pagePaddingRight960: 45px;
+$pagePaddingRightPlus100Percent: calc(100% + ((100vw - 960px) * 0.2));
+$pagePaddingRightPlus100Percent960: calc(100% + 45px);
+$pagePaddingRightNegative: calc((100vw - 960px) * 0.2 * -1);
+$pagePaddingRightNegative960: -45px;
+
+/* Colors */
+
+//Black
+$color-black: #000000;
+$color-black-light: #282828;
+
+//Grey
+$color-grey-dark: #969696;
+$color-white: #ffffff;
+$color-white-creme: #f0f0f0;
+$color-grey: #deded9;
+$color-grey-light: #c8c8c8;
+
+$color-grey-1: #deded9;
+$color-grey-2: #e3e7ea;
+
+
+//Brown
+$colorBrown: #79532E;
+$color-brown-light: #c2a392;
+
+//greens
+$color-green: #25b46e;
+
+$colorInactive: rgba(0,0,0,0.4);
+
+//sections
+$section-border-color: $color-grey-dark;
+
+//menu colors
+$color-menu-default: $color-black;
+$color-menu-hover: $color-grey-dark;
+$color-menu-active: $color-grey-dark;
+$color-menu-expanded-border: $color-black-light;
+
+//teaser colors
+$color-teaser-light-grey: $color-grey-1;
+$color-teaser-lighter-grey: $color-grey-2;
+$color-teaser-white-creme: $color-white-creme;
+
+//stage
+$color-background-product-stage: $color-white-creme;
+
+//buttons
+$color-button-green: $color-green;
+
+/* Breakpoints */
+$vp-mobile-min: 340px;
+$vp-mobile-max: 543px;
+$vp-mobileTablet-min: 544px;
+$vp-mobileTablet-max: 767px;
+$vp-tabletDesktop-min: 768px;
+$vp-tabletDesktop-max: 1023px;
+$vp-desktop-min: 1024px;
+$vp-noContentPagePadding: 1130px;
+$maxContentWidth: 960px;
+
+/* meqia queries */
+$m-mobile: "(max-width: #{$vp-mobile-max})";
+$m-mobile-up: "(min-width: #{$vp-mobile-min})";
+$m-mobileTablet: "(min-width: #{$vp-mobileTablet-min}) and (max-width: #{$vp-mobileTablet-max})";
+$m-mobileTablet-up: "(min-width: #{$vp-mobileTablet-min})";
+$m-tabletDektop: "(min-width: #{$vp-tabletDesktop-min}) and (max-width: #{$vp-tabletDesktop-max})";
+$m-tabletDektop-up: "(min-width: #{$vp-tabletDesktop-min})";
+$m-desktop-down: "(max-width: #{$vp-tabletDesktop-max:})";
+$m-desktop-up: "(min-width: #{$vp-desktop-min})";
+$m-noContentPaddingNeeded: "(min-width: #{$vp-noContentPagePadding})";
+
+$spacing: 20px;
+
+$susy: (
+  /* Tells Susy to use 12 columns */
+  columns: 12,
+  /* Tells Susy that the container has a max-width of 1120px */
+  /* Tells Susy to use border-box */
+  global-box-sizing: border-box,
+  gutters: .35
+);

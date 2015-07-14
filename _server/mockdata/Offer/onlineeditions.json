@@ -1,0 +1,244 @@
+{
+  "data": [
+    {
+        "topOfferText": "Top Offer Text",
+        "bannerHeadline": "All-in-Leasing mit 10%",
+        "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+        "totalMonthlyRate": 100,
+        "car": {
+            "equipmentLine": "south of siena",
+            "highlights": [
+                {
+                    "name": "Panoramadach",
+                    "text": "",
+                    "images": [
+                        {
+                            "sd": {
+                                "url": "",
+                                "altText": ""
+                            },
+                            "md": {
+                                "url": "",
+                                "altText": ""
+                            },
+                            "hd": {
+                                "url": "",
+                                "altText": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Cool & Audio-Paket",
+                    "text": "",
+                    "images": [
+                        {
+                            "sd": {
+                                "url": "",
+                                "altText": ""
+                            },
+                            "md": {
+                                "url": "",
+                                "altText": ""
+                            },
+                            "hd": {
+                                "url": "",
+                                "altText": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Sport-Paket",
+                    "text": "",
+                    "images": [
+                        {
+                            "sd": {
+                                "url": "",
+                                "altText": ""
+                            },
+                            "md": {
+                                "url": "",
+                                "altText": ""
+                            },
+                            "hd": {
+                                "url": "",
+                                "altText": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "weiß-blaue Sitze in Lederoptik",
+                    "text": "",
+                    "images": [
+                        {
+                            "sd": {
+                                "url": "",
+                                "altText": ""
+                            },
+                            "md": {
+                                "url": "",
+                                "altText": ""
+                            },
+                            "hd": {
+                                "url": "",
+                                "altText": ""
+                            }
+                        }
+                    ]
+                }
+            ],
+            "model": "smart fortwo",
+            "imagesStageBackground": {
+                "sd": {
+                    "url": "/images/fortwo/4/imageStageBackground_sd.jpg",
+                    "altText": ""
+                },
+                "md": {
+                    "url": "/images/fortwo/4/imageStageBackground_md.jpg",
+                    "altText": ""
+                },
+                "hd": {
+                    "url": "/images/fortwo/4/imageStageBackground_hd.jpg",
+                    "altText": ""
+                }
+            },
+            "imagesStage": {
+                "sd": {
+                    "url": "/images/fortwo/1/imageStage_sd.png",
+                    "altText": ""
+                },
+                "md": {
+                    "url": "/images/fortwo/1/imageStage_md.png",
+                    "altText": ""
+                },
+                "hd": {
+                    "url": "/images/fortwo/1/imageStage_hd.png",
+                    "altText": ""
+                }
+            }
+        }
+    },
+    {
+        "topOfferText": "Top Offer Text",
+        "bannerHeadline": "All-in-Leasing mit 10%",
+        "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+        "totalMonthlyRate": 100,
+        "car": {
+            "equipmentLine": "south of siena",
+            "highlights": [
+                {
+                    "name": "Panoramadach",
+                    "text": "",
+                    "images": [
+                        {
+                            "sd": {
+                                "url": "",
+                                "altText": ""
+                            },
+                            "md": {
+                                "url": "",
+                                "altText": ""
+                            },
+                            "hd": {
+                                "url": "",
+                                "altText": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Cool & Audio-Paket",
+                    "text": "",
+                    "images": [
+                        {
+                            "sd": {
+                                "url": "",
+                                "altText": ""
+                            },
+                            "md": {
+                                "url": "",
+                                "altText": ""
+                            },
+                            "hd": {
+                                "url": "",
+                                "altText": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Sport-Paket",
+                    "text": "",
+                    "images": [
+                        {
+                            "sd": {
+                                "url": "",
+                                "altText": ""
+                            },
+                            "md": {
+                                "url": "",
+                                "altText": ""
+                            },
+                            "hd": {
+                                "url": "",
+                                "altText": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "weiß-blaue Sitze in Lederoptik",
+                    "text": "",
+                    "images": [
+                        {
+                            "sd": {
+                                "url": "",
+                                "altText": ""
+                            },
+                            "md": {
+                                "url": "",
+                                "altText": ""
+                            },
+                            "hd": {
+                                "url": "",
+                                "altText": ""
+                            }
+                        }
+                    ]
+                }
+            ],
+            "model": "smart forfour",
+            "imagesStageBackground": {
+                "sd": {
+                    "url": "/images/forfour/4/imageStageBackground_sd.jpg",
+                    "altText": ""
+                },
+                "md": {
+                    "url": "/images/forfour/4/imageStageBackground_md.jpg",
+                    "altText": ""
+                },
+                "hd": {
+                    "url": "/images/forfour/4/imageStageBackground_hd.jpg",
+                    "altText": ""
+                }
+            },
+            "imagesStage": {
+                "sd": {
+                    "url": "/images/forfour/1/imageStage_sd.png",
+                    "altText": ""
+                },
+                "md": {
+                    "url": "/images/forfour/1/imageStage_md.png",
+                    "altText": ""
+                },
+                "hd": {
+                    "url": "/images/forfour/1/imageStage_hd.png",
+                    "altText": ""
+                }
+            }
+        }
+    }
+  ]
+}

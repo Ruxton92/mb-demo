@@ -1,0 +1,3607 @@
+{
+  "data": {
+      "stageModules": [
+          {
+              "name": "StageMulti",
+              "data": {
+                  "bannerHeadline": "All-in-Leasing mit 10%",
+                  "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+                  "topOfferText": "Top Offer Text",
+                  "totalMonthlyRate": 100,
+                  "car": {
+                      "offerGroupId": "123",
+                      "equipmentLine": "south of siena",
+                      "images360": [
+                          {
+                              "exterior": {
+                                  "day": {
+                                      "open": [
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          }
+                                      ],
+                                      "closed": [
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          }
+                                      ]
+                                  },
+                                  "night": {
+                                      "open": [
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          }
+                                      ],
+                                      "closed": [
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          }
+                                      ]
+                                  }
+                              },
+                              "interior": {
+                                  "day": {
+                                      "open": [
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          }
+                                      ],
+                                      "closed": [
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          }
+                                      ]
+                                  },
+                                  "night": {
+                                      "open": [
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          }
+                                      ],
+                                      "closed": [
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          },
+                                          {
+                                              "sd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "md": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              },
+                                              "hd": {
+                                                  "url": "",
+                                                  "altText": ""
+                                              }
+                                          }
+                                      ]
+                                  }
+                              }
+                          }
+                      ],
+                      "availableColors": [
+                          {
+                              "bodypanel": "blue",
+                              "tridion": "black"
+                          },
+                          {
+                              "bodypanel": "red",
+                              "tridion": "white",
+                              "active": true
+                          },
+                          {
+                              "bodypanel": "brown",
+                              "tridion": "yellow"
+                          }
+                      ]
+                  }
+              }
+          }
+      ],
+      "navigation": {
+          "groups": [
+              {
+                  "items": [
+                      {
+                          "url": "/detail/overview",
+                          "label": "Overview",
+                          "selected": false
+                      },
+                      {
+                          "url": "/detail/design",
+                          "label": "Design",
+                          "selected": false
+                      },
+                      {
+                          "url": "/detail/enigne",
+                          "label": "Engine",
+                          "selected": false
+                      },
+                      {
+                          "url": "/detail/highlights",
+                          "label": "Highlights",
+                          "selected": false
+                      },
+                      {
+                          "url": "/detail/leasingfinancing",
+                          "label": "Leasing & Financing",
+                          "selected": false
+                      }
+                  ]
+              },
+              {
+                  "items": [
+                      {
+                          "url": "/chat",
+                          "label": "Chat",
+                          "selected": false,
+                          "icon": "chat"
+                      },
+                      {
+                          "url": "/call",
+                          "label": "Call",
+                          "selected": false,
+                          "icon": "phone"
+                      },
+                      {
+                          "url": "/mail",
+                          "label": "Mail",
+                          "selected": false,
+                          "icon": "mail"
+                      }
+                  ]
+              }
+          ]
+      },
+      "modelDescription": {
+          "headline": ">>The smart forfour proxy",
+          "subheadline": "Now available starting at €41 per month only.",
+          "image": {
+              "sd": {
+                  "url": "",
+                  "altText": ""
+              },
+              "md": {
+                  "url": "",
+                  "altText": ""
+              },
+              "hd": {
+                  "url": "",
+                  "altText": ""
+              }
+          },
+          "highlights": {
+              "headline": "Special features of the online edition:",
+              "items": [
+                  [
+                      {
+                          "name": "Panoramadach"
+                      },
+                      {
+                          "name": "Panoramadach"
+                      },
+                      {
+                          "name": "Panoramadach"
+                      },
+                      {
+                          "name": "Panoramadach"
+                      }
+                  ]
+              ]
+          },
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat doloremque similique quos ex reprehenderit voluptates atque tenetur quibusdam vitae voluptate magni, aliquam debitis minima possimus quae est ducimus sapiente nisi vel aspernatur! Voluptas doloribus eius distinctio sapiente blanditiis nulla voluptate quas. Debitis neque vero eos. Voluptate porro nihil beatae dignissimos."
+      },
+      "design": {
+          "exterior": {
+              "colorSchema": "yellow",
+              "rows": [
+                  {
+                      "headline": ">>Design1",
+                      "subheadline": "exterior & interior.",
+                      "text": "The city is full of possibilities. And it’s great when four of you can enjoy all that the city has to offer. The smart forfour combines an innovative car concept with the all the advantages of a four-seater vehicle. It is this that makes it the most unusual representative of its class. Thanks to its compactness and agility it is the perfect car for the city.",
+                      "imageSideRight": {
+                          "sd": {
+                              "url": "/images/offer/interiorExterior/image-side-right-hd.png",
+                              "altText": ""
+                          },
+                          "md": {
+                              "url": "/images/offer/interiorExterior/image-side-right-hd.png",
+                              "altText": ""
+                          },
+                          "hd": {
+                              "url": "/images/offer/interiorExterior/image-side-right-hd.png",
+                              "altText": ""
+                          }
+                      }
+                  },
+                  {
+                      "headline": "",
+                      "subheadline": "",
+                      "text": "",
+                      "imageFront": {
+                          "sd": {
+                              "url": "/images/offer/interiorExterior/image-front-hd.png",
+                              "altText": ""
+                          },
+                          "md": {
+                              "url": "/images/offer/interiorExterior/image-front-hd.png",
+                              "altText": ""
+                          },
+                          "hd": {
+                              "url": "/images/offer/interiorExterior/image-front-hd.png",
+                              "altText": ""
+                          }
+                      }
+                  },
+                  {
+                      "headline": "",
+                      "subheadline": "",
+                      "text": "",
+                      "imageSideRight": {
+                          "sd": {
+                              "url": "/images/offer/interiorExterior/image-side-right-hd.png",
+                              "altText": ""
+                          },
+                          "md": {
+                              "url": "/images/offer/interiorExterior/image-side-right-hd.png",
+                              "altText": ""
+                          },
+                          "hd": {
+                              "url": "/images/offer/interiorExterior/image-side-right-hd.png",
+                              "altText": ""
+                          }
+                      }
+                  },
+                  {
+                      "headline": "",
+                      "subheadline": "",
+                      "text": "",
+                      "imageBack": {
+                          "sd": {
+                              "url": "/images/offer/interiorExterior/image-back-hd.png",
+                              "altText": ""
+                          },
+                          "md": {
+                              "url": "/images/offer/interiorExterior/image-back-hd.png",
+                              "altText": ""
+                          },
+                          "hd": {
+                              "url": "/images/offer/interiorExterior/image-back-hd.png",
+                              "altText": ""
+                          }
+                      }
+                  }
+              ]
+          },
+          "interior": {
+              "colorSchema": "blue",
+              "rows": [
+                  {
+                      "headline": "",
+                      "subheadline": "",
+                      "text": "",
+                      "imageFullsize": {
+                          "sd": {
+                              "url": "/images/offer/interiorExterior/image-fullsize.jpg",
+                              "altText": ""
+                          },
+                          "md": {
+                              "url": "/images/offer/interiorExterior/image-fullsize.jpg",
+                              "altText": ""
+                          },
+                          "hd": {
+                              "url": "/images/offer/interiorExterior/image-fullsize.jpg",
+                              "altText": ""
+                          }
+                      }
+                  },
+                  {
+                      "headline": "",
+                      "subheadline": "",
+                      "text": "Towards Sunbury was a dark appearance, as though a conical hill had suddenly come into being there, hiding our view of the farther country; and then, remoter across the river we saw another such summit. These hill-like forms grew lower and broader even as we stared.",
+                      "imageBack": {
+                          "sd": {
+                              "url": "/images/offer/interiorExterior/image-back3-hd.png",
+                              "altText": ""
+                          },
+                          "md": {
+                              "url": "/images/offer/interiorExterior/image-back3-hd.png",
+                              "altText": ""
+                          },
+                          "hd": {
+                              "url": "/images/offer/interiorExterior/image-back3-hd.png",
+                              "altText": ""
+                          }
+                      }
+                  },
+                  {
+                      "headline": "",
+                      "subheadline": "",
+                      "text": "Towards Sunbury was a dark appearance, as though a conical hill had suddenly come into being there, hiding our view of the farther country; and then, remoter across the river we saw another such summit. These hill-like forms grew lower and broader even as we stared.",
+                      "imageFront": {
+                          "sd": {
+                              "url": "/images/offer/interiorExterior/image-front-3-hd.jpg",
+                              "altText": ""
+                          },
+                          "md": {
+                              "url": "/images/offer/interiorExterior/image-front-3-hd.jpg",
+                              "altText": ""
+                          },
+                          "hd": {
+                              "url": "/images/offer/interiorExterior/image-front-3-hd.jpg",
+                              "altText": ""
+                          }
+                      },
+                      "imageFrontZoom": {
+                          "sd": {
+                              "url": "/images/offer/interiorExterior/image-front-zoom.jpg",
+                              "altText": ""
+                          },
+                          "md": {
+                              "url": "/images/offer/interiorExterior/image-front-zoom.jpg",
+                              "altText": ""
+                          },
+                          "hd": {
+                              "url": "/images/offer/interiorExterior/image-front-zoom.jpg",
+                              "altText": ""
+                          }
+                      }
+                  }
+              ]
+          }
+      },
+      "engine": {
+          "headline": ">>Engine.",
+          "subheadline": "52kW/71hp",
+          "image": {
+              "sd": {
+                  "url": "/images/offer/moduleEngine/module-engine-main.png",
+                  "altText": ""
+              },
+              "md": {
+                  "url": "",
+                  "altText": "/images/offer/moduleEngine/module-engine-main.png"
+              },
+              "hd": {
+                  "url": "",
+                  "altText": "/images/offer/moduleEngine/module-engine-main.png"
+              }
+          },
+          "facts": {
+              "left": [
+                  {
+                      "value": "52 kW/71 PS",
+                      "label": "Motor- & Fahrleistung"
+                  },
+                  {
+                      "value": "<small>mechanisches</small> 5-Gang",
+                      "label": "Motor- & Fahrleistung"
+                  },
+                  {
+                      "value": "52 kW/71 PS",
+                      "label": "Motor- & Fahrleistung"
+                  },
+                  {
+                      "value": "52kW/71 PS",
+                      "label": "Motor- & Fahrleistung"
+                  },
+                  {
+                      "value": "52kW/71 PS",
+                      "label": "Motor- & Fahrleistung"
+                  }
+              ],
+              "right": [
+                  {
+                      "value": "52kW/71 PS",
+                      "label": "Motor- & Fahrleistung"
+                  },
+                  {
+                      "value": "52kW/71 PS",
+                      "label": "Motor- & Fahrleistung"
+                  },
+                  {
+                      "value": "52kW/71 PS",
+                      "label": "Motor- & Fahrleistung"
+                  },
+                  {
+                      "value": "52kW/71 PS",
+                      "label": "Motor- & Fahrleistung"
+                  },
+                  {
+                      "value": "C",
+                      "label": "Effizienzklasse"
+                  }
+              ]
+          }
+      },
+      "features": {
+          "headline": ">> Features.",
+          "text": "<b>Progressive, sporty, trendsetting:</b> with highlights such as the panoramic roof, Cool & Audio package, Sports package and white/blue seats in leather look and fabric, the web passion online edition exudes urban coolness.",
+          "cols": [
+              {
+                  "name": "Panoramic roof",
+                  "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi corporis itaque repudiandae ipsum nihil quas laboriosam beatae voluptates nesciunt dolorem.",
+                  "items": [
+                      {
+                        "videoURL": "https://www.youtube.com/embed/as-SALpccd8"
+                      },
+                      {
+                          "sd": {
+                              "url": "http://placehold.it/490x365",
+                              "altText": ""
+                          },
+                          "md": {
+                              "url": "http://placehold.it/980x730",
+                              "altText": ""
+                          },
+                          "hd": {
+                              "url": "/images/offer/interiorExterior/image-front-zoom.jpg",
+                              "altText": ""
+                          }
+                      },
+                      {
+                          "sd": {
+                              "url": "http://placehold.it/490x365",
+                              "altText": ""
+                          },
+                          "md": {
+                              "url": "http://placehold.it/980x730",
+                              "altText": ""
+                          },
+                          "hd": {
+                              "url": "/images/offer/interiorExterior/image-front-zoom.jpg",
+                              "altText": ""
+                          }
+                      },
+                      {
+                        "videoURL": "https://www.youtube.com/embed/as-SALpccd8"
+                      }
+                  ]
+              },
+              {
+                  "name": "Cool & Audio package",
+                  "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium asperiores obcaecati nobis minima qui minus reprehenderit nulla molestias mollitia dignissimos.",
+                  "items": [
+                      {
+                          "sd": {
+                              "url": "http://placehold.it/490x365",
+                              "altText": ""
+                          },
+                          "md": {
+                              "url": "http://placehold.it/980x730",
+                              "altText": ""
+                          },
+                          "hd": {
+                              "url": "/images/offer/interiorExterior/image-front-zoom.jpg",
+                              "altText": ""
+                          }
+                      },
+                      {
+                          "sd": {
+                              "url": "http://placehold.it/490x365",
+                              "altText": ""
+                          },
+                          "md": {
+                              "url": "http://placehold.it/980x730",
+                              "altText": ""
+                          },
+                          "hd": {
+                              "url": "/images/offer/interiorExterior/image-front-zoom.jpg",
+                              "altText": ""
+                          }
+                      }
+                  ]
+              },
+              {
+                  "name": "White/blue seats in leather look and fabric",
+                  "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quod omnis sequi doloribus veritatis perferendis asperiores molestias accusantium et odio.",
+                  "items": [
+                      {
+                          "sd": {
+                              "url": "http://placehold.it/490x365",
+                              "altText": ""
+                          },
+                          "md": {
+                              "url": "http://placehold.it/980x730",
+                              "altText": ""
+                          },
+                          "hd": {
+                              "url": "/images/offer/interiorExterior/image-front-zoom.jpg",
+                              "altText": ""
+                          }
+                      },
+                      {
+                          "sd": {
+                              "url": "http://placehold.it/490x365",
+                              "altText": ""
+                          },
+                          "md": {
+                              "url": "http://placehold.it/980x730",
+                              "altText": ""
+                          },
+                          "hd": {
+                              "url": "http://placehold.it/980x730",
+                              "altText": ""
+                          }
+                      }
+                  ]
+              }
+          ]
+      },
+      "highlights": {
+          "headline": ">> Highlights.",
+          "cols": [
+              {
+                  "name": ">> Radiator trim in white",
+                  "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi corporis itaque repudiandae ipsum nihil quas laboriosam beatae voluptates nesciunt dolorem.",
+                  "items": [
+                      {
+                        "videoURL": "https://www.youtube.com/embed/as-SALpccd8"
+                      },
+                      {
+                          "sd": {
+                              "url": "http://placehold.it/490x365",
+                              "altText": ""
+                          },
+                          "md": {
+                              "url": "http://placehold.it/980x730",
+                              "altText": ""
+                          },
+                          "hd": {
+                              "url": "/images/offer/interiorExterior/image-front-zoom.jpg",
+                              "altText": ""
+                          }
+                      },
+                      {
+                          "sd": {
+                              "url": "http://placehold.it/490x365",
+                              "altText": ""
+                          },
+                          "md": {
+                              "url": "http://placehold.it/980x730",
+                              "altText": ""
+                          },
+                          "hd": {
+                              "url": "/images/offer/interiorExterior/image-front-zoom.jpg",
+                              "altText": ""
+                          }
+                      },
+                      {
+                        "videoURL": "https://www.youtube.com/embed/as-SALpccd8"
+                      }
+                  ]
+              },
+              {
+                  "name": ">> Cool & Audio package",
+                  "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium asperiores obcaecati nobis minima qui minus reprehenderit nulla molestias mollitia dignissimos.",
+                  "items": [
+                      {
+                          "sd": {
+                              "url": "http://placehold.it/490x365",
+                              "altText": ""
+                          },
+                          "md": {
+                              "url": "http://placehold.it/980x730",
+                              "altText": ""
+                          },
+                          "hd": {
+                              "url": "/images/offer/interiorExterior/image-front-zoom.jpg",
+                              "altText": ""
+                          }
+                      },
+                      {
+                          "sd": {
+                              "url": "http://placehold.it/490x365",
+                              "altText": ""
+                          },
+                          "md": {
+                              "url": "http://placehold.it/980x730",
+                              "altText": ""
+                          },
+                          "hd": {
+                              "url": "/images/offer/interiorExterior/image-front-zoom.jpg",
+                              "altText": ""
+                          }
+                      }
+                  ]
+              },
+              {
+                  "name": ">> Rims",
+                  "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quod omnis sequi doloribus veritatis perferendis asperiores molestias accusantium et odio.",
+                  "items": [
+                      {
+                          "sd": {
+                              "url": "http://placehold.it/490x365",
+                              "altText": ""
+                          },
+                          "md": {
+                              "url": "http://placehold.it/980x730",
+                              "altText": ""
+                          },
+                          "hd": {
+                              "url": "/images/offer/interiorExterior/image-front-zoom.jpg",
+                              "altText": ""
+                          }
+                      },
+                      {
+                          "sd": {
+                              "url": "http://placehold.it/490x365",
+                              "altText": ""
+                          },
+                          "md": {
+                              "url": "http://placehold.it/980x730",
+                              "altText": ""
+                          },
+                          "hd": {
+                              "url": "http://placehold.it/980x730",
+                              "altText": ""
+                          }
+                      }
+                  ]
+              }
+          ]
+      },
+      "financing": {
+          "header": [
+              {
+                  "headline": ">>Financial Services.",
+                  "subheadlineRed": "Leasing or Financing",
+                  "subheadline": "What‘s best FOR me?"
+              }
+          ],
+          "options": [
+              {
+                  "headline": "Leasing.",
+                  "subheadline": "Incluso Servizio e assicurazioni.",
+                  "text": "A solution for those who want to drive one of our cars over a fixed term, with hassle-free, low monthly rentals and none of the worries or commitment of ownership.",
+                  "bannerHeadline": "€41/month",
+                  "attributes": [
+                      {
+                          "label": "Period",
+                          "value": "Per 3 anni"
+                      },
+                      {
+                          "label": "Anticipio",
+                          "value": "€ 2.950"
+                      },
+                      {
+                          "label": "Standard rate",
+                          "value": "33 rate da € 41"
+                      },
+                      {
+                          "label": "December rate",
+                          "value": "3 rate da € 400"
+                      },
+                      {
+                          "label": "Final rate",
+                          "value": "€ 7.622"
+                      },
+                      {
+                          "label": "TAN",
+                          "value": "5,90 %"
+                      },
+                      {
+                          "label": "TAEG",
+                          "value": "8,09 %"
+                      }
+                  ],
+                  "notSelectedText": "Select financing",
+                  "selectedText": "Leasing selected"
+              },
+              {
+                  "headline": "Financing.",
+                  "subheadline": "Incluso Servizio e assicurazioni.",
+                  "text": "A solution for those who want to drive one of our cars over a fixed term, with hassle-free, low monthly rentals and none of the worries or commitment of ownership.",
+                  "bannerHeadline": "€61/month",
+                  "attributes": [
+                      {
+                          "label": "Period",
+                          "value": "Per 3 anni"
+                      },
+                      {
+                          "label": "Anticipio",
+                          "value": "€ 2.950"
+                      },
+                      {
+                          "label": "Standard rate",
+                          "value": "33 rate da € 41"
+                      },
+                      {
+                          "label": "December rate",
+                          "value": "3 rate da € 400"
+                      },
+                      {
+                          "label": "Final rate",
+                          "value": "€ 7.622"
+                      },
+                      {
+                          "label": "TAN",
+                          "value": "5,90 %"
+                      },
+                      {
+                          "label": "TAEG",
+                          "value": "8,09 %"
+                      }
+                  ],
+                  "notSelectedText": "Select financing",
+                  "selectedText": "Leasing selected"
+              }
+          ]
+      },
+      "additional": {
+          "headline": ">>Insurance & service.",
+          "options": [
+              {
+                  "headline": "My Insurance",
+                  "bannerText": "FOR free!",
+                  "texts": [
+                      "<p><b>Our insurance offers you a great way of protecting your smart.</b></p><p><b>My insurance is an easy-to-manage smart insurance policy.</b><br>It helps ensure your smart alloy wheels are kept in showroom condition.</p><p><b>My insurance is an easy-to-manage smart insurance policy.<br>It helps ensure your smart alloy wheels are kept in showroom condition.</b></p>"
+                  ]
+              },
+              {
+                  "headline": "First Cover Service",
+                  "bannerText": "FOR free!",
+                  "texts": [
+                      "<p><b>This service package offers you a great way of protecting your smart.</b></p><p><b>My insurance is an easy-to-manage smart insurance policy.</b><br>It helps ensure your smart alloy wheels are kept in showroom condition.</p><p><b>My insurance is an easy-to-manage smart insurance policy.<br>It helps ensure your smart alloy wheels are kept in showroom condition.</b></p>"
+                  ]
+              }
+          ]
+      },
+      "testdrive": {
+          "image": {
+              "sd": {
+                  "url": "/images/teaserTestdrive/sd/BL4.png",
+                  "altText": "text"
+              },
+              "md": {
+                  "url": "/images/teaserTestdrive/md/BL4.png",
+                  "altText": "text"
+              },
+              "hd": {
+                  "url": "/images/teaserTestdrive/md/BL4.png",
+                  "altText": "text"
+              }
+          }
+      },
+      "similarOffers": [
+          {
+              "topOfferText": "",
+              "bannerHeadline": "All-in-Leasing mit 10%",
+              "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+              "car": {
+                  "equipmentLine": "prime",
+                  "highlights": [
+                      {
+                          "name": "",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "model": "smart fortwo",
+                  "imagesCar": {
+                      "sd": {
+                          "url": "http://placehold.it/400x400",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/800x800",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/1200x1200",
+                          "altText": ""
+                      }
+                  },
+                  "imageInterior": {
+                      "sd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      }
+                  },
+                  "color": [
+                      {
+                          "bodypanel": "red",
+                          "tridion": "black"
+                      }
+                  ]
+              },
+              "availableColors": [
+                  {
+                      "bodypanel": "white",
+                      "tridion": "grey"
+                  },
+                  {
+                      "bodypanel": "brown",
+                      "tridion": "yellow"
+                  },
+                  {
+                      "bodypanel": "blue",
+                      "tridion": "black"
+                  }
+              ]
+          },
+          {
+              "topOfferText": "",
+              "bannerHeadline": "All-in-Leasing mit 10%",
+              "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+              "car": {
+                  "equipmentLine": "prime",
+                  "highlights": [
+                      {
+                          "name": "",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "model": "smart fortwo",
+                  "imagesCar": {
+                      "sd": {
+                          "url": "http://placehold.it/400x400",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/800x800",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/1200x1200",
+                          "altText": ""
+                      }
+                  },
+                  "imageInterior": {
+                      "sd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      }
+                  },
+                  "color": [
+                      {
+                          "bodypanel": "red",
+                          "tridion": "black"
+                      }
+                  ]
+              },
+              "availableColors": [
+                  {
+                      "bodypanel": "white",
+                      "tridion": "grey"
+                  },
+                  {
+                      "bodypanel": "brown",
+                      "tridion": "yellow"
+                  },
+                  {
+                      "bodypanel": "blue",
+                      "tridion": "black"
+                  }
+              ]
+          },
+          {
+              "topOfferText": "",
+              "bannerHeadline": "All-in-Leasing mit 10%",
+              "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+              "car": {
+                  "equipmentLine": "prime",
+                  "highlights": [
+                      {
+                          "name": "",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "model": "smart fortwo",
+                  "imagesCar": {
+                      "sd": {
+                          "url": "http://placehold.it/400x400",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/800x800",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/1200x1200",
+                          "altText": ""
+                      }
+                  },
+                  "imageInterior": {
+                      "sd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      }
+                  },
+                  "color": [
+                      {
+                          "bodypanel": "red",
+                          "tridion": "black"
+                      }
+                  ]
+              },
+              "availableColors": [
+                  {
+                      "bodypanel": "white",
+                      "tridion": "grey"
+                  },
+                  {
+                      "bodypanel": "brown",
+                      "tridion": "yellow"
+                  },
+                  {
+                      "bodypanel": "blue",
+                      "tridion": "black"
+                  }
+              ]
+          },
+          {
+              "topOfferText": "",
+              "bannerHeadline": "All-in-Leasing mit 10%",
+              "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+              "car": {
+                  "equipmentLine": "prime",
+                  "highlights": [
+                      {
+                          "name": "",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "model": "smart fortwo",
+                  "imagesCar": {
+                      "sd": {
+                          "url": "http://placehold.it/400x400",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/800x800",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/1200x1200",
+                          "altText": ""
+                      }
+                  },
+                  "imageInterior": {
+                      "sd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      }
+                  },
+                  "color": [
+                      {
+                          "bodypanel": "red",
+                          "tridion": "black"
+                      }
+                  ]
+              },
+              "availableColors": [
+                  {
+                      "bodypanel": "white",
+                      "tridion": "grey"
+                  },
+                  {
+                      "bodypanel": "brown",
+                      "tridion": "yellow"
+                  },
+                  {
+                      "bodypanel": "blue",
+                      "tridion": "black"
+                  }
+              ]
+          }
+      ],
+      "bestseller": [
+          {
+              "topOfferText": "",
+              "bannerHeadline": "All-in-Leasing mit 10%",
+              "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+              "car": {
+                  "equipmentLine": "prime",
+                  "highlights": [
+                      {
+                          "name": "",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "model": "smart fortwo",
+                  "imagesCar": {
+                      "sd": {
+                          "url": "http://placehold.it/400x400",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/800x800",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/1200x1200",
+                          "altText": ""
+                      }
+                  },
+                  "imageInterior": {
+                      "sd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      }
+                  },
+                  "color": [
+                      {
+                          "bodypanel": "red",
+                          "tridion": "black"
+                      }
+                  ]
+              },
+              "availableColors": [
+                  {
+                      "bodypanel": "white",
+                      "tridion": "grey"
+                  },
+                  {
+                      "bodypanel": "brown",
+                      "tridion": "yellow"
+                  },
+                  {
+                      "bodypanel": "blue",
+                      "tridion": "black"
+                  }
+              ]
+          },
+          {
+              "topOfferText": "",
+              "bannerHeadline": "All-in-Leasing mit 10%",
+              "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+              "car": {
+                  "equipmentLine": "prime",
+                  "highlights": [
+                      {
+                          "name": "",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "model": "smart fortwo",
+                  "imagesCar": {
+                      "sd": {
+                          "url": "http://placehold.it/400x400",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/800x800",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/1200x1200",
+                          "altText": ""
+                      }
+                  },
+                  "imageInterior": {
+                      "sd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      }
+                  },
+                  "color": [
+                      {
+                          "bodypanel": "red",
+                          "tridion": "black"
+                      }
+                  ]
+              },
+              "availableColors": [
+                  {
+                      "bodypanel": "white",
+                      "tridion": "grey"
+                  },
+                  {
+                      "bodypanel": "brown",
+                      "tridion": "yellow"
+                  },
+                  {
+                      "bodypanel": "blue",
+                      "tridion": "black"
+                  }
+              ]
+          },
+          {
+              "topOfferText": "",
+              "bannerHeadline": "All-in-Leasing mit 10%",
+              "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+              "car": {
+                  "equipmentLine": "prime",
+                  "highlights": [
+                      {
+                          "name": "",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "model": "smart fortwo",
+                  "imagesCar": {
+                      "sd": {
+                          "url": "http://placehold.it/400x400",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/800x800",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/1200x1200",
+                          "altText": ""
+                      }
+                  },
+                  "imageInterior": {
+                      "sd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      }
+                  },
+                  "color": [
+                      {
+                          "bodypanel": "red",
+                          "tridion": "black"
+                      }
+                  ]
+              },
+              "availableColors": [
+                  {
+                      "bodypanel": "white",
+                      "tridion": "grey"
+                  },
+                  {
+                      "bodypanel": "brown",
+                      "tridion": "yellow"
+                  },
+                  {
+                      "bodypanel": "blue",
+                      "tridion": "black"
+                  }
+              ]
+          },
+          {
+              "topOfferText": "",
+              "bannerHeadline": "All-in-Leasing mit 10%",
+              "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+              "car": {
+                  "equipmentLine": "prime",
+                  "highlights": [
+                      {
+                          "name": "",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "model": "smart fortwo",
+                  "imagesCar": {
+                      "sd": {
+                          "url": "http://placehold.it/400x400",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/800x800",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/1200x1200",
+                          "altText": ""
+                      }
+                  },
+                  "imageInterior": {
+                      "sd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      }
+                  },
+                  "color": [
+                      {
+                          "bodypanel": "red",
+                          "tridion": "black"
+                      }
+                  ]
+              },
+              "availableColors": [
+                  {
+                      "bodypanel": "white",
+                      "tridion": "grey"
+                  },
+                  {
+                      "bodypanel": "brown",
+                      "tridion": "yellow"
+                  },
+                  {
+                      "bodypanel": "blue",
+                      "tridion": "black"
+                  }
+              ]
+          }
+      ]
+  }
+}

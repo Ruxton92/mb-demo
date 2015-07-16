@@ -27,7 +27,7 @@ module.exports = function(app, port) {
     returns the locale object
     @returns Object
    */
-  return app.get("/api/system/locale", function(req, res) {
+  app.get("/api/system/locale", function(req, res) {
     var dataloader;
     dataloader = new DataLoader();
     return dataloader.loadLocale(function(err, result) {
@@ -38,4 +38,18 @@ module.exports = function(app, port) {
       }
     });
   });
+
+  app.get("/api/helloworld", function(req, res) {
+    var dataloader;
+
+    dataloader = new DataLoader();
+
+    dataloader.loadHelloworldData(function(result) {
+      if (result.error) {
+        return res.status(500).send(result.error);
+      } else {
+        return res.status(200).send(result.data);
+      }
+    });
+  })
 };

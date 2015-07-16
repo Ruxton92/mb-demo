@@ -3,9 +3,12 @@ var LayoutTemplate;
 LayoutTemplate = require("./templates/layout.hbs");
 
 module.exports = function(Show, App) {
-  return Show.View = App.Views.LayoutView.extend({
+
+  Show.View = App.Views.LayoutView.extend({
+
     template: LayoutTemplate,
     className: 'layout-home',
+
     regions: {
       regionHeader: '.region-header',
       regionContent: '.region-content',

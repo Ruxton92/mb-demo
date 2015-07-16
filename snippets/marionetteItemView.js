@@ -1,5 +1,6 @@
 module.exports = function(Show, App, Backbone, Marionette, $, _, options) {
-  return Show.View = App.Views.ItemView.extend({
+
+  Show.View = App.Views.ItemView.extend({
     tagName: '',
     className: '',
     template: Template,
@@ -8,10 +9,12 @@ module.exports = function(Show, App, Backbone, Marionette, $, _, options) {
     initialize: function(options1) {
       this.options = options1 != null ? options1 : {};
       this.options.lazyLoading = true;
-      return App.Views.ItemView.prototype.initialize.apply(this, arguments);
+
+      //call super
+      App.Views.ItemView.prototype.initialize.apply(this, arguments);
     },
     onRender: function() {
-      return App.Views.ItemView.prototype.onRender.apply(this, arguments);
+
     }
   });
 };

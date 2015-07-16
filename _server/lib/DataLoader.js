@@ -33,6 +33,21 @@ module.exports = DataLoader = (function() {
     });
   };
 
+  DataLoader.prototype.loadHelloworldData = function(cb) {
+    return fs.readFile(mockdataPath + "helloworld.json", function(err, result) {
+      if (err) {
+        return cb({
+          error: err
+        });
+      } else {
+        return cb({
+          error: null,
+          data: JSON.parse(result).data
+        });
+      }
+    });
+  };
+
   return DataLoader;
 
 })();

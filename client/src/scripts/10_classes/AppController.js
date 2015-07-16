@@ -62,8 +62,6 @@ module.exports = function(AppController, App) {
 
         App.locale = locale;
 
-        console.log(locale);
-
         _.extend(App.locale, {
           getKey: function(key) {
             return this[key];

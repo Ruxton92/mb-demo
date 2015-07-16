@@ -2,5 +2,6 @@ node_modules
 _server/node_modules
 client/src/scripts/bower_components
 client/_tmp
-
+client/src/bower_components
 _production
+**/.DS_Store

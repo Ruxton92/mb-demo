@@ -1,5 +1,7 @@
 module.exports = {
   EXAMPLE: "EXAMPLE",
+  HOME: "HOME",
+  HEADER: "HEADER",
   HELLOWORLD: "HELLOWORLD",
   LOCALE: "LOCALE"
 };

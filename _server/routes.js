@@ -51,5 +51,47 @@ module.exports = function(app, port) {
         return res.status(200).send(result.data);
       }
     });
-  })
+  });
+
+  app.get("/api/home", function(req, res) {
+    var dataloader;
+
+    dataloader = new DataLoader();
+
+    dataloader.loadHomeData(function(result) {
+      if (result.error) {
+        return res.status(500).send(result.error);
+      } else {
+        return res.status(200).send(result.data);
+      }
+    });
+  });
+
+  app.get("/api/header", function(req, res) {
+    var dataloader;
+
+    dataloader = new DataLoader();
+
+    dataloader.loadHeaderData(function(result) {
+      if (result.error) {
+        return res.status(500).send(result.error);
+      } else {
+        return res.status(200).send(result.data);
+      }
+    });
+  });
+
+  app.get("/api/footer", function(req, res) {
+    var dataloader;
+
+    dataloader = new DataLoader();
+
+    dataloader.loadFooterData(function(result) {
+      if (result.error) {
+        return res.status(500).send(result.error);
+      } else {
+        return res.status(200).send(result.data);
+      }
+    });
+  });
 };

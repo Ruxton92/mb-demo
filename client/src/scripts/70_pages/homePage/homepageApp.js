@@ -1,12 +1,9 @@
-var HomePageController
-  , HomePageView
-  , HelloWorldApp;
+var HomePageController = require("./homepageController");
+var HomePageView = require("./homepageView");
 
-HomePageController = require("./homepageController");
-HomePageView = require("./homepageView");
-
-HelloWorldApp = require('80_apps/helloWorld/helloworldApp');
-HelloWorldWithDataFetchingApp = require('80_apps/HelloWorldWithDataFetching/helloworldwithdatafetchingApp');
+//submodules
+var HelloWorldApp = require('80_apps/helloWorld/helloworldApp');
+var HelloWorldWithDataFetchingApp = require('80_apps/HelloWorldWithDataFetching/helloworldwithdatafetchingApp');
 
 module.exports = function(Module, App, Backbone, Marionette, $, _, options) {
 
@@ -27,8 +24,7 @@ module.exports = function(Module, App, Backbone, Marionette, $, _, options) {
       //see /client/src/scripts/65_controllers/_base/layoutViewController.js
 
       App.module(options.path + ".HelloWorldApp", HelloWorldApp, {path: options.path + ".HelloWorldApp", region: _controller.getRegion('regionContent')});
-
-      App.module(options.path + ".HelloWorldWithDataFetchingApp", HelloWorldWithDataFetchingApp, {path: options.path + ".HelloWorldWithDataFetchingApp", region: _controller.getRegion('regionFooter')});
+      App.module(options.path + ".HelloWorldWithDataFetchingApp", HelloWorldWithDataFetchingApp, {path: options.path + ".HelloWorldWithDataFetchingApp", region: _controller.getRegion('regionContent')});
 
       //start hello world app
       App.module(options.path + ".HelloWorldApp").start();

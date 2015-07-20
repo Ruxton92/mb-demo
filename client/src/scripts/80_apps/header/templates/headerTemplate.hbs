@@ -1,0 +1,30 @@
+{{locale "header.topNavLinks"}}
+{{!-- top navigation  --}}
+
+{{header.topNavLinks}}
+<nav class="topNav">
+  <ul>
+    {{#each topNav}}
+      <li {{#if active}} class="active" {{/if}}>
+        <a href="{{url}}">
+          {{name}}
+          <span class="{{icon}}"></span>
+        </a>
+      </li>
+    {{/each}}
+  </ul>
+</nav>
+{{!-- end top navigation  --}}
+{{!-- main navigation  --}}
+<nav class="mainNav">
+  <ul>
+    {{#each mainNav}}
+      <li {{#if active}} class="active" {{/if}}>
+        <a href="{{url}}">
+          {{name}}
+        </a>
+      </li>
+    {{/each}}
+  </ul>
+</nav>
+{{!-- end main navigation  --}}

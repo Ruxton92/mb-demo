@@ -1,12 +1,12 @@
 var Template;
 
-Template = require("./templates/helloworldwithdatafetchingTemplate.hbs");
+Template = require("./templates/headerTemplate.hbs");
 
 module.exports = function(Show, App, Backbone, Marionette, $, _, options) {
 
   Show.View = App.Views.ItemView.extend({
     tagName: 'div',
-    className: 'hello-world-app',
+    className: 'header-app',
     template: Template,
     events: {},
 

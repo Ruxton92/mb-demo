@@ -73,10 +73,6 @@
   }
 }
 
-@function rem($value) {
-  @return ($value / $font-size-default) + rem;
-}
-
 // Provides a simplified syntax for chaining media queries across named or numeric breakpoints
 @mixin responsive($properties, $default-value, $responsive-values){
 

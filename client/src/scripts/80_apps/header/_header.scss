@@ -1,0 +1,11 @@
+.header-app{
+  @include mainNavigationText();
+  background-color: $color-black;
+  color: $color-white;
+  ul{
+    margin: 0;
+  }
+  a{
+    color: $color-white;
+  }
+}

@@ -10,7 +10,6 @@ module.exports = function(Show, App, Marionette, Backbone, $, _) {
 
     startView: function() {
       this.view = this.getView();
-      App.regionMain.show(this.view);
     }
   });
 };

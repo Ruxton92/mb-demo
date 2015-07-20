@@ -48,6 +48,51 @@ module.exports = DataLoader = (function() {
     });
   };
 
+  DataLoader.prototype.loadHomeData = function(cb) {
+    return fs.readFile(mockdataPath + "Home/_page.json", function(err, result) {
+      if (err) {
+        return cb({
+          error: err
+        });
+      } else {
+        return cb({
+          error: null,
+          data: JSON.parse(result).data
+        });
+      }
+    });
+  };
+
+  DataLoader.prototype.loadHeaderData  = function(cb) {
+    return fs.readFile(mockdataPath + "header.json", function(err, result) {
+      if (err) {
+        return cb({
+          error: err
+        });
+      } else {
+        return cb({
+          error: null,
+          data: JSON.parse(result).data
+        });
+      }
+    });
+  };
+
+  DataLoader.prototype.loadFooterData  = function(cb) {
+    return fs.readFile(mockdataPath + "footer.json", function(err, result) {
+      if (err) {
+        return cb({
+          error: err
+        });
+      } else {
+        return cb({
+          error: null,
+          data: JSON.parse(result).data
+        });
+      }
+    });
+  };
+
   return DataLoader;
 
 })();

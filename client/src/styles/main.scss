@@ -18,3 +18,38 @@
 //import app scss files
 
 @import "../scripts/80_apps/header/_header.scss";
+@import "../scripts/80_apps/footer/_footer.scss";
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+a {
+  text-decoration: none;
+
+  &:hover,
+  &:active {
+
+  }
+
+  &:link {
+
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  &.inlineList{
+    @include inlineList();
+  }
+}
+ol {
+  margin: 0;
+  padding: 0;
+}
+.nav{
+  @include nav();
+}

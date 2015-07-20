@@ -63,9 +63,9 @@
   }
 }
 
-.btn.add-to-bag-green {
+.btn.add-to-bag-blue {
   @extend .add-to-bag;
-  background-color: $color-button-green;
+  background-color: $color-button-blue;
   border: 0;
 
   a {
@@ -75,19 +75,19 @@
 
 .btn.btn-brown {
   color: $color-white;
-  background: $color-brown-light;
+  background: $color-brown;
   border: none;
   line-height: rem(48px);
   height: rem(48px);
   &:hover, &:active, &:focus {
-    background: $colorBrown;
+    background: $color-brown;
   }
   a {
     color: $color-white;
   }
 }
 
-.btn.btn-green {
+.btn.btn-blue {
 
 }
 

@@ -1,28 +1,68 @@
 {{!-- top navigation  --}}
-<nav class="topNav">
-  <ul>
-    {{#each topNav}}
-      <li {{#if active}} class="active" {{/if}}>
-        <a href="{{url}}">
+<nav class="footerTop">
+  <div class="column">
+    <ul>
+      {{#each topNav}}
+        <li {{#if active}} class="active" {{/if}}>
+          <a href="{{url}}">
           {{name}}
           <span class="{{icon}}"></span>
         </a>
-      </li>
-    {{/each}}
-  </ul>
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+  <div class="column">
+    <ul>
+      {{#each topNav}}
+        <li {{#if active}} class="active" {{/if}}>
+          <a href="{{url}}">
+          {{name}}
+          <span class="{{icon}}"></span>
+        </a>
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+  <div class="column">
+    <ul>
+      {{#each topNav}}
+        <li {{#if active}} class="active" {{/if}}>
+          <a href="{{url}}">
+          {{name}}
+          <span class="{{icon}}"></span>
+        </a>
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+  <div class="column">
+    <ul>
+      {{#each topNav}}
+        <li {{#if active}} class="active" {{/if}}>
+          <a href="{{url}}">
+          {{name}}
+          <span class="{{icon}}"></span>
+        </a>
+        </li>
+      {{/each}}
+    </ul>
+  </div>
 </nav>
 {{!-- end top navigation  --}}
 
 {{!-- main navigation  --}}
 <nav class="footerBottom">
+
   <ul>
     {{#each mainNav}}
       <li {{#if active}} class="active" {{/if}}>
         <a href="{{url}}">
-          {{name}}
-        </a>
+            {{name}}
+          </a>
       </li>
     {{/each}}
   </ul>
+
 </nav>
 {{!-- end main navigation  --}}

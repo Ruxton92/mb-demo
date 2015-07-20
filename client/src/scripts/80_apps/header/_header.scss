@@ -1,11 +1,33 @@
 .header-app{
-  @include mainNavigationText();
+  overflow: hidden;
   background-color: $color-black;
-  color: $color-white;
-  ul{
-    margin: 0;
+  @include mainNavigationText();
+
+  .logo{
+    float: left;
+    padding: $spacing 0;
   }
-  a{
-    color: $color-white;
+  .navigation{
+    float: right;
+  }
+
+  ul{
+    @extend .nav;
+    @extend .inlineList;
+    margin: 0;
+    text-align: right;
+  }
+
+  .topNav{
+    a{
+      font-size: rem($menu-font-size-small);
+      padding: 5px 0;
+    }
+  }
+  .mainNav{
+    a{
+      font-size: rem($menu-font-size);
+      padding: $spacing 0;
+    }
   }
 }

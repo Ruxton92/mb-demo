@@ -1,0 +1,19 @@
+.footer-app {
+  background-color: $color-black;
+  @extend .nav;
+  overflow: hidden;
+  a {
+    font-size: rem($menu-font-size-small);
+  }
+  .footerTop {
+    overflow: hidden;
+    .column {
+      @include col($ratios: 1/4, $gutter: 3);
+    }
+  }
+  .footerBottom {
+    ul {
+      @extend .inlineList;
+    }
+  }
+}

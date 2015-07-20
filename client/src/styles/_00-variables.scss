@@ -32,64 +32,39 @@ $font-Quattrocento-roman        : 'Quattrocento Sans', Arial, sans-serif;
 
 $font-family-base                 : $font-Quattrocento-roman;
 
-$font-size-default   : 14px;
+$font-size-default   : 18px;
 $line-height-default : 1.8;
+$font-size-small   : 14px;
+$font-size-normal   : 20px;
 
 $font-weight-normal: 400;
 $font-weight-bold: 700;
-
-$pagePaddingRight: calc((100vw - 960px) * 0.2);
-$pagePaddingRight960: 45px;
-$pagePaddingRightPlus100Percent: calc(100% + ((100vw - 960px) * 0.2));
-$pagePaddingRightPlus100Percent960: calc(100% + 45px);
-$pagePaddingRightNegative: calc((100vw - 960px) * 0.2 * -1);
-$pagePaddingRightNegative960: -45px;
 
 /* Colors */
 
 //Black
 $color-black: #000000;
-$color-black-light: #282828;
-
 //Grey
-$color-grey-dark: #969696;
+$color-grey: #999999;
+$color-grey-dark: #333333;
+$color-grey-light: #ececec;
+//White
 $color-white: #ffffff;
-$color-white-creme: #f0f0f0;
-$color-grey: #deded9;
-$color-grey-light: #c8c8c8;
-
-$color-grey-1: #deded9;
-$color-grey-2: #e3e7ea;
-
-
 //Brown
-$colorBrown: #79532E;
-$color-brown-light: #c2a392;
-
-//greens
-$color-green: #25b46e;
-
-$colorInactive: rgba(0,0,0,0.4);
-
-//sections
-$section-border-color: $color-grey-dark;
+$color-brown: #3c3c3c;
+//Blue
+$color-blue: #00adef;
 
 //menu colors
-$color-menu-default: $color-black;
-$color-menu-hover: $color-grey-dark;
-$color-menu-active: $color-grey-dark;
-$color-menu-expanded-border: $color-black-light;
-
-//teaser colors
-$color-teaser-light-grey: $color-grey-1;
-$color-teaser-lighter-grey: $color-grey-2;
-$color-teaser-white-creme: $color-white-creme;
-
-//stage
-$color-background-product-stage: $color-white-creme;
-
+$color-menu-default: $color-grey;
+$color-menu-hover: $color-white;
+$color-menu-active: $color-white;
+$color-menu-bg: $color-black;
+$menu-font-size: $font-size-normal;
+$menu-font-size-small: $font-size-small;
 //buttons
-$color-button-green: $color-green;
+$color-button-blue: $color-blue;
+$color-inactive: rgba($color-button-blue, 0.5);
 
 /* Breakpoints */
 $vp-mobile-min: 340px;
@@ -113,13 +88,4 @@ $m-desktop-down: "(max-width: #{$vp-tabletDesktop-max:})";
 $m-desktop-up: "(min-width: #{$vp-desktop-min})";
 $m-noContentPaddingNeeded: "(min-width: #{$vp-noContentPagePadding})";
 
-$spacing: 20px;
-
-$susy: (
-  /* Tells Susy to use 12 columns */
-  columns: 12,
-  /* Tells Susy that the container has a max-width of 1120px */
-  /* Tells Susy to use border-box */
-  global-box-sizing: border-box,
-  gutters: .35
-);
+$spacing: 24px;

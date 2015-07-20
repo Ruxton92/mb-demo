@@ -1,5 +1,36 @@
+/* Calculare rem value from px */
 @function rem($value) {
   @return ($value / $font-size-default) + rem;
+}
+
+/* create horizontal inline list
+* @example:
+* ul {
+*   $include inlineList();
+* }
+ */
+@mixin inlineList{
+  li {
+    display: inline;
+  }
+  a{
+    display: inline-block;
+  }
+}
+
+/* default styles for navigations
+* @example:
+* .myNav {
+*   $include nav();
+* }
+ */
+@mixin nav {
+  a{
+    color: $color-grey-light;
+    &:hover{
+      color: $color-white;
+    }
+  }
 }
 
 @mixin standardText() {

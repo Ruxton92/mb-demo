@@ -53,14 +53,14 @@ var paths  = {
   jsTestSourceServer: './test/spec/{,**/}*.js',
   jsTestSourceClient: './client/test/spec/{,**/}*.js',
 
-  scssSource: 'client/src/styles/*.scss',
+  scssSource: ['client/scripts/****//*.scss', 'client/src/styles/*.scss'],
   scssTarget: 'client/_tmp/styles',
 
   html: ['./index.html'],
   htmlCleaned: ['./_index.html'],
 
   hbs: "client/src/scripts/apps/{,**/}*.hbs"
-  }
+};
 
 var config = {
 
@@ -74,7 +74,7 @@ var config = {
 
   banner: '/*! ' + packageJSON.name + '- v' + packageJSON.version + ' - ' + date.getFullYear() + '-' + (date.getMonth()+1) + '-' + date.getDate() + '\n' +
     '* Copyright (c) ' + date.getFullYear() + ' ' + packageJSON.author.name + '*/\n',
-}
+};
 
 /*************************************************************************
 ****************** Build vendor.js with browserify ***********************

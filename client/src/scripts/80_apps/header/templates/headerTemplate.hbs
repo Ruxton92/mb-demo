@@ -1,24 +1,46 @@
-1
 {{locale 'test'}}
-{{ log 'test'}}
+
+<div class="logo">
+  <img src="/images/header/logo.png" alt="MB" />
+</div>
+<div class="navigation">
+
+  <nav class="topNav">
+    <ul>
+      <li> <a href="#">Startseite</a> </li>
+      <li> <a href="#">Anbieter/Datenschutz</a> </li>
+    </ul>
+  </nav>
+
+  <nav class="mainNav">
+    <ul>
+      <li><a href="#">temp</a></li>
+      <li><a href="#">temp</a></li>
+      <li><a href="#">temp</a></li>
+      <li><a href="#">temp</a></li>
+      <li><a href="#">temp</a></li>
+      <li><a href="#">temp</a></li>
+      <li><a href="#">temp</a></li>
+    </ul>
+  </nav>
+</div>
+
 {{!-- <nav class="topNav">
   <ul>
     {{#each (locale "header.topNavLinks")}}
-      <li>{{{buildLinkFromLocaleArray this}}}</li>
-    {{/each}}
-  </ul>
-</nav> --}}
-{{!-- end top navigation  --}}
+<li>{{{buildLinkFromLocaleArray this}}}</li>
+{{/each}}
+</ul>
+</nav> {{!-- end top navigation  --}}
 {{!-- main navigation  --}}
 {{!-- <nav class="mainNav">
   <ul>
     {{#each mainNav}}
-      <li {{#if active}} class="active" {{/if}}>
-        <a href="{{url}}">
+<li {{#if active}} class="active" {{/if}}>
+  <a href="{{url}}">
           {{name}}
         </a>
-      </li>
-    {{/each}}
-  </ul>
-</nav> --}}
-{{!-- end main navigation  --}}
+</li>
+{{/each}}
+</ul>
+</nav> {{!-- end main navigation  --}}

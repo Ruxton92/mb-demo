@@ -59,7 +59,7 @@ var paths  = {
   html: ['./index.html'],
   htmlCleaned: ['./_index.html'],
 
-  hbs: "client/src/scripts/apps/{,**/}*.hbs"
+  hbs: "client/src/scripts/80_apps/{,**/}*.hbs"
 };
 
 var config = {

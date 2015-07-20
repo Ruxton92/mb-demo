@@ -29,7 +29,7 @@ module.exports = function(App) {
     locale: function() {
       var _return, args;
       args = arguments;
-      return _return = App.locale[args[0]];
+      return _return = App.locale.get(args[0]);
     },
     isHelper: function() {
       var args, left, operator, options, right;

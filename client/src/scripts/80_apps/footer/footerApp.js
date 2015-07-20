@@ -1,7 +1,7 @@
-var HeaderController, HeaderView;
+var FooterController, FooterView;
 
-HeaderController = require("./headerController");
-HeaderView       = require("./headerView");
+FooterController = require("./footerController");
+FooterView       = require("./footerView");
 
 module.exports = function(Module, App, Backbone, Marionette, $, _, options) {
 
@@ -17,12 +17,11 @@ module.exports = function(Module, App, Backbone, Marionette, $, _, options) {
 
   Module.on('before:start', function() {
     //we pass our options object to Controller
-    App.module(options.path + ".Show", HeaderController, options);
-    App.module(options.path + ".Show", HeaderView);
+    App.module(options.path + ".Show", FooterController, options);
+    App.module(options.path + ".Show", FooterView);
   });
 
   Module.on('start', function() {
-    console.log('headerStart');
     API.startApp();
   });
 

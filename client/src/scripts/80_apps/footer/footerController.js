@@ -11,11 +11,26 @@ module.exports = function(Show, App, Backbone, Marionette, $, _, options) {
 
     startView: function() {
       var view;
-        console.log(options);
+
+      //initially I try to load a model for the whole page, which I slice in main App
+      //right now main app would be homepageApp
+
+      if (options.model) {
         this.view = this.getView({model: options.model});
+
         //the options object should always contain the region, in which the module has to be rendered
         options.region.show(this.view);
+      }
 
+      //in the case we don't need a model for the view
+      else {
+
+        App.request(App.REQUESTS.FOOTER, function(err, model) {
+          view = this.getView({model: model});
+          options.region.show(view);
+        }.bind(this));
+
+      }
     }
   };
 };

@@ -78,6 +78,21 @@ module.exports = DataLoader = (function() {
     });
   };
 
+  DataLoader.prototype.loadFooterData  = function(cb) {
+    return fs.readFile(mockdataPath + "footer.json", function(err, result) {
+      if (err) {
+        return cb({
+          error: err
+        });
+      } else {
+        return cb({
+          error: null,
+          data: JSON.parse(result).data
+        });
+      }
+    });
+  };
+
   return DataLoader;
 
 })();

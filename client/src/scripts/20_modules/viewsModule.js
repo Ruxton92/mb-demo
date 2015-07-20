@@ -19,4 +19,3 @@ module.exports = function(BaseViews, App) {
     return App.module("Views", CompositeView);
   });
 };
-

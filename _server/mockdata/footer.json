@@ -1,0 +1,36 @@
+{
+  "data": {
+    "topNav": [{
+      "url": "#",
+      "name": "Startseite",
+      "active": true,
+      "icon": ""
+    }, {
+      "url": "#",
+      "name": "Anbieter/Datenschutz",
+      "active": false,
+      "icon": ""
+    }],
+    "mainNav": [{
+      "url": "#",
+      "active": false,
+      "name": "Alle Angebote"
+    }, {
+      "url": "#",
+      "active": false,
+      "name": "Modellübersicht"
+    }, {
+      "url": "#",
+      "active": true,
+      "name": "Store-Info"
+    }, {
+      "url": "#",
+      "active": false,
+      "name": "Kontakt"
+    }, {
+      "url": "#",
+      "active": false,
+      "name": "Store-Login"
+    }]
+  }
+}

@@ -10,9 +10,7 @@ module.exports = function(Show, App) {
     className: 'layout-home',
 
     regions: {
-      regionHeader: '.region-header',
-      regionContent: '.region-content',
-      regionFooter: '.region-footer'
+      regionContent: '.region-content'
     }
   });
 };

@@ -29,8 +29,9 @@ module.exports = function(AppController, App) {
     //Register Handlebar Helpers
     HandlebarsHelpers = require("01_config/handlebars/helpers")(App);
 
-    for (key in HandlebarsHelpers) {
-      if (!hasProp.call(HandlebarsHelpers, key)) continue;
+    for (var key in HandlebarsHelpers) {
+      console.log(key);
+      if (!{}.hasOwnProperty.call(HandlebarsHelpers, key)) {continue;}
       fn = HandlebarsHelpers[key];
       Handlebars.registerHelper(key, fn);
     }

@@ -11,7 +11,6 @@ module.exports = function(Show, App, Backbone, Marionette, $, _, options) {
 
     startView: function() {
       var view;
-        console.log(options);
         this.view = this.getView({model: options.model});
         //the options object should always contain the region, in which the module has to be rendered
         options.region.show(this.view);

@@ -22,7 +22,6 @@ module.exports = function(Module, App, Backbone, Marionette, $, _, options) {
   });
 
   Module.on('start', function() {
-    console.log('headerStart');
     API.startApp();
   });
 

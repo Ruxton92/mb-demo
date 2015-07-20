@@ -26,6 +26,15 @@ module.exports = function(AppController, App) {
     App.module("BaseViews", BaseViews);
     App.module("BaseControllers", BaseControllers);
 
+    //Register Handlebar Helpers
+    HandlebarsHelpers = require("01_config/handlebars/helpers")(App);
+
+    for (key in HandlebarsHelpers) {
+      if (!hasProp.call(HandlebarsHelpers, key)) continue;
+      fn = HandlebarsHelpers[key];
+      Handlebars.registerHelper(key, fn);
+    }
+
     window.Swag.registerHelpers(Handlebars);
 
     App.addRegions({

@@ -25,16 +25,14 @@
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
+body{
+  font-family: "CorporateS-Regular";
+  font-size: $font-size-default;
+}
 a {
   text-decoration: none;
-
   &:hover,
   &:active {
-
-  }
-
-  &:link {
-
   }
 }
 
@@ -46,9 +44,16 @@ ul {
     @include inlineList();
   }
 }
+
 ol {
   margin: 0;
   padding: 0;
+}
+.wrapp{
+
+}
+.content {
+  height: calc(100vh - 100px);
 }
 .nav{
   @include nav();

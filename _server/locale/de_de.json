@@ -11,7 +11,7 @@
     "active": false,
     "icon": ""
   }],
-  "header.topNavLinks": [{
+  "header.mainNavLinks": [{
     "url": "#",
     "active": false,
     "name": "Alle Angebote"

@@ -1,7 +1,6 @@
 .header-app{
   overflow: hidden;
   background-color: $color-black;
-  @include mainNavigationText();
 
   .logo{
     float: left;
@@ -9,6 +8,7 @@
   }
   .navigation{
     float: right;
+    margin: ($spacing/4) ($spacing * 1.5) 0 0;
   }
 
   ul{
@@ -20,14 +20,13 @@
 
   .topNav{
     a{
-      font-size: rem($menu-font-size-small);
-      padding: 5px 0;
+      padding: 5px 0 5px $menu-h-padding;
     }
   }
   .mainNav{
     a{
-      font-size: rem($menu-font-size);
-      padding: $spacing 0;
+      @include font-size($menu-font-size);
+      padding: 18px 0 18px ($spacing * 1.25);
     }
   }
 }

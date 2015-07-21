@@ -1,15 +1,18 @@
-/**
- * Gridpak Beta SCSS
- *
- * Generator - http://gridpak.com/
- * Created by @erskinedesign
- */
-
-/* Reusable column setup */
-@mixin container($width){
-  @include center($width);
-}
-
 .container {
    @include container(1440px);
+}
+
+
+.col4-grid{
+  .span{
+    @include col-styles;
+    @include col(1, $gutter: 4);
+    @media #{$m-mobileTablet-up} {
+      @include col(1/2, $gutter: 4);
+    }
+
+    @media #{$m-tabletDektop-up} {
+      @include col(1/4, $uncycle: 2);
+    }
+  }
 }

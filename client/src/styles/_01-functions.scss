@@ -1,6 +1,12 @@
 /* Calculare rem value from px */
-@function rem($value) {
-  @return ($value / $font-size-default) + rem;
+@function rem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: rem($size);
 }
 
 /* create horizontal inline list
@@ -25,13 +31,32 @@
 * }
  */
 @mixin nav {
-  a{
-    color: $color-grey-light;
-    &:hover{
-      color: $color-white;
+  li{
+    a{
+      @include font-size($menu-font-size-small);
+      color: $color-grey-light;
+      padding-left: $menu-h-padding;
+    }
+    &:hover, &.active{
+      a{
+        color: $color-white;
+      }
     }
   }
 }
+
+@mixin container($width){
+  @include center($width);
+}
+
+@mixin col-styles {
+  box-sizing: border-box;
+  border: 1px solid #ededed;
+  margin-bottom: 10px;
+}
+
+
+
 
 @mixin standardText() {
   color: $color-black;

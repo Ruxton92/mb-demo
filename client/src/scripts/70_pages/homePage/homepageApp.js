@@ -5,6 +5,7 @@ var HomePageView = require("./homepageView");
 var HelloWorldApp = require('80_apps/helloWorld/helloworldApp');
 var HelloWorldWithDataFetchingApp = require('80_apps/HelloWorldWithDataFetching/helloworldwithdatafetchingApp');
 var ConnectionOptionsApp = require('80_apps/connectionOptions/ConnectionOptionsApp');
+var QuickEntryLevelApp = require('80_apps/quickEntryLevel/quickEntryLevelApp');
 
 module.exports = function(Module, App, Backbone, Marionette, $, _, options) {
 
@@ -27,11 +28,13 @@ module.exports = function(Module, App, Backbone, Marionette, $, _, options) {
       App.module(options.path + ".HelloWorldApp", HelloWorldApp, {path: options.path + ".HelloWorldApp", region: _controller.getRegion('regionContent')});
       App.module(options.path + ".HelloWorldWithDataFetchingApp", HelloWorldWithDataFetchingApp, {path: options.path + ".HelloWorldWithDataFetchingApp", region: _controller.getRegion('regionContent')});
       App.module(options.path + ".ConnectionOptionsApp", ConnectionOptionsApp, {path: options.path + ".ConnectionOptionsApp", region: _controller.getRegion('regionConnectionOptions')});
+      App.module(options.path + ".QuickEntryLevelApp", QuickEntryLevelApp, {path: options.path + ".QuickEntryLevelApp", region: _controller.getRegion('regionQuickEntryLevel')});
 
       //start hello world app
       App.module(options.path + ".HelloWorldApp").start();
       App.module(options.path + ".HelloWorldWithDataFetchingApp").start();
       App.module(options.path + ".ConnectionOptionsApp").start();
+      App.module(options.path + ".QuickEntryLevelApp").start();
 
     }
   };

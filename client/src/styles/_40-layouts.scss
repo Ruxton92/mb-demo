@@ -27,3 +27,13 @@
     }
   }
 }
+
+.col6-grid{
+  .span{
+    @include col-styles;
+    @include col(1/2, $gutter: 1);
+    @media #{$m-mobileTablet-up} {
+      @include col(1/6, $gutter: 2.5);
+    }
+  }
+}

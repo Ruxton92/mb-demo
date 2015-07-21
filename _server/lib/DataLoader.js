@@ -93,6 +93,21 @@ module.exports = DataLoader = (function() {
     });
   };
 
+  DataLoader.prototype.loadQuickEntryLevelData  = function(cb) {
+    return fs.readFile(mockdataPath + "QuickEntryLevel/QuickEntryLevel.json", function(err, result) {
+      if (err) {
+        return cb({
+          error: err
+        });
+      } else {
+        return cb({
+          error: null,
+          data: JSON.parse(result).data
+        });
+      }
+    });
+  };
+
   return DataLoader;
 
 })();

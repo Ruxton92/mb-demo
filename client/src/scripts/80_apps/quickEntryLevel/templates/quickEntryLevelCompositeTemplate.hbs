@@ -1,0 +1,30 @@
+<div class="container">
+
+  <h2>Welcher Mercedes passt zu Ihnen?</h2>
+
+  <div class="quick-list">
+    <section class="span">
+      <span class="car-class">A</span>
+      <picture>
+        <!--[if IE 9]><video style="display: none;"><![endif]-->
+        <source srcset="http://dummyimage.com/200x115/bcc95c/fff.png" media="(min-width: 960px)" />
+        <source srcset="http://dummyimage.com/200x115/bcc95c/fff.pngg" media="(min-width: 481px)" />
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="http://dummyimage.com/200x115/bcc95c/fff.png" alt="" />
+      </picture>
+      <header>A-Klasse Limousine</header>
+      <div class="desc">
+        31 Angebote
+      </div>
+
+    </section>
+  </div>
+
+  {{#each attributes}}
+    <h3>{{name}}</h3>
+  {{/each}}
+
+  <div id="quick-items">
+
+  </div>
+</div>

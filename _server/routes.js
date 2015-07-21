@@ -94,4 +94,18 @@ module.exports = function(app, port) {
       }
     });
   });
+
+  app.get("/api/quickentrylevel", function(req, res) {
+    var dataloader;
+
+    dataloader = new DataLoader();
+
+    dataloader.loadQuickEntryLevelData(function(result) {
+      if (result.error) {
+        return res.status(500).send(result.error);
+      } else {
+        return res.status(200).send(result.data);
+      }
+    });
+  });
 };

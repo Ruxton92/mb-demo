@@ -11,6 +11,7 @@ module.exports = function(Show, App) {
 
     regions: {
       regionConnectionOptions: '.region-connection-options',
+      regionQuickEntryLevel: '.region-quick-entry-level',
       regionContent: '.region-content'
     }
   });

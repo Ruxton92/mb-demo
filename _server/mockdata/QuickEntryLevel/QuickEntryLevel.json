@@ -1,0 +1,39 @@
+{
+  "data": [{
+    "name": "A-Klasse Limousine",
+    "text": "31 Angebote",
+    "images": [{
+      "sd": {
+        "url": "",
+        "altText": ""
+      },
+      "md": {
+        "url": "",
+        "altText": ""
+      },
+      "hd": {
+        "url": "",
+        "altText": ""
+      }
+    }]
+
+  }, {
+    "name": "A-Klasse Limousine",
+    "text": "31 Angebote",
+    "images": [{
+      "sd": {
+        "url": "",
+        "altText": ""
+      },
+      "md": {
+        "url": "",
+        "altText": ""
+      },
+      "hd": {
+        "url": "",
+        "altText": ""
+      }
+    }]
+
+  }]
+}

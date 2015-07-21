@@ -31,7 +31,10 @@
   color: $color-grey-dark;
 }
 
-
+@mixin largeText {
+  @include font-size($font-size-default*4);
+  color: $color-grey-light;
+}
 
 
 

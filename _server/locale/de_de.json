@@ -1,5 +1,4 @@
 {
-  "test": "testText",
   "header.topNavLinks": [{
     "url": "#",
     "name": "Startseite",
@@ -31,5 +30,10 @@
     "url": "#",
     "active": false,
     "name": "Store-Login"
-  }]
+  }],
+  "connectionOptions.list": [
+    "So funktioniert der Autokauf im Mercedes-Benz Online Store.",
+    "159 sofort verfügbare Mercedes-Benz Neufahrzeuge im Angebot.",
+    "Alle Angebote als Leasing-Komplett-Paket inkl. Versicherung, Service & Überführung."
+  ]
 }

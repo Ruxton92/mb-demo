@@ -11,26 +11,13 @@ $path-fonts         : '$static-base/styles/fonts';
 
 //PUBLICO
 //regular
-$font-publico-light             : 'PublicoHeadline-Light', Arial, sans-serif;
-$font-publico-roman             : 'PublicoHeadline-Roman', Arial, sans-serif;
-$font-publico-medium            : 'PublicoHeadline-Medium', Arial, sans-serif;
-$font-publico-bold              : 'PublicoHeadline-Bold', Arial, sans-serif;
-$font-publico-extrabold         : 'PublicoHeadline-Extrabold', Arial, sans-serif;
-$font-publico-black             : 'PublicoHeadline-Black', Arial, sans-serif;
+$font-corporate-regular             : 'CorporateS-Regular', Arial, sans-serif;
+$font-corporate-light             : 'CorporateS-Light', Arial, sans-serif;
+$font-corporate-demi              : 'CorporateS-Demi', Arial, sans-serif;
+$font-corporate-bold              : 'CorporateS-Bold', Arial, sans-serif;
+$font-corporate-con-reg           : 'CorporateACon-Reg', Arial, sans-serif;
 
-//italic
-$font-publico-light-italic      : 'PublicoHeadline-LightItalic', Arial, sans-serif;
-$font-publico-italic            : 'PublicoHeadline-Italic', Arial, sans-serif;
-$font-publico-medium-italic     : 'PublicoHeadline-MediumItalic', Arial, sans-serif;
-$font-publico-bold-italic       : 'PublicoHeadline-BoldItalic', Arial, sans-serif;
-$font-publico-extrabold-italic  : 'PublicoHeadline-ExtraboldItalic', Arial, sans-serif;
-$font-publico-black-italic      : 'ExtraboldItalic', Arial, sans-serif;
-
-
-//QUATTROCENTO
-$font-Quattrocento-roman        : 'Quattrocento Sans', Arial, sans-serif;
-
-$font-family-base                 : $font-Quattrocento-roman;
+$font-family-base                 : $font-corporate-regular ;
 
 $font-size-default   : 18px;
 $line-height-default : 1.8;

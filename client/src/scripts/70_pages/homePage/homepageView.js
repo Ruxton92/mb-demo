@@ -10,6 +10,7 @@ module.exports = function(Show, App) {
     className: 'layout-home',
 
     regions: {
+      regionConnectionOptions: '.region-connection-options',
       regionContent: '.region-content'
     }
   });

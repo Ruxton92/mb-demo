@@ -19,6 +19,7 @@
 
 @import "../scripts/80_apps/header/_header.scss";
 @import "../scripts/80_apps/footer/_footer.scss";
+@import "../scripts/80_apps/connectionOptions/_connectionOptions.scss";
 
 * {
   box-sizing: border-box;
@@ -26,8 +27,16 @@
 }
 
 body{
-  font-family: "CorporateS-Regular";
-  font-size: $font-size-default;
+  @include standardText();
+}
+h1{
+  @include h1();
+}
+h2{
+  @include h2();
+}
+h3{
+  @include h3();
 }
 a {
   text-decoration: none;

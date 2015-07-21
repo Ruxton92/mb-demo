@@ -1,0 +1,9 @@
+.connection-options-app{
+  background-color: $color-grey-light;
+  .container{
+    @extend .col3-grid;
+  }
+  a{
+    color: $color-grey-dark;
+  }
+}

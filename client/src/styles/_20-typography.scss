@@ -34,6 +34,7 @@
 @mixin largeText {
   @include font-size($font-size-default*4);
   color: $color-grey-light;
+  font-family: $font-corporate-con-reg;
 }
 
 

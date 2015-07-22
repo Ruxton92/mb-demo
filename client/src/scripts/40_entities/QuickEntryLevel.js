@@ -10,7 +10,7 @@ module.exports = function(Entities, App) {
 
   Entities.QuickEntryLevel = Entities.Model.extend({});
 
-  Entities.HelloWorldCollection = Entities.Collection.extend({
+  Entities.QuickEntryLevelCollection = Entities.Collection.extend({
     model: Entities.QuickEntryLevel
   });
 
@@ -20,9 +20,9 @@ module.exports = function(Entities, App) {
 
       var quickEntryLevel;
 
-      quickEntryLevel = new Entities.QuickEntryLevel();
+      quickEntryLevel = new Entities.QuickEntryLevelCollection();
       quickEntryLevel.url = quickEntryLevelBaseURL;
-      quickEntryLevel.fetchModel(cb);
+      quickEntryLevel.fetchCollection(cb);
 
       if (!cb) {
         return quickEntryLevel;

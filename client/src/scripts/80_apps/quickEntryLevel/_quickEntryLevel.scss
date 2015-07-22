@@ -1,40 +1,64 @@
 .quick-entry-level-item-app{
-  background: #ffffff;
-  background: -moz-linear-gradient(top, #ffffff 0%, #f1f1f1 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f1f1f1));
-  background: -webkit-linear-gradient(top, #ffffff 0%,#f1f1f1 100%);
-  background: -o-linear-gradient(top, #ffffff 0%,#f1f1f1 100%);
-  background: -ms-linear-gradient(top, #ffffff 0%,#f1f1f1 100%);
-  background: linear-gradient(to bottom, #ffffff 0%,#f1f1f1 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f1f1f1',GradientType=0 );
-
+  @include gradient($color-white, darken($color-white, 5));
   overflow: hidden;
+  position: relative;
+  padding: $spacing 0px ($spacing * 2);
+  .carusel-container{
+    @extend .container;
+  }
   .quick-list{
-    @extend .col6-grid;
-    .span{
+    width: 100%;
+    li{
       position: relative;
-      overflow: hidden;
+      min-height: 1px;
+      float: left;
+      padding: 20px 34px 0 0;
+      transition: transform .3s ease;
     }
     .car-class{
       @include largeText();
       position: absolute;
-      top: 0;
-      right: $spacing;
-      z-index: 1;
+      top: -25px;
+      right: ($spacing * 2);
       line-height: 1;
     }
     img{
       width: 100%;
       height: auto;
-      z-index: 9;
+      padding-bottom: ($spacing / 4);
     }
     header{
+      line-height: 1.1;
       color: $color-grey-dark;
     }
     .desc{
       color: $color-grey;
       @include font-size(16px);
       font-family: $font-corporate-regular;
+    }
+  }
+  /* navigation */
+  .carusel-nav{
+    .nav-button{
+      cursor: pointer;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      width: 45px;
+      height: 45px;
+      background-color: $color-grey-light;
+      &.hide{
+        display: none;
+      }
+    }
+    .next{
+      @include posar(50%, 0);
+      transform: translateY(-50%);
+      background-image: url('../../../images/arrow-next.png');
+    }
+    .prev{
+      @include posa(50%, 0);
+      transform: translateY(-50%);
+      background-image: url('../../../images/arrow-prev.png');
     }
   }
 }

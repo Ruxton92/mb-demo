@@ -2,38 +2,84 @@
   "data": [{
     "name": "A-Klasse Limousine",
     "text": "31 Angebote",
-    "images": [{
-      "sd": {
-        "url": "",
-        "altText": ""
-      },
-      "md": {
-        "url": "",
-        "altText": ""
-      },
-      "hd": {
-        "url": "",
-        "altText": ""
-      }
-    }]
+    "car_class": "A",
+    "images": {
+      "sd": "/images/quick-entry/car_1_hd.png",
+      "md": "/images/quick-entry/car_1_hd.png",
+      "hd": "/images/quick-entry/car_1_hd.png"
+    }
 
   }, {
+    "name": "B-Klasse Limousine",
+    "text": "32 Angebote",
+    "car_class": "B",
+    "images": {
+      "sd": "/images/quick-entry/car_1_hd.png",
+      "md": "/images/quick-entry/car_1_hd.png",
+      "hd": "/images/quick-entry/car_1_hd.png"
+    }
+  }, {
+    "name": "C-Klasse Limousine",
+    "text": "32 Angebote",
+    "car_class": "C",
+    "images": {
+      "sd": "/images/quick-entry/car_1_hd.png",
+      "md": "/images/quick-entry/car_1_hd.png",
+      "hd": "/images/quick-entry/car_1_hd.png"
+    }
+  }, {
+    "name": "C-Klasse Limousine",
+    "text": "11 Angebote",
+    "car_class": "C",
+    "images": {
+      "sd": "/images/quick-entry/car_1_hd.png",
+      "md": "/images/quick-entry/car_1_hd.png",
+      "hd": "/images/quick-entry/car_1_hd.png"
+    }
+  }, {
     "name": "A-Klasse Limousine",
-    "text": "31 Angebote",
-    "images": [{
-      "sd": {
-        "url": "",
-        "altText": ""
-      },
-      "md": {
-        "url": "",
-        "altText": ""
-      },
-      "hd": {
-        "url": "",
-        "altText": ""
-      }
-    }]
-
+    "text": "32 Angebote",
+    "car_class": "CLA",
+    "images": {
+      "sd": "/images/quick-entry/car_1_hd.png",
+      "md": "/images/quick-entry/car_1_hd.png",
+      "hd": "/images/quick-entry/car_1_hd.png"
+    }
+  }, {
+    "name": "A-Klasse Limousine",
+    "text": "32 Angebote",
+    "car_class": "B",
+    "images": {
+      "sd": "/images/quick-entry/car_1_hd.png",
+      "md": "/images/quick-entry/car_1_hd.png",
+      "hd": "/images/quick-entry/car_1_hd.png"
+    }
+  }, {
+    "name": "A-Klasse Limousine",
+    "text": "32 Angebote",
+    "car_class": "B",
+    "images": {
+      "sd": "/images/quick-entry/car_1_hd.png",
+      "md": "/images/quick-entry/car_1_hd.png",
+      "hd": "/images/quick-entry/car_1_hd.png"
+    }
+  }, {
+    "name": "A-Klasse Limousine",
+    "text": "32 Angebote",
+    "car_class": "B",
+    "images": {
+      "sd": "/images/quick-entry/car_1_hd.png",
+      "md": "/images/quick-entry/car_1_hd.png",
+      "hd": "/images/quick-entry/car_1_hd.png"
+    }
+  }, {
+    "name": "A-Klasse Limousine",
+    "text": "32 Angebote",
+    "car_class": "B",
+    "images": {
+      "sd": "/images/quick-entry/car_1_hd.png",
+      "md": "/images/quick-entry/car_1_hd.png",
+      "hd": "/images/quick-entry/car_1_hd.png"
+    }
   }]
 }

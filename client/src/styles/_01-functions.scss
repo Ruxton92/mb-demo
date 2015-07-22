@@ -53,6 +53,37 @@
   box-sizing: border-box;
 }
 
+@mixin gradient($from, $to) {
+  background: $from;
+  background: -webkit-gradient(linear, left top, left bottom, from($from), to($to));
+  background: -moz-linear-gradient(top,  $from, $to);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$from}', endColorstr='#{$to}');
+}
+
+@mixin posa($top, $left) {
+  position: absolute;
+  top: $top;
+  left: $left;
+}
+
+@mixin posar($top, $right) {
+  position: absolute;
+  top: $top;
+  right: $right;
+}
+
+@mixin center-align {
+  @include posa(50%, 50%);
+  transform: translate(-50%, -50%);
+}
+@mixin vcenter {
+  @include posa(50%, auto);
+  transform: translateY(-50%);
+}
+
+
+
+
 @mixin standardTextBold() {
   color: $color-black;
   font-family: 'Quattrocento Sans', sans-serif;

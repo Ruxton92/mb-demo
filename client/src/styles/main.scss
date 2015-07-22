@@ -22,6 +22,7 @@
 @import "../scripts/80_apps/connectionOptions/_connectionOptions.scss";
 @import "../scripts/80_apps/quickEntryLevel/_quickEntryLevel.scss";
 
+
 * {
   box-sizing: border-box;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -62,9 +63,7 @@ ol {
 .wrapp{
 
 }
-.content {
-  height: calc(100vh - 100px);
-}
+
 .nav{
   @include nav();
 }

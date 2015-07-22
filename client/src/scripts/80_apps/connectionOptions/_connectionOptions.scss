@@ -2,6 +2,11 @@
   background-color: $color-grey-light;
   .container{
     @extend .col3-grid;
+    padding: 16px 0;  
+  }
+  h3{
+    background: url("../../../images/arrow-next.png") no-repeat 0 5px;
+    padding-left: 20px;
   }
   a{
     color: $color-grey-dark;

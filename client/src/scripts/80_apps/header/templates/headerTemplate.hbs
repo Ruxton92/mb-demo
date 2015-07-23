@@ -7,7 +7,7 @@
   <nav class="topNav">
     <ul>
       {{#each (locale "header.topNavLinks")}}
-        <li {{#if active }} class="active" {{/if}}>
+        <li  class="{{#if active }}active {{/if}} {{icon}}" >
           <a href="{{url}}">
             {{name}}
           </a>

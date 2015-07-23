@@ -10,6 +10,7 @@ module.exports = function(Show, App) {
     className: 'layout-home',
 
     regions: {
+      regionStage: '.region-stage',
       regionConnectionOptions: '.region-connection-options',
       regionQuickEntryLevel: '.region-quick-entry-level',
       regionContent: '.region-content'

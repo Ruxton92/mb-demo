@@ -1,0 +1,72 @@
+.stage-app {
+  background-color: $color-black;
+  color: $color-white;
+  overflow: hidden;
+  position: relative;
+  .stage-slider-list {
+    transition: transform 0.3s ease;
+    backface-visibility: hidden;
+    li {
+      display: inline-block;
+      width: 100%;
+      position: relative;
+      img{
+        width: 100%;
+        @include center-align();
+      }
+    }
+    .slide-content-wrap{
+      @extend .container;
+      z-index: 9;
+
+    }
+    .slide-content{
+      @include col(2/3, 1/6);
+      overflow: hidden;
+      white-space: normal;
+      padding: 400px 0 0 0;
+      position: relative;
+      margin-bottom: 65px;
+    }
+    .btn-blue{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+  /* navigation */
+  .carusel-nav{
+    .nav-button{
+      cursor: pointer;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      width: 45px;
+      height: 45px;
+      background-color: $color-black-sepia;
+      &.hide{
+        display: none;
+      }
+    }
+    .next{
+      @include posar(50%, 0);
+      transform: translateY(-50%);
+      background-image: url('../../../images/arrow-next-w.png');
+    }
+    .prev{
+      @include posa(50%, 0);
+      transform: translateY(-50%);
+      background-image: url('../../../images/arrow-prev-w.png');
+    }
+  }
+  /* progress-bar */
+  .progress-bar{
+    position: relative;
+    height: 4px;
+    background-color: $color-grey;
+    width: 100%;
+    .progress-indicator{
+      background-color: $color-blue;
+      height: 4px;
+    }
+  }
+}

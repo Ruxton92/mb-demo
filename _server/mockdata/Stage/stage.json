@@ -1,0 +1,30 @@
+{
+  "data": [{
+    "title": "Die StreetStyle Sondermodelle - sofort verfügbar.",
+    "subtitle": "Die StreetStyle Sondermodelle der GLA-, CLA-Coupé und A-Klasse mit AMG Line, AMG Leichtmetallrädern und Bi-Xenon-Scheinwerfern.",
+    "price": "Ab 299,-€ mtl. Leasing-Rate. Ohne Anzahlung.*",
+    "images": {
+      "sd": "/images/stage/stage_1_hd",
+      "md": "/images/stage/stage_1_hd",
+      "hd": "/images/stage/stage_1_hd"
+    }
+  }, {
+    "title": "Die StreetStyle Sondermodelle - sofort verfügbar2.",
+    "subtitle": "Die StreetStyle Sondermodelle der GLA-, CLA-Coupé und A-Klasse mit AMG Line, AMG Leichtmetallrädern und Bi-Xenon-Scheinwerfern.",
+    "price": "Ab 299,-€ mtl. Leasing-Rate. Ohne Anzahlung.*",
+    "images": {
+      "sd": "/images/stage/stage_1_hd",
+      "md": "/images/stage/stage_1_hd",
+      "hd": "/images/stage/stage_1_hd"
+    }
+  }, {
+    "title": "Die StreetStyle Sondermodelle - sofort verfügbar3.",
+    "subtitle": "Die StreetStyle Sondermodelle der GLA-, CLA-Coupé und A-Klasse mit AMG Line, AMG Leichtmetallrädern und Bi-Xenon-Scheinwerfern.",
+    "price": "Ab 299,-€ mtl. Leasing-Rate. Ohne Anzahlung.*",
+    "images": {
+      "sd": "/images/stage/stage_1_hd",
+      "md": "/images/stage/stage_1_hd",
+      "hd": "/images/stage/stage_1_hd"
+    }
+  }]
+}

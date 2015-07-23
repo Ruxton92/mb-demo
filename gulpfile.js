@@ -53,7 +53,7 @@ var paths  = {
   jsTestSourceServer: './test/spec/{,**/}*.js',
   jsTestSourceClient: './client/test/spec/{,**/}*.js',
 
-  scssSource: ['client/scripts/****//*.scss', 'client/src/styles/*.scss'],
+  scssSource: ['client/src/scripts/80_apps/{,**/}*.scss', 'client/src/styles/*.scss'],
   scssTarget: 'client/_tmp/styles',
 
   html: ['./index.html'],

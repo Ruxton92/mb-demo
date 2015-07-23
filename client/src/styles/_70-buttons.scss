@@ -6,98 +6,37 @@
   }
 }
 .btn {
-  border: 2px solid $color-black;
   display: inline-block;
   cursor: pointer;
   transition: all .3s ease-in-out;
   white-space: nowrap;
-
+  color: $color-white;
+  background: $color-blue;
   a {
     display: inline-block;
-    padding: 0 32px;
+    padding: 0 rem(18px);
     transition: all .3s ease-in-out;
   }
 
-}
-
-.btn.btn-inverse {
-  border-color: $color-white;
-
-  a {
-    color: $color-white;
-  }
-}
-
-.btn.btn-close {
-  border: none;
-
-  &:hover {
-    background-color: transparent;
+  &.btn-blue {
+    font-size: $font-size-default;
+    height: rem($button-blue-height);
+    line-height: rem($button-blue-height);
+    &:hover, &:active, &:focus {
+      background: $color-blue;
+    }
     a {
-      color: $color-black;
-    }
-  }
-}
-
-//add to bag button
-.add-to-bag {
-  padding: 0 $spacing 0 $spacing;
-
-  a {
-    padding: 0;
-
-    span {
-      display: inline-block;
-      vertical-align: middle;
-    }
-
-    .icon-bagwhite {
-      height: 18px;
-      margin-left: $spacing * 0.8;
-      width: 13px;
+      color: $color-white;
     }
   }
 
-  &:hover {
-    background-position: rem(135px) rem(-57px);
+  &.btn-underline{
+    font-family: $font-corporate-con-reg;
+    background-color: $color-black;
+    border-top: 1px solid $color-white;
+    border-bottom: 1px solid $color-white;
+    @include font-size(24px);
+    line-height: 1.2;
+    padding: 4px 0;
   }
 }
-
-.btn.add-to-bag-blue {
-  @extend .add-to-bag;
-  background-color: $color-button-blue;
-  border: 0;
-
-  a {
-    color: $color-white;
-  }
-}
-
-.btn.btn-brown {
-  color: $color-white;
-  background: $color-brown;
-  border: none;
-  line-height: rem(48px);
-  height: rem(48px);
-  &:hover, &:active, &:focus {
-    background: $color-brown;
-  }
-  a {
-    color: $color-white;
-  }
-}
-
-.btn.btn-blue {
-
-}
-
-
-// @include breakpoint(retina) {
-//   .btn.add-to-bag {
-//     background-position: rem(135px) rem(-11px);
-
-//     &:hover {
-//       background-position: rem(135px) rem(-73px);
-//     }
-//   }
-// }

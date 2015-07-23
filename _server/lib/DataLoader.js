@@ -108,6 +108,22 @@ module.exports = DataLoader = (function() {
     });
   };
 
+  DataLoader.prototype.loadStageData  = function(cb) {
+    return fs.readFile(mockdataPath + "Stage/stage.json", function(err, result) {
+      if (err) {
+        return cb({
+          error: err
+        });
+      } else {
+        console.log(result);
+        return cb({
+          error: null,
+          data: JSON.parse(result).data
+        });
+      }
+    });
+  };
+
   return DataLoader;
 
 })();

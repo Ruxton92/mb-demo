@@ -32,6 +32,7 @@ $font-weight-bold: 700;
 
 //Black
 $color-black: #000000;
+$color-black-sepia: #1f1f1f;
 //Grey
 $color-grey: #999999;
 $color-grey-dark: #333333;
@@ -52,8 +53,10 @@ $menu-font-size: $font-size-normal;
 $menu-font-size-small: $font-size-small;
 $menu-h-padding: 40px;
 //buttons
+$button-blue-height: 44px;
 $color-button-blue: $color-blue;
 $color-inactive: rgba($color-button-blue, 0.5);
+
 
 /* Breakpoints */
 $vp-mobile-min: 340px;

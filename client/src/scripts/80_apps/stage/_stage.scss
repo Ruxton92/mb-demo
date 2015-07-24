@@ -40,8 +40,8 @@
       cursor: pointer;
       background-position: 50% 50%;
       background-repeat: no-repeat;
-      width: 45px;
-      height: 45px;
+      width: $button-size;
+      height: $button-size;
       background-color: $color-black-sepia;
       &.hide{
         display: none;
@@ -61,12 +61,14 @@
   /* progress-bar */
   .progress-bar{
     position: relative;
-    height: 4px;
+    height: $progress-bar-height;
     background-color: $color-grey;
     width: 100%;
     .progress-indicator{
       background-color: $color-blue;
-      height: 4px;
+      height: $progress-bar-height;
+      transition: 0.4s linear;
+      transition-property: width;
     }
   }
 }

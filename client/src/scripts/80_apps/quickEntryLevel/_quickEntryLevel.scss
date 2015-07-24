@@ -43,8 +43,8 @@
       cursor: pointer;
       background-position: 50% 50%;
       background-repeat: no-repeat;
-      width: 45px;
-      height: 45px;
+      width: $button-size;
+      height: $button-size;
       background-color: $color-grey-light;
       &.hide{
         display: none;

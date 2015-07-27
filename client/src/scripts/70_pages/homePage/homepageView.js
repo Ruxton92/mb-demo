@@ -13,7 +13,8 @@ module.exports = function(Show, App) {
       regionStage: '.region-stage',
       regionConnectionOptions: '.region-connection-options',
       regionQuickEntryLevel: '.region-quick-entry-level',
-      regionContent: '.region-content'
+      regionContent: '.region-content',
+      regionOffers: '.region-offers'
     }
   });
 };

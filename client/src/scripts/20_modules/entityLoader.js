@@ -11,6 +11,8 @@ Header = require("40_entities/Header");
 Footer = require("40_entities/Footer");
 System = require("40_entities/System");
 Car = require("40_entities/Car");
+Offers = require("40_entities/Offers");
+Home = require("40_entities/Home");
 
 module.exports = function(EntityLoader, App) {
   var startWithParent;
@@ -27,5 +29,7 @@ module.exports = function(EntityLoader, App) {
     App.module("Entities", Footer);
     App.module("Entities", System);
     App.module("Entities", Car);
+    App.module("Entities", Offers);
+    App.module("Entities", Home);
   });
 };

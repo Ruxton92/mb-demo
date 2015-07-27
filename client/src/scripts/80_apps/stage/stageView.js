@@ -20,6 +20,10 @@ module.exports = function(Show, App, Backbone, Marionette, $, _, options) {
     template: CompositeTemplate,
     childView: Show.ItemView,
     childViewContainer: '.stage-slider-list',
+    events: {
+      'click .carusel-nav .prev': 'prevSlide',
+      'click .carusel-nav .next': 'nextSlide'
+    },
 
     initialize: function(_at_options) {
       this.options = _at_options !== null ? _at_options : {};
@@ -27,7 +31,6 @@ module.exports = function(Show, App, Backbone, Marionette, $, _, options) {
     },
 
     onRender: function() {
-
       this.$caruselContainer = this.$el.find('ul');
       this.$caruselProgressBar = this.$el.find('.progress-indicator');
       this.currentTranslate = 0;
@@ -35,9 +38,9 @@ module.exports = function(Show, App, Backbone, Marionette, $, _, options) {
       this.$caruselPrev = this.$el.find('.carusel-nav .prev');
       this.$caruselItems = this.$caruselContainer.find('li');
       this.itemsCount = this.$caruselItems.length;
-
       this.setSliderClasses();
     },
+
     onShow: function () {
       this.sliderWidth = this.$caruselContainer.width();
       this.$caruselContainer.css('width', this.sliderWidth * this.itemsCount);
@@ -46,17 +49,12 @@ module.exports = function(Show, App, Backbone, Marionette, $, _, options) {
       this.progressWidth = this.sliderWidth / this.itemsCount;
     },
 
-    events: {
-      'click .carusel-nav .prev': 'prevSlide',
-      'click .carusel-nav .next': 'nextSlide'
-    },
     nextSlide: function() {
       console.log(this.currentTranslate, this.itemsCount);
       if (this.currentTranslate < this.itemsCount-1) {
         this.currentTranslate++;
       } else {
         this.currentTranslate = 0;
-        //hide next button
       }
       this.setSliderClasses();
       this.$caruselContainer.css({"transform": "translateX(" + (this.translateXValue * this.currentTranslate) + "px)"},{" -webkit-transform": "translateX(" + (this.translateXValue * this.currentTranslate) + "px)"});
@@ -65,15 +63,14 @@ module.exports = function(Show, App, Backbone, Marionette, $, _, options) {
     prevSlide: function() {
       if (this.currentTranslate > 0) {
         this.currentTranslate--;
-      } else {
-        //hide prev button
       }
       this.setSliderClasses();
       this.$caruselContainer.css({"transform": "translateX(" + (this.translateXValue * this.currentTranslate) + "px)"},{" -webkit-transform": "translateX(" + (this.translateXValue * this.currentTranslate) + "px)"});
 
     },
-    setSliderClasses: function () {
 
+    //set classes for slider navigation and update progress bar width
+    setSliderClasses: function () {
       if (this.itemsCount > 1) {
         switch (this.currentTranslate) {
           case 0:
@@ -92,9 +89,8 @@ module.exports = function(Show, App, Backbone, Marionette, $, _, options) {
         this.$caruselNext.addClass('hide');
         this.$caruselPrev.addClass('hide');
       }
-
+      //update progress bar
       this.$caruselProgressBar.width((100/ (this.itemsCount)) * (this.currentTranslate +1) + "%");
-
     }
   });
 };

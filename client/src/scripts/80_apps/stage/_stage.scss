@@ -1,11 +1,14 @@
+//Stage styles
 .stage-app {
   background-color: $color-black;
   color: $color-white;
   overflow: hidden;
   position: relative;
+  //Slider
   .stage-slider-list {
     transition: transform 0.3s ease;
     backface-visibility: hidden;
+    //slider item
     li {
       display: inline-block;
       width: 100%;
@@ -18,7 +21,6 @@
     .slide-content-wrap{
       @extend .container;
       z-index: 9;
-
     }
     .slide-content{
       @include col(2/3, 1/6);
@@ -34,6 +36,7 @@
       right: 0;
     }
   }
+  
   /* navigation */
   .carusel-nav{
     .nav-button{

@@ -37,5 +37,7 @@
     "Alle Angebote als Leasing-Komplett-Paket inkl. Versicherung, Service & Überführung."
   ],
   "quickEntryLevelTemplate.header": "Welcher Mercedes passt zu Ihnen?",
-  "stage.btn": "Zu den StreetStyle-Angeboten"
+  "stage.btn": "Zu den StreetStyle-Angeboten",
+  "offers.tabs.newINStore": "Neu im Store",
+  "offers.tabs.mostViewed": "Meist angesehen"
 }

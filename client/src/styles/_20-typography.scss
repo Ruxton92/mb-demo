@@ -8,7 +8,7 @@
 }
 @mixin header{
   font-family: $font-corporate-con-reg;
-    font-weight: $font-weight-normal;
+  font-weight: $font-weight-normal;
 }
 @mixin h1() {
   @include header();

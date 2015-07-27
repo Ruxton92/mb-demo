@@ -57,7 +57,6 @@ module.exports = function(app, port) {
     var dataloader;
 
     dataloader = new DataLoader();
-
     dataloader.loadHomeData(function(result) {
       if (result.error) {
         return res.status(500).send(result.error);
@@ -115,6 +114,20 @@ module.exports = function(app, port) {
     dataloader = new DataLoader();
 
     dataloader.loadStageData(function(result) {
+      if (result.error) {
+        return res.status(500).send(result.error);
+      } else {
+        return res.status(200).send(result.data);
+      }
+    });
+  });
+
+  app.get("/api/offers", function(req, res) {
+    var dataloader;
+
+    dataloader = new DataLoader();
+
+    dataloader.loadOffersData(function(result) {
       if (result.error) {
         return res.status(500).send(result.error);
       } else {

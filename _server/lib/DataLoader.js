@@ -49,6 +49,7 @@ module.exports = DataLoader = (function() {
   };
 
   DataLoader.prototype.loadHomeData = function(cb) {
+    console.log("load");
     return fs.readFile(mockdataPath + "Home/_page.json", function(err, result) {
       if (err) {
         return cb({
@@ -110,6 +111,22 @@ module.exports = DataLoader = (function() {
 
   DataLoader.prototype.loadStageData  = function(cb) {
     return fs.readFile(mockdataPath + "Stage/stage.json", function(err, result) {
+      if (err) {
+        return cb({
+          error: err
+        });
+      } else {
+        console.log(result);
+        return cb({
+          error: null,
+          data: JSON.parse(result).data
+        });
+      }
+    });
+  };
+
+  DataLoader.prototype.loadOffersData  = function(cb) {
+    return fs.readFile(mockdataPath + "Offers/offers.json", function(err, result) {
       if (err) {
         return cb({
           error: err

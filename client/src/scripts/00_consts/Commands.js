@@ -1,3 +1,0 @@
-exports.catalogue = {
-  EXAMPLE: "EXAMPLE"
-};

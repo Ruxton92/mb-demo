@@ -1,0 +1,465 @@
+.mb-header-navbar {
+  height: 102px;
+  margin: 0;
+  .border-radius(0px);
+  border: none;
+  .container-fluid {
+    padding: 0;
+    height: 100%;
+    &:after {
+      content: " ";
+      display: table;
+      clear: both;
+    }
+    .mb-header-navbar-main-area {
+      background: #000;
+      height: 60px;
+      &:after {
+        content: " ";
+        display: table;
+        clear: both;
+      }
+      .mb-header-logo-wrapper {
+        float: left;
+        padding:  15px 0 0 15px;
+        width: 220px;
+        .mb-header-logo {
+          display: block;
+          width: 178px;
+          height: 30px;
+          .mb-header-logo-image {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background: transparent url(/images/mercedes-benz-logo.png) left top no-repeat;
+            background-size: 100%;
+          }
+          .mb-header-logo-text {
+            display: inline-block;
+            height: 17px;
+            line-height: 17px;
+            font-size: 17px;
+            color: #fff;
+            vertical-align: 9px;
+          }
+        }
+      }
+      .mb-topnav-mobile-wrapper {
+        float: right;
+        padding: 21px 15px 0 0;
+        .mb-topnav-mobile-info {
+          display: inline-block;
+          border: 1px solid #999;
+          background: transparent url(/images/mb-info-icon.png) 6px 3px no-repeat;
+          width: 18px;
+          height: 18px;
+        }
+        .navbar-toggle {
+          display: inline-block;
+          height: 18px;
+          width: 21px;
+          padding: 0;
+          border: 0;
+          margin: 0 0 0 15px;
+          overflow: hidden;
+          .border-radius(0px);
+          &:active,
+          &:focus,
+          &:hover {
+            background: transparent;
+          }
+          .icon-bar {
+            background: #fff;
+            height: 2px;
+            width: 21px;
+            margin: 0 0 3px 0;
+            .border-radius(0px);
+          }
+        }
+      }
+    }
+    .mb-header-navbar-additional-area {
+      background: #ececec;
+      height: 42px;
+      .row {
+        margin: 0;
+        .col-xs-6 {
+          line-height: 42px;
+          &:first-child {
+            padding: 0 11px 0 15px;
+            text-align: right;
+          }
+          &:last-child {
+            padding: 0 15px 0 11px;
+            text-align: left;
+          }
+          .mb-header-navbar-additional-link {
+            color: #333;
+            text-decoration: none;
+            &:active,
+            &:focus,
+            &:hover {
+              text-decoration: none;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: @screen-sm) and (max-width: (@screen-md - 1)) {
+  .mb-header-navbar {
+    height: 90px;
+    .container-fluid {
+      .mb-header-navbar-main-area {
+        height: 90px;
+        .mb-header-logo-wrapper {
+          padding:  27px 0 0 18px;
+          width: 227px;
+          .mb-header-logo {
+            width: 227px;
+            height: 36px;
+            .mb-header-logo-image {
+              display: inline-block;
+              width: 36px;
+              height: 36px;
+              background: transparent url(/images/mercedes-benz-logo.png) left top no-repeat;
+              background-size: 100%;
+            }
+            .mb-header-logo-text {
+              display: inline-block;
+              height: 20px;
+              line-height: 20px;
+              font-size: 20px;
+              color: #fff;
+              vertical-align: 11px;
+            }
+          }
+        }
+        .mb-sidebar-wrapper {
+          display: none !important;
+        }
+        .mb-topnav-wrapper {
+          .mb-topnav-level-1 {
+            padding: 12px 18px 0 0;
+            margin: 0;
+            list-style: none;
+            font-size: 0;
+            text-align: right;
+            .mb-topnav-level-1-item {
+              font-size: 14px;
+              display: inline-block;
+              margin-left: 22px;
+              line-height: 22px;
+              height: 22px;
+              &:first-child {
+                margin-left: 0;
+              }
+              a {
+                font-size: 14px;
+                color: #999999;
+                text-decoration: none;
+                &:active,
+                &:focus,
+                &:hover {
+                  text-decoration: none;
+                  cursor: pointer;
+                }
+                .mb-topnav-info-icon {
+                  display: inline-block;
+                  border: 1px solid #999;
+                  background: transparent url(/images/mb-info-icon.png) 4px 1px no-repeat;
+                  width: 13px;
+                  height: 14px;
+                  vertical-align: -2px;
+                  margin-right: 8px;
+                }
+              }
+            }
+          }
+          .mb-topnav-level-2 {
+            padding: 3px 18px 0 0;
+            margin: 15px 0 0 0;
+            list-style: none;
+            font-size: 0;
+            text-align: right;
+            .mb-topnav-level-2-item {
+              font-size: 14px;
+              display: inline-block;
+              margin-left: 22px;
+              line-height: 22px;
+              height: 22px;
+              &:first-child {
+                margin-left: 0;
+              }
+              a {
+                font-size: 18px;
+                color: #ffffff;
+                text-decoration: none;
+                &:active,
+                &:focus,
+                &:hover {
+                  text-decoration: none;
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: @screen-md) and (max-width: (@screen-lg - 1)) {
+  .mb-header-navbar {
+    height: 90px;
+    .container-fluid {
+      .mb-header-navbar-main-area {
+        height: 90px;
+        .mb-header-logo-wrapper {
+          padding:  24px 0 0 36px;
+          width: 227px;
+          .mb-header-logo {
+            width: 190px;
+            height: 48px;
+            .mb-header-logo-image {
+              display: inline-block;
+              width: 48px;
+              height: 48px;
+              background: transparent url(/images/mercedes-benz-logo.png) left top no-repeat;
+              background-size: 100%;
+            }
+            .mb-header-logo-text {
+              display: inline-block;
+              height: 20px;
+              line-height: 20px;
+              font-size: 16px;
+              color: #fff;
+              vertical-align: 19px;
+            }
+          }
+        }
+        .mb-sidebar-wrapper {
+          display: none !important;
+        }
+        .mb-topnav-wrapper {
+          .mb-topnav-level-1 {
+            padding: 12px 18px 0 0;
+            margin: 0;
+            list-style: none;
+            font-size: 0;
+            text-align: right;
+            .mb-topnav-level-1-item {
+              font-size: 14px;
+              display: inline-block;
+              margin-left: 22px;
+              line-height: 22px;
+              height: 22px;
+              &:first-child {
+                margin-left: 0;
+              }
+              a {
+                font-size: 14px;
+                color: #999999;
+                text-decoration: none;
+                &:active,
+                &:focus,
+                &:hover {
+                  text-decoration: none;
+                  cursor: pointer;
+                }
+                .mb-topnav-info-icon {
+                  display: inline-block;
+                  border: 1px solid #999;
+                  background: transparent url(/images/mb-info-icon.png) 4px 1px no-repeat;
+                  width: 13px;
+                  height: 14px;
+                  vertical-align: -2px;
+                  margin-right: 8px;
+                }
+              }
+            }
+          }
+          .mb-topnav-level-2 {
+            padding: 3px 18px 0 0;
+            margin: 15px 0 0 0;
+            list-style: none;
+            font-size: 0;
+            text-align: right;
+            .mb-topnav-level-2-item {
+              font-size: 14px;
+              display: inline-block;
+              margin-left: 22px;
+              line-height: 22px;
+              height: 22px;
+              &:first-child {
+                margin-left: 0;
+              }
+              a {
+                font-size: 18px;
+                color: #ffffff;
+                text-decoration: none;
+                &:active,
+                &:focus,
+                &:hover {
+                  text-decoration: none;
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+          .hidden-md-desktop {
+            display: none !important;
+          }
+        }
+      }
+    }
+  }
+  .mb-device-tablet {
+    .mb-header-navbar {
+      height: 90px;
+      .container-fluid {
+        .mb-header-navbar-main-area {
+          height: 90px;
+          .mb-header-logo-wrapper {
+            padding:  27px 0 0 18px;
+            width: 227px;
+            .mb-header-logo {
+              width: 227px;
+              height: 36px;
+              .mb-header-logo-image {
+                display: inline-block;
+                width: 36px;
+                height: 36px;
+                background: transparent url(/images/mercedes-benz-logo.png) left top no-repeat;
+                background-size: 100%;
+              }
+              .mb-header-logo-text {
+                display: inline-block;
+                height: 20px;
+                line-height: 20px;
+                font-size: 20px;
+                color: #fff;
+                vertical-align: 11px;
+              }
+            }
+          }
+          .mb-topnav-wrapper {
+            .hidden-md-tablet {
+              display: none !important;
+            }
+            .hidden-md-desktop {
+              display: inline-block !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: @screen-lg) {
+  .mb-header-navbar {
+    height: 96px;
+    .container-fluid {
+      .mb-header-navbar-main-area {
+        height: 96px;
+        .mb-header-logo-wrapper {
+          padding:  24px 0 0 36px;
+          width: 190px;
+          .mb-header-logo {
+            width: 190px;
+            height: 48px;
+            .mb-header-logo-image {
+              display: inline-block;
+              width: 48px;
+              height: 48px;
+              background: transparent url(/images/mercedes-benz-logo.png) left top no-repeat;
+              background-size: 100%;
+            }
+            .mb-header-logo-text {
+              display: inline-block;
+              height: 20px;
+              line-height: 20px;
+              font-size: 18px;
+              color: #fff;
+              vertical-align: 18px;
+            }
+          }
+        }
+        .mb-sidebar-wrapper {
+          display: none !important;
+        }
+        .mb-topnav-wrapper {
+          .mb-topnav-level-1 {
+            padding: 12px 35px 0 0;
+            margin: 0;
+            list-style: none;
+            font-size: 0;
+            text-align: right;
+            .mb-topnav-level-1-item {
+              font-size: 14px;
+              display: inline-block;
+              margin-left: 22px;
+              line-height: 22px;
+              height: 22px;
+              &:first-child {
+                margin-left: 0;
+              }
+              a {
+                font-size: 14px;
+                color: #999999;
+                text-decoration: none;
+                &:active,
+                &:focus,
+                &:hover {
+                  text-decoration: none;
+                  cursor: pointer;
+                }
+                .mb-topnav-info-icon {
+                  display: inline-block;
+                  border: 1px solid #999;
+                  background: transparent url(/images/mb-info-icon.png) 4px 1px no-repeat;
+                  width: 13px;
+                  height: 14px;
+                  vertical-align: -2px;
+                  margin-right: 8px;
+                }
+              }
+            }
+          }
+          .mb-topnav-level-2 {
+            padding: 3px 35px 0 0;
+            margin: 20px 0 0 0;
+            list-style: none;
+            font-size: 0;
+            text-align: right;
+            .mb-topnav-level-2-item {
+              font-size: 14px;
+              display: inline-block;
+              margin-left: 22px;
+              line-height: 22px;
+              height: 22px;
+              &:first-child {
+                margin-left: 0;
+              }
+              a {
+                font-size: 20px;
+                color: #ffffff;
+                text-decoration: none;
+                &:active,
+                &:focus,
+                &:hover {
+                  text-decoration: none;
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

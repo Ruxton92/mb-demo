@@ -34,6 +34,11 @@ gulp.task('styles', function() {
     .pipe(reload({ stream: true }));
 });
 
+gulp.task('images', function() {
+  return gulp.src('./src/images/**/*')
+    .pipe(gulp.dest('./dist/images/'));
+});
+
 var bundler = _.memoize(function(watch) {
   var options = {debug: true};
 
@@ -79,6 +84,7 @@ var reporter = 'spec';
 gulp.task('build', [
   'clean',
   'html',
+  'images',
   'styles',
   'scripts'
 ]);

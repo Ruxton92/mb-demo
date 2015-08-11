@@ -1,0 +1,49 @@
+.border-radius(@radius) {
+  -moz-border-radius: @radius;
+  -webkit-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.border-radius-top(@radius) {
+  -moz-border-radius: @radius @radius 0 0;
+  -webkit-border-radius: @radius @radius 0 0;
+  border-radius: @radius @radius 0 0;
+}
+
+.border-radius-bottom(@radius) {
+  -moz-border-radius: 0 0 @radius @radius;
+  -webkit-border-radius: 0 0 @radius @radius;
+  border-radius: 0 0 @radius @radius;
+}
+
+.border-radius-left(@radius) {
+  -moz-border-radius: @radius 0 0 @radius;
+  -webkit-border-radius: @radius 0 0 @radius;
+  border-radius: @radius 0 0 @radius;
+}
+
+.border-radius-right(@radius) {
+  -moz-border-radius: 0 @radius @radius 0;
+  -webkit-border-radius: 0 @radius @radius 0;
+  border-radius: 0 @radius @radius 0;
+}
+
+.no-box-shadow() {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.background-size(@size) {
+  -o-background-size: @size;
+  -moz-background-size: @size;
+  -webkit-background-size: @size;
+  background-size: @size;
+}
+
+.placeholder-color(@color) {
+  &::-webkit-input-placeholder {color: @color;}
+  &::-moz-placeholder          {color: @color;}
+  &:-moz-placeholder           {color: @color;}
+  &:-ms-input-placeholder      {color: @color;}
+}

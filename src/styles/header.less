@@ -36,11 +36,12 @@
           }
           .mb-header-logo-text {
             display: inline-block;
-            height: 17px;
-            line-height: 17px;
-            font-size: 17px;
+            height: 30px;
+            line-height: 27px;
+            font-size: 25px;
             color: #fff;
             vertical-align: 9px;
+            font-family: 'Corp A';
           }
         }
       }
@@ -77,6 +78,34 @@
           }
         }
       }
+      .mb-header-mobile-title-wrapper {
+        float: left;
+        margin: 0 30px 0 0;
+        .mb-header-mobile-back {
+          display: inline-block;
+          background: transparent url(/images/arrow-back-mobile.png) 15px 20px no-repeat;
+          width: 40px;
+          height: 60px;
+          vertical-align: top;
+          position: relative;
+          z-index: 2;
+        }
+        .mb-header-mobile-title {
+          display: inline-block;
+          text-align: center;
+          vertical-align: top;
+          font-size: 14px;
+          margin: 0;
+          height: 60px;
+          position: absolute;
+          left: 70px;
+          right: 70px;
+          top: 0;
+          z-index: 1;
+          line-height: 62px;
+          color: #fff; 
+        }
+      }
     }
     .mb-header-navbar-additional-area {
       background: #ececec;
@@ -101,6 +130,13 @@
             &:hover {
               text-decoration: none;
               cursor: pointer;
+            }
+            .mb-header-navbar-search-icon {
+              width: 12px;
+              height: 16px;
+              display: inline-block;
+              background: transparent url(/images/lens-icon.png) 0px 0px no-repeat;
+              vertical-align: -3px;
             }
           }
         }
@@ -220,7 +256,7 @@
       .mb-header-navbar-main-area {
         height: 90px;
         .mb-header-logo-wrapper {
-          padding:  24px 0 0 36px;
+          padding:  21px 0 0 36px;
           width: 227px;
           .mb-header-logo {
             width: 190px;
@@ -234,11 +270,13 @@
             }
             .mb-header-logo-text {
               display: inline-block;
-              height: 20px;
-              line-height: 20px;
-              font-size: 16px;
+              height: 30px;
+              line-height: 30px;
+              font-size: 23px;
               color: #fff;
-              vertical-align: 19px;
+              vertical-align: 15px;
+              margin-left: 9px;
+              letter-spacing: 0.9px;
             }
           }
         }
@@ -247,7 +285,7 @@
         }
         .mb-topnav-wrapper {
           .mb-topnav-level-1 {
-            padding: 12px 18px 0 0;
+            padding: 5px 23px 0 0;
             margin: 0;
             list-style: none;
             font-size: 0;
@@ -258,6 +296,7 @@
               margin-left: 22px;
               line-height: 22px;
               height: 22px;
+              letter-spacing: -0.4px;
               &:first-child {
                 margin-left: 0;
               }
@@ -284,7 +323,7 @@
             }
           }
           .mb-topnav-level-2 {
-            padding: 3px 18px 0 0;
+            padding: 8px 20px 0 0;
             margin: 15px 0 0 0;
             list-style: none;
             font-size: 0;
@@ -295,6 +334,7 @@
               margin-left: 22px;
               line-height: 22px;
               height: 22px;
+              letter-spacing: 0.6px;
               &:first-child {
                 margin-left: 0;
               }
@@ -326,9 +366,9 @@
           height: 90px;
           .mb-header-logo-wrapper {
             padding:  27px 0 0 18px;
-            width: 227px;
+            width: 250px;
             .mb-header-logo {
-              width: 227px;
+              width: 230px;
               height: 36px;
               .mb-header-logo-image {
                 display: inline-block;
@@ -339,15 +379,83 @@
               }
               .mb-header-logo-text {
                 display: inline-block;
-                height: 20px;
-                line-height: 20px;
-                font-size: 20px;
+                height: 30px;
+                line-height: 30px;
+                font-size: 28px;
                 color: #fff;
-                vertical-align: 11px;
+                vertical-align: 9px;
+                letter-spacing: 2.84px;
               }
             }
           }
           .mb-topnav-wrapper {
+            .mb-topnav-level-1 {
+              padding: 10px 25px 0 0;
+              margin: 0;
+              list-style: none;
+              font-size: 0;
+              text-align: right;
+              .mb-topnav-level-1-item {
+                font-size: 14px;
+                display: inline-block;
+                margin-left: 22px;
+                line-height: 22px;
+                height: 22px;
+                letter-spacing: -0.18px;
+                &:first-child {
+                  margin-left: 0;
+                }
+                a {
+                  font-size: 14px;
+                  color: #999999;
+                  text-decoration: none;
+                  &:active,
+                  &:focus,
+                  &:hover {
+                    text-decoration: none;
+                    cursor: pointer;
+                  }
+                  .mb-topnav-info-icon {
+                    display: inline-block;
+                    border: 1px solid #999;
+                    background: transparent url(/images/mb-info-icon.png) 4px 1px no-repeat;
+                    width: 13px;
+                    height: 14px;
+                    vertical-align: -2px;
+                    margin-right: 4px;
+                  }
+                }
+              }
+            }
+            .mb-topnav-level-2 {
+              padding: 5px 20px 0 0;
+              margin: 15px 0 0 0;
+              list-style: none;
+              font-size: 0;
+              text-align: right;
+              .mb-topnav-level-2-item {
+                font-size: 14px;
+                display: inline-block;
+                margin-left: 22px;
+                line-height: 22px;
+                height: 22px;
+                letter-spacing: 0.6px;
+                &:first-child {
+                  margin-left: 0;
+                }
+                a {
+                  font-size: 18px;
+                  color: #ffffff;
+                  text-decoration: none;
+                  &:active,
+                  &:focus,
+                  &:hover {
+                    text-decoration: none;
+                    cursor: pointer;
+                  }
+                }
+              }
+            }
             .hidden-md-tablet {
               display: none !important;
             }
@@ -383,7 +491,7 @@
               display: inline-block;
               height: 20px;
               line-height: 20px;
-              font-size: 18px;
+              font-size: 20px;
               color: #fff;
               vertical-align: 18px;
             }
@@ -394,7 +502,7 @@
         }
         .mb-topnav-wrapper {
           .mb-topnav-level-1 {
-            padding: 12px 35px 0 0;
+            padding: 10px 35px 0 0;
             margin: 0;
             list-style: none;
             font-size: 0;

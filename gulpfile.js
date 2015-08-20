@@ -39,6 +39,11 @@ gulp.task('images', function() {
     .pipe(gulp.dest('./dist/images/'));
 });
 
+gulp.task('fonts', function() {
+  return gulp.src('./src/fonts/**/*')
+    .pipe(gulp.dest('./dist/fonts/'));
+});
+
 var bundler = _.memoize(function(watch) {
   var options = {debug: true};
 
@@ -85,6 +90,7 @@ gulp.task('build', [
   'clean',
   'html',
   'images',
+  'fonts',
   'styles',
   'scripts'
 ]);

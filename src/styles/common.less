@@ -1,10 +1,37 @@
+html {
+  height: 100%;
+}
 body {
+  height: 100%;
   min-width: @screen-xs;
   font-family: 'Corp S', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.main-wrap {
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 276px;
 }
 .col-xs-eighth {
   width: 12.5%;
   float: left;
+}
+.icon-angle-up {
+  margin-top: -15px;
+}
+.icon-angle-up {
+  margin-left: -4pt;
+}
+.icon-angle-up:before {
+  display: inline-block;
+  content: '\3008';
+  font-style: normal;
+  padding: 0;
+  letter-spacing: 6pt;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 @media (min-width: @screen-sm) {
   .col-sm-eighth { width: 12.5%; float: left; }

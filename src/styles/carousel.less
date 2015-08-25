@@ -1,0 +1,65 @@
+.mb-carousel {
+  .carousel-control {
+    opacity: 1;
+    background: transparent;
+    span {
+      display: block;
+      position: absolute;
+      top: 50%;
+      margin-top: -22px;
+      left: 0;
+      background: rgba(31, 31, 31, 0.9) url(/images/carousel-arrow-left.png) 14px 50% no-repeat;
+      width: 44px;
+      height: 44px;
+    }
+    &.right {
+      span {
+        right: 0;
+        left: auto;
+        background-image: url(/images/carousel-arrow-right.png);
+        background-position: 20px 50%;
+      }
+    }
+  }
+  &.start {
+    .mb-carousel-progress {
+      .progress-bar {
+        width: 0%;
+        transition: width 0s linear;
+      }
+    }
+  }
+  &.active {
+    .mb-carousel-progress {
+      .progress-bar {
+        width: 100%;
+        transition: width 5s linear;
+      }
+    }
+  }
+  .mb-carousel-progress {
+    height: 4px;
+    border-radius: 0;
+    margin: 0;
+    background: #666666;
+    .progress-bar {
+      background: #00acf2;
+      box-shadow: none;
+      height: 4px;
+      line-height: 4px;
+    }
+  }
+}
+   
+
+@media (min-width: @screen-sm) and (max-width: (@screen-md - 1)) {
+
+}
+
+@media (min-width: @screen-md) and (max-width: (@screen-lg - 1)) {
+  
+}
+
+@media (min-width: @screen-lg) {
+  
+}

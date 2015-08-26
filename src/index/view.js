@@ -1,4 +1,5 @@
 import $ from 'jquery';
+// require 'jquery';
 import {ItemView} from 'backbone.marionette';
 import template from './template.hbs';
 

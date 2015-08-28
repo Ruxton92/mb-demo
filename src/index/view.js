@@ -1,5 +1,4 @@
 import $ from 'jquery';
-// require 'jquery';
 import {ItemView} from 'backbone.marionette';
 import template from './template.hbs';
 
@@ -19,12 +18,49 @@ export default ItemView.extend({
     "mouseleave @ui.carousel": 'pauseEnd',
   },
 
-  onRender() {
+  onShow() {
   	this.ui.carousel.carousel({
 	    interval: 5600,
 	    pause: false
 		});
     this.ui.carousel.addClass('active');
+    $('.mb-model-navigation-slider').slick({
+      dots: false,
+      infinite: false,
+      speed: 300,
+      slidesToShow: 5,
+      slidesToScroll: 5,
+      responsive: [
+        {
+          breakpoint: 1280,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 4,
+          }
+        },
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+          }
+        },
+        {
+          breakpoint: 840,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
   },
 
   slideStart(e) {

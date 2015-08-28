@@ -1,0 +1,73 @@
+.mb-model-navigation-wrapper {
+  padding: 63px 73px 25px;
+  .gradient(#fff, #f1f1f1);
+  .mb-model-navigation-title {
+    font: 42.04px / 42.043px "Corp A";
+    color: #333;
+    margin: 0 0 0 22px;
+  }
+  .mb-model-navigation-slider {
+    padding-top: 20px;
+    .slick-arrow {
+      width: 44px;
+      height: 44px;
+      background: rgba(236, 236, 236, 0.9) url(/images/model-nav-arrow-right.png) 50% 50% no-repeat;
+      right: -73px;
+      &.slick-prev {
+        background-image: url(/images/model-nav-arrow-left.png);
+        background-position: 50% 50%;
+        left: -73px;
+        right: auto;
+      }
+      &:before {
+        content: "";
+        font-family: Arial;
+      }
+    }
+    .slick-loading {
+      background: transparent;
+    }
+    .mb-model-navigation-slide {
+      width: 204px;
+      position: relative;
+      margin: 0 17px;
+      &.slick-active {
+        outline: none;
+      }
+      .mb-model-navigation-slide-picture-wrapper {
+        height: 100px;
+        width: 100%;
+        position: relative;
+        .mb-model-navigation-slide-picture {
+          position: absolute;
+          display: inline-block;
+          vertical-align: bottom;
+          bottom: 0;
+          left: 0;
+          z-index: 3;
+        }
+      }
+      .mb-model-navigation-slide-model-klasse {
+        z-index: 2;
+        position: absolute;
+        font: 72px "Corp A";
+        line-height: 45px;
+        color: #ececec;
+        top: 0;
+        right: -13px;
+        width: 110px;
+        text-align: center;
+      }
+      .mb-model-navigation-slide-model-name {
+        font: 400 18px / 20px "Corp S";
+        color:#333333;
+        margin: 12px 0 0 0;
+      }
+      .mb-model-navigation-slide-model-desc {
+        font: 400 16px / 18px "Corp S";
+        color: #999999;
+        margin: 5px 0 0 0;
+      }
+    }
+  }
+}

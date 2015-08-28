@@ -4,6 +4,7 @@ import $ from 'jquery';
 
 import Application from './application/application';
 
+import ModalService from './modal/service';
 import FooterService from './footer/footer-service';
 import HeaderService from './header/header-service';
 
@@ -13,6 +14,10 @@ import OfferRouter from './offer/router';
 import CatalogueRouter from './catalogue/router';
 
 let app = new Application();
+
+ModalService.setup({
+  container: app.layout.overlay
+});
 
 FooterService.setup({
   container: app.layout.footer

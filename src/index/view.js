@@ -1,10 +1,16 @@
 import $ from 'jquery';
-import {ItemView} from 'backbone.marionette';
+import {LayoutView} from 'backbone.marionette';
 import template from './template.hbs';
 
-export default ItemView.extend({
+import CatalogueView from '../catalogue/view';
+
+export default LayoutView.extend({
   template: template,
   className: 'index',
+
+  regions: {
+    catalogueRegion: ".mb-catalogue-region"
+  },
 
   ui: {
   	'carousel': '.mb-carousel',
@@ -61,6 +67,9 @@ export default ItemView.extend({
         }
       ]
     });
+
+    var view = new CatalogueView();
+    this.catalogueRegion.show(view);
   },
 
   slideStart(e) {

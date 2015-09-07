@@ -3,3 +3,155 @@
   content: "\2715";
   font-size: 30px;
 }
+
+.mb-fullscreen-modal-content {
+	min-height: 100%;
+	height: 100%;
+	background: #f8f8f8;
+	position: relative;
+	.close {
+		width: 66px;
+		height: 66px;
+		background: rgba(236, 236, 236, 0.9);
+		color: #303030;
+		font-size: 50px;
+		text-align: center;
+		line-height: 66px;
+		opacity: 1;
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 10;
+		&:focus,
+		&:hover,
+		&:active {
+			outline: none;
+		}
+	}
+	.modal-content {
+		min-height: 100%;
+		height: 100%;
+		padding-top: 62px;
+		background: transparent;
+		overflow-y: scroll;
+		.no-box-shadow();
+		border: none;
+		.modal-header {
+			border: none;
+			padding: 0;
+			max-width: 920px;
+			margin: 0 auto;
+			.modal-title {
+				font-size: 42px;
+				font-family: "Corp A";
+				margin: 0 0 40px 0;
+				color: #333;
+			}
+		}
+		form {
+			max-width: 920px;
+			margin: 0 auto;
+			.modal-body {
+				padding: 0;
+				margin: 0;
+				h3 {
+					margin: 0 0 24px 0;
+					font-family: "Corp S";
+					font-size: 18px;
+					line-height: 27px;
+					color: #333;
+					b {
+						
+					}
+				}
+				.row {
+					max-width: 457px;
+					margin-bottom: 31px;
+					&> div {
+						&:last-child {
+							padding-right: 0;
+						}
+						&+div {
+							padding-left: 3px;
+							.form-group {
+								select.form-control {
+									background-position: 238px 18px;
+								}
+							}
+						}
+						&>span {
+							font-family: "Corp S";
+							font-size: 18px;
+							line-height: 24px;
+							margin-bottom: 8px;
+							display: block;
+						}
+					}
+					.form-group {
+						margin-bottom: 0;
+						label {
+							font-family: "Corp S";
+							font-size: 18px;
+							line-height: 24px;
+							margin-bottom: 8px;
+							sup {
+						
+							}
+						}
+						input.form-control {
+							height: 46px;
+							.border-radius(0);
+							background: #fff;
+						}
+						select.form-control {
+							height: 46px;
+							.border-radius(0);
+							-webkit-appearance: none;
+							-moz-appearance: none;
+							position: relative;
+							background: #fff url(/images/icons/dropdown-arrow.png) 134px 18px no-repeat;
+						}
+						.mb-form-sublabel {
+							float: right;
+							color: #999;
+							font-size: 16px;
+							margin: 15px 0 -7px 0;
+						}
+					}
+					.btn-group {
+						margin: 3px 0 5px 0;
+						border: 1px solid #d9d9d9;
+						padding: 2px;
+						.border-radius(3px);
+						label {
+							background: transparent;
+							font-family: "Corp S";
+							font-size: 18px;
+							line-height: 31px;
+							width: 145px;
+							color: #333;
+							.no-box-shadow();
+							border: none;
+							&.active {
+								background: #d9d9d9;
+							}
+						}
+					}
+				}
+			}
+			.modal-footer {
+				border-color: #d9d9d9;
+				padding: 25px 2px 25px;
+				button {
+					height: 44px;
+					.border-radius(1px);
+					background: #00adef;
+					color: #fff;
+					font-size: 18px;
+					padding: 6px 19px;
+					margin: 5px 0 0 0;
+				}
+			}
+		}
+	}
+}

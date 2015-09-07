@@ -10,12 +10,19 @@
 @navbar-collapse-max-height:       340px;
 
 
-.modal-content {
-  border-radius: 0;
-  .close {
-    opacity: 1;
-    :hover {
-      opacity: 0.6;
-    }
-  }
+.modal {
+	&> div {
+		min-height: 100%;
+		height: 100%;
+		.modal-content {
+		  border-radius: 0;
+		  .close {
+		    opacity: 1;
+		    :hover {
+		      opacity: 0.6;
+		    }
+		  }
+		}
+	}
 }
+

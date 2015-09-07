@@ -12,6 +12,7 @@ import IndexRouter from './index/router';
 import AboutRouter from './about/router';
 import OfferRouter from './offer/router';
 import CatalogueRouter from './catalogue/router';
+import ContactRouter from './contact/router';
 
 let app = new Application();
 
@@ -40,6 +41,10 @@ app.offer = new OfferRouter({
 });
 
 app.catalogue = new CatalogueRouter({
+  container: app.layout.content
+});
+
+app.contact = new ContactRouter({
   container: app.layout.content
 });
 

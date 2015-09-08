@@ -65,19 +65,14 @@
 					}
 				}
 				.row {
-					max-width: 457px;
 					margin-bottom: 31px;
+					.row {
+						margin-bottom: 0;
+					}
+					
 					&> div {
-						&:last-child {
-							padding-right: 0;
-						}
 						&+div {
 							padding-left: 3px;
-							.form-group {
-								select.form-control {
-									background-position: 238px 18px;
-								}
-							}
 						}
 						&>span {
 							font-family: "Corp S";
@@ -85,6 +80,13 @@
 							line-height: 24px;
 							margin-bottom: 8px;
 							display: block;
+						}
+						&> .mb-form-sublabel {
+							display: block;
+							text-align: right;
+							color: #999;
+							font-size: 16px;
+							margin: 19px 0 3px 0;
 						}
 					}
 					.form-group {
@@ -109,7 +111,24 @@
 							-webkit-appearance: none;
 							-moz-appearance: none;
 							position: relative;
-							background: #fff url(/images/icons/dropdown-arrow.png) 134px 18px no-repeat;
+							&+.mb-select-arrow {
+								background: transparent url(/images/icons/dropdown-arrow.png) left top no-repeat;
+								height: 8px;
+								width: 14px;
+								display: block;
+								position: absolute;
+								right: 30px;
+								top: 52px;
+							}
+						}
+						textarea.form-control {
+							height: 238px;
+							resize: none;
+							.border-radius(0);
+							background: #fff;
+							&+.mb-form-sublabel {
+								margin-top: 10px;
+							}
 						}
 						.mb-form-sublabel {
 							float: right;

@@ -1,5 +1,6 @@
 import {ItemView} from 'backbone.marionette';
 import template from './template.hbs';
+import $ from 'jQuery';
 
 import ModalService from '../modal/service';
 
@@ -12,7 +13,8 @@ export default ItemView.extend({
 
   events: {
     'click .js-call-callback-modal': 'showCallbackModal',
-  	'click .js-call-email-modal': 'showEmailModal'
+    'click .js-call-email-modal': 'showEmailModal',
+    'click .js-tab': 'switchTab'
   },
 
   showCallbackModal(e) {
@@ -25,6 +27,11 @@ export default ItemView.extend({
     e.preventDefault();
     var view = new EmailModalView();
     ModalService.request('open', view);
-  }
+  },
 
+  switchTab(e) {
+    e.preventDefault();
+    this.$('.js-tab').removeClass('active');
+    $(e.currentTarget).addClass('active');
+  }
 });

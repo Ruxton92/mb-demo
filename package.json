@@ -69,7 +69,9 @@
     "handlebars": "^1.3.0",
     "jquery": "^2.1.3",
     "lodash": "^2.4.1",
-    "nprogress": "^0.1.6"
+    "nprogress": "^0.1.6",
+    "moment": "^2.10.6",
+    "eonasdan-bootstrap-datetimepicker": "^4.15.35"
   },
   "browser": {
     "bootstrap": "./node_modules/bootstrap/dist/js/bootstrap.js"
@@ -78,6 +80,11 @@
     "bootstrap": {
       "depends": [
         "jquery:jQuery"
+      ]
+    },
+    "eonasdan-bootstrap-datetimepicker": {
+      "depends": [
+        "moment"
       ]
     }
   },

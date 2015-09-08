@@ -20,7 +20,7 @@ export default ItemView.extend({
   },
 
   onShow() {
-    this.$('.js-support-modal').click();
+    // this.$('.js-support-modal').click();
   },
 
   showCallbackModal(e) {

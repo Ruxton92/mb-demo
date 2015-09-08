@@ -48,12 +48,39 @@
 				color: #333;
 			}
 		}
+		.mb-teaser-block {
+			background: #fff;
+			margin-top: -62px;
+			padding-top: 62px;
+			.modal-title {
+				font-size: 42px;
+				font-family: "Corp A";
+				margin: 0 102px 6px 102px;
+				color: #333;
+			}
+			h5 {
+				color: #333333;
+    		font: 400 18px / 24px "Corp S";
+    		margin: 0 102px 0 102px;
+			}
+			.mb-teaser-list {
+				padding-top: 52px;
+			}
+			&+.modal-header {
+				padding-top: 40px;
+			}
+		}
 		form {
 			max-width: 920px;
 			margin: 0 auto;
 			.modal-body {
 				padding: 0;
 				margin: 0;
+				h2 {
+					color: #333333;
+    			font: 34px / 42px "Corp A";
+    			margin: 61px 0 37px 0;
+				}
 				h3 {
 					margin: 0 0 24px 0;
 					font-family: "Corp S";
@@ -66,10 +93,17 @@
 				}
 				.row {
 					margin-bottom: 31px;
+					&> .mb-form-sublabel {
+						display: block;
+						text-align: right;
+						float: right;
+						color: #999;
+						font-size: 16px;
+						margin: 19px 0 3px 50%;
+					}
 					.row {
 						margin-bottom: 0;
 					}
-					
 					&> div {
 						&+div {
 							padding-left: 3px;
@@ -80,13 +114,6 @@
 							line-height: 24px;
 							margin-bottom: 8px;
 							display: block;
-						}
-						&> .mb-form-sublabel {
-							display: block;
-							text-align: right;
-							color: #999;
-							font-size: 16px;
-							margin: 19px 0 3px 0;
 						}
 					}
 					.form-group {
@@ -104,6 +131,7 @@
 							height: 46px;
 							.border-radius(0);
 							background: #fff;
+							.no-box-shadow();
 						}
 						select.form-control {
 							height: 46px;
@@ -130,6 +158,17 @@
 								margin-top: 10px;
 							}
 						}
+						.input-group {
+							.form-control {
+								border-right: none;
+							}
+							.input-group-addon {
+								background: #fff;
+								border-left: none;
+								.border-radius(0);
+								font: 400 18px / 11px "Corp S";
+							}
+						}
 						.mb-form-sublabel {
 							float: right;
 							color: #999;
@@ -138,6 +177,20 @@
 						}
 					}
 					.btn-group {
+						&.btn-group-lg {
+							label {
+								line-height: 25px;
+								font-size: 18px;
+								min-width: 210px;
+							}
+						}
+						&.btn-group-sm {
+							label {
+								line-height: 35px;
+								font-size: 18px;
+								min-width: 69px;
+							}
+						}
 						margin: 3px 0 5px 0;
 						border: 1px solid #d9d9d9;
 						padding: 2px;
@@ -146,8 +199,8 @@
 							background: transparent;
 							font-family: "Corp S";
 							font-size: 18px;
-							line-height: 31px;
-							width: 145px;
+							line-height: 44px;
+							min-width: 145px;
 							color: #333;
 							.no-box-shadow();
 							border: none;
@@ -155,6 +208,80 @@
 								background: #d9d9d9;
 							}
 						}
+					}
+				}
+				hr {
+					height: 1px;
+					border-top: 1px solid #cccccc;
+					margin: 0;
+					&+h2 {
+						margin-top: 48px;
+					}
+				}
+			}
+			.mb-date-wrapper {
+				width: 100%;
+				.bootstrap-datetimepicker-widget {
+					border: 1px solid #d9d9d9;
+					background: #fff;
+					padding: 10px 20px;
+					table {
+						border-collapse: separate;
+						border-spacing: 0 6px;
+						th {
+							&.dow {
+								border-top: 1px solid #ececec;
+								border-bottom: 1px solid #ececec;
+								height: 48px;
+								color: #333333;
+    						font: 400 14px / 42px "Corp S";
+    						text-transform: uppercase;
+							}
+							&.picker-switch {
+								min-height: 54px;
+								line-height: 54px;
+								color: #333333;
+    						font: 400 18px / 42px "Corp S";
+							}
+							&.next {
+								background: transparent url(/images/model-nav-arrow-right.png) right 50% no-repeat;
+								span::before {
+									display: none;
+								}
+							}
+							&.prev {
+								background: transparent url(/images/model-nav-arrow-left.png) left 50% no-repeat;
+								span::before {
+									display: none;
+								}
+							}
+						}
+						td {
+							width: 42px;
+							height: 42px;
+							padding: 0;
+							.border-radius(0);
+							font:400 18px / 42px "Corp S";
+							&::before {
+								display: none;
+							}
+							&.old {
+								color: #ccc;
+							}
+							&.disabled {
+								color: #999;
+							}
+							&.today {
+								color: #00adef;
+							}
+							&.active {
+								background: #00adef;
+								color: #fff;
+							}
+						}
+					}
+					.picker-switch.accordion-toggle {
+						display: none;
 					}
 				}
 			}
@@ -169,6 +296,16 @@
 					font-size: 18px;
 					padding: 6px 19px;
 					margin: 5px 0 0 0;
+					.mb-button-arrow-icon {
+						display: inline-block;
+						width: 7px;
+						height: 12px;
+						background: transparent url(/images/carousel-arrow-right.png) left top no-repeat;
+						background-size: 90%;
+						position: relative;
+						top: 1px;
+						right: -1px;
+					}
 				}
 			}
 		}

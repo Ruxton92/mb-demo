@@ -1,6 +1,6 @@
 import {ItemView} from 'backbone.marionette';
 import template from './template.hbs';
-import $ from 'jQuery';
+import $ from 'jquery';
 
 import ModalService from '../modal/service';
 

@@ -15,6 +15,7 @@ export default LayoutView.extend({
   ui: {
   	'carousel': '.mb-carousel',
   	'progress': '.progress-bar',
+    'slides': '.mb-carousel .item'
   },
 
   events: {
@@ -25,6 +26,10 @@ export default LayoutView.extend({
   },
 
   onShow() {
+    this.slidesNum = this.ui.slides.length;
+    this.interval = parseFloat(100 / this.slidesNum);
+    this.ui.progress.css('width', this.interval + '%');
+    this.currentSlide = 1;
   	this.ui.carousel.carousel({
 	    interval: 5600,
 	    pause: false
@@ -73,10 +78,11 @@ export default LayoutView.extend({
   },
 
   slideStart(e) {
-    this.ui.carousel.removeClass('active');
+    if (this.currentSlide == this.slidesNum) this.currentSlide = 1;
+    else this.currentSlide += 1;
+    this.ui.progress.css('width', this.interval * (this.currentSlide) + '%');
   },
 
   slideEnd(e) {
-    this.ui.carousel.addClass('active');
   },
 });

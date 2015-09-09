@@ -1,8 +1,7 @@
 import {ItemView} from 'backbone.marionette';
 import {Model} from 'backbone';
 import template from './template.hbs';
-import moment from 'moment';
-window.moment = moment;
+
 export default ItemView.extend({
   template: template,
   className: 'mb-fullscreen-modal-content',
@@ -13,12 +12,12 @@ export default ItemView.extend({
     
   },
 
-  onShow() {
-  	// TODO: move datepicker activation to modal service
-  	setTimeout(()=> {$('#field-date').datetimepicker({
+  onModalShow() {
+  	console.debug('modalShowed');
+  	$('#field-date').datetimepicker({
         inline: true,
         minDate: moment().format(),
         daysOfWeekDisabled: [6]
-    });}, 500);
-  },
+    });
+  }
 });

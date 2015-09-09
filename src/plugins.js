@@ -9,6 +9,8 @@ import 'backbone-query-parameters';
 import 'babel/polyfill';
 import 'slick-carousel';
 import 'eonasdan-bootstrap-datetimepicker';
+import moment from 'moment';
+window.moment = moment;
 
 // start the marionette inspector
 if (window.__agent) {

@@ -32,6 +32,11 @@ const WiresModalService = ModalService.extend({
   },
 
   animateIn() {
+    if (this.views.length) {
+      if (this.views[0]['onModalShow']) {
+        this.views[0].onModalShow();
+      }
+    }
     return this.layout.animateIn();
   },
 

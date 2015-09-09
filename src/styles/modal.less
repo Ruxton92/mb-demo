@@ -154,8 +154,18 @@
 							resize: none;
 							.border-radius(0);
 							background: #fff;
+							font-family: "Corp S";
 							&+.mb-form-sublabel {
 								margin-top: 10px;
+							}
+						}
+						.form-control {
+							&:hover,
+							&:focus,
+							&:active {
+								outline: none;
+								border-color: inherit;
+								.no-box-shadow();
 							}
 						}
 						.input-group {

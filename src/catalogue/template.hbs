@@ -1,11 +1,27 @@
+{{#if viewType}}
 <div class="mb-catalogue-line">
   <div class="mb-catalogue-tabs">
     <div class="mb-tab js-tab active">Neu im Store</div>
     <div class="mb-tab js-tab">Meist angesehen</div>
   </div>
+</div>  
+{{else}}
+<div class="mb-catalogue-header row">
+  <div class="col-xs-6">
+    <h2 class="mb-catalogue-total">123 Angebote.</h2>
+  </div>
+  <div class="col-xs-6 text-right">
+    <select class="form-control mb-catalogue-select" name="" id="">
+      <option value="">Neueste Angebote</option>
+      <option value="">Beliebteste Angebote</option>
+    </select>
+    <label for="field-1" class="mb-select-arrow"></label>
+  </div>
 </div>
+{{/if}}
+
 <div class="mb-catalogue-items">
-  <div class="mb-catalogue-dark-block pull-right">
+  <div class="mb-catalogue-dark-block">
     <div class="mb-dark-block-title">Haben Sie noch Fragen zu
       <br/>unseren Angeboten?
     </div>
@@ -78,3 +94,22 @@
     </div>
   </div>
 </div>
+<nav class="mb-pagination-wrapper">
+  <ul class="pagination mb-pagination">
+    <li class="mb-pagination-item mb-pagination-item-prev">
+      <a href="#" aria-label="Previous">
+        <img src="/images/icons/left-angle.png" alt="">
+      </a>
+    </li>
+    <li class="mb-pagination-item active"><a href="#">1</a></li>
+    <li class="mb-pagination-item"><a href="#">2</a></li>
+    <li class="mb-pagination-item"><a href="#">3</a></li>
+    <li class="mb-pagination-item"><a href="#">4</a></li>
+    <li class="mb-pagination-item"><a href="#">5</a></li>
+    <li class="mb-pagination-item mb-pagination-item-next">
+      <a href="#" aria-label="Next">
+        <img src="/images/icons/right-angle.png" alt="">
+      </a>
+    </li>
+  </ul>
+</nav>

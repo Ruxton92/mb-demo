@@ -11,7 +11,7 @@ import HeaderService from './header/header-service';
 import IndexRouter from './index/router';
 import AboutRouter from './about/router';
 import OfferRouter from './offer/router';
-import CatalogueRouter from './catalogue/router';
+import CatalogueRouter from './catalogue_page/router';
 import ContactRouter from './contact/router';
 
 let app = new Application();

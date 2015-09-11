@@ -19,8 +19,19 @@ export default ItemView.extend({
     'click .js-tab': 'switchTab'
   },
 
+  initialize(data) {
+    this.viewType = data.viewType || false;
+    console.debug(this.viewType);
+  },
+
   onShow() {
     // this.$('.js-support-modal').click();
+  },
+
+  templateHelpers() {
+    return {
+      'viewType': this.viewType
+    }
   },
 
   showCallbackModal(e) {

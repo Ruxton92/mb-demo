@@ -8,12 +8,11 @@ import StoreInfoView from '../footer/store_info/store-info-view';
 export default ItemView.extend({
   template: template,
   events: {
-    "click .js-store-info": "storeInfo"
+    "click .js-activate-search": "activateSearch"
   },
 
-  storeInfo(e) {
+  activateSearch(e) {
     e.preventDefault();
-    var view = new StoreInfoView();
-    ModalService.request('open', view);
+    this.trigger('search:show');
   }
 });

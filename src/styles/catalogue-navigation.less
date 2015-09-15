@@ -1,0 +1,149 @@
+.mb-catalogue-navigation-wrapper {
+  .mb-catalogue-navigation {
+    height: 56px;
+    background: #1f1f1f;
+    .mb-scroll-to-top {
+      display: inline-block;
+      height: 56px;
+      background: transparent;
+      border: none;
+    }
+    .mb-filters-region {
+      display: block;
+      float: left;
+      .mb-catalogue-filter-wrapper {
+        .mb-catalogue-filters-form {
+          .mb-catalogue-filters-list {
+            padding: 0;
+            margin: 0;
+            font-size: 0;
+            display: inline-block;
+            vertical-align: top;
+            &>li {
+              list-style: none;
+              display: inline-block;
+              vertical-align: top;
+              font-family: "Corp S";
+              margin-left: 8px;
+              &.mb-catalogue-filters-list-title {
+                color: #999;
+                font-size: 18px;
+                line-height: 56px;
+              }
+              &:first-child {
+                margin-left: 0;
+                margin-right: 10px;
+              }
+              &.open {
+                &>button {
+                  background: #fff;
+                  .caret {
+                    background: transparent url(/images/icons/dropdown-arrow.png) left top no-repeat;
+                  }
+                }
+              }
+              &>button {
+                color: #999;
+                font-size: 18px;
+                line-height: 56px;
+                height: 56px;
+                border: none;
+                background: transparent;
+                .no-box-shadow();
+                padding: 0 10px 0 10px;
+                &:hover,
+                &:focus,
+                &:active {
+                  outline: none;
+                }
+                .caret {
+                  width: 14px;
+                  height: 8px;
+                  margin-left: 5px;
+                  border: none;
+                  background: transparent url(/images/icons/dropdown-arrow-light.png) left top no-repeat;
+                  vertical-align: 1px;
+                }
+              }
+              .dropdown-menu {
+                border: none;
+                top: 56px;
+                margin: 0;
+                padding: 20px;
+                .border-radius(0);
+                .mb-catalogue-filter-options {
+                  max-height: 400px;
+                  overflow-y: auto;
+                  ul {
+                    padding: 0;
+                    margin: 0;
+                    .mb-catalogue-filter-group-header {
+                      height: 29px;
+                      background: #f8f8f8;
+                      color: #333333;
+                      line-height: 29px;
+                      padding-left: 9px;
+                      border-top: 1px solid #ececec;
+                    }
+                    .mb-catalogue-filter-option {
+                      height: 59px;
+                      list-style: none;
+                      border-top: 1px solid #ececec;
+                      label {
+                        input[type="checkbox"],
+                        input[type="radio"] {
+                          display: none;
+                          &:checked {
+                            &+.mb-catalogue-filter-checkbox-wrapper {
+                              background: #f00;
+                            }
+                          }      
+                        }
+                        .mb-catalogue-filter-checkbox-wrapper {
+                          border: 1px solid #9b9b9b;
+                          background: #fff;
+                          height: 25px;
+                          width: 25px;
+                          display: inline-block;
+                          margin: 16px 10px 16px 0;
+                          .border-radius(20px);
+                          position: relative;
+                        }
+                        .mb-catalogue-filter-title {
+                          font-size: 16px;
+                          color: #333;
+                          line-height: 59px;
+                          display: inline-block;
+                          vertical-align: top;
+                        }
+                      }
+                    }
+                  }
+                }
+                .mb-catalogue-filter-submit {
+                  padding-top: 12px;
+                  border-top: 1px solid #cccccc;
+                  button {
+                    display: block;
+                    background: #999999;
+                    font-size: 18px;
+                    color: #fff;
+                    border: none;
+                    white-space: nowrap;
+                    padding: 0 30px;
+                    height: 44px;
+                    line-height: 44px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .mb-search-region {
+      display: inline-block;
+      vertical-align: top;
+    }
+  }
+}

@@ -16,12 +16,15 @@ export default ItemView.extend({
     'click .js-call-callback-modal': 'showCallbackModal',
     'click .js-call-email-modal': 'showEmailModal',
     'click .js-support-modal': 'showSupportModal',
-    'click .js-tab': 'switchTab'
+    'click .js-tab': 'switchTab',
+  },
+
+  ui: {
+    'overlay': '.mb-catalogue-overlay'
   },
 
   initialize(data) {
     this.viewType = data.viewType || false;
-    console.debug(this.viewType);
   },
 
   onShow() {
@@ -56,5 +59,14 @@ export default ItemView.extend({
     e.preventDefault();
     this.$('.js-tab').removeClass('active');
     $(e.currentTarget).addClass('active');
-  }
+  },
+
+  filterOpened() {
+    this.ui.overlay.removeClass('hidden1').addClass('active');
+  },
+
+  filterClosed() {
+    this.ui.overlay.addClass('hidden1').removeClass('active');
+  },
+
 });

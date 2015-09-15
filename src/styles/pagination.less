@@ -1,0 +1,36 @@
+.mb-pagination-wrapper {
+  border-top: 1px solid #cccccc;
+  text-align: center;
+  margin: 86px 0 12px 0;
+  .mb-pagination {
+    margin: 0;
+    .mb-pagination-item {
+      margin: 0 0;
+      display: inline-block;
+      &.mb-pagination-item-prev {
+        margin-right: 15px;
+      }
+      &.mb-pagination-item-next {
+        margin-left: 15px;
+      }
+      a {
+        padding: 6px 22px;
+        font-size: 20px;
+        border: none;
+        color: #999;
+        img {
+          margin: -3px 0 0 0;
+          max-height: 14px;
+        }
+      }
+      &.active {
+        a {
+          background: transparent;
+          color: #00adef;
+        }
+        border-top: 3px solid #00adef;
+        margin-top: -1px;
+      }
+    }
+  }
+}

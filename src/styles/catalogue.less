@@ -1,3 +1,6 @@
+.mb-catalogue-region {
+  position: relative;
+}
 .mb-catalogue-wrapper {
   width: 100%;
   padding: 70px 15px 30px;
@@ -33,7 +36,7 @@
     .mb-catalogue-dark-block {
       width: 100%;
       height: 371px;
-      margin-bottom: 37px;
+      margin-bottom: 40px;
       background-color: #3c3c3c;
       padding: 20px;
       .mb-dark-block-title {
@@ -160,6 +163,24 @@
     position: absolute;
     right: 35px;
     top: 15px;
+  }
+}
+.mb-catalogue-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  opacity: 0;
+  display: block;
+  left: -99999px;
+  .transition(opacity 0.1s linear);
+  &.active {
+    left: 0;
+    opacity: 1;
+    .transition(opacity 0.3s linear);
   }
 }
 .mb-icon-phone {

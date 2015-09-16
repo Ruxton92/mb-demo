@@ -28,7 +28,7 @@ let TagView = ItemView.extend({
 
 export default CompositeView.extend({
   template: compositeTemplate,
-  className: 'mb-catalogue-tags-wrapper',
+  className: 'mb-catalogue-tags-wrapper container-fluid',
   childView: TagView,
   childViewContainer: 'ul',
 

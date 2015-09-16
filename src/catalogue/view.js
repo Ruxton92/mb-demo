@@ -10,7 +10,7 @@ import SupportModalView from '../modal/support/view';
 
 export default ItemView.extend({
   template: template,
-  className: 'mb-catalogue-wrapper',
+  className: 'mb-catalogue-wrapper container-fluid',
 
   events: {
     'click .js-call-callback-modal': 'showCallbackModal',

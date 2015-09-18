@@ -1,9 +1,13 @@
 <form class="mb-catalogue-filters-form">
 	<ul class="mb-catalogue-filters-list">
-		<li class="mb-catalogue-filters-list-title">Filtern:</li>
+		<li class="mb-catalogue-filters-list-title hidden-xs">Filtern:</li>
 		<li class="dropdown">
 			<button id="filter-button-model" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 		    Modell
+		    <ul class="mb-selected-filters-list hidden-sm hidden-md hidden-lg">
+		    	<li>A 180</li>
+		    	<li>kompakt</li>
+		    </ul>
 		    <span class="caret"></span>
 		  </button>
 		  <ul class="dropdown-menu" aria-labelledby="filter-button-model">
@@ -66,7 +70,7 @@
 		    		</li>
 		    	</ul>
 		    </li>
-		    <li class="mb-catalogue-filter-submit">
+		    <li class="mb-catalogue-filter-submit hidden-xs">
 		    	<button>Filter schließen</button>
 		    </li>
 		  </ul>

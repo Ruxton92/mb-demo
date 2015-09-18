@@ -8,7 +8,7 @@ import StoreInfoView from './store_info/store-info-view';
 
 export default ItemView.extend({
   template: template,
-  className: 'mb-footer-wrap',
+  className: 'mb-footer',
   events: {
     "click .js-scroll-top": "scrollTop",
     "click .js-store-info": "storeInfo"

@@ -7,10 +7,10 @@
 </div>  
 {{else}}
 <div class="mb-catalogue-header row">
-  <div class="col-xs-6 col-sm-4-8 col-md-6 col-lg-6">
+  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
     <h2 class="mb-catalogue-total">Angebote.</h2>
   </div>
-  <div class="col-xs-6 col-sm-4-8 col-md-6 col-lg-6 text-right">
+  <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 text-right">
     <select class="form-control mb-catalogue-select" name="" id="">
       <option value="">Neueste Angebote</option>
       <option value="">Beliebteste Angebote</option>
@@ -20,7 +20,8 @@
 </div>
 {{/if}}
 
-<div class="mb-catalogue-items">
+<div class="mb-catalogue-items row">
+  {{#if viewType}}
   <div class="mb-catalogue-dark-block col-xs-12 col-sm-6 col-md-4 col-lg-4">
     <div class="mb-dark-block-title">Haben Sie noch Fragen zu
       <br/>unseren Angeboten?
@@ -32,6 +33,7 @@
       <li class="js-call-email-modal"><i class="mb-icon-letter"></i>Anfrage per E-Mail senden <span class="pull-right md-icon-right-angle"></span></li>
     </ul>
   </div>
+  {{/if}}
   <div>
     <div class="mb-catalogue-item col-xs-12 col-sm-6 col-md-4 col-lg-4">
       <div class="mb-item-img-wrapper mb-default">
@@ -39,7 +41,7 @@
       </div>
       <h3 class="mb-item-title">C 200 T-Modell EXCLUSIVE</h3>
       <div class="mb-item-content-1">
-        32.349,50 Euro Kaufpreis ab Werk 403,00 Euro mtl. Gesamt-Leasing-Rate*
+        32.349,50 Euro Kaufpreis ab Werk 403,00 Euro mtl. Gesamt-Leasing-Rate*
         <div class="mb-icon-i"></div>
       </div>
       <div class="mb-item-content-2">
@@ -50,9 +52,9 @@
       <div class="mb-item-img-wrapper mb-default">
         <img src="/images/cars/c/c200.png" alt=""/>
       </div>
-      <h3 class="mb-item-title">C 200 T-Modell EXCLUSIVE</h3>
+      <h3 class="mb-item-title">B-Klasse Electric Drive - Sports Tourer</h3>
       <div class="mb-item-content-1">
-        32.349,50 Euro Kaufpreis ab Werk 403,00 Euro mtl. Gesamt-Leasing-Rate*
+        32.349,50 Euro Kaufpreis ab Werk 403,00 Euro mtl. Gesamt-Leasing-Rate*
         <div class="mb-icon-i"></div>
       </div>
       <div class="mb-item-content-2">
@@ -66,7 +68,7 @@
       </div>
       <h3 class="mb-item-title">C 200 T-Modell EXCLUSIVE</h3>
       <div class="mb-item-content-1">
-        32.349,50 Euro Kaufpreis ab Werk 403,00 Euro mtl. Gesamt-Leasing-Rate*
+        32.349,50 Euro Kaufpreis ab Werk 403,00 Euro mtl. Gesamt-Leasing-Rate*
         <div class="mb-icon-i"></div>
       </div>
       <div class="mb-item-content-2">
@@ -79,7 +81,7 @@
       </div>
       <h3 class="mb-item-title">C 200 T-Modell EXCLUSIVE</h3>
       <div class="mb-item-content-1">
-        32.349,50 Euro Kaufpreis ab Werk 403,00 Euro mtl. Gesamt-Leasing-Rate*
+        32.349,50 Euro Kaufpreis ab Werk 403,00 Euro mtl. Gesamt-Leasing-Rate*
         <div class="mb-icon-i"></div>
       </div>
       <div class="mb-item-content-2">
@@ -87,11 +89,39 @@
       </div>
     </div>
     <div class="mb-catalogue-item col-xs-12 col-sm-6 col-md-4 col-lg-4">
+      <div class="mb-item-img-wrapper mb-default">
+        <img src="/images/cars/c/c200.png" alt=""/>
+      </div>
+      <h3 class="mb-item-title">C 200 T-Modell EXCLUSIVE</h3>
+      <div class="mb-item-content-1">
+        32.349,50 Euro Kaufpreis ab Werk 403,00 Euro mtl. Gesamt-Leasing-Rate*
+        <div class="mb-icon-i"></div>
+      </div>
+      <div class="mb-item-content-2">
+        Kraftstoffverbrauch kombiniert* 5,7l/100km, CO2-Emission*** 129g/km, Energieeffizienzklasse***B
+      </div>
+    </div>
+    {{#if viewType}}
+    <div class="mb-catalogue-item col-xs-12 col-sm-6 col-md-4 col-lg-4">
       <div class="mb-item-img-wrapper mb-full-height">
         <img src="/images/content/All_Offers_Teaser.png" alt=""/>
       </div>
       <div class="mb-item-title-var-two">Alle Angebote entdecken und Wunschfahrzeug finden.</div>
     </div>
+    {{/if}}
+    {{#unless viewType}}
+      <div class="mb-catalogue-dark-block col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div class="mb-dark-block-title">Haben Sie noch Fragen zu
+          <br/>unseren Angeboten?
+        </div>
+        <ul class="mb-dark-block-list">
+          <li class="js-call-callback-modal"><i class="mb-icon-phone"></i>Rückruf anfordern <i class="pull-right md-icon-right-angle"></i></li>
+          <li><i class="mb-icon-chat"></i>Live-Chat starten <span class="pull-right md-icon-right-angle"></span></li>
+          <li class="js-support-modal"><i class="mb-icon-people"></i>Beratung vor Ort vereinbaren <span class="pull-right md-icon-right-angle"></span></li>
+          <li class="js-call-email-modal"><i class="mb-icon-letter"></i>Anfrage per E-Mail senden <span class="pull-right md-icon-right-angle"></span></li>
+        </ul>
+      </div>
+    {{/unless}}
   </div>
 </div>
 <nav class="mb-pagination-wrapper row">

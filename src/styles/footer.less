@@ -1,9 +1,5 @@
 .mb-footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
-  height: 276px;
-  padding-top: 36px;
   min-height: 60px;
   background-color: #000;
   font-family: 'Corp S', 'Helvetica Neue';
@@ -40,26 +36,43 @@
       }
     }
     .mb-subfooter {
-      position: absolute;
-      bottom: 0px;
       border-top: 1px solid #333;
       width: 100%;
       line-height: 30px;
       color: #999;
       font: 400 16px / 42px 'Corp S';
+      &::after {
+        display: table;
+        content: "";
+        clear: both;
+      }
       a {
         color: #999;
-        margin: 0 1%;
+        margin: 0 0%;
+        display: block;
+        line-height: 27px;
+      }
+      .mb-footer-copyright-text {
+        display: block;
+        color: #999999;
+        font: 400 14px / 20px 'Corp S';
+        border-bottom: 1px solid #333333;
+        padding: 12px 4.6875%;
+        margin-bottom: 10px;
+        margin-left: -4.6875%;
+        margin-right: -4.6875%;
       }
       .social-buttons {
-        position: absolute;
-        margin-top: 8px;
+        margin-top: 19px;
+        margin-bottom: 10px;
         height: 24px;
         display: inline-block;
-        margin-left: 2%;
+        margin-left: 0%;
+        float: left;
         .social-btn {
+          vertical-align: top;
           display: inline-block;
-          margin: 0 12px 0 0;
+          margin: 0 9px 0 0;
           width: 24px;
           height: 24px;
           background-image: url("/images/icons/social.png");
@@ -75,8 +88,11 @@
         }
       }
       a.scroll-top {
-        line-height: 42px;
+        line-height: 30px;
         text-decoration: none !important;
+        float: right;
+        margin-top: 19px;
+        margin-bottom: 10px;
       }
       a.scroll-top:hover {
         text-decoration: underline !important;
@@ -84,4 +100,295 @@
     }
   }
 }
+.mb-bottom-copyright-wrapper {
+  background: #f8f8f8;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  p {
+    margin-bottom: 1em;
+    color: #999999;
+    font-size: 14px;
+  }
+}
+@media (min-width: @screen-sm) and (max-width: (@screen-md - 1)) {
+  .mb-footer {
+    .mb-footer-wrap {
+      ul.mb-link-list {
+        li {
+          white-space: normal;
+          padding-left: 10px;
+          a {
+            color: #999;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 27px;
+          }
+        }
+        li:first-child {
+          a {
+            color: #fff;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 42px;
+          }
+        }
+        li:first-child:before {
+          color: #fff;
+        }
+        li:before {
+          content: '\3009';
+          margin: 0 0 0 -18px;
+          color: #999;
+        }
+      }
+      .mb-bottom-copyright-wrapper {
+        padding-top: 55px;
+        padding-bottom: 55px;
+        p {
+          margin-bottom: 1em;
+          color: #999999;
+          font-size: 14px;
+        }
+      }
+      .mb-subfooter {
+        border-top: 1px solid #333;
+        width: 100%;
+        line-height: 30px;
+        color: #999;
+        font: 400 12px / 22px 'Corp S';
+        padding: 15px 15px 0;
+        margin-top: 40px;
+        a {
+          color: #999;
+          margin: 0 0 0 5px;
+          display: inline-block;
+          font-size: 12px;
+        }
+        .mb-footer-copyright-text {
+          color: #999;
+          display: block;
+          font: 400 12px / 22px 'Corp S';
+          border: none;
+          margin: 0;
+          padding: 0;
+          &+a {
+            margin-left: 0;
+          }
+        }
+        .social-buttons {
+          position: absolute;
+          height: 24px;
+          display: inline-block;
+          right: 20px;
+          bottom: 1px;
+          margin: 0;
+          .social-btn {
+            display: inline-block;
+            margin: 0 12px 0 0;
+            width: 18px;
+            height: 18px;
+            background-image: url("/images/icons/social.png");
+            &:last-child {
+              margin-right: 0;
+            }
+          }
+          .icon-facebook {
+            background-position: 96px 0;
+          }
+          .icon-youtube {
+            background-position: 60px 0;
+          }
+          .icon-twitter {
+            background-position: 24px 0;
+          }
+        }
+        a.scroll-top {
+          line-height: 22px;
+          text-decoration: none !important;
+          position: absolute;
+          float: none;
+          margin: 0;
+          font-size: 14px;
+          right: 7px;
+          bottom: 29px;
+          i {
+            margin-left: 5px;
+          }
+        }
+        a.scroll-top:hover {
+          text-decoration: underline !important;
+        }
+      }
+    }
+  }
+}
+@media (min-width: @screen-md) and (max-width: (@screen-lg - 1)) {
+  .mb-footer {
+    .mb-footer-wrap {
+      padding-top: 31px;
+      &>.container-fluid {
+        &>.row {
+          max-width: 940px;
+          margin: 0 auto;
+        }
+      }
+      .mb-bottom-copyright-wrapper {
+        padding-top: 55px;
+        padding-bottom: 55px;
+        p {
+          margin-bottom: 1em;
+          color: #999999;
+          font-size: 14px;
+        }
+      }
+      .mb-subfooter {
+        border-top: 1px solid #333;
+        width: 100%;
+        line-height: 30px;
+        color: #999;
+        font: 400 16px / 42px 'Corp S';
+        padding-top: 36px;
+        a {
+          color: #999;
+          margin: 0 1.2%;
+          display: inline-block;
+        }
+        .mb-footer-copyright-text {
+          color: #999;
+          font: 400 16px / 42px 'Corp S';
+          display: inline-block;
+          margin: 0;
+          border: none;
+          padding: 0;
 
+        }
+        .social-buttons {
+          margin-top: 8px;
+          height: 24px;
+          display: inline-block;
+          margin-left: 2%;
+          margin-bottom: 0;
+          float: none;
+          position: relative;
+          bottom: -5px;
+          .social-btn {
+            display: inline-block;
+            margin: 0 12px 0 0;
+            width: 24px;
+            height: 24px;
+
+            background-image: url("/images/icons/social.png");
+          }
+          .icon-facebook {
+            background-position: 96px 0;
+          }
+          .icon-youtube {
+            background-position: 60px 0;
+          }
+          .icon-twitter {
+            background-position: 24px 0;
+          }
+        }
+        a.scroll-top {
+          line-height: 42px;
+          text-decoration: none !important;
+          margin: 0;
+          position: absolute;
+          bottom: 3px;
+          right: 3px;
+          i {
+            margin-left: 2px;
+          }
+        }
+        a.scroll-top:hover {
+          text-decoration: underline !important;
+        }
+      }
+    }
+  }
+}
+@media (min-width: @screen-lg) {
+  .mb-footer {
+    .mb-footer-wrap {
+      padding-top: 31px;
+      &>.container-fluid {
+        &>.row {
+          max-width: 940px;
+          margin: 0 auto;
+        }
+      }
+      .mb-bottom-copyright-wrapper {
+        padding-top: 55px;
+        padding-bottom: 55px;
+        p {
+          margin-bottom: 1em;
+          color: #999999;
+          font-size: 14px;
+        }
+      }
+      .mb-subfooter {
+        border-top: 1px solid #333;
+        width: 100%;
+        line-height: 30px;
+        color: #999;
+        font: 400 16px / 42px 'Corp S';
+        margin-top: 36px;
+        a {
+          color: #999;
+          margin: 0 1.2%;
+          display: inline-block;
+        }
+        .mb-footer-copyright-text {
+          color: #999;
+          font: 400 16px / 42px 'Corp S';
+          display: inline-block;
+          margin: 0;
+          border: none;
+          padding: 0;
+
+        }
+        .social-buttons {
+          margin-top: 8px;
+          height: 24px;
+          display: inline-block;
+          margin-left: 2%;
+          margin-bottom: 0;
+          float: none;
+          position: relative;
+          bottom: -5px;
+          .social-btn {
+            display: inline-block;
+            margin: 0 12px 0 0;
+            width: 24px;
+            height: 24px;
+
+            background-image: url("/images/icons/social.png");
+          }
+          .icon-facebook {
+            background-position: 96px 0;
+          }
+          .icon-youtube {
+            background-position: 60px 0;
+          }
+          .icon-twitter {
+            background-position: 24px 0;
+          }
+        }
+        a.scroll-top {
+          line-height: 42px;
+          text-decoration: none !important;
+          margin: 0;
+          position: absolute;
+          bottom: 3px;
+          right: 3px;
+          i {
+            margin-left: 2px;
+          }
+        }
+        a.scroll-top:hover {
+          text-decoration: underline !important;
+        }
+      }
+    }
+  }
+}

@@ -10,6 +10,7 @@ export default ItemView.extend({
   	'filterHeaders': '.dropdown button',
   	'options': '.mb-catalogue-filter-option',
   	'submiters': '.mb-catalogue-filter-submit button',
+    'scrollToTop': '.js-scroll-to-top',
   },
 
   events: {
@@ -17,7 +18,8 @@ export default ItemView.extend({
   	'click @ui.options': 'optionClicked',
   	'click @ui.submiters': 'filterSubmited',
     'show.bs.dropdown': 'filterOpened',
-    'hide.bs.dropdown': 'filterClosed'
+    'hide.bs.dropdown': 'filterClosed',
+    'click @ui.scrollToTop': 'scrollToTop'
   },
 
   onShow() {
@@ -36,6 +38,14 @@ export default ItemView.extend({
   filterHeaderClicked(e) {
   	e.preventDefault();
   	$('html, body').animate({ scrollTop: this.$el.offset().top }, 'slow');
+    this.$el.addClass('show-arrow-up');
+  },
+
+  scrollToTop(e) {
+    e.preventDefault();
+    console.debug(111);
+    this.$el.removeClass('show-arrow-up');
+    $('html, body').animate({ scrollTop: 0 }, 'slow');
   },
 
   filterOpened() {

@@ -22,16 +22,18 @@ export default LayoutView.extend({
     'clearQueryButton': '.js-clear-search-query',
     'searchInput': '.js-catalogue-search-input',
     'tagsRegion': ".mb-search-tags-region",
+    
   },
 
   events: {
     'click @ui.clearQueryButton': 'clearQuery',
-    'change @ui.searchInput': 'searchSubmit'
+    'change @ui.searchInput': 'searchSubmit',
+    
   },
 
   onShow() {
-    let filtersView = new FiltersView();
-    this.filtersRegion.show(filtersView);
+    this.filtersView = new FiltersView();
+    this.filtersRegion.show(this.filtersView);
 
     let searchView = new SearchView();
     this.searchRegion.show(searchView);
@@ -45,8 +47,8 @@ export default LayoutView.extend({
     let tagsView = new TagsView({collection: tagsCollection});
     this.tagsRegion.show(tagsView);
 
-    this.listenTo(filtersView, 'filter:opened', this.filterOpened);
-    this.listenTo(filtersView, 'filter:closed', this.filterClosed);
+    this.listenTo(this.filtersView, 'filter:opened', this.filterOpened);
+    this.listenTo(this.filtersView, 'filter:closed', this.filterClosed);
 
     this.listenTo(searchView, 'search:activate', this.activateSearch);
     this.listenTo(searchView, 'search:deactivate', this.deactivateSearch);
@@ -77,6 +79,12 @@ export default LayoutView.extend({
     e.preventDefault();
     let query = $(e.currentTarget).val();
     this.tagsRegion.currentView.collection.push(new Backbone.Model({title: query}));
+    this.ui.searchInput.val("");
+  },
+
+  scrollToTop(e) {
+    e.preventDefault();
+    this.filtersView.hideArrowUp();
   }
 
 });

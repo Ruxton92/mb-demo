@@ -21,9 +21,8 @@ let TagView = ItemView.extend({
   },
 
   removeTag() {
-    this.trigger('tag:removed');
     this.model.destroy();
-  }
+  },
 });
 
 export default CompositeView.extend({
@@ -31,6 +30,14 @@ export default CompositeView.extend({
   className: 'mb-catalogue-tags-wrapper container-fluid',
   childView: TagView,
   childViewContainer: 'ul',
+  childEvents: {
+    'all': 'checkCollectionLength',
+    'render': 'checkCollectionLength'
+  },
+  collectionEvents: {
+    'add': 'checkCollectionLength',
+    'remove': 'checkCollectionLength',
+  },
 
   ui: {
     'clearButton': '.js-clear-catalogue-tags'
@@ -49,5 +56,16 @@ export default CompositeView.extend({
     this.$el.removeClass('active');
     this.trigger('tags:reset');
     this.collection.reset();
+  },
+
+  checkCollectionLength(e) {
+    let length = this.collection.length;
+    // console.debug('length:', length);
+    if (length == 0) {
+      this.$el.removeClass('active');
+    }
+    else {
+      this.$el.addClass('active');
+    }
   }
 });

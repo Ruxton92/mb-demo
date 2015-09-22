@@ -2,17 +2,54 @@
   margin-top: -42px;
   .mb-catalogue-navigation {
     background: #1f1f1f;
+    position: relative;
+    padding: 0;
     .mb-scroll-to-top {
-      display: inline-block;
-      height: 56px;
-      background: transparent;
+      display: none;
       border: none;
+      height: 40px;
+      top: 8px;
+      width: 22px;
+      padding: 0 2px;
+      background: transparent url(/images/icons/scroll-to-top.png) 1px 48% no-repeat;
+      position: absolute;
+      left: 1%;
+      &:active,
+      &:hover,
+      &:focus {
+        outline: none;
+      }
     }
     .mb-filters-region {
       display: block;
       float: none;
       .mb-catalogue-filter-wrapper {
+        &.show-arrow-up {
+          .mb-scroll-to-top {
+            display: inline-block;
+          }
+        }
         .mb-catalogue-filters-form {
+          .mb-mobile-filters-block {
+            background: #1f1f1f;
+            height: 44px;
+          }
+          .mb-apply-filters-mobile {
+            height: 44px;
+            line-height: 44px;
+            width: 100%;
+            padding: 0 15px;
+            color: #fff;
+            font-size: 17px;
+            background: #1f1f1f url(/images/carousel-arrow-left.png) 15px 13px no-repeat;
+            border: none;
+            text-align: right;
+            &:active,
+            &:hover,
+            &:focus {
+              outline: none;
+            }
+          }
           .mb-catalogue-filters-list {
             padding: 0;
             margin: 0;
@@ -31,10 +68,19 @@
                 color: #999;
                 font-size: 18px;
                 line-height: 56px;
-              }
-              &:first-child {
-                margin-left: 0;
-                margin-right: 10px;
+                position: absolute;
+                top: 0px;
+                width: 50%;
+                left: 0;
+                padding-right: 25px;
+                background: transparent;
+                font-size: 17px;
+                color: #999999;
+                font-family: "Corp S";
+                text-align: right;
+                height: 44px;
+                line-height: 44px;
+                margin-right: 0;
               }
               &.open {
                 height: auto;
@@ -190,10 +236,6 @@
     .mb-search-region {
       display: inline-block;
       vertical-align: top;
-      // position: absolute;
-      // height: 42px;
-      // background: #1f1f1f;
-      // top: 60px;
     }
   }
 }
@@ -203,17 +245,24 @@
     .mb-catalogue-navigation {
       height: 56px;
       background: #1f1f1f;
+      padding-left: 4.6875%;
+      padding-right: 4.6875%;
       .mb-scroll-to-top {
-        display: inline-block;
-        height: 56px;
-        background: transparent;
-        border: none;
+        border-right: 1px solid #666666;
+        width: 35px;
+        padding-right: 15px;
+        position: static;
+        margin-top: 8px;
+        margin-left: -20px;
+        margin-right: 15px;
       }
       .mb-filters-region {
         display: block;
         float: left;
         .mb-catalogue-filter-wrapper {
           .mb-catalogue-filters-form {
+            display: inline-block;
+            vertical-align: top;
             .mb-catalogue-filters-list {
               padding: 0;
               margin: 0;
@@ -230,8 +279,11 @@
                 width: auto;
                 &.mb-catalogue-filters-list-title {
                   color: #999;
-                  font-size: 18px;
+                  font-size: 16px;
                   line-height: 56px;
+                  &:after {
+                    content: ":";
+                  }
                 }
                 &:first-child {
                   margin-left: 0;
@@ -246,12 +298,13 @@
                     }
                     .caret {
                       background: transparent url(/images/icons/dropdown-arrow.png) left top no-repeat;
+                      background-size: 100%;
                     }
                   }
                 }
                 &>button {
                   color: #999;
-                  font-size: 18px;
+                  font-size: 16px;
                   line-height: 56px;
                   height: 56px;
                   border: none;
@@ -270,12 +323,13 @@
                   }
                   .caret {
                     display: inline-block;
-                    width: 14px;
-                    height: 8px;
-                    margin-left: 5px;
+                    width: 7px;
+                    height: 4px;
+                    margin-left: 1px;
                     border: none;
                     background: transparent url(/images/icons/dropdown-arrow-light.png) left top no-repeat;
-                    vertical-align: 1px;
+                    background-size: 100%;
+                    vertical-align: 3px;
                   }
                 }
                 .dropdown-menu {
@@ -368,17 +422,23 @@
     .mb-catalogue-navigation {
       height: 56px;
       background: #1f1f1f;
+      padding-left: 4.6875%;
+      padding-right: 4.6875%;
       .mb-scroll-to-top {
-        display: inline-block;
-        height: 56px;
-        background: transparent;
-        border: none;
+        width: 35px;
+        position: static;
+        margin-top: 8px;
+        margin-left: -20px;
+        margin-right: 5px;
+        background-position: 7px 44%;
       }
       .mb-filters-region {
         display: block;
         float: left;
         .mb-catalogue-filter-wrapper {
           .mb-catalogue-filters-form {
+            display: inline-block;
+            vertical-align: top;
             .mb-catalogue-filters-list {
               padding: 0;
               margin: 0;
@@ -397,6 +457,9 @@
                   color: #999;
                   font-size: 18px;
                   line-height: 56px;
+                  &:after {
+                    content: ":";
+                  }
                 }
                 &:first-child {
                   margin-left: 0;
@@ -533,17 +596,18 @@
     .mb-catalogue-navigation {
       height: 56px;
       background: #1f1f1f;
+      padding-left: 4.6875%;
+      padding-right: 4.6875%;
       .mb-scroll-to-top {
-        display: inline-block;
-        height: 56px;
-        background: transparent;
-        border: none;
+
       }
       .mb-filters-region {
         display: block;
         float: left;
         .mb-catalogue-filter-wrapper {
           .mb-catalogue-filters-form {
+            display: inline-block;
+            vertical-align: top;
             .mb-catalogue-filters-list {
               padding: 0;
               margin: 0;
@@ -562,6 +626,9 @@
                   color: #999;
                   font-size: 18px;
                   line-height: 56px;
+                  &:after {
+                    content: ":";
+                  }
                 }
                 &:first-child {
                   margin-left: 0;

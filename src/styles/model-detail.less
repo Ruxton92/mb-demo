@@ -1,0 +1,205 @@
+.mb-model-detail-campaign {
+	position: relative;
+	.mb-model-header-back {
+		display: inline-block;
+		position: absolute;
+		z-index: 3;
+		font: 400 18px / 22px "Corp S";
+    color: #ffffff;
+    top: 18px;
+    left: 90px;
+	}
+	.mb-model-header-name {
+		display: inline-block;
+		position: absolute;
+		z-index: 3;
+		font: 46.05px / 48px "Corp A";
+    color: #ffffff;
+    top: 89px;
+    left: 91px;
+    margin: 0;
+	}
+	.mb-model-header-descr-short {
+		display: inline-block;
+		position: absolute;
+		z-index: 3;
+		font: 400 18.02px / 24.025px "Corp S";
+    color: #fff;
+    top: 157px;
+    left: 91px;
+    margin: 0;
+	}
+	.mb-model-header-descr-additional {
+		display: inline-block;
+		position: absolute;
+		z-index: 3;
+		font: 400 18.02px / 24.025px "Corp S";
+    color: #999999;
+    top: 217px;
+    left: 91px;
+    margin: 0;
+	}
+	.mb-model-header-add-to-cart {
+		display: inline-block;
+		position: absolute;
+		z-index: 3;
+		top: 266px;
+    left: 91px;
+		display: inline-block;
+		font: 400 18px / 44px "Corp S";
+		color: #ffffff;
+		height: 44px;
+		line-height: 44px;
+		padding: 0 20px 0 52px;
+		background: #3c3c3c url(/images/icons/icon-star.png) 20px 12px no-repeat;
+		border: none;
+	}
+	.mb-model-header-advantages-list {
+		display: inline-block;
+		position: absolute;
+		z-index: 3;
+		bottom: 75px;
+		left: 91px;
+		height: 60px;
+		max-width: calc(4 * 270px);
+		margin: 0;
+		padding: 0;
+		.mb-model-header-advantage {
+			height: 30px;
+			display: inline-block;
+			min-width: 250px;
+			margin-right: 17px;
+			vertical-align: top;
+			font: 400 18px / 30px "Corp S";
+    	color: #ffffff;
+    	list-style: none;
+    	padding-left: 32px;
+    	background: transparent url(/images/icons/accept-white-check.png) left 3px no-repeat;
+		}
+		.mb-model-header-advantage-large {
+			float: right;
+			list-style: none;
+			vertical-align: top;
+			font: 400 14px / 21px "Corp S";
+			color: #ffffff;
+			width: 270px;
+		}
+	}
+	.mb-model-header-footnote {
+		font: 400 14px / 19px "Corp S";
+    color: #999999;
+    display: inline-block;
+		position: absolute;
+		z-index: 3;
+		left: 91px;
+		bottom: 27px;
+		margin: 0;
+	}
+}
+.mb-model-detail-navigation {
+	background: #1f1f1f;
+	height: 80px;
+	.row {
+		&>div {
+			font-size: 0;
+			.mb-model-detail-scroll-to-top {
+				// display: none;
+				height: 56px;
+				margin: 12px 12px 12px 0;
+				display: inline-block;
+				background: transparent url(/images/icons/up-arrow-light.png) 39% 48% no-repeat;
+				border: none;
+				border-right: 1px solid #666666;
+				width: 54px;
+				margin-left: -6.25%;
+				padding: 0;
+				&:focus,
+				&:hover,
+				&:active {
+					outline: none;
+				}
+			}
+			.mb-model-detail-navigation-sub {
+				position: relative;
+				display: inline-block;
+				white-space: nowrap;
+				vertical-align: top;
+				font-size: 16px;
+				.mb-model-detail-navigation-sub-title {
+					position: absolute;
+					top: 15px;
+					left: 8px;
+					font-size: 16px;
+					color: #999999;
+				}
+				.dropdown {
+					.dropdown-toggle {
+						height: 44px;
+						border: none;
+						background: transparent url(/images/icons/icon-dropdown-toggle.png) 10px 12px no-repeat;
+						color: #fff;
+						font-size: 18px;
+						padding: 0 10px 0 40px;
+						&:focus,
+						&:hover,
+						&:active {
+							outline: none;
+						}
+						margin-top: 31px;
+					}
+					.dropdown-menu {
+						li {
+							a {
+
+							}
+						}
+					}
+				}
+				.mb-model-detail-navigation-sub-list {
+					margn: 0;
+					padding: 0;
+					li {
+						display: inline-block;
+						list-style: none;
+						font-size: 18px;
+						a {
+							font-size: 18px;
+							color: #ffffff;
+						}
+					}
+				}
+			}
+			.mb-model-detail-navigation-sub-action {
+				background: transparent;
+				border: none;
+				&.mb-model-detail-navigation-sub-action-recall {
+
+				}
+				&.mb-model-detail-navigation-sub-action-chat {
+					
+				}
+				&.mb-model-detail-navigation-sub-action-test-drive {
+					
+				}
+			}
+			.mb-model-detail-navigation-sub-order {
+				display: inline-block;
+				.border-radius(1px);
+				background: #1daeec;
+				color: #fff;
+				font-size: 18px;
+				padding: 0 20px;
+				height: 44px;
+				line-height: 44px;
+				border: none;
+				margin: 18px 0;
+			}
+		}
+	}
+}
+@media (min-width: @screen-sm) and (max-width: (@screen-md - 1)) {
+}
+@media (min-width: @screen-md) and (max-width: (@screen-lg - 1)) {
+}
+@media (min-width: @screen-lg) {
+}

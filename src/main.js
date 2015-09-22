@@ -13,6 +13,7 @@ import AboutRouter from './about/router';
 import OfferRouter from './offer/router';
 import CatalogueRouter from './catalogue_page/router';
 import ContactRouter from './contact/router';
+import ProductDetailRouter from './product_detail/router';
 
 let app = new Application();
 
@@ -45,6 +46,10 @@ app.catalogue = new CatalogueRouter({
 });
 
 app.contact = new ContactRouter({
+  container: app.layout.content
+});
+
+app.product_detail = new ProductDetailRouter({
   container: app.layout.content
 });
 

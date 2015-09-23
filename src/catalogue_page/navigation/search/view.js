@@ -7,11 +7,11 @@ export default ItemView.extend({
   className: 'mb-catalogue-search-wrapper',
 
   ui: {
-  	'button': '.js-activate-search'
+    'button': '.js-activate-search'
   },
 
   events: {
-  	'click @ui.button': 'toggleSearch'
+    'click @ui.button': 'toggleSearch'
   },
 
   onShow() {
@@ -19,13 +19,13 @@ export default ItemView.extend({
   },
 
   toggleSearch(e) {
-  	e.preventDefault();
-  	if ($(e.currentTarget).hasClass('active')) {
-  		this.trigger('search:deactivate');
-  	}
-  	else {
-  		this.trigger('search:activate');
-  	}
-  	$(e.currentTarget).toggleClass('active');
+    e.preventDefault();
+    if ($(e.currentTarget).hasClass('active')) {
+      this.trigger('search:deactivate');
+    }
+    else {
+      this.trigger('search:activate');
+    }
+    $(e.currentTarget).toggleClass('active');
   }
 });

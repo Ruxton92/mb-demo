@@ -1,15 +1,14 @@
 import $ from 'jquery';
 import {LayoutView} from 'backbone.marionette';
 import template from './template.hbs';
-import ProductModel from './model'
+import ProductModel from './model';
+import ExteriorView from './exterior/view';
 
 export default LayoutView.extend({
   template: template,
-  className: 'mb-catalogue-page-wrapper',
 
   regions: {
-    catalogueRegion: ".mb-catalogue-region",
-    navRegion: ".mb-nav-region"
+    exteriorRegion: '.mb-model-detail-exterior-region',
   },
 
   initialize(data) {
@@ -27,6 +26,8 @@ export default LayoutView.extend({
   },
 
   onShow() {
+    this.exteriorView = new ExteriorView({model: this.model});
+    this.exteriorRegion.show(this.exteriorView);
   },
 
   filterOpened() {

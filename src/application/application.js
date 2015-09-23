@@ -23,17 +23,17 @@ export default Application.extend({
       'error:route'        : this.onErrorRoute
     });
 
-    this.setHeaders();
+    // this.setHeaders();
   },
 
-  setHeaders() {
-    let headers = {'X-Requested-With': 'XMLHttpRequest'};
-    $.ajaxSetup({
-      headers,
-      contentType: 'application/json',
-      crossDomain: true,
-    });
-  },
+  // setHeaders() {
+  //   let headers = {'X-Requested-With': 'XMLHttpRequest'};
+  //   $.ajaxSetup({
+  //     headers,
+  //     contentType: 'application/json',
+  //     crossDomain: true,
+  //   });
+  // },
 
   onBeforeEnterRoute() {
     this.transitioning = true;

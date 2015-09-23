@@ -7,14 +7,12 @@ export default ItemView.extend({
   className: '',
 
   onShow() {
-    console.debug('model in sub view', this.model);
   },
 
-  serializeData() {
-    let context = {};
-    context.model = this.model;
-    // console.log(context, 'context');
-    context.name = 'lol';
-    return context;
+  templateHelpers() {
+    return {
+      financing: this.model.get('financing'),
+      lol: 'lolololo'
+    };
   }
 });

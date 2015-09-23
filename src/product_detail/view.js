@@ -7,17 +7,18 @@ import ProductModel from './model';
 import OfferDetailView from './offer_detail/view';
 
 export default LayoutView.extend({
-  template: template,
+  template,
 
   regions: {
     exteriorRegion: '.mb-model-detail-exterior-region',
     catalogueRegion: ".mb-catalogue-region",
     navRegion: ".mb-nav-region",
-    offerDetail: ".mb-model-detail-offer-region",
+    offerDetailRegion: ".mb-model-detail-offer-region",
   },
 
   initialize(data) {
     this.exteriorView = new ExteriorView({model: this.model});
+    this.offerDetailView = new OfferDetailView({model: this.model});
   },
 
   ui: {
@@ -30,7 +31,7 @@ export default LayoutView.extend({
     console.debug(this.model);
     console.debug(this.model.attributes);
     this.exteriorRegion.show(this.exteriorView);
-    this.offerDetail.show(new OfferDetailView({model: this.model}));
+    this.offerDetailRegion.show(this.offerDetailView);
   },
 
   filterOpened() {

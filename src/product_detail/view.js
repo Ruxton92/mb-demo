@@ -7,7 +7,7 @@ export default LayoutView.extend({
   template: template,
   autoRender: false,
   modelEvents: {
-    // 'sync': 'render'
+    'sync': 'render'
   },
 
   regions: {
@@ -15,11 +15,6 @@ export default LayoutView.extend({
   },
 
   initialize(data) {
-    // this.productID = parseInt(data.productID);
-    // console.debug(this.productID);
-    // this.model = new ProductModel();
-    // this.model.url = this.model.urlRoot + this.productID;
-    // this.model.fetch();
     this.exteriorView = new ExteriorView({model: this.model});
   },
 

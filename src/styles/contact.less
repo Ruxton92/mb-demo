@@ -1,3 +1,40 @@
+.mb-contact-banner {
+  position: relative;
+  margin-bottom: 72px;
+  .mb-banner-text-block {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 58%;
+    height: 100%;
+    background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -o-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -ms-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(-90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    .mb-banner-text-wrap {
+      position: absolute;
+      height: 190px;
+      top: 50%;
+      margin-left: 33%;
+      margin-top: -95px;
+      width: 346px;
+      .mb-banner-text-title {
+        color: #fff;
+        font: 300 32px/32px 'Corp A';
+        padding-bottom: 26px;
+      }
+      .mb-banner-text {
+        color: #fff;
+        font: 400 18/24px 'Corp S';
+        padding-bottom: 26px;
+      }
+    }
+  }
+  img {
+    width: 100%;
+  }
+}
 .contact-wrapper {
   .mb-contact-text {
     color: #333;
@@ -7,43 +44,6 @@
       color: #333;
       font: 42px/42px 'Corp A';
       padding-bottom: 26px;
-    }
-  }
-  .mb-contact-banner {
-    position: relative;
-    margin-bottom: 72px;
-    .mb-banner-text-block {
-      position: absolute;
-      right: 0;
-      top: 0;
-      width: 58%;
-      height: 100%;
-      background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
-      background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
-      background: -o-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
-      background: -ms-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
-      background: linear-gradient(-90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
-      .mb-banner-text-wrap {
-        position: absolute;
-        height: 190px;
-        top: 50%;
-        margin-left: 33%;
-        margin-top: -95px;
-        width: 346px;
-        .mb-banner-text-title {
-          color: #fff;
-          font: 300 32px/32px 'Corp A';
-          padding-bottom: 26px;
-        }
-        .mb-banner-text {
-          color: #fff;
-          font: 400 18/24px 'Corp S';
-          padding-bottom: 26px;
-        }
-      }
-    }
-    img {
-      width: 100%;
     }
   }
   .md-contact-card {

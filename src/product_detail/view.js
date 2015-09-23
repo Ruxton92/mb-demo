@@ -5,10 +5,6 @@ import ExteriorView from './exterior/view';
 
 export default LayoutView.extend({
   template: template,
-  autoRender: false,
-  modelEvents: {
-    'sync': 'render'
-  },
 
   regions: {
     exteriorRegion: '.mb-model-detail-exterior-region',

@@ -1,14 +1,21 @@
 import {Route} from 'backbone-routing';
 import View from './view';
+import ProductModel from './model';
 
 export default Route.extend({
   initialize(options = {}) {
     this.container = options.container;
-    this.productID = options.productID;
+    this.productID = parseInt(options.productID);
   },
 
   render() {
-    this.view = new View({productID: this.productID});
-    this.container.show(this.view);
+    console.debug(this.productID);
+    let model = new ProductModel();
+    model.url = model.urlRoot + this.productID;
+    model.fetch({'success': ()=> {
+	    	this.view = new View({model: model});
+	    	this.container.show(this.view);
+  		}
+		});
   }
 });

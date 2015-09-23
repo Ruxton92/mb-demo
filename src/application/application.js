@@ -22,6 +22,17 @@ export default Application.extend({
       'enter:route'        : this.onEnterRoute,
       'error:route'        : this.onErrorRoute
     });
+
+    this.setHeaders();
+  },
+
+  setHeaders() {
+    let headers = {'X-Requested-With': 'XMLHttpRequest'};
+    $.ajaxSetup({
+      headers,
+      contentType: 'application/json',
+      crossDomain: true,
+    });
   },
 
   onBeforeEnterRoute() {

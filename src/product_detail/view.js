@@ -9,7 +9,9 @@ import OfferDetailView from './offer_detail/view';
 import EquipmentHighlightsView from './equipment_highlights/view';
 
 export default LayoutView.extend({
-  template,
+  template: template,
+  className: 'mb-catalogue-page-wrapper',
+  autoRender: false,
 
   regions: {
     exteriorRegion: '.mb-model-detail-exterior-region',
@@ -19,8 +21,7 @@ export default LayoutView.extend({
     equipmentHighlightsRegion: ".mb-model-detail-edition-highlights"
   },
 
-  initialize(data) {
-    console.debug(this.model);
+  initialize() {
     this.exteriorView = new ExteriorView({model: this.model});
     this.offerDetailView = new OfferDetailView({model: this.model});
 

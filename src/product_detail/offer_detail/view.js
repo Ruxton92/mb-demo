@@ -12,7 +12,6 @@ export default ItemView.extend({
   templateHelpers() {
     return {
       financing: this.model.get('financing'),
-      lol: 'lolololo'
     };
   }
 });

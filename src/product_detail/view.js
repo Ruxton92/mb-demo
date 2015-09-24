@@ -9,11 +9,6 @@ import OfferDetailView from './offer_detail/view';
 import EquipmentHighlightsView from './equipment_highlights/view';
 
 export default LayoutView.extend({
-  initialize() {
-    $(window).on("resize", (() => {console.debug('eeeee'); }) );
-  },
-
-
   template,
   className: 'mb-catalogue-page-wrapper',
   autoRender: false,

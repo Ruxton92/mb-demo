@@ -32,16 +32,34 @@ export default CompositeView.extend({
   },
 
   ui: {
+    'carousel': '.mb-carousel',
+    'switchLight': '.js-switch-light'
   },
 
   events: {
+    'click @ui.switchLight': 'switchLight'
   },
 
   initialize() {
+    this.lightOn = true;
   },
 
   onModalShow() {
-    this.$el.find('.item')[0].addClass('active');
-    console.log(this.$el.find('.item')[0]);
+    this.ui.carousel.carousel({
+      interval: false
+    });
+    this.$el.find('.item:first').addClass('active');
+  },
+
+  switchLight() {
+    if (this.lightOn) {
+      this.$el.find('.car-day').addClass('hidden');
+      this.$el.find('.car-night').removeClass('hidden');
+      this.lightOn = false;
+    } else {
+      this.$el.find('.car-day').removeClass('hidden');
+      this.$el.find('.car-night').addClass('hidden');
+      this.lightOn = true;
+    }
   }
 });

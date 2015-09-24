@@ -1,0 +1,103 @@
+.mb-fullscreen-modal-content {
+	padding: 0;
+	transition: background 0.3s linear;
+	&.night-mode {
+		background: #111;
+	}
+	.mb-exterior-modal-night-button {
+	  width: 66px;
+	  height: 66px;
+	  background: rgba(236, 236, 236, 0.9);
+	  color: #303030;
+	  font-size: 50px;
+	  text-align: center;
+	  line-height: 66px;
+	  opacity: 1;
+	  position: absolute;
+	  top: 68px;
+	  right: 0;
+	  z-index: 10;
+	  cursor: pointer;
+	  border: none;
+	  &:hover,
+	  &:active,
+	  &:focus {
+	  	outline: none;
+	  }
+	}
+	.modal-content {
+		padding: 0;
+		.mb-carousel {
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			padding: 0;
+			.carousel-inner {
+				min-height: 100%;
+				height: 100%;
+				position: relative;
+				.item {
+					min-height: 100%;
+					height: 100%;
+					text-align: center;
+					img {
+				    display:-moz-inline-box;
+				    display:inline-block;
+				    vertical-align:middle;
+				    zoom:1;
+				    //display:inline;
+					}
+					.helper {
+				    display:-moz-inline-box;
+				    display:inline-block;
+				    vertical-align:middle;
+				    height:100%;
+				    width:0px;
+				    zoom:1;
+				    //display:inline;
+					}
+				}
+			}
+		  .carousel-control {
+		    opacity: 1;
+		    background: transparent;
+		    span {
+		      background: rgba(241, 241, 241, 0.9) url(/images/model-nav-arrow-left.png) 14px 50% no-repeat;
+		    }
+		    &.right {
+		      span {
+		        right: 0;
+		        left: auto;
+		        background-image: url(/images/model-nav-arrow-right.png);
+		        background-position: 18px 50%;
+		      }
+		    }
+		  }
+		  .mb-carousel-progress {
+		    height: 4px;
+		    border-radius: 0;
+		    position: absolute;
+		    left: 0;
+		    right: 0;
+		    bottom: 0;
+		    background: #666666;
+		    .progress-bar {
+		      background: #00acf2;
+		      box-shadow: none;
+		      height: 4px;
+		      line-height: 4px;
+		      transition: width 0.3s linear;
+		    }
+		  }
+		}
+	}
+}
+
+@media (min-width: @screen-sm) and (max-width: (@screen-md - 1)) {
+}
+@media (min-width: @screen-md) and (max-width: (@screen-lg - 1)) {
+}
+@media (min-width: @screen-lg) {
+}

@@ -71,7 +71,6 @@
 		</div>
 	</div>
 </nav>
-{{testdrive.hd.url}}
 <!-- EXT_ -->
 <!-- CompositeView + Modal/CompositeView -->
 <div class="mb-model-detail-exterior-region"></div>
@@ -88,10 +87,86 @@
 <!-- ItemView -->
 <div class="mb-model-detail-offer-region"></div>
 
-
 <!-- CollectionView editionHighlights TODO: remove after show-->
 <div class="mb-model-detail-edition-highlights"></div>
 
+<div class="mb-model-detail-tech-specs container-fluid">
+	<div class="row">
+		<div class="col-xs-12">
+			<h2 class="mb-model-detail-tech-specs-title">Motorisierung &amp; Technische Daten.</h2>
+			<div class="mb-model-detail-tech-specs-column">
+				<h3 class="mb-model-detail-tech-specs-subtitle">
+					Motor- &amp; Leistungsdaten
+				</h3>
+				<dl class="mb-model-detail-tech-specs-list">
+					<dt>Leistung</dt>
+					<dd>{{engine.facts.0.value}}</dd>
+					<dt>Hubraum</dt>
+					<dd>{{engine.facts.3.value}}</dd>
+					<dt>Getriebe</dt>
+					<dd>{{engine.facts.1.value}}</dd>
+					<dt>Kraftstoffart</dt>
+					<dd>{{engine.facts.5.value}}</dd>
+					<dt>Beschleunigung (0-100 km/h)</dt>
+					<dd>{{engine.facts.2.value}} s</dd>
+				</dl>
+			</div>
+			<div class="mb-model-detail-tech-specs-column">
+				<h3 class="mb-model-detail-tech-specs-subtitle">
+					Kraftstoffverbrauch &amp; Emissionen
+				</h3>
+				<dl class="mb-model-detail-tech-specs-list">
+					<dt>Kraftstoffverbrauch innerorts *</dt>
+					<dd>{{engine.facts.6.value}} l / 100 km</dd>
+					<dt>Kraftstoffverbrauch außerorts *</dt>
+					<dd>{{engine.facts.7.value}} l / 100 km</dd>
+					<dt>Kraftstoffverbrauch kombiniert *</dt>
+					<dd>{{engine.facts.8.value}} l / 100 km</dd>
+					<dt>CO2-Emissionen kombiniert *</dt>
+					<dd>{{engine.facts.4.value}} g / km</dd>
+					<dt></dt>
+					<dd></dd>
+				</dl>
+			</div>
+			<div class="mb-model-detail-tech-specs-column">
+				<ul class="mb-model-detail-tech-specs-eco-list">
+					<li class="class-ap">
+						<span>A+</span>
+					</li>
+					<li class="class-a">
+						<span>A</span>
+					</li>
+					<li class="class-b">
+						<span>B</span>
+					</li>
+					<li class="class-c">
+						<span>C</span>
+					</li>
+					<li class="class-d">
+						<span>D</span>
+					</li>
+					<li class="class-e">
+						<span>E</span>
+					</li>
+					<li class="class-f">
+						<span>F</span>
+					</li>
+					<li class="class-g">
+						<span>G</span>
+					</li>
+				</ul>
+				<p class="mb-model-detail-tech-specs-eco-class class-{{engine.facts.9.value}}">
+					<span>{{engine.facts.9.value}}</span>
+				</p>
+				<p class="mb-model-detail-tech-specs-eco-descr">
+					<b>CO2-Effizienz</b>
+					<br>
+					Auf Grundlage der gemessenen CO2-Emissionen unter Berücksichtigung der Masse des Fahrzeugs ermittelt.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
 <div class="mb-contact-banner margin-0">
   <div class="mb-banner-text-block">
     <div class="mb-banner-text-wrap">

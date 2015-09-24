@@ -9,7 +9,6 @@ export default Route.extend({
   },
 
   render() {
-    console.debug(this.productID);
     let model = new ProductModel();
     model.url = model.urlRoot + this.productID;
     model.fetch({'success': ()=> {

@@ -20,6 +20,7 @@ export default LayoutView.extend({
   },
 
   initialize(data) {
+    console.debug(this.model);
     this.exteriorView = new ExteriorView({model: this.model});
     this.offerDetailView = new OfferDetailView({model: this.model});
 
@@ -35,7 +36,6 @@ export default LayoutView.extend({
   },
 
   onShow() {
-    console.debug(this.model);
     this.exteriorRegion.show(this.exteriorView);
     this.offerDetailRegion.show(this.offerDetailView);
 

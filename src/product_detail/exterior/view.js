@@ -17,13 +17,10 @@ export default CompositeView.extend({
   },
 
   onShow() {
-    console.debug(this.model.get('design'));
   },
 
   templateHelpers() {
     return {
-      test: 'BLAH',
-      design: this.model.get('design')
     }
   }
 

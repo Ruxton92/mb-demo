@@ -77,14 +77,13 @@ export default CompositeView.extend({
   },
 
   slideStart(e) {
-    if (this.currentSlide == this.slidesNum) this.currentSlide = 1;
-    else  {
-      if(e.direction == 'left') {
-        this.currentSlide += 1;
-      }
-      else {
-        this.currentSlide -= 1;
-      }
+    if(e.direction == 'left') {
+      if (this.currentSlide == this.slidesNum) this.currentSlide = 1;
+      else this.currentSlide += 1;
+    }
+    else {
+      if (this.currentSlide == 1) this.currentSlide = this.slidesNum;
+      else this.currentSlide -= 1;
     }
     this.ui.progress.css('width', this.interval * (this.currentSlide) + '%');
   },

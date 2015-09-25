@@ -22,13 +22,20 @@ export default LayoutView.extend({
   },
 
   initialize() {
-    this.exteriorView = new ExteriorView({model: this.model});
     this.offerDetailView = new OfferDetailView({model: this.model});
 
-    // todo move after show, don't know showing place
     let example_collection_items = this.model.get('design').exterior.images;
     this.equipmentHighlightsView = new EquipmentHighlightsView({collection: new Backbone.Collection(example_collection_items)});
     $(window).on("scroll", this.checkScroll);
+
+    let extDay = this.model.get('stageModules')[0].data[0].car.images360ExtDayClosed;
+    let extNight = this.model.get('stageModules')[0].data[0].car.images360ExtNightClosed;
+    let slides = [];
+    for (let i = 0; i < extDay.length; i++) {
+      slides.push({day: extDay[i].md.url, night: 'http://placehold.it/1305x734'});
+    }
+    this.exteriorSlidesCollection = new Backbone.Collection(slides);
+    this.exteriorView = new ExteriorView({collection: this.exteriorSlidesCollection});
   },
 
   events: {
@@ -54,14 +61,10 @@ export default LayoutView.extend({
 
   onShow() {
     this.exteriorRegion.show(this.exteriorView);
+    
     this.offerDetailRegion.show(this.offerDetailView);
-    // todo move after show, don't know showing place
+    
     this.equipmentHighlightsRegion.show(this.equipmentHighlightsView);
   },
 
-  filterOpened() {
-  },
-
-  filterClosed() {
-  }
 });

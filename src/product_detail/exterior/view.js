@@ -1,49 +1,95 @@
 import $ from 'jquery';
 import Backbone from 'backbone';
 import {CompositeView} from 'backbone.marionette';
+import {ItemView} from 'backbone.marionette';
 import template from './template.hbs';
+import itemTemplate from './slide_template.hbs';
 
 import ModalService from '../../modal/service';
 
 import ExteriorModalView from '../../modal/exterior/view';
 
 
-export default CompositeView.extend({
-  template: template,
-  className: 'mb-catalogue-page-wrapper',
-
-  regions: {
-  },
+let SlideView = ItemView.extend({
+  template: itemTemplate,
+  className: 'item',
 
   ui: {
   },
 
   events: {
-    'click .js-exterior-modal': 'showExteriorModal'
+  },
+
+  initialize() {
+  }
+
+});
+
+
+export default CompositeView.extend({
+  template: template,
+  className: 'mb-model-detail-exterior-block',
+  childView: SlideView,
+  childViewContainer: '.carousel-inner',
+
+  ui: {
+    'carousel': '.mb-carousel',
+    'switchLight': '.js-switch-light',
+    'slides': '.mb-carousel .item'
+  },
+
+  events: {
+    'click .js-exterior-modal': 'showExteriorModal',
+    'click @ui.switchLight': 'switchLight',
+    "slide.bs.carousel @ui.carousel": "slideStart",
+    "slid.bs.carousel @ui.carousel": "slideEnd",
+    "mouseenter @ui.carousel": 'pauseStart',
+    "mouseleave @ui.carousel": 'pauseEnd',
+  },
+
+  initialize() {
+    this.lightOn = true;
   },
 
   onShow() {
-  },
-
-  templateHelpers() {
-    return {
-    }
+    this.ui.carousel.carousel({
+      interval: 50000,
+    });
+    this.$el.find('.item:first').addClass('active');
+    this.ui.carousel.addClass('active');
   },
 
   showExteriorModal(e) {
     e.preventDefault();
 
-    let extDay = this.model.get('stageModules')[0].data[0].car.images360ExtDayClosed;
-    let extNight = this.model.get('stageModules')[0].data[0].car.images360ExtNightClosed;
-    let slides = [];
-    for (let i = 0; i < extDay.length; i++) {
-      //slides.push({day: extDay[i].md.url, night: extNight[i].md.url});
-      slides.push({day: extDay[i].md.url, night: 'http://placehold.it/1305x734'});
-    }
-    let slidesCollection = new Backbone.Collection(slides);
-
-    let view = new ExteriorModalView({collection: slidesCollection});
+    let view = new ExteriorModalView({collection: this.collection});
     ModalService.request('open', view);
-  }
+  },
 
+  switchLight() {
+    if (this.lightOn) {
+      this.$el.find('.car-day').addClass('hidden');
+      this.$el.find('.car-night').removeClass('hidden');
+      this.lightOn = false;
+      this.$el.addClass('night-mode');
+    } else {
+      this.$el.find('.car-day').removeClass('hidden');
+      this.$el.find('.car-night').addClass('hidden');
+      this.lightOn = true;
+      this.$el.removeClass('night-mode');
+    }
+  },
+
+  slideStart(e) {
+    if (this.currentSlide == this.slidesNum) this.currentSlide = 1;
+    else  {
+      if(e.direction == 'left') {
+        this.currentSlide += 1;
+      }
+      else {
+        this.currentSlide -= 1;
+      }
+    }
+  },
 });
+

@@ -4,14 +4,8 @@ import template from './template.hbs';
 
 export default ItemView.extend({
   template,
-  className: '',
+  className: 'row mb-model-offer-block',
 
   onShow() {
   },
-
-  templateHelpers() {
-    return {
-      financing: this.model.get('financing'),
-    };
-  }
 });

@@ -586,6 +586,49 @@
 		}
 	}
 }
+.mb-model-detail-offer-region {
+	.mb-model-offer-block {
+		h2 {
+			font: 400 42px / 50px "Corp A";
+			color: #333;
+		}
+		.panel-group {
+			.panel {
+				border: none;
+				&+.panel {
+					margin-top: 1px;
+				}
+				.border-radius(1px);
+				.panel-heading {
+					padding: 0;
+					.panel-title {
+						height: 44px;
+						line-height: 44px;
+						display: block;
+						background: #00adef;
+						color: #fff;
+						text-decoration: none;
+						padding: 0 20px;
+						&:before {
+							content: "–";
+							font-weight: bold;
+							margin-right: 3px;
+						}
+						&.collapsed {
+							background: #666666;
+							&:before {
+								content: "+";
+							}
+						}
+					}
+				}
+				.panel-collapse {
+
+				}
+			}
+		}
+	}
+}
 @media (min-width: @screen-sm) and (max-width: (@screen-md - 1)) {
 }
 @media (min-width: @screen-md) and (max-width: (@screen-lg - 1)) {

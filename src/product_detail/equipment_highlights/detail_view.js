@@ -2,8 +2,7 @@ import $ from 'jquery';
 import {ItemView} from 'backbone.marionette';
 import template from './item_template.hbs';
 import ModalService from '../../modal/service';
-import CallbackModalView from '../../modal/callback/view';
-
+import EquipmentHighlightsModalView from '../../modal/equipment_highlights/view';
 
 export default ItemView.extend({
   template,
@@ -18,14 +17,13 @@ export default ItemView.extend({
 
   templateHelpers() {
     return {
-      small_photo: this.model.get('sd').url,
+      small_photo:  'http://placehold.it/140x100' // this.model.get('sd').url,
     };
   },
 
   showModal(e) {
     e.preventDefault();
-    console.debug(this.model.collection, '1231231321');
-    let view = new CallbackModalView();
+    let view = new EquipmentHighlightsModalView({collection: this.model.collection});
     ModalService.request('open', view);
   }
 });

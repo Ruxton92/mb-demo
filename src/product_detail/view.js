@@ -33,6 +33,7 @@ export default LayoutView.extend({
     }
     this.equipSlidesCollection = new Backbone.Collection(slidesEquip);
     this.equipmentHighlightsView = new EquipmentHighlightsView({collection: this.equipSlidesCollection});
+    
     $(window).on("scroll", this.checkScroll);
 
     let extDay = this.model.get('stageModules')[0].data[0].car.images360ExtDayClosed;

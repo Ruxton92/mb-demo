@@ -54,9 +54,10 @@ export default CompositeView.extend({
   onShow() {
     this.ui.carousel.carousel({
       interval: 100,
-    });
+    }).carousel('pause');
     this.$el.find('.item:first').addClass('active');
     this.ui.carousel.addClass('active');
+    $(window).on("scroll", this.checkScroll);
   },
 
   showExteriorModal(e) {
@@ -79,5 +80,20 @@ export default CompositeView.extend({
       this.$el.removeClass('night-mode');
     }
   },
+
+  checkScroll(e) {
+    e.preventDefault();
+    let exterior = $('.mb-model-detail-exterior-region').offset().top;
+    let height = $('.mb-model-detail-navigation').height();
+    let total = $(window).scrollTop();
+    let topBorder = exterior - height;
+    let bottomBorder = exterior + height * 2;
+    if ((total > topBorder) && (total < bottomBorder)) {
+      $('.mb-carousel').carousel('cycle');
+    } else {
+      $('.mb-carousel').carousel('pause');
+    }
+    
+  },    
 });
 

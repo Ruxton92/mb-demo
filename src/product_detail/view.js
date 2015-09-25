@@ -4,6 +4,7 @@ import {LayoutView} from 'backbone.marionette';
 
 import template from './template.hbs';
 import ExteriorView from './exterior/view';
+import InteriorView from './interior/view';
 import ProductModel from './model';
 import OfferDetailView from './offer_detail/view';
 import EquipmentHighlightsView from './equipment_highlights/view';
@@ -15,6 +16,7 @@ export default LayoutView.extend({
 
   regions: {
     exteriorRegion: '.mb-model-detail-exterior-region',
+    interiorRegion: '.mb-model-detail-interior-region',
     catalogueRegion: ".mb-catalogue-region",
     navRegion: ".mb-nav-region",
     offerDetailRegion: ".mb-model-detail-offer-region",
@@ -36,6 +38,15 @@ export default LayoutView.extend({
     }
     this.exteriorSlidesCollection = new Backbone.Collection(slides);
     this.exteriorView = new ExteriorView({collection: this.exteriorSlidesCollection});
+
+    let intDay = this.model.get('stageModules')[0].data[0].car.images360IntDayClosed;
+    let extNight = this.model.get('stageModules')[0].data[0].car.images360IntNightClosed;
+    let slides = [];
+    for (let i = 0; i < intDay.length; i++) {
+      slides.push({day: intDay[i].md.url, night: 'http://placehold.it/1305x734'});
+    }
+    this.interiorSlidesCollection = new Backbone.Collection(slides);
+    this.interiorView = new InteriorView({collection: this.interiorSlidesCollection});
   },
 
   events: {
@@ -61,7 +72,9 @@ export default LayoutView.extend({
 
   onShow() {
     this.exteriorRegion.show(this.exteriorView);
-    
+
+    this.interiorRegion.show(this.interiorView);
+
     this.offerDetailRegion.show(this.offerDetailView);
 
     this.equipmentHighlightsRegion.show(this.equipmentHighlightsView);

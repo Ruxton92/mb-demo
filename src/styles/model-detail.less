@@ -457,7 +457,7 @@
 		z-index: 5;
 	}
 	.mb-exterior-block-subtitle {
-		font: 400 18px / 22px "Corp A";
+		font: 400 18px / 22px "Corp S";
 		color: #333333;
 		margin: 0;
 		position: absolute;
@@ -477,6 +477,56 @@
 		border: none;
 		z-index: 5;
 		.border-radius(1px);
+	}
+}
+.mb-model-detail-interior-region {
+	background: #1f1f1f;
+	.mb-model-detail-interior-block  {
+		margin: 0;
+		.mb-interior-header  {
+			padding: 0;
+			position: relative;
+			.mb-interior-block-title {
+				font: 400 42px / 42px "Corp A";
+				color: #fff;
+				margin: 0;
+				position: absolute;
+				top: 57px;
+				left:  92px;
+				z-index: 5;
+			}
+			.mb-interior-block-subtitle {
+				font: 400 18px / 23px "Corp S";
+				color: #fff;
+				margin: 0;
+				position: absolute;
+				top: 160px;
+				left: 92px;
+				z-index: 5;
+			}
+			.mb-interior-block-show-modal {
+				height: 44px;
+				font: 400 18px / 44px "Corp S";
+				background: #666666;
+				color: #ffffff;
+				padding: 0 20px;
+				position: absolute;
+				top: 280px;
+				left: 92px;
+				border: none;
+				z-index: 5;
+				.border-radius(1px);
+			}
+		}
+		.mb-interior-large-photo-block {
+
+			.mb-interior-large-photo {
+				padding: 0;
+				img {
+					max-width: 100%;
+				}
+			}
+		}
 	}
 }
 @media (min-width: @screen-sm) and (max-width: (@screen-md - 1)) {

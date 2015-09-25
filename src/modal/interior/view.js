@@ -6,7 +6,7 @@ import itemTemplate from './slide_template.hbs';
 
 let SlideView = ItemView.extend({
   template: itemTemplate,
-  className: 'item',
+  className: 'item mb-fullscreen-photo',
 
   ui: {
   },
@@ -15,7 +15,7 @@ let SlideView = ItemView.extend({
   },
 
   initialize() {
-  }
+  },
 
 });
 

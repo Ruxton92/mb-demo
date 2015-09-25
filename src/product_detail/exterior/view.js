@@ -53,7 +53,7 @@ export default CompositeView.extend({
 
   onShow() {
     this.ui.carousel.carousel({
-      interval: 50000,
+      interval: 100,
     });
     this.$el.find('.item:first').addClass('active');
     this.ui.carousel.addClass('active');
@@ -77,18 +77,6 @@ export default CompositeView.extend({
       this.$el.find('.car-night').addClass('hidden');
       this.lightOn = true;
       this.$el.removeClass('night-mode');
-    }
-  },
-
-  slideStart(e) {
-    if (this.currentSlide == this.slidesNum) this.currentSlide = 1;
-    else  {
-      if(e.direction == 'left') {
-        this.currentSlide += 1;
-      }
-      else {
-        this.currentSlide -= 1;
-      }
     }
   },
 });

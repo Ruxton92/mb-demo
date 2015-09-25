@@ -28,6 +28,7 @@ export default LayoutView.extend({
 
 
     let example_collection_items = this.model.get('design').exterior.images;
+    example_collection_items.push({});
     this.equipmentHighlightsView = new EquipmentHighlightsView({collection: new Backbone.Collection(example_collection_items)});
     $(window).on("scroll", this.checkScroll);
 

@@ -1,6 +1,6 @@
 import {CompositeView} from 'backbone.marionette';
 import {ItemView} from 'backbone.marionette';
-import template from './empty_template.hbs';
+import template from './offer_template.hbs';
 import itemTemplate from './slide_template.hbs';
 
 export default ItemView.extend({

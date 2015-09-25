@@ -20,16 +20,19 @@ export default LayoutView.extend({
     catalogueRegion: ".mb-catalogue-region",
     navRegion: ".mb-nav-region",
     offerDetailRegion: ".mb-model-detail-offer-region",
-    equipmentHighlightsRegion: ".mb-model-detail-edition-highlights"
+    equipmentHighlightsRegion: ".mb-model-detail-edition-highlights-region"
   },
 
   initialize() {
     this.offerDetailView = new OfferDetailView({model: this.model});
 
-
-    let example_collection_items = this.model.get('design').exterior.images;
-    example_collection_items.push({});
-    this.equipmentHighlightsView = new EquipmentHighlightsView({collection: new Backbone.Collection(example_collection_items)});
+    let equipDay = this.model.get('stageModules')[0].data[0].car.images360IntDayClosed;
+    let slidesEquip = [];
+    for (let i = 0; i < equipDay.length; i++) {
+      slidesEquip.push({day: equipDay[i].md.url});
+    }
+    this.equipSlidesCollection = new Backbone.Collection(slidesEquip);
+    this.equipmentHighlightsView = new EquipmentHighlightsView({collection: this.equipSlidesCollection});
     $(window).on("scroll", this.checkScroll);
 
     let extDay = this.model.get('stageModules')[0].data[0].car.images360ExtDayClosed;

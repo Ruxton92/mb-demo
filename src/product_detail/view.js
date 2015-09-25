@@ -50,12 +50,12 @@ export default LayoutView.extend({
   },
 
   checkScroll(e) {
-    let exterior = $('.mb-model-detail-exterior-region').offset().top;
+    let exterior = $('.mb-model-detail-exterior-region').offset().top - $('.mb-model-detail-navigation').height();
     let total = $(window).scrollTop();
     if (total > exterior) {
-      $('.mb-model-detail-navigation').show();
+      $('.mb-model-detail-navigation').addClass('sticky');
     } else {
-      $('.mb-model-detail-navigation').hide();
+      $('.mb-model-detail-navigation').removeClass('sticky');
     }
   },
 
@@ -63,7 +63,7 @@ export default LayoutView.extend({
     this.exteriorRegion.show(this.exteriorView);
     
     this.offerDetailRegion.show(this.offerDetailView);
-    
+
     this.equipmentHighlightsRegion.show(this.equipmentHighlightsView);
   },
 

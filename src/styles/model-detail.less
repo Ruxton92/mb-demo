@@ -99,19 +99,27 @@
 .mb-model-detail-navigation {
 	background: #1f1f1f;
 	height: 80px;
-	position: fixed;
+	position: static;
 	width: 100%;
 	z-index: 999;
 	top: 0;
-	display: none;
+	&.sticky {
+		position: fixed;
+		.row {
+			&>div {
+				.mb-model-detail-scroll-to-top {
+					display: inline-block;
+				}
+			}
+		}
+	}
 	.row {
 		&>div {
 			font-size: 0;
 			.mb-model-detail-scroll-to-top {
-				// display: none;
+				display: none;
 				height: 56px;
 				margin: 12px 12px 12px 0;
-				display: inline-block;
 				background: transparent url(/images/icons/up-arrow-light.png) 39% 48% no-repeat;
 				border: none;
 				border-right: 1px solid #666666;

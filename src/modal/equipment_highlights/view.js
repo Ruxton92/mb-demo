@@ -46,15 +46,16 @@ export default CompositeView.extend({
     "mouseleave @ui.carousel": 'pauseEnd',
   },
 
-  initialize() {
+  initialize(model) {
     this.lightOn = true;
   },
 
   onModalShow() {
+    let index = this.collection.indexOf(this.model) || 0;
     this.ui.carousel.carousel({
       interval: false
     });
-    this.$el.find('.item:first').addClass('active');
+    this.$el.find('.item:eq(' + index + ')').addClass('active');
     this.slidesNum = this.collection.length;
     this.interval = parseFloat(100 / this.slidesNum);
     this.ui.progress.css('width', this.interval + '%');

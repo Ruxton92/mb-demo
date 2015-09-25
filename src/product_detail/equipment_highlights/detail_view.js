@@ -26,7 +26,7 @@ export default ItemView.extend({
 
   showPhotosModal(e) {
     e.preventDefault();
-    let view = new EquipmentHighlightsModalView({collection: this.model.collection});
+    let view = new EquipmentHighlightsModalView({collection: this.model.collection, model: this.model});
     ModalService.request('open', view);
   }
 });

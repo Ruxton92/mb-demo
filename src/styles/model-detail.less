@@ -82,7 +82,7 @@
 }
 .mb-model-detail-navigation {
 	background: #1f1f1f;
-	height: 80px;
+	height: 44px;
 	position: static;
 	width: 100%;
 	z-index: 999;
@@ -102,7 +102,7 @@
 			font-size: 0;
 			.mb-model-detail-scroll-to-top {
 				display: none;
-				height: 56px;
+				height: 44px;
 				margin: 12px 12px 12px 0;
 				background: transparent url(/images/icons/up-arrow-light.png) 39% 48% no-repeat;
 				border: none;
@@ -133,7 +133,7 @@
 					.dropdown-toggle {
 						height: 44px;
 						border: none;
-						background: transparent url(/images/icons/icon-dropdown-toggle.png) 10px 12px no-repeat;
+						background: transparent url(/images/icons/icon-dropdown-toggle.png) 0px 13px no-repeat;
 						color: #fff;
 						font-size: 18px;
 						padding: 0 10px 0 40px;
@@ -142,7 +142,7 @@
 						&:active {
 							outline: none;
 						}
-						margin-top: 31px;
+						margin-top: 0px;
 					}
 					.dropdown-menu {
 						li {
@@ -169,20 +169,23 @@
 			.mb-model-detail-navigation-sub-action {
 				background: transparent;
 				border: none;
-				padding: 35px 3px 5px 3px;
-				font: 400 14px / 20px "Corp S";
+				padding: 5px 2px 5px 2px;
+				font: 400 0 / 20px "Corp S";
         color: #ffffff;
-        margin: 12px 9px;
-        height: 56px;
+        margin: 0px 5px;
+        height: 44px;
         vertical-align: top;
+        min-width: 20px;
 				&.mb-model-detail-navigation-sub-action-recall {
-					background: transparent url(/images/icons/phone-white.png) 50% 5px no-repeat;
+					background: transparent url(/images/icons/phone-white.png) 50% 10px no-repeat;
+					background-size: 75%;
 				}
 				&.mb-model-detail-navigation-sub-action-chat {
 					background: transparent url(/images/icons/chat-white.png) 50% 5px no-repeat;
 				}
 				&.mb-model-detail-navigation-sub-action-test-drive {
-					background: transparent url(/images/icons/steering-wheel.png) 50% 5px no-repeat;
+					background: transparent url(/images/icons/steering-wheel.png) 50% 10px no-repeat;
+					background-size: 100%;
 				}
 			}
 			.mb-model-detail-navigation-sub-order {
@@ -196,7 +199,7 @@
 				height: 44px;
 				line-height: 44px;
 				border: none;
-				margin: 18px 55px 18px 10px;
+				margin: 0px -8.5% 0px 8px;
 			}
 		}
 	}
@@ -432,22 +435,15 @@
 		}
 	}
 	.mb-exterior-block-title {
-		font: 400 42px / 42px "Corp A";
+		font: 400 27.03px / 27.028px "Corp A";
 		color: #333333;
-		margin: 0;
-		position: absolute;
-		top: 57px;
-		left:  0;
-		z-index: 5;
+		margin: 40px 0 0 0;
 	}
 	.mb-exterior-block-subtitle {
 		font: 400 18px / 22px "Corp S";
 		color: #333333;
 		margin: 0;
 		position: absolute;
-		top: 162px;
-		left: 0;
-		z-index: 5;
 	}
 	.mb-exterior-block-show-modal {
 		height: 44px;
@@ -455,11 +451,7 @@
 		background: #666666;
 		color: #ffffff;
 		padding: 0 20px;
-		position: absolute;
-		top: 253px;
-		left: 0;
 		border: none;
-		z-index: 5;
 		.border-radius(1px);
 	}
 }
@@ -715,6 +707,173 @@
 			margin: 0;
 		}
 	}
+	.mb-model-detail-navigation {
+		background: #1f1f1f;
+		height: 80px;
+		position: static;
+		width: 100%;
+		z-index: 999;
+		top: 0;
+		&.sticky {
+			position: fixed;
+			.row {
+				&>div {
+					.mb-model-detail-scroll-to-top {
+						display: inline-block;
+					}
+				}
+			}
+		}
+		.row {
+			&>div {
+				font-size: 0;
+				.mb-model-detail-scroll-to-top {
+					display: none;
+					height: 56px;
+					margin: 12px 12px 12px 0;
+					background: transparent url(/images/icons/up-arrow-light.png) 39% 48% no-repeat;
+					border: none;
+					border-right: 1px solid #666666;
+					width: 54px;
+					margin-left: -6.25%;
+					padding: 0;
+					&:focus,
+					&:hover,
+					&:active {
+						outline: none;
+					}
+				}
+				.mb-model-detail-navigation-sub {
+					position: relative;
+					display: inline-block;
+					white-space: nowrap;
+					vertical-align: top;
+					font-size: 16px;
+					.mb-model-detail-navigation-sub-title {
+						position: absolute;
+						top: 15px;
+						left: 8px;
+						font-size: 16px;
+						color: #999999;
+					}
+					.dropdown {
+						.dropdown-toggle {
+							height: 44px;
+							border: none;
+							background: transparent url(/images/icons/icon-dropdown-toggle.png) 10px 12px no-repeat;
+							color: #fff;
+							font-size: 18px;
+							padding: 0 10px 0 40px;
+							&:focus,
+							&:hover,
+							&:active {
+								outline: none;
+							}
+							margin-top: 31px;
+						}
+						.dropdown-menu {
+							li {
+								a {
+
+								}
+							}
+						}
+					}
+					.mb-model-detail-navigation-sub-list {
+						margn: 0;
+						padding: 0;
+						li {
+							display: inline-block;
+							list-style: none;
+							font-size: 18px;
+							a {
+								font-size: 18px;
+								color: #ffffff;
+							}
+						}
+					}
+				}
+				.mb-model-detail-navigation-sub-action {
+					background: transparent;
+					border: none;
+					padding: 35px 3px 5px 3px;
+					font: 400 14px / 20px "Corp S";
+	        color: #ffffff;
+	        margin: 12px 9px;
+	        height: 56px;
+	        vertical-align: top;
+					&.mb-model-detail-navigation-sub-action-recall {
+						background: transparent url(/images/icons/phone-white.png) 50% 5px no-repeat;
+					}
+					&.mb-model-detail-navigation-sub-action-chat {
+						background: transparent url(/images/icons/chat-white.png) 50% 5px no-repeat;
+					}
+					&.mb-model-detail-navigation-sub-action-test-drive {
+						background: transparent url(/images/icons/steering-wheel.png) 50% 5px no-repeat;
+					}
+				}
+				.mb-model-detail-navigation-sub-order {
+					display: inline-block;
+					vertical-align: top;
+					.border-radius(1px);
+					background: #1daeec;
+					color: #fff;
+					font-size: 18px;
+					padding: 0 20px;
+					height: 44px;
+					line-height: 44px;
+					border: none;
+					margin: 18px 55px 18px 10px;
+				}
+			}
+		}
+	}
+	.mb-model-detail-exterior-region {
+		.mb-model-detail-exterior-block {
+			position: relative;
+			.mb-carousel {
+				.carousel-inner {
+					text-align: right;
+					.item {
+						&.active {
+							display: inline-block;
+						}
+					}
+				}
+			}
+		}
+		.mb-exterior-block-title {
+			font: 400 42px / 42px "Corp A";
+			color: #333333;
+			margin: 0;
+			position: absolute;
+			top: 57px;
+			left:  0;
+			z-index: 5;
+		}
+		.mb-exterior-block-subtitle {
+			font: 400 18px / 22px "Corp S";
+			color: #333333;
+			margin: 0;
+			position: absolute;
+			top: 162px;
+			left: 0;
+			z-index: 5;
+		}
+		.mb-exterior-block-show-modal {
+			height: 44px;
+			font: 400 18px / 44px "Corp S";
+			background: #666666;
+			color: #ffffff;
+			padding: 0 20px;
+			position: absolute;
+			top: 253px;
+			left: 0;
+			border: none;
+			z-index: 5;
+			.border-radius(1px);
+		}
+	}
 }
 @media (min-width: @screen-md) and (max-width: (@screen-lg - 1)) {
 	.mb-model-detail-campaign {
@@ -818,6 +977,173 @@
 			margin: 0;
 		}
 	}
+	.mb-model-detail-navigation {
+		background: #1f1f1f;
+		height: 80px;
+		position: static;
+		width: 100%;
+		z-index: 999;
+		top: 0;
+		&.sticky {
+			position: fixed;
+			.row {
+				&>div {
+					.mb-model-detail-scroll-to-top {
+						display: inline-block;
+					}
+				}
+			}
+		}
+		.row {
+			&>div {
+				font-size: 0;
+				.mb-model-detail-scroll-to-top {
+					display: none;
+					height: 56px;
+					margin: 12px 12px 12px 0;
+					background: transparent url(/images/icons/up-arrow-light.png) 39% 48% no-repeat;
+					border: none;
+					border-right: 1px solid #666666;
+					width: 54px;
+					margin-left: -6.25%;
+					padding: 0;
+					&:focus,
+					&:hover,
+					&:active {
+						outline: none;
+					}
+				}
+				.mb-model-detail-navigation-sub {
+					position: relative;
+					display: inline-block;
+					white-space: nowrap;
+					vertical-align: top;
+					font-size: 16px;
+					.mb-model-detail-navigation-sub-title {
+						position: absolute;
+						top: 15px;
+						left: 8px;
+						font-size: 16px;
+						color: #999999;
+					}
+					.dropdown {
+						.dropdown-toggle {
+							height: 44px;
+							border: none;
+							background: transparent url(/images/icons/icon-dropdown-toggle.png) 10px 12px no-repeat;
+							color: #fff;
+							font-size: 18px;
+							padding: 0 10px 0 40px;
+							&:focus,
+							&:hover,
+							&:active {
+								outline: none;
+							}
+							margin-top: 31px;
+						}
+						.dropdown-menu {
+							li {
+								a {
+
+								}
+							}
+						}
+					}
+					.mb-model-detail-navigation-sub-list {
+						margn: 0;
+						padding: 0;
+						li {
+							display: inline-block;
+							list-style: none;
+							font-size: 18px;
+							a {
+								font-size: 18px;
+								color: #ffffff;
+							}
+						}
+					}
+				}
+				.mb-model-detail-navigation-sub-action {
+					background: transparent;
+					border: none;
+					padding: 35px 3px 5px 3px;
+					font: 400 14px / 20px "Corp S";
+	        color: #ffffff;
+	        margin: 12px 9px;
+	        height: 56px;
+	        vertical-align: top;
+					&.mb-model-detail-navigation-sub-action-recall {
+						background: transparent url(/images/icons/phone-white.png) 50% 5px no-repeat;
+					}
+					&.mb-model-detail-navigation-sub-action-chat {
+						background: transparent url(/images/icons/chat-white.png) 50% 5px no-repeat;
+					}
+					&.mb-model-detail-navigation-sub-action-test-drive {
+						background: transparent url(/images/icons/steering-wheel.png) 50% 5px no-repeat;
+					}
+				}
+				.mb-model-detail-navigation-sub-order {
+					display: inline-block;
+					vertical-align: top;
+					.border-radius(1px);
+					background: #1daeec;
+					color: #fff;
+					font-size: 18px;
+					padding: 0 20px;
+					height: 44px;
+					line-height: 44px;
+					border: none;
+					margin: 18px 55px 18px 10px;
+				}
+			}
+		}
+	}
+	.mb-model-detail-exterior-region {
+		.mb-model-detail-exterior-block {
+			position: relative;
+			.mb-carousel {
+				.carousel-inner {
+					text-align: right;
+					.item {
+						&.active {
+							display: inline-block;
+						}
+					}
+				}
+			}
+		}
+		.mb-exterior-block-title {
+			font: 400 42px / 42px "Corp A";
+			color: #333333;
+			margin: 0;
+			position: absolute;
+			top: 57px;
+			left:  0;
+			z-index: 5;
+		}
+		.mb-exterior-block-subtitle {
+			font: 400 18px / 22px "Corp S";
+			color: #333333;
+			margin: 0;
+			position: absolute;
+			top: 162px;
+			left: 0;
+			z-index: 5;
+		}
+		.mb-exterior-block-show-modal {
+			height: 44px;
+			font: 400 18px / 44px "Corp S";
+			background: #666666;
+			color: #ffffff;
+			padding: 0 20px;
+			position: absolute;
+			top: 253px;
+			left: 0;
+			border: none;
+			z-index: 5;
+			.border-radius(1px);
+		}
+	}
 }
 @media (min-width: @screen-lg) {
 	.mb-model-detail-campaign {
@@ -919,6 +1245,173 @@
 			left: 91px;
 			bottom: 27px;
 			margin: 0;
+		}
+	}
+	.mb-model-detail-navigation {
+		background: #1f1f1f;
+		height: 80px;
+		position: static;
+		width: 100%;
+		z-index: 999;
+		top: 0;
+		&.sticky {
+			position: fixed;
+			.row {
+				&>div {
+					.mb-model-detail-scroll-to-top {
+						display: inline-block;
+					}
+				}
+			}
+		}
+		.row {
+			&>div {
+				font-size: 0;
+				.mb-model-detail-scroll-to-top {
+					display: none;
+					height: 56px;
+					margin: 12px 12px 12px 0;
+					background: transparent url(/images/icons/up-arrow-light.png) 39% 48% no-repeat;
+					border: none;
+					border-right: 1px solid #666666;
+					width: 54px;
+					margin-left: -6.25%;
+					padding: 0;
+					&:focus,
+					&:hover,
+					&:active {
+						outline: none;
+					}
+				}
+				.mb-model-detail-navigation-sub {
+					position: relative;
+					display: inline-block;
+					white-space: nowrap;
+					vertical-align: top;
+					font-size: 16px;
+					.mb-model-detail-navigation-sub-title {
+						position: absolute;
+						top: 15px;
+						left: 8px;
+						font-size: 16px;
+						color: #999999;
+					}
+					.dropdown {
+						.dropdown-toggle {
+							height: 44px;
+							border: none;
+							background: transparent url(/images/icons/icon-dropdown-toggle.png) 10px 12px no-repeat;
+							color: #fff;
+							font-size: 18px;
+							padding: 0 10px 0 40px;
+							&:focus,
+							&:hover,
+							&:active {
+								outline: none;
+							}
+							margin-top: 31px;
+						}
+						.dropdown-menu {
+							li {
+								a {
+
+								}
+							}
+						}
+					}
+					.mb-model-detail-navigation-sub-list {
+						margn: 0;
+						padding: 0;
+						li {
+							display: inline-block;
+							list-style: none;
+							font-size: 18px;
+							a {
+								font-size: 18px;
+								color: #ffffff;
+							}
+						}
+					}
+				}
+				.mb-model-detail-navigation-sub-action {
+					background: transparent;
+					border: none;
+					padding: 35px 3px 5px 3px;
+					font: 400 14px / 20px "Corp S";
+	        color: #ffffff;
+	        margin: 12px 9px;
+	        height: 56px;
+	        vertical-align: top;
+					&.mb-model-detail-navigation-sub-action-recall {
+						background: transparent url(/images/icons/phone-white.png) 50% 5px no-repeat;
+					}
+					&.mb-model-detail-navigation-sub-action-chat {
+						background: transparent url(/images/icons/chat-white.png) 50% 5px no-repeat;
+					}
+					&.mb-model-detail-navigation-sub-action-test-drive {
+						background: transparent url(/images/icons/steering-wheel.png) 50% 5px no-repeat;
+					}
+				}
+				.mb-model-detail-navigation-sub-order {
+					display: inline-block;
+					vertical-align: top;
+					.border-radius(1px);
+					background: #1daeec;
+					color: #fff;
+					font-size: 18px;
+					padding: 0 20px;
+					height: 44px;
+					line-height: 44px;
+					border: none;
+					margin: 18px 55px 18px 10px;
+				}
+			}
+		}
+	}
+	.mb-model-detail-exterior-region {
+		.mb-model-detail-exterior-block {
+			position: relative;
+			.mb-carousel {
+				.carousel-inner {
+					text-align: right;
+					.item {
+						&.active {
+							display: inline-block;
+						}
+					}
+				}
+			}
+		}
+		.mb-exterior-block-title {
+			font: 400 42px / 42px "Corp A";
+			color: #333333;
+			margin: 0;
+			position: absolute;
+			top: 57px;
+			left:  0;
+			z-index: 5;
+		}
+		.mb-exterior-block-subtitle {
+			font: 400 18px / 22px "Corp S";
+			color: #333333;
+			margin: 0;
+			position: absolute;
+			top: 162px;
+			left: 0;
+			z-index: 5;
+		}
+		.mb-exterior-block-show-modal {
+			height: 44px;
+			font: 400 18px / 44px "Corp S";
+			background: #666666;
+			color: #ffffff;
+			padding: 0 20px;
+			position: absolute;
+			top: 253px;
+			left: 0;
+			border: none;
+			z-index: 5;
+			.border-radius(1px);
 		}
 	}
 }

@@ -15,6 +15,8 @@ import OfferRouter from './offer/router';
 import CatalogueRouter from './catalogue_page/router';
 import ContactRouter from './contact/router';
 import ProductDetailRouter from './product_detail/router';
+import StoreInfoRouter from './store_info/router';
+import WatchlistRouter from './watchlist/router';
 
 let app = new Application();
 
@@ -58,5 +60,12 @@ app.product_detail = new ProductDetailRouter({
   container: app.layout.content
 });
 
+app.store_info = new StoreInfoRouter({
+  container: app.layout.content
+});
+
+app.watchlist = new WatchlistRouter({
+  container: app.layout.content
+});
 
 Backbone.history.start();

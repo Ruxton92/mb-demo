@@ -12,10 +12,9 @@ export default Route.extend({
     let model = new ProductModel();
     model.url = model.urlRoot + this.productID;
     model.fetch({'success': ()=> {
-	    	
+	    	this.view = new View({model: model});
+	    	this.container.show(this.view);
   		}
 		});
-    this.view = new View({model: model});
-    this.container.show(this.view);
   }
 });

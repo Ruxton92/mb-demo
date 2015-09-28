@@ -10,6 +10,7 @@ import HeaderService from './header/header-service';
 
 import IndexRouter from './index/router';
 import AboutRouter from './about/router';
+import ModelsRouter from './models/router';
 import OfferRouter from './offer/router';
 import CatalogueRouter from './catalogue_page/router';
 import ContactRouter from './contact/router';
@@ -34,6 +35,10 @@ app.index = new IndexRouter({
 });
 
 app.about = new AboutRouter({
+  container: app.layout.content
+});
+
+app.models = new ModelsRouter({
   container: app.layout.content
 });
 

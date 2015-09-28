@@ -1,88 +1,72 @@
 .mb-model-detail-campaign {
 	position: relative;
-	.mb-model-header-back {
-		display: inline-block;
-		position: absolute;
-		z-index: 3;
-		font: 400 18px / 22px "Corp S";
-    color: #ffffff;
-    top: 18px;
-    left: 90px;
+	overflow: hidden;
+	background: #000000;
+	.mb-campaign-hero {
+		margin-left: -25%;
 	}
 	.mb-model-header-name {
 		display: inline-block;
-		position: absolute;
 		z-index: 3;
-		font: 46.05px / 48px "Corp A";
+		font: 27px / 27px "Corp A";
     color: #ffffff;
-    top: 89px;
-    left: 91px;
-    margin: 0;
+    margin: 0 0 17px 15px;
 	}
 	.mb-model-header-descr-short {
 		display: inline-block;
-		position: absolute;
-		z-index: 3;
-		font: 400 18.02px / 24.025px "Corp S";
+		font: 400 17px / 23px "Corp S";
     color: #fff;
-    top: 157px;
-    left: 91px;
-    margin: 0;
+    margin: 0 30px 15px 15px;
 	}
 	.mb-model-header-descr-additional {
 		display: inline-block;
-		position: absolute;
-		z-index: 3;
-		font: 400 18.02px / 24.025px "Corp S";
-    color: #999999;
-    top: 217px;
-    left: 91px;
-    margin: 0;
+		font: 400 17px / 23px "Corp S";
+    color: #fff;
+    margin: 0 30px 16px 15px;
 	}
 	.mb-model-header-add-to-cart {
 		display: inline-block;
-		position: absolute;
-		z-index: 3;
-		top: 266px;
-    left: 91px;
 		display: inline-block;
-		font: 400 18px / 44px "Corp S";
+		font: 400 18px / 42px "Corp S";
 		color: #ffffff;
-		height: 44px;
-		line-height: 44px;
+		height: 42px;
 		padding: 0 20px 0 52px;
 		background: #3c3c3c url(/images/icons/icon-star.png) 20px 12px no-repeat;
 		border: none;
+		margin: 0 0 0 15px;
+		position: absolute;
+		bottom: 102px;
 	}
 	.mb-model-header-advantages-list {
-		display: inline-block;
-		position: absolute;
-		z-index: 3;
-		bottom: 75px;
-		left: 91px;
-		height: 60px;
-		max-width: calc(4 * 270px);
-		margin: 0;
+		display: block;
+		margin: 0 0 170px 15px;
+		position: relative;
 		padding: 0;
+		&:after {
+			clear: both;
+			content: "";
+			display: table;
+		}
 		.mb-model-header-advantage {
-			height: 30px;
-			display: inline-block;
-			min-width: 250px;
-			margin-right: 17px;
+			height: 29px;
+			display: block;
 			vertical-align: top;
-			font: 400 18px / 30px "Corp S";
+			font: 400 17px / 29px "Corp S";
     	color: #ffffff;
     	list-style: none;
     	padding-left: 32px;
+    	clear: right;
     	background: transparent url(/images/icons/accept-white-check.png) left 3px no-repeat;
 		}
 		.mb-model-header-advantage-large {
-			float: right;
 			list-style: none;
 			vertical-align: top;
 			font: 400 14px / 21px "Corp S";
-			color: #ffffff;
-			width: 270px;
+			color: #999;
+			min-height: 60px;
+			position: absolute;
+			bottom: -157px;
+			display: block;
 		}
 	}
 	.mb-model-header-footnote {
@@ -630,8 +614,311 @@
 	}
 }
 @media (min-width: @screen-sm) and (max-width: (@screen-md - 1)) {
+	.mb-model-detail-campaign {
+		position: relative;
+		.mb-campaign-hero {
+			margin-left: 0;
+		}
+		.mb-model-header-back {
+			display: inline-block;
+			position: absolute;
+			z-index: 3;
+			font: 400 18px / 22px "Corp S";
+	    color: #ffffff;
+	    top: 18px;
+	    left: 90px;
+		}
+		.mb-model-header-name {
+			display: inline-block;
+			position: absolute;
+			z-index: 3;
+			font: 46.05px / 48px "Corp A";
+	    color: #ffffff;
+	    top: 89px;
+	    left: 91px;
+	    margin: 0;
+		}
+		.mb-model-header-descr-short {
+			display: inline-block;
+			position: absolute;
+			z-index: 3;
+			font: 400 18.02px / 24.025px "Corp S";
+	    color: #fff;
+	    top: 157px;
+	    left: 91px;
+	    margin: 0;
+		}
+		.mb-model-header-descr-additional {
+			display: inline-block;
+			position: absolute;
+			z-index: 3;
+			font: 400 18.02px / 24.025px "Corp S";
+	    color: #999999;
+	    top: 217px;
+	    left: 91px;
+	    margin: 0;
+		}
+		.mb-model-header-add-to-cart {
+			display: inline-block;
+			position: absolute;
+			z-index: 3;
+			top: 266px;
+	    left: 91px;
+			display: inline-block;
+			font: 400 18px / 44px "Corp S";
+			color: #ffffff;
+			height: 44px;
+			line-height: 44px;
+			padding: 0 20px 0 52px;
+			background: #3c3c3c url(/images/icons/icon-star.png) 20px 12px no-repeat;
+			border: none;
+		}
+		.mb-model-header-advantages-list {
+			display: inline-block;
+			position: absolute;
+			z-index: 3;
+			bottom: 75px;
+			left: 91px;
+			height: 60px;
+			max-width: calc(4 * 270px);
+			margin: 0;
+			padding: 0;
+			.mb-model-header-advantage {
+				height: 30px;
+				display: inline-block;
+				min-width: 250px;
+				margin-right: 17px;
+				vertical-align: top;
+				font: 400 18px / 30px "Corp S";
+	    	color: #ffffff;
+	    	list-style: none;
+	    	padding-left: 32px;
+	    	background: transparent url(/images/icons/accept-white-check.png) left 3px no-repeat;
+			}
+			.mb-model-header-advantage-large {
+				float: right;
+				list-style: none;
+				vertical-align: top;
+				font: 400 14px / 21px "Corp S";
+				color: #ffffff;
+				width: 270px;
+			}
+		}
+		.mb-model-header-footnote {
+			font: 400 14px / 19px "Corp S";
+	    color: #999999;
+	    display: inline-block;
+			position: absolute;
+			z-index: 3;
+			left: 91px;
+			bottom: 27px;
+			margin: 0;
+		}
+	}
 }
 @media (min-width: @screen-md) and (max-width: (@screen-lg - 1)) {
+	.mb-model-detail-campaign {
+		position: relative;
+		.mb-campaign-hero {
+			margin-left: 0;
+		}
+		.mb-model-header-back {
+			display: inline-block;
+			position: absolute;
+			z-index: 3;
+			font: 400 18px / 22px "Corp S";
+	    color: #ffffff;
+	    top: 18px;
+	    left: 90px;
+		}
+		.mb-model-header-name {
+			display: inline-block;
+			position: absolute;
+			z-index: 3;
+			font: 46.05px / 48px "Corp A";
+	    color: #ffffff;
+	    top: 89px;
+	    left: 91px;
+	    margin: 0;
+		}
+		.mb-model-header-descr-short {
+			display: inline-block;
+			position: absolute;
+			z-index: 3;
+			font: 400 18.02px / 24.025px "Corp S";
+	    color: #fff;
+	    top: 157px;
+	    left: 91px;
+	    margin: 0;
+		}
+		.mb-model-header-descr-additional {
+			display: inline-block;
+			position: absolute;
+			z-index: 3;
+			font: 400 18.02px / 24.025px "Corp S";
+	    color: #999999;
+	    top: 217px;
+	    left: 91px;
+	    margin: 0;
+		}
+		.mb-model-header-add-to-cart {
+			display: inline-block;
+			position: absolute;
+			z-index: 3;
+			top: 266px;
+	    left: 91px;
+			display: inline-block;
+			font: 400 18px / 44px "Corp S";
+			color: #ffffff;
+			height: 44px;
+			line-height: 44px;
+			padding: 0 20px 0 52px;
+			background: #3c3c3c url(/images/icons/icon-star.png) 20px 12px no-repeat;
+			border: none;
+		}
+		.mb-model-header-advantages-list {
+			display: inline-block;
+			position: absolute;
+			z-index: 3;
+			bottom: 75px;
+			left: 91px;
+			height: 60px;
+			max-width: calc(4 * 270px);
+			margin: 0;
+			padding: 0;
+			.mb-model-header-advantage {
+				height: 30px;
+				display: inline-block;
+				min-width: 250px;
+				margin-right: 17px;
+				vertical-align: top;
+				font: 400 18px / 30px "Corp S";
+	    	color: #ffffff;
+	    	list-style: none;
+	    	padding-left: 32px;
+	    	background: transparent url(/images/icons/accept-white-check.png) left 3px no-repeat;
+			}
+			.mb-model-header-advantage-large {
+				float: right;
+				list-style: none;
+				vertical-align: top;
+				font: 400 14px / 21px "Corp S";
+				color: #ffffff;
+				width: 270px;
+			}
+		}
+		.mb-model-header-footnote {
+			font: 400 14px / 19px "Corp S";
+	    color: #999999;
+	    display: inline-block;
+			position: absolute;
+			z-index: 3;
+			left: 91px;
+			bottom: 27px;
+			margin: 0;
+		}
+	}
 }
 @media (min-width: @screen-lg) {
+	.mb-model-detail-campaign {
+		position: relative;
+		.mb-campaign-hero {
+			margin-left: 0;
+		}
+		.mb-model-header-back {
+			display: inline-block;
+			position: absolute;
+			z-index: 3;
+			font: 400 18px / 22px "Corp S";
+	    color: #ffffff;
+	    top: 18px;
+	    left: 90px;
+		}
+		.mb-model-header-name {
+			display: inline-block;
+			position: absolute;
+			z-index: 3;
+			font: 46.05px / 48px "Corp A";
+	    color: #ffffff;
+	    top: 89px;
+	    left: 91px;
+	    margin: 0;
+		}
+		.mb-model-header-descr-short {
+			display: inline-block;
+			position: absolute;
+			z-index: 3;
+			font: 400 18.02px / 24.025px "Corp S";
+	    color: #fff;
+	    top: 157px;
+	    left: 91px;
+	    margin: 0;
+		}
+		.mb-model-header-descr-additional {
+			display: inline-block;
+			position: absolute;
+			z-index: 3;
+			font: 400 18.02px / 24.025px "Corp S";
+	    color: #999999;
+	    top: 217px;
+	    left: 91px;
+	    margin: 0;
+		}
+		.mb-model-header-add-to-cart {
+			display: inline-block;
+			position: absolute;
+			z-index: 3;
+			top: 266px;
+	    left: 91px;
+			display: inline-block;
+			font: 400 18px / 44px "Corp S";
+			color: #ffffff;
+			height: 44px;
+			line-height: 44px;
+			padding: 0 20px 0 52px;
+			background: #3c3c3c url(/images/icons/icon-star.png) 20px 12px no-repeat;
+			border: none;
+		}
+		.mb-model-header-advantages-list {
+			display: inline-block;
+			position: absolute;
+			z-index: 3;
+			bottom: 75px;
+			left: 91px;
+			height: 60px;
+			max-width: calc(4 * 270px);
+			margin: 0;
+			padding: 0;
+			.mb-model-header-advantage {
+				height: 30px;
+				display: inline-block;
+				min-width: 250px;
+				margin-right: 17px;
+				vertical-align: top;
+				font: 400 18px / 30px "Corp S";
+	    	color: #ffffff;
+	    	list-style: none;
+	    	padding-left: 32px;
+	    	background: transparent url(/images/icons/accept-white-check.png) left 3px no-repeat;
+			}
+			.mb-model-header-advantage-large {
+				float: right;
+				list-style: none;
+				vertical-align: top;
+				font: 400 14px / 21px "Corp S";
+				color: #ffffff;
+				width: 270px;
+			}
+		}
+		.mb-model-header-footnote {
+			font: 400 14px / 19px "Corp S";
+	    color: #999999;
+	    display: inline-block;
+			position: absolute;
+			z-index: 3;
+			left: 91px;
+			bottom: 27px;
+			margin: 0;
+		}
+	}
 }

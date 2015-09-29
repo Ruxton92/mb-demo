@@ -1,5 +1,6 @@
 import {Route} from 'backbone-routing';
 import View from './view';
+import ModelsCollection from './collection';
 
 export default Route.extend({
   initialize(options = {}) {
@@ -7,7 +8,12 @@ export default Route.extend({
   },
 
   render() {
-    this.view = new View();
-    this.container.show(this.view);
+  	let collection = new ModelsCollection();
+    collection.url = collection.urlRoot;
+    collection.fetch({'success': ()=> {
+	    	this.view = new View({collection: collection});
+	    	this.container.show(this.view);
+  		}
+		});
   }
 });

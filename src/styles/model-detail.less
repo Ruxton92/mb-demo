@@ -103,12 +103,11 @@
 			.mb-model-detail-scroll-to-top {
 				display: none;
 				height: 44px;
-				margin: 12px 12px 12px 0;
+				margin: 0 12px 0 -6.25%;
 				background: transparent url(/images/icons/up-arrow-light.png) 39% 48% no-repeat;
 				border: none;
 				border-right: 1px solid #666666;
-				width: 54px;
-				margin-left: -6.25%;
+				width: 34px;
 				padding: 0;
 				&:focus,
 				&:hover,
@@ -222,13 +221,12 @@
 	margin-bottom: 60px;
 	margin-top: 20px;
 	.row {
-		background: transparent url(http://placehold.it/400x500.png) right 10px no-repeat;
 	}
 	.col-xs-12 {
 		border-top: 1px solid #cccccc;
 	}
 	.mb-model-detail-tech-specs-title {
-		font:42.04px / 42.043px "Corp A";
+		font: 27px / 27px "Corp A";
     color:#333333;
     margin: 60px 0 29px 0;
 	}
@@ -239,9 +237,14 @@
 		vertical-align: top;
 		position: relative;
 		.mb-model-detail-tech-specs-subtitle {
-			font: 300 18px / 20px "Corp S";
+			font: 300 17px / 19px "Corp S";
     	color: #333333;
-    	margin-bottom: 24px;
+    	margin-bottom: 15px;
+		}
+		.mb-model-detail-tech-specs-eco-subtitle {
+			font: 400 14px / 18px "Corp S";
+    	color: #999999;
+    	margin: -10px 0 0 0;
 		}
 		.mb-model-detail-tech-specs-list {
 			border-top: 1px solid #dddddd;
@@ -259,11 +262,16 @@
     		border-bottom: 1px solid #dddddd;
 			}
 		}
+		.mb-model-detail-tech-specs-eco-descr {
+			color: #999;
+			border-bottom: 1px solid #dddddd;
+			padding-bottom: 5px;
+			margin-bottom: 0
+		}
 		.mb-model-detail-tech-specs-eco-list {
 			padding: 0;
-			margin: 64px 0 11px 0;
+			margin: 0px 0 11px 0;
 			text-align: left;
-			border-top: 1px solid #dddddd;
 			padding-top: 11px;
 			li {
 				list-style: none;
@@ -432,6 +440,12 @@
 					}
 				}
 			}
+			.mb-carousel-progress {
+				margin: 0 -5.1%;
+				.progress-bar {
+					transition: width 0.1s linear
+				}
+			}
 		}
 	}
 	.mb-exterior-block-title {
@@ -456,28 +470,22 @@
 	}
 }
 .mb-model-detail-interior-region {
-	background: #1f1f1f;
+	background: transparent;
 	.mb-model-detail-interior-block  {
 		margin: 0;
 		.mb-interior-header  {
 			padding: 0;
 			position: relative;
 			.mb-interior-block-title {
-				font: 400 42px / 42px "Corp A";
-				color: #fff;
-				margin: 0;
-				position: absolute;
-				top: 57px;
-				left:  92px;
+				font: 400 27.03px / 27.028px "Corp A";
+				color: #333;
+				margin: 40px 4.6875% 31px;
 				z-index: 5;
 			}
 			.mb-interior-block-subtitle {
 				font: 400 18px / 23px "Corp S";
 				color: #fff;
 				margin: 0;
-				position: absolute;
-				top: 160px;
-				left: 92px;
 				z-index: 5;
 			}
 			.mb-interior-block-show-modal {
@@ -498,8 +506,29 @@
 
 			.mb-interior-large-photo {
 				padding: 0;
+				display: none;
+				&:first-child {
+					display: block;
+				}
 				img {
 					max-width: 100%;
+				}
+			}
+		}
+		.mb-carousel {
+			.carousel-inner {
+				text-align: right;
+				.item {
+					padding: 0;
+					&.active {
+						display: inline-block;
+					}
+				}
+			}
+			.mb-carousel-progress {
+				margin: 0 -0.1%;
+				.progress-bar {
+					transition: width 0.1s linear
 				}
 			}
 		}
@@ -507,29 +536,39 @@
 }
 .mb-model-detail-edition-highlights-region {
 	.mb-model-detail-edition-highlights-block {
-		h1 {
-			font: 400 42px / 42px "Corp A";
+		h2 {
+			font: 400 27px / 27px "Corp A";
 			color: #333;
-			margin: 63px 0 30px 0;
+			margin: 40px 0 7px 0;
 		}
 		.mb-model-detail-edition-highlights-list {
 			padding: 0;
 			margin: 0 -15px;
+			max-width: 100%;
+			margin: 0 auto;
 		}
 		.mb-model-detail-edition-highlights-miniature {
 			margin: 25px 0;
 			list-style: none;
 			padding: 0;
+			&:nth-child(odd) {
+				.mb-model-detail-edition-highlights-miniature-link {
+					margin: 0 10px 0 5px;
+				}
+			}
+			&:nth-child(even) {
+				.mb-model-detail-edition-highlights-miniature-link {
+					margin: 0 5px 0 10px;
+				}
+			}
 			.mb-model-detail-edition-highlights-miniature-link {
 				display: block;
-				min-height: 160px;
-				margin: 0 15px;
 				text-align: center;
 				img {
 					max-width: 100%;
 				}
 				&+p {
-					font: 400 27px / 32px 'Corp A';
+					font: 400 17px / 19px 'Corp S';
 					color: #333333;
 					display: inline-block;
 					margin: 12px 0 0 15px;
@@ -584,7 +623,7 @@
 						background: #00adef;
 						color: #fff;
 						text-decoration: none;
-						padding: 0 20px;
+						padding: 0 24px;
 						&:before {
 							content: "–";
 							font-weight: bold;
@@ -599,7 +638,28 @@
 					}
 				}
 				.panel-collapse {
-
+					.panel-body {
+						padding: 21px 0 19px;
+						.panel-advantages-list {
+							padding: 0;
+							margin: 0 0 16px 0;
+							li {
+								list-style: none;
+								font: 400 17.02px / 23.024px "Corp S";
+    						color: #333333;
+    						padding-left: 30px;
+    						background: transparent url(/images/icons/accept-black-check.png) left top no-repeat;
+    						&+li {
+    							margin-top: 7px;
+    						}
+							}
+						}
+						.panel-additional-text {
+							font: 400 14px / 18px "Corp S";
+    					color: #999999;
+    					margin-bottom: 0;
+						}
+					}
 				}
 			}
 		}
@@ -874,6 +934,166 @@
 			.border-radius(1px);
 		}
 	}
+	.mb-model-detail-interior-region {
+		background: #1f1f1f;
+		.mb-model-detail-interior-block  {
+			margin: 0;
+			.mb-interior-header  {
+				padding: 0;
+				position: relative;
+				.mb-interior-block-title {
+					font: 400 42px / 42px "Corp A";
+					color: #fff;
+					margin: 0;
+					position: absolute;
+					top: 57px;
+					left:  92px;
+					z-index: 5;
+				}
+				.mb-interior-block-subtitle {
+					font: 400 18px / 23px "Corp S";
+					color: #fff;
+					margin: 0;
+					position: absolute;
+					top: 160px;
+					left: 92px;
+					z-index: 5;
+				}
+				.mb-interior-block-show-modal {
+					height: 44px;
+					font: 400 18px / 44px "Corp S";
+					background: #666666;
+					color: #ffffff;
+					padding: 0 20px;
+					position: absolute;
+					top: 280px;
+					left: 92px;
+					border: none;
+					z-index: 5;
+					.border-radius(1px);
+				}
+			}
+			.mb-interior-large-photo-block {
+
+				.mb-interior-large-photo {
+					padding: 0;
+					img {
+						max-width: 100%;
+					}
+				}
+			}
+		}
+	}
+	.mb-model-detail-edition-highlights-region {
+		.mb-model-detail-edition-highlights-block {
+			h2 {
+				font: 400 42px / 42px "Corp A";
+				color: #333;
+				margin: 63px 0 30px 0;
+			}
+			.mb-model-detail-edition-highlights-list {
+				padding: 0;
+				margin: 0 -15px;
+			}
+			.mb-model-detail-edition-highlights-miniature {
+				margin: 25px 0;
+				list-style: none;
+				padding: 0;
+				&:nth-child(odd) {
+					.mb-model-detail-edition-highlights-miniature-link {
+						margin: 0 15px 0 15px;
+					}
+				}
+				&:nth-child(even) {
+					.mb-model-detail-edition-highlights-miniature-link {
+						margin: 0 15px 0 15px;
+					}
+				}
+				.mb-model-detail-edition-highlights-miniature-link {
+					display: block;
+					min-height: 160px;
+					text-align: center;
+					img {
+						max-width: 100%;
+					}
+					&+p {
+						font: 400 27px / 32px 'Corp A';
+						color: #333333;
+						display: inline-block;
+						margin: 12px 0 0 15px;
+						&:after {
+							content: "";
+							display: table;
+							clear: both;
+						}
+						.mb-icon-i {
+					    background: url(/images/icons/i.png);
+					    width: 28px;
+					    height: 28px;
+					    float: right;
+					    margin-left: 20px;
+						}
+					}
+				}
+				.mb-model-detail-edition-highlights-equipment-link {
+					display: block;
+					margin: 0 15px;
+					min-height: 160px;
+					background: #ececec url(/images/icons/document_icon.png) 50% 50% no-repeat;
+					&+p {
+						font: 400 27px / 32px 'Corp A';
+						color: #333333;
+						display: inline-block;
+						margin: 12px 0 0 15px;
+					}
+				}
+			}
+		}
+	}
+	.mb-model-detail-tech-specs {
+		.gradient(rgba(255, 255, 255, 0.7), rgba(241, 241, 241, 0.7));
+		margin-bottom: 60px;
+		margin-top: 20px;
+		.row {
+			background: transparent url(http://placehold.it/400x500.png) right 10px no-repeat;
+		}
+		.col-xs-12 {
+			border-top: 1px solid #cccccc;
+		}
+		.mb-model-detail-tech-specs-title {
+			font:42.04px / 42.043px "Corp A";
+	    color:#333333;
+	    margin: 60px 0 29px 0;
+		}
+		.mb-model-detail-tech-specs-column {
+			width: 290px;
+			margin-right: 30px;
+			display: inline-block;
+			vertical-align: top;
+			position: relative;
+			.mb-model-detail-tech-specs-subtitle {
+				font: 300 18px / 20px "Corp S";
+	    	color: #333333;
+	    	margin-bottom: 24px;
+			}
+			.mb-model-detail-tech-specs-list {
+				border-top: 1px solid #dddddd;
+				dt {
+					font: 400 14px / 18px "Corp S";
+	    		color: #999999;
+	    		min-height: 18px;
+	    		margin-top: 8px;
+				}
+				dd {
+					min-height: 35px;
+	    		font: 400 18px / 30px "Corp S";
+	    		color: #333333;
+	    		display: block;
+	    		border-bottom: 1px solid #dddddd;
+				}
+			}
+		}
+	}
 }
 @media (min-width: @screen-md) and (max-width: (@screen-lg - 1)) {
 	.mb-model-detail-campaign {
@@ -1144,6 +1364,157 @@
 			.border-radius(1px);
 		}
 	}
+	.mb-model-detail-interior-region {
+		background: #1f1f1f;
+		.mb-model-detail-interior-block  {
+			margin: 0;
+			.mb-interior-header  {
+				padding: 0;
+				position: relative;
+				.mb-interior-block-title {
+					font: 400 42px / 42px "Corp A";
+					color: #fff;
+					margin: 0;
+					position: absolute;
+					top: 57px;
+					left:  92px;
+					z-index: 5;
+				}
+				.mb-interior-block-subtitle {
+					font: 400 18px / 23px "Corp S";
+					color: #fff;
+					margin: 0;
+					position: absolute;
+					top: 160px;
+					left: 92px;
+					z-index: 5;
+				}
+				.mb-interior-block-show-modal {
+					height: 44px;
+					font: 400 18px / 44px "Corp S";
+					background: #666666;
+					color: #ffffff;
+					padding: 0 20px;
+					position: absolute;
+					top: 280px;
+					left: 92px;
+					border: none;
+					z-index: 5;
+					.border-radius(1px);
+				}
+			}
+			.mb-interior-large-photo-block {
+
+				.mb-interior-large-photo {
+					padding: 0;
+					img {
+						max-width: 100%;
+					}
+				}
+			}
+		}
+	}
+	.mb-model-detail-edition-highlights-region {
+		.mb-model-detail-edition-highlights-block {
+			h2 {
+				font: 400 42px / 42px "Corp A";
+				color: #333;
+				margin: 63px 0 30px 0;
+			}
+			.mb-model-detail-edition-highlights-list {
+				padding: 0;
+				margin: 0 -15px;
+			}
+			.mb-model-detail-edition-highlights-miniature {
+				margin: 25px 0;
+				list-style: none;
+				padding: 0;
+				.mb-model-detail-edition-highlights-miniature-link {
+					display: block;
+					min-height: 160px;
+					margin: 0 15px;
+					text-align: center;
+					img {
+						max-width: 100%;
+					}
+					&+p {
+						font: 400 27px / 32px 'Corp A';
+						color: #333333;
+						display: inline-block;
+						margin: 12px 0 0 15px;
+						&:after {
+							content: "";
+							display: table;
+							clear: both;
+						}
+						.mb-icon-i {
+					    background: url(/images/icons/i.png);
+					    width: 28px;
+					    height: 28px;
+					    float: right;
+					    margin-left: 20px;
+						}
+					}
+				}
+				.mb-model-detail-edition-highlights-equipment-link {
+					display: block;
+					margin: 0 15px;
+					min-height: 160px;
+					background: #ececec url(/images/icons/document_icon.png) 50% 50% no-repeat;
+					&+p {
+						font: 400 27px / 32px 'Corp A';
+						color: #333333;
+						display: inline-block;
+						margin: 12px 0 0 15px;
+					}
+				}
+			}
+		}
+	}
+	.mb-model-detail-tech-specs {
+		.gradient(rgba(255, 255, 255, 0.7), rgba(241, 241, 241, 0.7));
+		margin-bottom: 60px;
+		margin-top: 20px;
+		.row {
+			background: transparent url(http://placehold.it/400x500.png) right 10px no-repeat;
+		}
+		.col-xs-12 {
+			border-top: 1px solid #cccccc;
+		}
+		.mb-model-detail-tech-specs-title {
+			font:42.04px / 42.043px "Corp A";
+	    color:#333333;
+	    margin: 60px 0 29px 0;
+		}
+		.mb-model-detail-tech-specs-column {
+			width: 290px;
+			margin-right: 30px;
+			display: inline-block;
+			vertical-align: top;
+			position: relative;
+			.mb-model-detail-tech-specs-subtitle {
+				font: 300 18px / 20px "Corp S";
+	    	color: #333333;
+	    	margin-bottom: 24px;
+			}
+			.mb-model-detail-tech-specs-list {
+				border-top: 1px solid #dddddd;
+				dt {
+					font: 400 14px / 18px "Corp S";
+	    		color: #999999;
+	    		min-height: 18px;
+	    		margin-top: 8px;
+				}
+				dd {
+					min-height: 35px;
+	    		font: 400 18px / 30px "Corp S";
+	    		color: #333333;
+	    		display: block;
+	    		border-bottom: 1px solid #dddddd;
+				}
+			}
+		}
+	}
 }
 @media (min-width: @screen-lg) {
 	.mb-model-detail-campaign {
@@ -1412,6 +1783,157 @@
 			border: none;
 			z-index: 5;
 			.border-radius(1px);
+		}
+	}
+	.mb-model-detail-interior-region {
+		background: #1f1f1f;
+		.mb-model-detail-interior-block  {
+			margin: 0;
+			.mb-interior-header  {
+				padding: 0;
+				position: relative;
+				.mb-interior-block-title {
+					font: 400 42px / 42px "Corp A";
+					color: #fff;
+					margin: 0;
+					position: absolute;
+					top: 57px;
+					left:  92px;
+					z-index: 5;
+				}
+				.mb-interior-block-subtitle {
+					font: 400 18px / 23px "Corp S";
+					color: #fff;
+					margin: 0;
+					position: absolute;
+					top: 160px;
+					left: 92px;
+					z-index: 5;
+				}
+				.mb-interior-block-show-modal {
+					height: 44px;
+					font: 400 18px / 44px "Corp S";
+					background: #666666;
+					color: #ffffff;
+					padding: 0 20px;
+					position: absolute;
+					top: 280px;
+					left: 92px;
+					border: none;
+					z-index: 5;
+					.border-radius(1px);
+				}
+			}
+			.mb-interior-large-photo-block {
+
+				.mb-interior-large-photo {
+					padding: 0;
+					img {
+						max-width: 100%;
+					}
+				}
+			}
+		}
+	}
+	.mb-model-detail-edition-highlights-region {
+		.mb-model-detail-edition-highlights-block {
+			h2 {
+				font: 400 42px / 42px "Corp A";
+				color: #333;
+				margin: 63px 0 30px 0;
+			}
+			.mb-model-detail-edition-highlights-list {
+				padding: 0;
+				margin: 0 -15px;
+			}
+			.mb-model-detail-edition-highlights-miniature {
+				margin: 25px 0;
+				list-style: none;
+				padding: 0;
+				.mb-model-detail-edition-highlights-miniature-link {
+					display: block;
+					min-height: 160px;
+					margin: 0 15px;
+					text-align: center;
+					img {
+						max-width: 100%;
+					}
+					&+p {
+						font: 400 27px / 32px 'Corp A';
+						color: #333333;
+						display: inline-block;
+						margin: 12px 0 0 15px;
+						&:after {
+							content: "";
+							display: table;
+							clear: both;
+						}
+						.mb-icon-i {
+					    background: url(/images/icons/i.png);
+					    width: 28px;
+					    height: 28px;
+					    float: right;
+					    margin-left: 20px;
+						}
+					}
+				}
+				.mb-model-detail-edition-highlights-equipment-link {
+					display: block;
+					margin: 0 15px;
+					min-height: 160px;
+					background: #ececec url(/images/icons/document_icon.png) 50% 50% no-repeat;
+					&+p {
+						font: 400 27px / 32px 'Corp A';
+						color: #333333;
+						display: inline-block;
+						margin: 12px 0 0 15px;
+					}
+				}
+			}
+		}
+	}
+	.mb-model-detail-tech-specs {
+		.gradient(rgba(255, 255, 255, 0.7), rgba(241, 241, 241, 0.7));
+		margin-bottom: 60px;
+		margin-top: 20px;
+		.row {
+			background: transparent url(http://placehold.it/400x500.png) right 10px no-repeat;
+		}
+		.col-xs-12 {
+			border-top: 1px solid #cccccc;
+		}
+		.mb-model-detail-tech-specs-title {
+			font:42.04px / 42.043px "Corp A";
+	    color:#333333;
+	    margin: 60px 0 29px 0;
+		}
+		.mb-model-detail-tech-specs-column {
+			width: 290px;
+			margin-right: 30px;
+			display: inline-block;
+			vertical-align: top;
+			position: relative;
+			.mb-model-detail-tech-specs-subtitle {
+				font: 300 18px / 20px "Corp S";
+	    	color: #333333;
+	    	margin-bottom: 24px;
+			}
+			.mb-model-detail-tech-specs-list {
+				border-top: 1px solid #dddddd;
+				dt {
+					font: 400 14px / 18px "Corp S";
+	    		color: #999999;
+	    		min-height: 18px;
+	    		margin-top: 8px;
+				}
+				dd {
+					min-height: 35px;
+	    		font: 400 18px / 30px "Corp S";
+	    		color: #333333;
+	    		display: block;
+	    		border-bottom: 1px solid #dddddd;
+				}
+			}
 		}
 	}
 }

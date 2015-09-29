@@ -35,6 +35,7 @@ export default CompositeView.extend({
   ui: {
     'carousel': '.mb-carousel',
     'switchLight': '.js-switch-light',
+    'progress': '.progress-bar',
     'slides': '.mb-carousel .item'
   },
 
@@ -53,9 +54,13 @@ export default CompositeView.extend({
 
   onShow() {
     this.ui.carousel.carousel({
-      interval: 100,
+      interval: 200,
     }).carousel('pause');
     this.$el.find('.item:first').addClass('active');
+    this.slidesNum = this.collection.length;
+    this.interval = parseFloat(100 / this.slidesNum);
+    this.ui.progress.css('width', this.interval + '%');
+    this.currentSlide = 1;
     this.ui.carousel.addClass('active');
     $(window).on("scroll", this.checkScroll);
   },
@@ -94,6 +99,18 @@ export default CompositeView.extend({
       $('.mb-carousel').carousel('pause');
     }
     
-  },    
+  },
+
+  slideStart(e) {
+    if(e.direction == 'left') {
+      if (this.currentSlide == this.slidesNum) this.currentSlide = 1;
+      else this.currentSlide += 1;
+    }
+    else {
+      if (this.currentSlide == 1) this.currentSlide = this.slidesNum;
+      else this.currentSlide -= 1;
+    }
+    this.ui.progress.css('width', this.interval * (this.currentSlide) + '%');
+  },  
 });
 

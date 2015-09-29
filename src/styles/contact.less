@@ -1,38 +1,29 @@
 .mb-contact-banner {
   position: relative;
   margin-bottom: 72px;
+  padding-top: 85px;
   .mb-banner-text-block {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 58%;
-    height: 100%;
-    background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
-    background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
-    background: -o-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
-    background: -ms-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
-    background: linear-gradient(-90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    position: relative;
+    z-index: 5;
+    padding: 0 15px;
     .mb-banner-text-wrap {
-      position: absolute;
-      height: 190px;
-      top: 50%;
-      margin-left: 33%;
-      margin-top: -95px;
-      width: 346px;
       .mb-banner-text-title {
         color: #fff;
         font: 300 32px/32px 'Corp A';
-        padding-bottom: 26px;
+        margin-bottom: 35px;        
       }
       .mb-banner-text {
-        color: #fff;
-        font: 400 18/24px 'Corp S';
-        padding-bottom: 26px;
+        color: #333;
+        font: 400 17px / 23px "Corp S";
+        margin-bottom: 25px;
       }
     }
   }
   img {
-    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    z-index: 3;
+    top: 0;
   }
 }
 .contact-wrapper {
@@ -159,5 +150,123 @@
     margin-top: 20px;
     margin-left: 15px;
     background: url(/images/icons/contact_info.png);
+  }
+}
+
+@media (min-width: @screen-sm) and (max-width: (@screen-md - 1)) {
+  .mb-contact-banner {
+    position: relative;
+    margin-bottom: 72px;
+    .mb-banner-text-block {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 58%;
+      height: 100%;
+      background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      background: -o-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      background: -ms-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      background: linear-gradient(-90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      .mb-banner-text-wrap {
+        position: absolute;
+        height: 190px;
+        top: 50%;
+        margin-left: 33%;
+        margin-top: -95px;
+        width: 346px;
+        .mb-banner-text-title {
+          color: #fff;
+          font: 300 32px/32px 'Corp A';
+          padding-bottom: 26px;
+        }
+        .mb-banner-text {
+          color: #fff;
+          font: 400 18/24px 'Corp S';
+          padding-bottom: 26px;
+        }
+      }
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+@media (min-width: @screen-md) and (max-width: (@screen-lg - 1)) {
+  .mb-contact-banner {
+    position: relative;
+    margin-bottom: 72px;
+    .mb-banner-text-block {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 58%;
+      height: 100%;
+      background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      background: -o-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      background: -ms-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      background: linear-gradient(-90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      .mb-banner-text-wrap {
+        position: absolute;
+        height: 190px;
+        top: 50%;
+        margin-left: 33%;
+        margin-top: -95px;
+        width: 346px;
+        .mb-banner-text-title {
+          color: #fff;
+          font: 300 32px/32px 'Corp A';
+          padding-bottom: 26px;
+        }
+        .mb-banner-text {
+          color: #fff;
+          font: 400 18/24px 'Corp S';
+          padding-bottom: 26px;
+        }
+      }
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+@media (min-width: @screen-lg) {
+  .mb-contact-banner {
+    position: relative;
+    margin-bottom: 72px;
+    .mb-banner-text-block {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 58%;
+      height: 100%;
+      background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      background: -o-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      background: -ms-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      background: linear-gradient(-90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      .mb-banner-text-wrap {
+        position: absolute;
+        height: 190px;
+        top: 50%;
+        margin-left: 33%;
+        margin-top: -95px;
+        width: 346px;
+        .mb-banner-text-title {
+          color: #fff;
+          font: 300 32px/32px 'Corp A';
+          padding-bottom: 26px;
+        }
+        .mb-banner-text {
+          color: #fff;
+          font: 400 18/24px 'Corp S';
+          padding-bottom: 26px;
+        }
+      }
+    }
+    img {
+      width: 100%;
+    }
   }
 }

@@ -1,2 +1,340 @@
 <div class="index__billboard">
 </div>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-xs-12">
+			<h1></h1>
+		</div>
+	</div>
+</div>
+<div class="mb-checkout-carousel-wrapper">
+  <div id="mb-checkout-carousel" class="mb-carousel carousel slide">
+
+    <div class="carousel-inner" role="listbox"></div>
+
+    <a class="left carousel-control" href="#mb-checkout-carousel" role="button" data-slide="prev">
+      <span class=""></span>
+    </a>
+    <a class="right carousel-control" href="#mb-checkout-carousel" role="button" data-slide="next">
+      <span class=""></span>
+    </a>
+    <div class="mb-carousel-progress progress">
+		  <div class="progress-bar" role="progressbar">
+		  </div>
+		</div>
+
+  </div>
+</div>
+<div class="mb-model-detail-tech-specs container-md">
+	<div class="row">
+		<div class="col-xs-12">
+			<h2 class="mb-model-detail-tech-specs-title">Motorisierung &amp; Technische Daten.</h2>
+			<div class="mb-model-detail-tech-specs-column">
+				<h3 class="mb-model-detail-tech-specs-subtitle">
+					Motor- &amp; Leistungsdaten
+				</h3>
+				<dl class="mb-model-detail-tech-specs-list">
+					<dt>Leistung</dt>
+					<dd>{{engine.facts.0.value}}</dd>
+					<dt>Hubraum</dt>
+					<dd>{{engine.facts.3.value}}</dd>
+					<dt>Getriebe</dt>
+					<dd>{{engine.facts.1.value}}</dd>
+					<dt>Kraftstoffart</dt>
+					<dd>{{engine.facts.5.value}}</dd>
+					<dt>Beschleunigung (0-100 km/h)</dt>
+					<dd>{{engine.facts.2.value}} s</dd>
+				</dl>
+			</div>
+			<div class="mb-model-detail-tech-specs-column hidden-sm hidden-md hidden-lg">
+				<h3 class="mb-model-detail-tech-specs-eco-subtitle">
+					CO2-Effizienz
+				</h3>
+				<ul class="mb-model-detail-tech-specs-eco-list">
+					<li class="class-ap">
+						<span>A+</span>
+					</li>
+					<li class="class-a">
+						<span>A</span>
+					</li>
+					<li class="class-b">
+						<span>B</span>
+					</li>
+					<li class="class-c">
+						<span>C</span>
+					</li>
+					<li class="class-d">
+						<span>D</span>
+					</li>
+					<li class="class-e">
+						<span>E</span>
+					</li>
+					<li class="class-f">
+						<span>F</span>
+					</li>
+					<li class="class-g">
+						<span>G</span>
+					</li>
+				</ul>
+				<p class="mb-model-detail-tech-specs-eco-class class-{{engine.facts.9.value}}">
+					<span>{{engine.facts.9.value}}</span>
+				</p>
+				<p class="mb-model-detail-tech-specs-eco-descr">
+					<b class="hidden-xs">CO2-Effizienz</b>
+					<br class="hidden-xs">
+					Auf Grundlage der gemessenen CO2-Emissionen unter Berücksichtigung der Masse des Fahrzeugs ermittelt.
+				</p>
+			</div>
+			<div class="mb-model-detail-tech-specs-column">
+				<h3 class="mb-model-detail-tech-specs-subtitle">
+					Kraftstoffverbrauch &amp; Emissionen
+				</h3>
+				<dl class="mb-model-detail-tech-specs-list">
+					<dt>Kraftstoffverbrauch innerorts *</dt>
+					<dd>{{engine.facts.6.value}} l / 100 km</dd>
+					<dt>Kraftstoffverbrauch außerorts *</dt>
+					<dd>{{engine.facts.7.value}} l / 100 km</dd>
+					<dt>Kraftstoffverbrauch kombiniert *</dt>
+					<dd>{{engine.facts.8.value}} l / 100 km</dd>
+					<dt>CO2-Emissionen kombiniert *</dt>
+					<dd>{{engine.facts.4.value}} g / km</dd>
+					<dt class="hidden-xs"></dt>
+					<dd class="hidden-xs"></dd>
+				</dl>
+			</div>
+			<div class="mb-model-detail-tech-specs-column hidden-xs">
+				<ul class="mb-model-detail-tech-specs-eco-list">
+					<li class="class-ap">
+						<span>A+</span>
+					</li>
+					<li class="class-a">
+						<span>A</span>
+					</li>
+					<li class="class-b">
+						<span>B</span>
+					</li>
+					<li class="class-c">
+						<span>C</span>
+					</li>
+					<li class="class-d">
+						<span>D</span>
+					</li>
+					<li class="class-e">
+						<span>E</span>
+					</li>
+					<li class="class-f">
+						<span>F</span>
+					</li>
+					<li class="class-g">
+						<span>G</span>
+					</li>
+				</ul>
+				<p class="mb-model-detail-tech-specs-eco-class class-{{engine.facts.9.value}}">
+					<span>{{engine.facts.9.value}}</span>
+				</p>
+				<p class="mb-model-detail-tech-specs-eco-descr">
+					<b class="hidden-xs">CO2-Effizienz</b>
+					<br class="hidden-xs">
+					Auf Grundlage der gemessenen CO2-Emissionen unter Berücksichtigung der Masse des Fahrzeugs ermittelt.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="mb-model-detail-offer-region container-md">
+	<div class="row">
+		<div class="col-xs-12 col-sm-6 col-sm-offset-3">
+		  <h2>Angebotsdaten.</h2>
+		  <h3>A 180 Sondermodell StreetStyle</h3>
+		  <ul class="mb-offer-detail-list">
+		    <li>
+		      <span>Nettokaufpreis Fahrzeug</span>
+		      <p>37.105,00 Euro</p>
+		    </li>
+		    <li>
+		      <span>Zuzüglich derzeit 19% Umsatzsteuer</span>
+		      <p>7.049,95 Euro</p>
+		    </li>
+		    <li>
+		      <span>Bruttokaufpreis Fahrzeug</span>
+		      <p>44.154,95 Euro</p>
+		    </li>
+		    <li>
+		      <span>
+		        Zuzüglich Überführung (797,30 Euro) und 
+		        Zulassung (160,00 Euro)
+		      </span>
+		      <p>122 g/km</p>
+		    </li>
+		    <li class="important">
+		      <span>Gesamtpreis</span>
+		      <p>44.154,95 Euro</p>
+		    </li>
+		  </ul>
+		  <h3>Leasing-Komplett-Paket (Ein Angebot der Mercedes-Benz Leasing GmbH, Siemensstraße 7, 70469 Stuttgart)</h3>
+		  <ul class="mb-offer-detail-list">
+		    <li>
+		      <span>Laufzeit</span>
+		      <p>36 Monate</p>
+		    </li>
+		    <li>
+		      <span>Gesamtlaufleistung</span>
+		      <p>30.000,00 km</p>
+		    </li>
+		    <li>
+		      <span>Leasing Sonderzahlung (0% des Bruttokaufpreises ab Werk)</span>
+		      <p>0,00 Euro</p>
+		      <div class="mb-icon-i"></div>
+		    </li>
+		    <li>
+		      <span>Gesamtkreditbetrag (Nettodarlehensbetrag)</span>
+		      <p>31.731,00 Euro</p>
+		    </li>
+		    <li>
+		      <span>Gesamtbetrag<sup>1</sup></span>
+		      <p>20.616,22 Euro</p>
+		    </li>
+		    <li>
+		      <span>Monatliche Leasingrate für Gebrauchsüberlassung</span>
+		      <p>280,00 Euro</p>
+		    </li>
+		    <li>
+		      <span>Monatliche Rate für Überführung und Zulassung</span>
+		      <p>10,00 Euro</p>
+		      <div class="mb-icon-i"></div>
+		    </li>
+		    <li>
+		      <span>Monatliche Rate für Kfz-Versicherung (Haftpflicht und Vollkasko) inklusive Versicherungssteuer</span>
+		      <p>10,00 Euro</p>
+		      <div class="mb-icon-i"></div>
+		    </li>
+		    <li>
+		      <span>Monatliche Rate für Wartung und Verschleißreparaturen</span>
+		      <p>69,00 Euro</p>
+		      <div class="mb-icon-i"></div>
+		    </li>
+		    <li>
+		      <span>Sollzinssatz % p.a. gebunden</span>
+		      <p>-5,38 %</p>
+		      <div class="mb-icon-i"></div>
+		    </li>
+		    <li>
+		      <span>Effektiver Jahreszins</span>
+		      <p>-4,63 %</p>
+		    </li>
+		    <li>
+		      <span>Monatliche Gesamt-Leasing-Rate<sup>*</sup></span>
+		      <p>450,00 Euro</p>
+		      <div class="mb-icon-i"></div>
+		    </li>
+		  </ul>
+		  <h3>Ihre Vorteile.</h3>
+		  <div class="panel-group" id="accordion">
+
+		    <div class="panel panel-default">
+		      <div class="panel-heading">
+		        <a class="panel-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+		          Leasing &amp; Versicherung
+		        </a>
+		      </div>
+		      <div id="collapse1" class="panel-collapse collapse in">
+		        <div class="panel-body">
+		          <ul class="panel-advantages-list">
+		            <li>
+		              Leasing inklusive Haftpflicht- und Vollkaskoversicherung
+		            </li>
+		            <li>
+		              Eine konstante Versicherungsprämie über die gesamte Laufzeit - auch im Schadensfall
+		            </li>
+		            <li>
+		              Vollständiger Ersatz bei Diebstahl von Audio-, Video-, Kommunikations- und
+		              Leitsystemen bis 6 Monate nach Erstzulassung
+		            </li>
+		          </ul>
+		          <p class="panel-additional-text">
+		            Versicherer ist die HDI Versicherung AG, HDI-Platz 1, 30659 Hannover, vermittelt durch die Mercedes-Benz Bank AG. Die ausgewiesene Versicherungsprämie gilt für die Schadenfreiheitsklassen SF02 bis SF20. Das Angebot beinhaltet: Service-Routing zur Marken-Werkstatt, 6 Monate Neuwertentschädigung, 12 Monate Kaufpreiserstattung bei Radio-, Phono- und Navi-Aggregaten, Selbstbeteiligung (Teilkasko 500 Euro / Vollkasko 1.000 Euro, wenn der berechtigte Fahrer zum Zeitpunkt des Schadenfalles das 22. Lebensjahr vollendet hat.), im Schadenfall einfache Abwicklung über die Service Card, 24-Stunden-Unfallhotline, beitragsfreie Mitversicherung werkseitig eingebauter Sonderausstattung, 100 Mio. Euro Haftpflichtdeckung. Bei anderen Schadenfreiheitsklassen kann eine abweichende Prämie gelten.
+		          </p>
+		        </div>
+		      </div>
+		    </div>
+
+		    <div class="panel panel-default">
+		      <div class="panel-heading">
+		        <a class="panel-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+		          Wartung und Verschleißrepara...
+		        </a>
+		      </div>
+		      <div id="collapse2" class="panel-collapse collapse">
+		        <div class="panel-body">
+		          content
+		        </div>
+		      </div>
+		    </div>
+
+		    <div class="panel panel-default">
+		      <div class="panel-heading">
+		        <a class="panel-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+		          Überführung und Zulassung
+		        </a>
+		      </div>
+		      <div id="collapse3" class="panel-collapse collapse">
+		        <div class="panel-body">
+		          content
+		        </div>
+		      </div>
+		    </div>
+
+		  </div>
+		</div>
+	</div>
+</div>
+<div class="container-md">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="mb-contacts-dark-block">
+				<h3></h3>
+				<div class="row">
+					<div class="col-xs-3">
+						
+					</div>
+					<div class="col-xs-3">
+						
+					</div>
+					<div class="col-xs-3">
+						
+					</div>
+					<div class="col-xs-3">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container-fluid">
+	<div class="row mb-checkout-data-reasons">
+		<div class="col-xs-3 mb-checkout-data-reasons-title">
+			<h3>So geht es weiter:</h3>
+		</div>
+		<div class="col-xs-3 mb-checkout-data-reason">
+			<h3>1. Ihre Bestellung.</h3>
+		</div>
+		<div class="col-xs-3 mb-checkout-data-reason">
+			<h3>2. Ihr Leasing-Vertrag.</h3>
+		</div>
+		<div class="col-xs-3 mb-checkout-data-reason">
+			<h3>3. Ihre Lieferung.</h3>
+		</div>
+	</div>
+</div>
+<div class="container-fluid mb-checkout-form-navigation-block">
+	<div class="row">
+		<div class="col-xs-6 text-left">
+			<button class="mb-checkout-form-navigation-back">Back</button>
+		</div>
+		<div class="col-xs-6 text-right">
+			<button class="mb-checkout-form-navigation-next">Next</button>
+			<button class="mb-checkout-form-navigation-finish">Finish</button>
+		</div>
+	</div>
+</div>

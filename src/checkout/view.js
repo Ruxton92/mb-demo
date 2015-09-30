@@ -10,7 +10,7 @@ let CheckoutModel = Backbone.Model.extend({
       required: true
     },
     phone: {
-      range: [1, 10]
+      length: 10
     },
     email: {
       required: true,
@@ -38,6 +38,16 @@ export default LayoutView.extend({
   },
 
   initialize() {
+    this.model = new CheckoutModel();
+
+    this.model.bind('validated:valid', function (model) {
+      console.log('everything is valid');
+    });
+
+    this.model.bind('validated:invalid', function (model, errors) {
+      console.log(errors);
+    });
+
     Backbone.Validation.bind(this);
   },
 
@@ -45,20 +55,15 @@ export default LayoutView.extend({
   },
 
   submitForm() {
-    let checkoutModel = new CheckoutModel({
+    this.model.set({
       email: this.ui.email.val(),
       phone: this.ui.phone.val(),
       name: this.ui.name.val()
     });
-    console.debug(checkoutModel);
 
-    checkoutModel.bind('validated:valid', function (model) {
-      console.debug('everything is valid');
-    });
-
-    checkoutModel.bind('validated:invalid', function (model, errors) {
-      console.log(errors);
-    });
+    if (this.model.isValid(true)) {
+      alert('Success');
+    }
   }
 
 });

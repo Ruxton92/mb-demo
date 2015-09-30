@@ -14,6 +14,7 @@ import ModelsRouter from './models/router';
 import OfferRouter from './offer/router';
 import CatalogueRouter from './catalogue_page/router';
 import ContactRouter from './contact/router';
+import CheckoutRouter from './checkout/router';
 import ProductDetailRouter from './product_detail/router';
 import StoreInfoRouter from './store_info/router';
 import WatchlistRouter from './watchlist/router';
@@ -53,6 +54,10 @@ app.catalogue = new CatalogueRouter({
 });
 
 app.contact = new ContactRouter({
+  container: app.layout.content
+});
+
+app.contact = new CheckoutRouter({
   container: app.layout.content
 });
 

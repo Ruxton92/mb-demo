@@ -5,6 +5,9 @@ import template from './template.hbs';
 import CatalogueView from '../catalogue/view';
 import NavigationView from './navigation/view';
 
+import CatalogueCollection from './collection';
+
+
 export default LayoutView.extend({
   template: template,
   className: 'mb-catalogue-page-wrapper',
@@ -20,9 +23,17 @@ export default LayoutView.extend({
   events: {
   },
 
+  initialize() {
+    let catalogueCollection = new CatalogueCollection();
+    catalogueCollection.fetch({
+      'success': ()=> {
+        this.catalogueView = new CatalogueView({collection: catalogueCollection});
+        this.catalogueRegion.show(this.catalogueView);
+      }
+    });
+  },
+
   onShow() {
-    this.catalogueView = new CatalogueView();
-    this.catalogueRegion.show(this.catalogueView);
 
     this.navView = new NavigationView();
     this.navRegion.show(this.navView);

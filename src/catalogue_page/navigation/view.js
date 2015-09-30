@@ -7,6 +7,9 @@ import FiltersView from './filters/view';
 import SearchView from './search/view';
 import TagsView from './tags/view';
 
+import FiltersModel from './filters/model';
+
+
 export default LayoutView.extend({
   template: template,
   className: 'mb-catalogue-navigation-wrapper',
@@ -31,9 +34,21 @@ export default LayoutView.extend({
     
   },
 
+  initialize() {
+    let filtersModel = new FiltersModel();
+    filtersModel.fetch({
+      'success': ()=> {
+        let filtersCollection = new Backbone.Collection(filtersModel.get('filters'));
+        this.filtersView = new FiltersView({collection: filtersCollection});
+        this.filtersRegion.show(this.filtersView);
+
+        this.listenTo(this.filtersView, 'filter:opened', this.filterOpened);
+        this.listenTo(this.filtersView, 'filter:closed', this.filterClosed);
+      }
+    });
+  },
+
   onShow() {
-    this.filtersView = new FiltersView();
-    this.filtersRegion.show(this.filtersView);
 
     let searchView = new SearchView();
     this.searchRegion.show(searchView);
@@ -46,9 +61,6 @@ export default LayoutView.extend({
     ]);
     let tagsView = new TagsView({collection: tagsCollection});
     this.tagsRegion.show(tagsView);
-
-    this.listenTo(this.filtersView, 'filter:opened', this.filterOpened);
-    this.listenTo(this.filtersView, 'filter:closed', this.filterClosed);
 
     this.listenTo(searchView, 'search:activate', this.activateSearch);
     this.listenTo(searchView, 'search:deactivate', this.deactivateSearch);

@@ -1,0 +1,33 @@
+<button id="filter-button-model" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  {{name}}
+  <ul class="mb-selected-filters-list hidden-sm hidden-md hidden-lg">
+    <li>A 180</li>
+    <li>kompakt</li>
+  </ul>
+  <span class="caret"></span>
+</button>
+<ul class="dropdown-menu" aria-labelledby="filter-button-model">
+  <li class="mb-catalogue-filter-options">
+    <ul>
+      
+      {{#each sections}}
+        <li class="mb-catalogue-filter-group-header">
+          {{this.headline}}
+        </li>
+        {{#each this.filters}}
+          <li class="mb-catalogue-filter-option">
+            <label>
+              <input type="checkbox">
+              <span class="mb-catalogue-filter-checkbox-wrapper"></span>
+              <span class="mb-catalogue-filter-title">{{this.label}}</span>
+            </label>
+          </li>
+        {{/each}}
+      {{/each}}
+
+    </ul>
+  </li>
+  <li class="mb-catalogue-filter-submit hidden-xs">
+    <button>Filter schließen</button>
+  </li>
+</ul>

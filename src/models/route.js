@@ -9,7 +9,6 @@ export default Route.extend({
 
   render() {
   	let collection = new ModelsCollection();
-    collection.url = collection.urlRoot;
     collection.fetch({'success': ()=> {
 	    	this.view = new View({collection: collection});
 	    	this.container.show(this.view);

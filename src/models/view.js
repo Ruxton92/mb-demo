@@ -25,7 +25,6 @@ export default CompositeView.extend({
   },
 
   onShow() {
-    console.debug(this.collection);
   }
 
 });

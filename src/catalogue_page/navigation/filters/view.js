@@ -1,10 +1,32 @@
 import $ from 'jquery';
 import {ItemView} from 'backbone.marionette';
+import {CompositeView} from 'backbone.marionette';
 import template from './template.hbs';
+import itemTemplate from './item_template.hbs';
 
-export default ItemView.extend({
+
+let FilterView = ItemView.extend({
+  template: itemTemplate,
+  tagName: 'li',
+  className: 'dropdown',
+
+  ui: {
+  },
+
+  events: {
+  },
+
+  initialize() {
+  }
+
+});
+
+
+export default CompositeView.extend({
   template: template,
   className: 'mb-catalogue-filter-wrapper',
+  childView: FilterView,
+  childViewContainer: '.mb-catalogue-filters-list',
 
   ui: {
   	'filterHeaders': '.dropdown button',
@@ -43,7 +65,6 @@ export default ItemView.extend({
 
   scrollToTop(e) {
     e.preventDefault();
-    console.debug(111);
     this.$el.removeClass('show-arrow-up');
     $('html, body').animate({ scrollTop: 0 }, 'slow');
   },

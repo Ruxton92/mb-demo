@@ -1,5 +1,7 @@
 import {ItemView} from 'backbone.marionette';
+import {CompositeView} from 'backbone.marionette';
 import template from './template.hbs';
+import itemTemplate from './item_template.hbs';
 import $ from 'jquery';
 
 import ModalService from '../modal/service';
@@ -8,9 +10,28 @@ import CallbackModalView from '../modal/callback/view';
 import EmailModalView from '../modal/email/view';
 import SupportModalView from '../modal/support/view';
 
-export default ItemView.extend({
+
+let OfferView = ItemView.extend({
+  template: itemTemplate,
+  className: 'mb-catalogue-item col-xs-12 col-sm-6 col-md-4 col-lg-4',
+
+  ui: {
+  },
+
+  events: {
+  },
+
+  initialize() {
+  }
+
+});
+
+
+export default CompositeView.extend({
   template: template,
   className: 'mb-catalogue-wrapper container-fluid',
+  childView: OfferView,
+  childViewContainer: '.mb-catalogue-items-container',
 
   events: {
     'click .js-call-callback-modal': 'showCallbackModal',

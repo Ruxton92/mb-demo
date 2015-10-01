@@ -3,6 +3,8 @@ import Backbone from 'backbone';
 import {LayoutView} from 'backbone.marionette';
 import template from './template.hbs';
 
+import FormValidatorHelper from '../common/form-validation-helper';
+
 
 let CheckoutModel = Backbone.Model.extend({
   validation: {
@@ -70,6 +72,7 @@ export default LayoutView.extend({
   },
 
   initialize() {
+    new FormValidatorHelper().initialize();
     this.model = new CheckoutModel();
     this.model.bind('validated:valid', function (model) {
       console.log('everything is valid');
@@ -84,7 +87,8 @@ export default LayoutView.extend({
   onShow() {
   },
 
-  submitForm() {
+  submitForm(e) {
+    e.preventDefault();
     let data = {};
 
     $(':input[type=text]').each(function (index) {

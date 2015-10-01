@@ -34,48 +34,28 @@
     </ul>
   </div>
   {{/if}}
-  <div>
-    <div class="mb-catalogue-items-container"></div>
-    {{#if viewType}}
-    <div class="mb-catalogue-item col-xs-12 col-sm-6 col-md-4 col-lg-4">
-      <div class="mb-item-img-wrapper mb-full-height">
-        <img src="/images/content/All_Offers_Teaser.png" alt=""/>
-      </div>
-      <div class="mb-item-title-var-two">Alle Angebote entdecken und Wunschfahrzeug finden.</div>
+  <div class="mb-catalogue-items-region"></div>
+  {{#if viewType}}
+  <div class="mb-catalogue-item col-xs-12 col-sm-6 col-md-4 col-lg-4">
+    <div class="mb-item-img-wrapper mb-full-height">
+      <img src="/images/content/All_Offers_Teaser.png" alt=""/>
     </div>
-    {{/if}}
-    {{#unless viewType}}
-      <div class="mb-catalogue-dark-block col-xs-12 col-sm-6 col-md-4 col-lg-4">
-        <div class="mb-dark-block-title">Haben Sie noch Fragen zu
-          <br/>unseren Angeboten?
-        </div>
-        <ul class="mb-dark-block-list">
-          <li class="js-call-callback-modal"><i class="mb-icon-phone"></i>Rückruf anfordern <i class="pull-right md-icon-right-angle"></i></li>
-          <li><i class="mb-icon-chat"></i>Live-Chat starten <span class="pull-right md-icon-right-angle"></span></li>
-          <li class="js-support-modal"><i class="mb-icon-people"></i>Beratung vor Ort vereinbaren <span class="pull-right md-icon-right-angle"></span></li>
-          <li class="js-call-email-modal"><i class="mb-icon-letter"></i>Anfrage per E-Mail senden <span class="pull-right md-icon-right-angle"></span></li>
-        </ul>
-      </div>
-    {{/unless}}
+    <div class="mb-item-title-var-two">Alle Angebote entdecken und Wunschfahrzeug finden.</div>
   </div>
+  {{/if}}
+  {{#unless viewType}}
+    <div class="mb-catalogue-dark-block col-xs-12 col-sm-6 col-md-4 col-lg-4">
+      <div class="mb-dark-block-title">Haben Sie noch Fragen zu
+        <br/>unseren Angeboten?
+      </div>
+      <ul class="mb-dark-block-list">
+        <li class="js-call-callback-modal"><i class="mb-icon-phone"></i>Rückruf anfordern <i class="pull-right md-icon-right-angle"></i></li>
+        <li><i class="mb-icon-chat"></i>Live-Chat starten <span class="pull-right md-icon-right-angle"></span></li>
+        <li class="js-support-modal"><i class="mb-icon-people"></i>Beratung vor Ort vereinbaren <span class="pull-right md-icon-right-angle"></span></li>
+        <li class="js-call-email-modal"><i class="mb-icon-letter"></i>Anfrage per E-Mail senden <span class="pull-right md-icon-right-angle"></span></li>
+      </ul>
+    </div>
+  {{/unless}}
 </div>
-<nav class="mb-pagination-wrapper row">
-  <ul class="pagination mb-pagination col-xs-12">
-    <li class="mb-pagination-item mb-pagination-item-prev">
-      <a href="#" aria-label="Previous">
-        <img src="/images/icons/left-angle.png" alt="">
-      </a>
-    </li>
-    <li class="mb-pagination-item active"><a href="#">1</a></li>
-    <li class="mb-pagination-item"><a href="#">2</a></li>
-    <li class="mb-pagination-item"><a href="#">3</a></li>
-    <li class="mb-pagination-item"><a href="#">4</a></li>
-    <li class="mb-pagination-item"><a href="#">5</a></li>
-    <li class="mb-pagination-item mb-pagination-item-next">
-      <a href="#" aria-label="Next">
-        <img src="/images/icons/right-angle.png" alt="">
-      </a>
-    </li>
-  </ul>
-</nav>
+<div class="mb-pagination-region"></div>
 <div class="mb-catalogue-overlay"></div>

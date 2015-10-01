@@ -1,5 +1,4 @@
-import {ItemView} from 'backbone.marionette';
-import {CompositeView} from 'backbone.marionette';
+import {LayoutView} from 'backbone.marionette';
 import template from './template.hbs';
 import itemTemplate from './item_template.hbs';
 import $ from 'jquery';
@@ -9,29 +8,15 @@ import ModalService from '../modal/service';
 import CallbackModalView from '../modal/callback/view';
 import EmailModalView from '../modal/email/view';
 import SupportModalView from '../modal/support/view';
+import PaginationService from '../pagination/pagination-service';
+
+import CatalogueCollection from './collection';
+import CatalogueCollectionView from './collection-view';
 
 
-let OfferView = ItemView.extend({
-  template: itemTemplate,
-  className: 'mb-catalogue-item col-xs-12 col-sm-6 col-md-4 col-lg-4',
-
-  ui: {
-  },
-
-  events: {
-  },
-
-  initialize() {
-  }
-
-});
-
-
-export default CompositeView.extend({
+export default LayoutView.extend({
   template: template,
   className: 'mb-catalogue-wrapper container-fluid',
-  childView: OfferView,
-  childViewContainer: '.mb-catalogue-items-container',
 
   events: {
     'click .js-call-callback-modal': 'showCallbackModal',
@@ -41,15 +26,28 @@ export default CompositeView.extend({
   },
 
   ui: {
-    'overlay': '.mb-catalogue-overlay'
+    'overlay': '.mb-catalogue-overlay',
+  },
+
+  regions: {
+    'collectionRegion': '.mb-catalogue-items-region',
+    'paginationRegion': '.mb-pagination-region'
   },
 
   initialize(data) {
     this.viewType = data.viewType || false;
+    let collection = new CatalogueCollection();
+    collection.fetch();
+    this.collectionView = new CatalogueCollectionView({collection: collection});
   },
 
   onShow() {
-    // this.$('.js-support-modal').click();
+    PaginationService.setup({
+      container: this.paginationRegion,
+      pages: 5
+    });
+    PaginationService.request();
+    this.collectionRegion.show(this.collectionView);
   },
 
   templateHelpers() {
@@ -82,12 +80,5 @@ export default CompositeView.extend({
     $(e.currentTarget).addClass('active');
   },
 
-  filterOpened() {
-    this.ui.overlay.removeClass('hidden1').addClass('active');
-  },
-
-  filterClosed() {
-    this.ui.overlay.addClass('hidden1').removeClass('active');
-  },
 
 });

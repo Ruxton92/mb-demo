@@ -7,6 +7,7 @@ import Application from './application/application';
 import ModalService from './modal/service';
 import FooterService from './footer/footer-service';
 import HeaderService from './header/header-service';
+import PaginationService from './pagination/pagination-service';
 
 import IndexRouter from './index/router';
 import AboutRouter from './about/router';

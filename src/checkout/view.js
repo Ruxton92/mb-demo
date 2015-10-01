@@ -6,15 +6,50 @@ import template from './template.hbs';
 
 let CheckoutModel = Backbone.Model.extend({
   validation: {
-    name: {
+    'delivery-street': {
       required: true
     },
-    phone: {
-      length: 10
+    'delivery-house': {
+      required: true
     },
-    email: {
-      required: true,
-      pattern: 'email'
+    'delivery-index': {
+      required: true
+    },
+    'delivery-city': {
+      required: true
+    },
+    'personal-salutation': {
+      required: true
+    },
+    'personal-first-name': {
+      required: true
+    },
+    'personal-second-name': {
+      required: true
+    },
+    'personal-street': {
+      required: true
+    },
+    'personal-house': {
+      required: true
+    },
+    'personal-index': {
+      required: true
+    },
+    'personal-city': {
+      required: true
+    },
+    'personal-email': {
+      required: true
+    },
+    'trade-in-model': {
+      required: true
+    },
+    'trade-in-date': {
+      required: true
+    },
+    'trade-in-km': {
+      required: true
     }
   }
 });
@@ -27,9 +62,6 @@ export default LayoutView.extend({
   regions: {},
 
   ui: {
-    'email': 'input[name=email]',
-    'name': 'input[name=name]',
-    'phone': 'input[name=phone]',
     'submit': 'input[name=submit]'
   },
 
@@ -53,14 +85,16 @@ export default LayoutView.extend({
   },
 
   submitForm() {
-    this.model.set({
-      email: this.ui.email.val(),
-      phone: this.ui.phone.val(),
-      name: this.ui.name.val()
+    let data = {};
+
+    $(':input[type=text]').each(function (index) {
+      data[$(this).attr('name')] = $(this).val();
     });
 
+    this.model.set(data);
+
     if (this.model.isValid(true)) {
-      alert('Success');
+      console.log('Success');
     }
   }
 

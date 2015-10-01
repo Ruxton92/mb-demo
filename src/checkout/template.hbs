@@ -1,11 +1,8 @@
 <div class="index__billboard">
-  name
-  <input type="text" name="name"/>
-  phone
-  <input type="text" name="phone"/>
-  email
-  <input type="text" name="email"/>
-  <input type="submit" name="submit"/>
+	<input type="text" name="name">
+	<input type="text" name="email">
+	<input type="text" name="phone">
+	<input type="text" name="submit">
 </div>
 <div class="container-fluid">
 	<div class="row">
@@ -345,3 +342,114 @@
 		</div>
 	</div>
 </div>
+<form>
+	<h2>Wo möchten Sie beraten werden?</h2>
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="btn-group btn-group-lg" data-toggle="buttons">
+        <label class="btn btn-primary active">
+          <input type="radio" name="delivery-type" id="option-1" autocomplete="off" checked> Wunschadresse
+        </label>
+        <label class="btn btn-primary">
+          <input type="radio" name="delivery-type" id="option-2" autocomplete="off"> Mercedes-Benz Partner
+        </label>
+      </div>
+    </div>
+  </div>
+  <h3>Bitte geben Sie Ihre Wunschadresse im Hamburger Stadtgebiet an. Wir kommen zu Ihnen.</h3>
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="row">
+        <div class="col-xs-4">
+          <div class="form-group">
+            <label for="field-1">Straße <sup>*</sup></label>
+            <input type="text" class="form-control" id="field-1" name="delivery-street">
+          </div>
+        </div>
+        <div class="col-xs-2">
+          <div class="form-group">
+            <label for="field-2">Nummer <sup>*</sup></label>
+            <input type="text" class="form-control" id="field-2" name="delivery-house">
+          </div>
+        </div>
+        <div class="col-xs-6">
+          <div class="form-group">
+            <label for="field-3">Adresszusatz</label>
+            <input type="text" class="form-control" id="field-3" name="delivery-additional">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-6">
+      <div class="row">
+        <div class="col-xs-3">
+          <div class="form-group">
+            <label for="field-4">PLZ <sup>*</sup></label>
+            <input type="text" class="form-control" id="field-4" name="delivery-index">
+          </div>
+        </div>
+        <div class="col-xs-9">
+          <div class="form-group">
+            <label for="field-5">Ort <sup>*</sup></label>
+            <input type="text" class="form-control" id="field-5" name="delivery-city">
+          </div>
+        </div>
+      </div>
+    </div>
+    <label class="mb-form-sublabel"><sup>*</sup> Pflichtfelder</label>
+  </div>
+  <hr>
+  <h2>Wann möchten Sie beraten werden?</h2>
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="row">
+        <div class="col-xs-6">
+          <div class="form-group">
+            <div class='input-group mb-date-wrapper' id='field-date-wrapper'>
+              <label for="field-1">Datum</label>
+              <div id="field-date" name="delivery-date"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="form-group">
+            <label for="field-5">Startzeit</label>
+            <select class="form-control" id="field-1" name="delivery-time">
+              <option value="">9 : 00 Uhr</option>
+              <option value="">10 : 00 Uhr</option>
+              <option value="">11 : 00 Uhr</option>
+            </select>
+            <label for="field-1" class="mb-select-arrow"></label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+	<input type="text" name="personal-salutation">
+	<input type="text" name="personal-title">
+	<input type="text" name="personal-first-name">
+	<input type="text" name="personal-second-name">
+	<input type="text" name="personal-company">
+	<input type="text" name="personal-street">
+	<input type="text" name="personal-house">
+	<input type="text" name="personal-additional">
+	<input type="text" name="personal-index">
+	<input type="text" name="personal-city">
+	<input type="text" name="personal-email">
+	<input type="text" name="personal-phone">
+	<input type="text" name="license-plates">
+	<div class="btn-group btn-group-lg" data-toggle="buttons">
+    <label class="btn btn-primary active">
+      <input type="radio" name="trade-in" id="option-1" autocomplete="off" checked> Ja
+    </label>
+    <label class="btn btn-primary">
+      <input type="radio" name="trade-in" id="option-2" autocomplete="off"> Nein
+    </label>
+  </div>
+	<input type="text" name="trade-in-model">
+	<input type="text" name="trade-in-date">
+	<input type="text" name="trade-in-km">
+</form>

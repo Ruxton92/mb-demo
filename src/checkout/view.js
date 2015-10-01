@@ -39,7 +39,6 @@ export default LayoutView.extend({
 
   initialize() {
     this.model = new CheckoutModel();
-
     this.model.bind('validated:valid', function (model) {
       console.log('everything is valid');
     });
@@ -47,7 +46,6 @@ export default LayoutView.extend({
     this.model.bind('validated:invalid', function (model, errors) {
       console.log(errors);
     });
-
     Backbone.Validation.bind(this);
   },
 

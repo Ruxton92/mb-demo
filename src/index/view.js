@@ -1,8 +1,12 @@
 import $ from 'jquery';
+import Backbone from 'backbone';
 import {LayoutView} from 'backbone.marionette';
 import template from './template.hbs';
 
 import CatalogueView from '../catalogue/view';
+
+import IndexModel from './model';
+
 
 export default LayoutView.extend({
   template: template,
@@ -23,6 +27,17 @@ export default LayoutView.extend({
     "slid.bs.carousel @ui.carousel": "slideEnd",
     "mouseenter @ui.carousel": 'pauseStart',
     "mouseleave @ui.carousel": 'pauseEnd',
+  },
+
+  initialize() {
+    let indexModel = new IndexModel();
+    indexModel.fetch({
+      'success': ()=> {
+        let catalogueCollection = new Backbone.Collection(indexModel.get('catalogue').items);
+        this.catalogueView = new CatalogueView({collection: catalogueCollection});
+        this.catalogueRegion.show(this.catalogueView);
+      }
+    });
   },
 
   onShow() {
@@ -72,9 +87,6 @@ export default LayoutView.extend({
         }
       ]
     });
-
-    var view = new CatalogueView();
-    this.catalogueRegion.show(view);
   },
 
   slideStart(e) {

@@ -10,8 +10,6 @@ import CallbackModalView from '../modal/callback/view';
 import EmailModalView from '../modal/email/view';
 import SupportModalView from '../modal/support/view';
 
-import CatalogueCollection from './collection';
-
 
 let OfferView = ItemView.extend({
   template: itemTemplate,
@@ -48,8 +46,6 @@ export default CompositeView.extend({
 
   initialize(data) {
     this.viewType = data.viewType || false;
-    this.collection = new CatalogueCollection();
-    this.collection.fetch();
   },
 
   onShow() {

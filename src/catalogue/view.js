@@ -10,7 +10,7 @@ import EmailModalView from '../modal/email/view';
 import SupportModalView from '../modal/support/view';
 import PaginationService from '../pagination/pagination-service';
 
-import CatalogueCollection from './collection';
+import CatalogueCollection from '../catalogue_page/collection';
 import CatalogueCollectionView from './collection-view';
 
 
@@ -36,9 +36,11 @@ export default LayoutView.extend({
 
   initialize(data) {
     this.viewType = data.viewType || false;
-    let collection = new CatalogueCollection();
-    collection.fetch();
-    this.collectionView = new CatalogueCollectionView({collection: collection});
+    if (this.collection === undefined) {
+      this.collection = new CatalogueCollection();
+      this.collection.fetch();
+    }
+    this.collectionView = new CatalogueCollectionView({collection: this.collection});
   },
 
   onShow() {

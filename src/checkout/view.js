@@ -9,7 +9,6 @@ import stepThreeTemplate from './step_three_template.hbs';
 import stepFourTemplate from './step_four_template.hbs';
 
 import FormValidatorHelper from '../common/form-validation-helper';
-import StepView from './step_view.js';
 
 
 let CheckoutModel = Backbone.Model.extend({

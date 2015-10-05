@@ -10,6 +10,7 @@ import stepFourTemplate from './step_four_template.hbs';
 
 import FormValidatorHelper from '../common/form-validation-helper';
 
+let validatedPersonalData;
 
 let CheckoutModel = Backbone.Model.extend({
   validation: {
@@ -138,13 +139,14 @@ let StepTwoView = ItemView.extend({
     e.preventDefault();
     let data = {};
 
-    $('.required-field').each(function (index) {
+    $('.data-field').each(function (index) {
       data[$(this).attr('name')] = $(this).val();
     });
 
     this.model.set(data);
 
     if (this.model.isValid(true)) {
+      validatedPersonalData = data;
       this.trigger('step:next');
     }
   },
@@ -162,12 +164,45 @@ let StepThreeView = ItemView.extend({
 
   ui: {
     'next': '.js-next',
-    'prev': '.js-prev'
+    'prev': '.js-prev',
+    'carousel': '.mb-carousel',
+    'progress': '.progress-bar',
+    'slides': '.mb-carousel .item'
   },
 
   events: {
     'click @ui.next': 'clickNext',
-    'click @ui.prev': 'clickPrev'
+    'click @ui.prev': 'clickPrev',
+    'slide.bs.carousel @ui.carousel': 'slideStart',
+    'slid.bs.carousel @ui.carousel': 'slideEnd'
+  },
+
+  templateHelpers() {
+    return {
+      'personalData': validatedPersonalData
+    }
+  },
+
+  onShow() {
+    this.ui.carousel.carousel({
+      interval: false
+    });
+    this.slidesNum = 2;
+    this.interval = parseFloat(100 / this.slidesNum);
+    this.ui.progress.css('width', this.interval + '%');
+    this.currentSlide = 1;
+  },
+
+  slideStart(e) {
+    if(e.direction == 'left') {
+      if (this.currentSlide == this.slidesNum) this.currentSlide = 1;
+      else this.currentSlide += 1;
+    }
+    else {
+      if (this.currentSlide == 1) this.currentSlide = this.slidesNum;
+      else this.currentSlide -= 1;
+    }
+    this.ui.progress.css('width', this.interval * (this.currentSlide) + '%');
   },
 
   clickNext(e) {
@@ -260,6 +295,7 @@ export default LayoutView.extend({
   stepThreeShow() {
     this.stepTwoRegion.$el.hide();
     this.stepFourRegion.$el.hide();
+    this.stepThreeView.render();
     this.stepThreeRegion.$el.show();
   },
 

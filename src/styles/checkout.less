@@ -107,6 +107,7 @@
   }
 }
 .mb-checkout-form-navigation-block {
+  margin-bottom: 60px;
   .row {
     margin: 0;
     &>div {
@@ -154,10 +155,45 @@
           background-image: url(/images/carousel-arrow-left.png);
           background-position: right top;
           background-size: 100%;
-          
         }
-        
       }
+    }
+  }
+}
+.mb-sheckout-final-step {
+  h2 {
+    font: 42px / 42px "Corp A";
+    color: #333333;
+    margin: 63px 0 16px 0;
+  }
+  h3 {
+    font: 34px / 34px "Corp A";
+    margin: 48px 0 37px 0;
+  }
+  p {
+    font: 400 18px / 24px "Corp S";
+    margin-bottom: 1em;
+  }
+  ul {
+    padding: 0 0 0 55px;
+    li {
+      padding: 0 0 0 17px;
+      font: 400 18px / 24px "Corp S";
+      margin-bottom: 1em;
+    }
+  }
+  .mb-checkout-print-results {
+    display: inline-block;
+    color: #999;
+    font: 400 18px / 24px "Corp S";
+    padding-left: 35px;
+    background: transparent url(/images/icons/icon-fax.png) left top no-repeat;
+    margin-bottom: 35px;
+    text-decoration: none;
+    &:focus,
+    &:active,
+    &:hover {
+      text-decoration: none;
     }
   }
 }

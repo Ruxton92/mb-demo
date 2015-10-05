@@ -80,6 +80,7 @@ let StepOneView = ItemView.extend({
   },
 
   onShow() {
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
     this.ui.carousel.carousel({
       interval: false
     });
@@ -133,6 +134,10 @@ let StepTwoView = ItemView.extend({
       console.log(errors);
     });
     Backbone.Validation.bind(this);
+  },
+  
+  onShow() {
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
   },
 
   clickNext(e) {
@@ -205,6 +210,10 @@ let StepThreeView = ItemView.extend({
     this.ui.progress.css('width', this.interval * (this.currentSlide) + '%');
   },
 
+  onshow() {
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
+  },
+
   clickNext(e) {
     e.preventDefault();
     this.trigger('step:next');
@@ -227,6 +236,10 @@ let StepFourView = ItemView.extend({
 
   events: {
     'click @ui.finish': 'clickFinish'
+  },
+
+  onShow() {
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
   },
 
   clickFinish(e) {

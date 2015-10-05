@@ -106,3 +106,58 @@
     }
   }
 }
+.mb-checkout-form-navigation-block {
+  .row {
+    margin: 0;
+    &>div {
+      padding: 30px 0 0 0;
+      border-top: 1px solid #dddddd;
+      .btn {
+        background: transparent;
+        border: none;
+        color: #fff;
+        font: 400 18px / 44px "Corp S";
+        padding: 0 20px;
+        position: relative;
+      }
+      .btn-default {
+        background: #666666;
+      }
+      .btn-primary {
+        background: #00adef;
+      }
+      .js-next {
+        padding-right: 35px; 
+        &:after {
+          content: "";
+          display: inline-block;
+          height: 20px;
+          width: 11px;
+          position: absolute;
+          top: 12px;
+          right: 15px;
+          background-image: url(/images/carousel-arrow-right.png);
+          background-position: right top;
+          background-size: 100%;
+        }
+      }
+      .js-prev {
+        padding-left: 35px; 
+        &:before {
+          content: "";
+          display: inline-block;
+          height: 20px;
+          width: 11px;
+          position: absolute;
+          left: 15px;
+          top: 12px;
+          background-image: url(/images/carousel-arrow-left.png);
+          background-position: right top;
+          background-size: 100%;
+          
+        }
+        
+      }
+    }
+  }
+}

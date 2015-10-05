@@ -15,49 +15,49 @@ let validatedPersonalData;
 let CheckoutModel = Backbone.Model.extend({
   validation: {
     'delivery-street': {
-      required: true
+      required: false
     },
     'delivery-house': {
-      required: true
+      required: false
     },
     'delivery-index': {
-      required: true
+      required: false
     },
     'delivery-city': {
-      required: true
+      required: false
     },
     'personal-salutation': {
-      required: true
+      required: false
     },
     'personal-first-name': {
-      required: true
+      required: false
     },
     'personal-second-name': {
-      required: true
+      required: false
     },
     'personal-street': {
-      required: true
+      required: false
     },
     'personal-house': {
-      required: true
+      required: false
     },
     'personal-index': {
-      required: true
+      required: false
     },
     'personal-city': {
-      required: true
+      required: false
     },
     'personal-email': {
-      required: true
+      required: false
     },
     'trade-in-model': {
-      required: true
+      required: false
     },
     'trade-in-date': {
-      required: true
+      required: false
     },
     'trade-in-km': {
-      required: true
+      required: false
     }
   }
 });

@@ -1,199 +1,341 @@
-.mb-checkout-cancellation-block {
-  margin: 0 auto;
-  margin-bottom: 15px;
-  .mb-checkout-cancellation-description {
-    border: 1px solid #dddddd;
-    padding: 0 32px;
+.mb-checkout-step {
+  .mb-checkout-cancellation-block {
+    margin: 0 auto;
     margin-bottom: 15px;
-  }
-  h2 {
-    font: 27px / 23.998px "Corp A";
-    color: #333333;
-    text-align: center;
-  }
-  p {
-    font: 400 18px / 23.998px "Corp S";
-    color: #333333;
-    margin-bottom: 1.2em;
-    a {
-      color: #333;
-      text-decoration: underline;
+    .mb-checkout-cancellation-description {
+      border: 1px solid #dddddd;
+      padding: 0 32px;
+      margin-bottom: 15px;
     }
-  }
-}
-.mb-checkout-register-info {
-  background: #ececec;
-  padding: 20px 35px 10px;
-  margin-bottom: 15px;
-  h3 {
-    font: 400 18px / 23.998px "Corp S";
-    color: #333333;
-    margin: 0 0 1.2em 0;
-    background: transparent url(/images/icons/contact_info.png) left top no-repeat;
-    font-weight: bold;
-    padding-left: 25px;
-    background-size: contain;
-  }
-  p {
-    font: 400 18px / 23.998px "Corp S";
-    color: #333333;
-    margin-bottom: 1.2em;
-  }
-}
-.mb-checkout-buyer-summary {
-  margin-bottom: 15px;
-  h2 {
-    font: 34px / 36px "Corp A";
-    color: #333333;
-    margin: 0 0 40px 0;
-  }
-  .mb-checkout-buyer-summary-row {
-    line-height: 38px;
-    font: 400 18px / 38px "Corp S";
-    color: #333333;
-    margin: 0;
-    &>div {
-      padding: 0;
-      border-top: 1px solid #ececec;
-    }
-    &+.mb-checkout-buyer-summary-row {
-      &>div {
-        border-top: none;
-        border-bottom: 1px solid #ececec; 
-      }
-    }
-  }
-}
-.mb-contacts-dark-block {
-  background: #3c3c3c;
-  padding: 20px;
-  h3 {
-    font: 34px / 36px "Corp A";
-    color: #fff;
-    margin: 0 0 25px 0;
-  }
-  .row {
-    &>div {
+    h2 {
+      font: 27px / 23.998px "Corp A";
+      color: #333333;
       text-align: center;
-      border-left: 1px solid #666666;
-      &:first-child {
-        border: none; 
-      }
+    }
+    p {
+      font: 400 18px / 23.998px "Corp S";
+      color: #333333;
+      margin-bottom: 1.2em;
       a {
-        display: block;
-        min-height: 100px;
-        padding-top: 55px;
-        color: #999999;
-        &:hover,
-        &:focus,
-        &:active {
-          text-decoration: none;
-          outline: none;
-        }
-        &.mb-contacts-dark-block-callback {
-          background: transparent url(/images/icons/contact_phone.png) 50% 10px no-repeat;
-        }
-        &.mb-contacts-dark-block-chat {
-          background: transparent url(/images/icons/contact_chat.png) 50% 10px no-repeat;
-        }
-        &.mb-contacts-dark-block-consult {
-          background: transparent url(/images/icons/contact_users.png) 50% 10px no-repeat;
-        }
-        &.mb-contacts-dark-block-email {
-          background: transparent url(/images/icons/contact_letter.png) 50% 10px no-repeat;
+        color: #333;
+        text-decoration: underline;
+      }
+    }
+  }
+  .mb-checkout-register-info {
+    background: #ececec;
+    padding: 20px 35px 10px;
+    margin-bottom: 15px;
+    h3 {
+      font: 400 18px / 23.998px "Corp S";
+      color: #333333;
+      margin: 0 0 1.2em 0;
+      background: transparent url(/images/icons/contact_info.png) left top no-repeat;
+      font-weight: bold;
+      padding-left: 25px;
+      background-size: contain;
+    }
+    p {
+      font: 400 18px / 23.998px "Corp S";
+      color: #333333;
+      margin-bottom: 1.2em;
+    }
+  }
+  .mb-checkout-buyer-summary {
+    margin-bottom: 15px;
+    h2 {
+      font: 34px / 36px "Corp A";
+      color: #333333;
+      margin: 0 0 40px 0;
+    }
+    .mb-checkout-buyer-summary-row {
+      line-height: 38px;
+      font: 400 18px / 38px "Corp S";
+      color: #333333;
+      margin: 0;
+      &>div {
+        padding: 0;
+        border-top: 1px solid #ececec;
+      }
+      &+.mb-checkout-buyer-summary-row {
+        &>div {
+          border-top: none;
+          border-bottom: 1px solid #ececec; 
         }
       }
     }
   }
-}
-.mb-checkout-form-navigation-block {
-  margin-bottom: 60px;
-  .row {
-    margin: 0;
-    &>div {
-      padding: 30px 0 0 0;
-      border-top: 1px solid #dddddd;
-      .btn {
-        background: transparent;
-        border: none;
-        color: #fff;
-        font: 400 18px / 44px "Corp S";
-        padding: 0 20px;
-        position: relative;
-      }
-      .btn-default {
-        background: #666666;
-      }
-      .btn-primary {
-        background: #00adef;
-      }
-      .js-next {
-        padding-right: 35px; 
-        &:after {
-          content: "";
-          display: inline-block;
-          height: 20px;
-          width: 11px;
-          position: absolute;
-          top: 12px;
-          right: 15px;
-          background-image: url(/images/carousel-arrow-right.png);
-          background-position: right top;
-          background-size: 100%;
+  .mb-contacts-dark-block {
+    background: #3c3c3c;
+    padding: 20px;
+    h3 {
+      font: 34px / 36px "Corp A";
+      color: #fff;
+      margin: 0 0 25px 0;
+    }
+    .row {
+      &>div {
+        text-align: center;
+        border-left: 1px solid #666666;
+        &:first-child {
+          border: none; 
         }
-      }
-      .js-prev {
-        padding-left: 35px; 
-        &:before {
-          content: "";
-          display: inline-block;
-          height: 20px;
-          width: 11px;
-          position: absolute;
-          left: 15px;
-          top: 12px;
-          background-image: url(/images/carousel-arrow-left.png);
-          background-position: right top;
-          background-size: 100%;
+        a {
+          display: block;
+          min-height: 100px;
+          padding-top: 55px;
+          color: #999999;
+          &:hover,
+          &:focus,
+          &:active {
+            text-decoration: none;
+            outline: none;
+          }
+          &.mb-contacts-dark-block-callback {
+            background: transparent url(/images/icons/contact_phone.png) 50% 10px no-repeat;
+          }
+          &.mb-contacts-dark-block-chat {
+            background: transparent url(/images/icons/contact_chat.png) 50% 10px no-repeat;
+          }
+          &.mb-contacts-dark-block-consult {
+            background: transparent url(/images/icons/contact_users.png) 50% 10px no-repeat;
+          }
+          &.mb-contacts-dark-block-email {
+            background: transparent url(/images/icons/contact_letter.png) 50% 10px no-repeat;
+          }
         }
       }
     }
   }
-}
-.mb-sheckout-final-step {
-  h2 {
-    font: 42px / 42px "Corp A";
-    color: #333333;
-    margin: 63px 0 16px 0;
+  .mb-checkout-form-navigation-block {
+    margin-bottom: 60px;
+    .row {
+      margin: 0;
+      &>div {
+        padding: 30px 0 0 0;
+        border-top: 1px solid #dddddd;
+        .btn {
+          background: transparent;
+          border: none;
+          color: #fff;
+          font: 400 18px / 44px "Corp S";
+          padding: 0 20px;
+          position: relative;
+        }
+        .btn-default {
+          background: #666666;
+        }
+        .btn-primary {
+          background: #00adef;
+        }
+        .js-next {
+          padding-right: 35px; 
+          &:after {
+            content: "";
+            display: inline-block;
+            height: 20px;
+            width: 11px;
+            position: absolute;
+            top: 12px;
+            right: 15px;
+            background-image: url(/images/carousel-arrow-right.png);
+            background-position: right top;
+            background-size: 100%;
+          }
+        }
+        .js-prev {
+          padding-left: 35px; 
+          &:before {
+            content: "";
+            display: inline-block;
+            height: 20px;
+            width: 11px;
+            position: absolute;
+            left: 15px;
+            top: 12px;
+            background-image: url(/images/carousel-arrow-left.png);
+            background-position: right top;
+            background-size: 100%;
+          }
+        }
+      }
+    }
   }
-  h3 {
-    font: 34px / 34px "Corp A";
-    margin: 48px 0 37px 0;
-  }
-  p {
-    font: 400 18px / 24px "Corp S";
-    margin-bottom: 1em;
-  }
-  ul {
-    padding: 0 0 0 55px;
-    li {
-      padding: 0 0 0 17px;
+  .mb-sheckout-final-step {
+    h2 {
+      font: 42px / 42px "Corp A";
+      color: #333333;
+      margin: 63px 0 16px 0;
+    }
+    h3 {
+      font: 34px / 34px "Corp A";
+      margin: 48px 0 37px 0;
+    }
+    p {
       font: 400 18px / 24px "Corp S";
       margin-bottom: 1em;
     }
-  }
-  .mb-checkout-print-results {
-    display: inline-block;
-    color: #999;
-    font: 400 18px / 24px "Corp S";
-    padding-left: 35px;
-    background: transparent url(/images/icons/icon-fax.png) left top no-repeat;
-    margin-bottom: 35px;
-    text-decoration: none;
-    &:focus,
-    &:active,
-    &:hover {
+    ul {
+      padding: 0 0 0 55px;
+      li {
+        padding: 0 0 0 17px;
+        font: 400 18px / 24px "Corp S";
+        margin-bottom: 1em;
+      }
+    }
+    .mb-checkout-print-results {
+      display: inline-block;
+      color: #999;
+      font: 400 18px / 24px "Corp S";
+      padding-left: 35px;
+      background: transparent url(/images/icons/icon-fax.png) left top no-repeat;
+      margin-bottom: 35px;
       text-decoration: none;
+      &:focus,
+      &:active,
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  .mb-checkout-header {
+    h1 {
+      font: 400 42px / 42px "Corp A";
+    }
+  }
+  .mb-model-detail-tech-specs {
+    background: transparent;
+    border: none;
+    .row {
+      background: transparent;
+      &>div {
+        border: none;
+      }
+    }
+    .mb-model-detail-tech-specs-column {
+      margin-right: 0;
+      border: none;
+      &.width-66 {
+        width: 66%;
+      }
+      &.width-33 {
+        width: 33%;
+      }
+      .mb-model-detail-edition-highlights-equipment-link {
+        display: inline-block;
+        margin: 0 0 40px 0;
+        background: #666 url(/images/icons/document_icon.png) 10px 9px no-repeat;
+        color: #fff;
+        font-size: 18px;
+        line-height: 44px;
+        padding: 0 20px 0 40px;
+        .border-radius(1px);
+        text-decoration: none;
+        background-size: 8%;
+        &:focus,
+        &:active,
+        &:hover {
+          text-decoration: none;
+        }
+        &~p {
+          border: none;
+        }
+      }
+      .mb-model-detail-tech-specs-options {
+        margin: 0 0 20px 0;
+        padding: 0;
+        li {
+          list-style: none;
+          display: inline-block;
+          font: 400 18px / 22px "Corp S";
+          background: transparent url(/images/icons/accept-black-check.png) left top no-repeat;
+          padding-left: 30px;
+          margin-right: 20px;
+        }
+      }
+      .mb-model-detail-tech-specs-eco-list {
+        &~p {
+          border: none;
+        }
+      }
+      .mb-model-detail-tech-specs-eco-class {
+        font-size: 0;
+        span {
+          background: #000000;
+          height: 24px;
+          line-height: 24px;
+          display: inline-block;
+          padding-right: 9px;
+          width: 57px;
+          text-align: right;
+          font-size: 14px;
+          vertical-align: top;
+          color: #fff;
+          text-transform: uppercase;
+        }
+        margin: 0;
+        position: absolute;
+        right: 2px;
+        top: 0;
+        &:before {
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 12px 17px 12px 0;
+          border-color: transparent #000000 transparent transparent;
+          content: "";
+          display: inline-block;
+          vertical-align: top;
+        }
+        &.class-AP {
+          top: 2px;
+        }
+        &.class-A {
+          top: 26px;
+        }
+        &.class-B {
+          top: 51px;
+        }
+        &.class-C {
+          top: 72px;
+        }
+        &.class-D {
+          top: 98px;
+        }
+        &.class-E {
+          top: 122px;
+        }
+        &.class-F {
+          top: 146px;
+        }
+        &.class-G {
+        
+        }
+      }
+    }
+  }
+  .mb-offer-detail-list {
+    .row {
+      padding-right: 0;
+      span {
+        line-height: 38px;
+        padding: 0;
+        padding-right: 1.21951208%;
+        padding-left: 1.21951208%;
+      }
+      p {
+        line-height: 38px;
+        padding: 0;
+        padding-right: 1.21951208%;
+        padding-left: 1.21951208%;
+      }
+      .mb-icon-i {
+        display: inline-block;
+        position: static;
+        margin-left: 15px;
+        margin-top: 5px;
+        vertical-align: top;
+      }
     }
   }
 }

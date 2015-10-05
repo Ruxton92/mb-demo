@@ -136,10 +136,6 @@ let StepTwoView = ItemView.extend({
     Backbone.Validation.bind(this);
   },
   
-  onShow() {
-    $('html, body').animate({ scrollTop: 0 }, 'fast');
-  },
-
   clickNext(e) {
     e.preventDefault();
     let data = {};
@@ -210,10 +206,6 @@ let StepThreeView = ItemView.extend({
     this.ui.progress.css('width', this.interval * (this.currentSlide) + '%');
   },
 
-  onshow() {
-    $('html, body').animate({ scrollTop: 0 }, 'fast');
-  },
-
   clickNext(e) {
     e.preventDefault();
     this.trigger('step:next');
@@ -236,10 +228,6 @@ let StepFourView = ItemView.extend({
 
   events: {
     'click @ui.finish': 'clickFinish'
-  },
-
-  onShow() {
-    $('html, body').animate({ scrollTop: 0 }, 'fast');
   },
 
   clickFinish(e) {
@@ -295,17 +283,20 @@ export default LayoutView.extend({
   },
 
   stepOneShow() {
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
     this.stepTwoRegion.$el.hide();
     this.stepOneRegion.$el.show();
   },
 
   stepTwoShow() {
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
     this.stepOneRegion.$el.hide();
     this.stepThreeRegion.$el.hide();
     this.stepTwoRegion.$el.show();
   },
 
   stepThreeShow() {
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
     this.stepTwoRegion.$el.hide();
     this.stepFourRegion.$el.hide();
     this.stepThreeView.render();
@@ -313,6 +304,7 @@ export default LayoutView.extend({
   },
 
   stepFourShow() {
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
     this.stepThreeRegion.$el.hide();
     this.stepFourRegion.$el.show();
   }

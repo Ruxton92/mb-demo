@@ -62,14 +62,65 @@ let CheckoutModel = Backbone.Model.extend({
   }
 });
 
-let StepOneView = StepView.extend({
+let StepOneView = ItemView.extend({
   template: stepOneTemplate,
-  className: 'mb-checkout-step-one'
+  className: 'mb-checkout-step-one',
+
+  ui: {
+    'next': '.js-next',
+    'carousel': '.mb-carousel',
+    'progress': '.progress-bar',
+    'slides': '.mb-carousel .item'
+  },
+
+  events: {
+    'click @ui.next': 'clickNext',
+    'slide.bs.carousel @ui.carousel': 'slideStart',
+    'slid.bs.carousel @ui.carousel': 'slideEnd'
+  },
+
+  onShow() {
+    this.ui.carousel.carousel({
+      interval: false
+    });
+    this.slidesNum = 2;
+    this.interval = parseFloat(100 / this.slidesNum);
+    this.ui.progress.css('width', this.interval + '%');
+    this.currentSlide = 1;
+  },
+
+  slideStart(e) {
+    if(e.direction == 'left') {
+      if (this.currentSlide == this.slidesNum) this.currentSlide = 1;
+      else this.currentSlide += 1;
+    }
+    else {
+      if (this.currentSlide == 1) this.currentSlide = this.slidesNum;
+      else this.currentSlide -= 1;
+    }
+    this.ui.progress.css('width', this.interval * (this.currentSlide) + '%');
+  },
+
+  clickNext(e) {
+    e.preventDefault();
+    this.trigger('step:next');
+  }
+
 });
 
-let StepTwoView = StepView.extend({
+let StepTwoView = ItemView.extend({
   template: stepTwoTemplate,
   className: 'mb-checkout-step-two',
+
+  ui: {
+    'next': '.js-next',
+    'prev': '.js-prev'
+  },
+
+  events: {
+    'click @ui.next': 'clickNext',
+    'click @ui.prev': 'clickPrev'
+  },
 
   initialize() {
     new FormValidatorHelper().initialize();
@@ -97,20 +148,57 @@ let StepTwoView = StepView.extend({
     if (this.model.isValid(true)) {
       this.trigger('step:next');
     }
+  },
+
+  clickPrev(e) {
+    e.preventDefault();
+    this.trigger('step:prev');
   }
 
 });
 
-let StepThreeView = StepView.extend({
+let StepThreeView = ItemView.extend({
   template: stepThreeTemplate,
-  className: 'mb-checkout-step-three'
+  className: 'mb-checkout-step-three',
+
+  ui: {
+    'next': '.js-next',
+    'prev': '.js-prev'
+  },
+
+  events: {
+    'click @ui.next': 'clickNext',
+    'click @ui.prev': 'clickPrev'
+  },
+
+  clickNext(e) {
+    e.preventDefault();
+    this.trigger('step:next');
+  },
+
+  clickPrev(e) {
+    e.preventDefault();
+    this.trigger('step:prev');
+  }
 
 });
 
-let StepFourView = StepView.extend({
+let StepFourView = ItemView.extend({
   template: stepFourTemplate,
-  className: 'mb-checkout-step-four'
+  className: 'mb-checkout-step-four',
 
+  ui: {
+    'finish': '.js-finish'
+  },
+
+  events: {
+    'click @ui.finish': 'clickFinish'
+  },
+
+  clickFinish(e) {
+    e.preventDefault();
+    console.log('Finish');
+  }
 });
 
 

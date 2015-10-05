@@ -9,6 +9,7 @@ import stepThreeTemplate from './step_three_template.hbs';
 import stepFourTemplate from './step_four_template.hbs';
 
 import FormValidatorHelper from '../common/form-validation-helper';
+import StepView from './step_view.js';
 
 
 let CheckoutModel = Backbone.Model.extend({
@@ -61,43 +62,14 @@ let CheckoutModel = Backbone.Model.extend({
   }
 });
 
-let StepOneView = ItemView.extend({
+let StepOneView = StepView.extend({
   template: stepOneTemplate,
-  className: 'mb-checkout-step-one',
-
-  ui: {
-    'next': '.js-next'
-  },
-
-  events: {
-    'click @ui.next': 'clickNext'
-  },
-
-  initialize() {
-  },
-
-  clickNext(e) {
-    e.preventDefault();
-    this.trigger('step:next');
-  }
-
+  className: 'mb-checkout-step-one'
 });
 
-let StepTwoView = ItemView.extend({
+let StepTwoView = StepView.extend({
   template: stepTwoTemplate,
   className: 'mb-checkout-step-two',
-
-  ui: {
-    'next': '.js-next',
-    'prev': '.js-prev',
-    'submit': 'input[name=submit]'
-  },
-
-  events: {
-    'click @ui.next': 'clickNext',
-    'click @ui.prev': 'clickPrev',
-    'click @ui.submit': 'submitForm'
-  },
 
   initialize() {
     new FormValidatorHelper().initialize();
@@ -112,81 +84,32 @@ let StepTwoView = ItemView.extend({
     Backbone.Validation.bind(this);
   },
 
-  submitForm(e) {
+  clickNext(e) {
     e.preventDefault();
     let data = {};
 
-    $(':input[type=text]').each(function (index) {
+    $('.required-field').each(function (index) {
       data[$(this).attr('name')] = $(this).val();
     });
 
     this.model.set(data);
 
     if (this.model.isValid(true)) {
-      console.log('Success');
+      this.trigger('step:next');
     }
-  },
-
-  clickNext(e) {
-    e.preventDefault();
-    this.trigger('step:next');
-  },
-
-  clickPrev(e) {
-    e.preventDefault();
-    this.trigger('step:prev');
   }
 
 });
 
-let StepThreeView = ItemView.extend({
+let StepThreeView = StepView.extend({
   template: stepThreeTemplate,
-  className: 'mb-checkout-step-three',
-
-  ui: {
-    'next': '.js-next',
-    'prev': '.js-prev'
-  },
-
-  events: {
-    'click @ui.next': 'clickNext',
-    'click @ui.prev': 'clickPrev'
-  },
-
-  initialize() {
-  },
-
-  clickNext(e) {
-    e.preventDefault();
-    this.trigger('step:next');
-  },
-
-  clickPrev(e) {
-    e.preventDefault();
-    this.trigger('step:prev');
-  }
+  className: 'mb-checkout-step-three'
 
 });
 
-let StepFourView = ItemView.extend({
+let StepFourView = StepView.extend({
   template: stepFourTemplate,
-  className: 'mb-checkout-step-four',
-
-  ui: {
-    'prev': '.js-prev'
-  },
-
-  events: {
-    'click @ui.prev': 'clickPrev'
-  },
-
-  initialize() {
-  },
-
-  clickPrev(e) {
-    e.preventDefault();
-    this.trigger('step:prev');
-  }
+  className: 'mb-checkout-step-four'
 
 });
 

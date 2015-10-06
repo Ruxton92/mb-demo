@@ -30,17 +30,13 @@ export default LayoutView.extend({
   },
 
   initialize() {
-    let indexModel = new IndexModel();
-    indexModel.fetch({
-      'success': ()=> {
-        let catalogueCollection = new Backbone.Collection(indexModel.get('catalogue').items);
-        this.catalogueView = new CatalogueView({collection: catalogueCollection});
-        this.catalogueRegion.show(this.catalogueView);
-      }
-    });
   },
 
   onShow() {
+    let catalogueCollection = new Backbone.Collection(this.model.get('catalogue').items);
+    this.catalogueView = new CatalogueView({collection: catalogueCollection});
+    this.catalogueRegion.show(this.catalogueView);
+
     this.slidesNum = this.ui.slides.length;
     this.interval = parseFloat(100 / this.slidesNum);
     this.ui.progress.css('width', this.interval + '%');

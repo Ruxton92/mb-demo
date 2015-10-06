@@ -7,6 +7,7 @@ import Application from './application/application';
 import ModalService from './modal/service';
 import FooterService from './footer/footer-service';
 import HeaderService from './header/header-service';
+import SpinnerService from './spinner/spinner-service';
 import PaginationService from './pagination/pagination-service';
 
 import IndexRouter from './index/router';
@@ -33,6 +34,11 @@ FooterService.setup({
 HeaderService.setup({
   container: app.layout.header
 });
+
+SpinnerService.setup({
+  container: app.layout.overlay
+});
+SpinnerService.request();
 
 app.index = new IndexRouter({
   container: app.layout.content

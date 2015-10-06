@@ -41,10 +41,10 @@ export default LayoutView.extend({
   },
 
   filterOpened() {
-    this.catalogueView.filterOpened();
+    // this.catalogueView.filterOpened();
   },
 
   filterClosed() {
-    this.catalogueView.filterClosed();
+    // this.catalogueView.filterClosed();
   }
 });

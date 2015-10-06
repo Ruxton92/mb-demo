@@ -63,11 +63,11 @@ export default Application.extend({
   },
 
   showOverlay() {
-    this.layout.ui.overlay.addClass('active');
+    this.layout.ui.spinner_overlay.addClass('active');
   },
 
   hideOverlay() {
-    this.layout.ui.overlay.removeClass('active');
+    this.layout.ui.spinner_overlay.removeClass('active');
   }
 
 });

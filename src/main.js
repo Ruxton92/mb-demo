@@ -36,7 +36,7 @@ HeaderService.setup({
 });
 
 SpinnerService.setup({
-  container: app.layout.overlay
+  container: app.layout.spinner_overlay
 });
 SpinnerService.request();
 

@@ -10,11 +10,13 @@ export default LayoutView.extend({
     flashes : '.application__flashes',
     content : '.application__content',
     overlay : '.application__overlay',
+    spinner_overlay : '.application__spinner__overlay',
     footer  : '.application__footer'
   },
 
   ui: {
-  	overlay : '.application__overlay',
+    overlay : '.application__overlay',
+  	spinner_overlay : '.application__spinner__overlay',
   }
 
 });

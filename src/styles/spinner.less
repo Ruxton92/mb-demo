@@ -1,18 +1,30 @@
-.application__overlay {
-	// background: rgba(0, 0, 0, 0.5);
-	// position: absolute;
-	// top: 0;
-	// left: -99999px;
-	// bottom: 0;
-	// z-index: 10;
+.application__spinner__overlay {
+	position: absolute;
+	z-index: 100;
+	display: none;
+	left: -9999px;
+	right: auto;
+	top: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
 	&.active {
 		left: 0;
 		right: 0;
+		display: block;
 	}
 	.mb-spinner {
-	  display: none;
+		position: absolute;
+		top: 50%;
+		margin-top: -5em;
+		left: 50%;
+		margin-left: -5em;
+		z-index: 20;
+		display: none;
+		background: transparent url(/images/mercedes-benz-logo.png) 50% 50% no-repeat;
+		background-size: 70%;
 	  .mb-spinner-loader {
-		  margin: 60px auto;
+	  	display: inline-block;
+		  margin: 0 auto;
 		  font-size: 10px;
 		  position: relative;
 		  text-indent: -9999em;

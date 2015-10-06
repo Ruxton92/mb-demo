@@ -11,5 +11,10 @@ export default LayoutView.extend({
     content : '.application__content',
     overlay : '.application__overlay',
     footer  : '.application__footer'
+  },
+
+  ui: {
+  	overlay : '.application__overlay',
   }
+
 });

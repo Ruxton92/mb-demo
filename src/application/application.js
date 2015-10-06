@@ -6,6 +6,7 @@ import {Application} from 'backbone.marionette';
 import LayoutView from './layout-view';
 
 let routerChannel = Radio.channel('router');
+let overlayChannel = Radio.channel('overlay');
 
 nprogress.configure({
   showSpinner: false
@@ -21,6 +22,11 @@ export default Application.extend({
       'before:enter:route' : this.onBeforeEnterRoute,
       'enter:route'        : this.onEnterRoute,
       'error:route'        : this.onErrorRoute
+    });
+
+    this.listenTo(overlayChannel, {
+      'overlay:show'        : this.showOverlay,
+      'overlay:hide'        : this.hideOverlay
     });
 
     // this.setHeaders();
@@ -54,5 +60,14 @@ export default Application.extend({
   onErrorRoute() {
     this.transitioning = false;
     nprogress.done(true);
+  },
+
+  showOverlay() {
+    this.layout.ui.overlay.addClass('active');
+  },
+
+  hideOverlay() {
+    this.layout.ui.overlay.removeClass('active');
   }
+
 });

@@ -88,15 +88,17 @@ export default CompositeView.extend({
 
   checkScroll(e) {
     e.preventDefault();
-    let exterior = $('.mb-model-detail-exterior-region').offset().top;
-    let height = $('.mb-model-detail-navigation').height();
-    let total = $(window).scrollTop();
-    let topBorder = exterior - height;
-    let bottomBorder = exterior + height * 2;
-    if ((total > topBorder) && (total < bottomBorder)) {
-      $('.mb-carousel').carousel('cycle');
-    } else {
-      $('.mb-carousel').carousel('pause');
+    if ($('.mb-model-detail-exterior-region').length) {
+      let exterior = $('.mb-model-detail-exterior-region').offset().top;
+      let height = $('.mb-model-detail-navigation').height();
+      let total = $(window).scrollTop();
+      let topBorder = exterior - height;
+      let bottomBorder = exterior + height * 2;
+      if ((total > topBorder) && (total < bottomBorder)) {
+        $('.mb-carousel').carousel('cycle');
+      } else {
+        $('.mb-carousel').carousel('pause');
+      }
     }
     
   },

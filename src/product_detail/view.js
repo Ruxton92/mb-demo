@@ -67,12 +67,15 @@ export default LayoutView.extend({
   },
 
   checkScroll(e) {
-    let exterior = $('.mb-model-detail-exterior-region').offset().top - $('.mb-model-detail-navigation').height();
-    let total = $(window).scrollTop();
-    if (total > exterior) {
-      $('.mb-model-detail-navigation').addClass('sticky');
-    } else {
-      $('.mb-model-detail-navigation').removeClass('sticky');
+    e.preventDefault();
+    if ($('.mb-model-detail-exterior-region').length) {
+      let exterior = $('.mb-model-detail-exterior-region').offset().top - $('.mb-model-detail-navigation').height();
+      let total = $(window).scrollTop();
+      if (total > exterior) {
+        $('.mb-model-detail-navigation').addClass('sticky');
+      } else {
+        $('.mb-model-detail-navigation').removeClass('sticky');
+      }
     }
   },
 

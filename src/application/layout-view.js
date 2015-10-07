@@ -15,6 +15,7 @@ export default LayoutView.extend({
   },
 
   ui: {
+    content : '.application__content',
     overlay : '.application__overlay',
   	spinner_overlay : '.application__spinner__overlay',
   }

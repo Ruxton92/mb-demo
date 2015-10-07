@@ -42,6 +42,7 @@ export default Application.extend({
   // },
 
   onBeforeEnterRoute() {
+    console.debug('onBeforeEnterRoute');
     this.transitioning = true;
     // Don't show for synchronous route changes
     _.defer(() => {
@@ -52,8 +53,10 @@ export default Application.extend({
   },
 
   onEnterRoute() {
+    console.debug('onEnterRoute');
+    $('html, body').animate({ scrollTop: 0 }, 250);
     this.transitioning = false;
-    this.$body.scrollTop(0);
+    // this.$body.scrollTop(250);
     nprogress.done();
   },
 
@@ -63,10 +66,16 @@ export default Application.extend({
   },
 
   showOverlay() {
+    this.layout.$el.css('height', $(window).height());
+    this.layout.$el.css('width', $(window).width());
+    this.layout.$el.addClass('no-scroll');
     this.layout.ui.spinner_overlay.addClass('active');
   },
 
   hideOverlay() {
+    this.layout.$el.css('height', 'auto');
+    this.layout.$el.css('width', 'auto');
+    this.layout.$el.removeClass('no-scroll');
     this.layout.ui.spinner_overlay.removeClass('active');
   }
 

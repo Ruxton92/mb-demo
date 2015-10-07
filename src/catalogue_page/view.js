@@ -1,6 +1,7 @@
 import $ from 'jquery';
 import {LayoutView} from 'backbone.marionette';
 import template from './template.hbs';
+import SpinnerService from '../spinner/spinner-service';
 
 import CatalogueView from '../catalogue/view';
 import NavigationView from './navigation/view';
@@ -23,12 +24,22 @@ export default LayoutView.extend({
 
   initialize() {
     let catalogueCollection = new CatalogueCollection();
+    this.listenTo(catalogueCollection, 'request', this.showSpinner);
+    this.listenTo(catalogueCollection, 'sync', this.hideSpinner);
     catalogueCollection.fetch({
       'success': ()=> {
         this.catalogueView = new CatalogueView({collection: catalogueCollection});
         this.catalogueRegion.show(this.catalogueView);
       }
     });
+  },
+
+  showSpinner() {
+    SpinnerService.request('showSpinner');
+  },
+
+  hideSpinner() {
+    SpinnerService.request('hideSpinner');
   },
 
   onShow() {

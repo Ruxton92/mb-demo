@@ -1,6 +1,6 @@
 <div class="container-md mb-checkout-header">
 	<div class="row">
-		<div class="col-xs-12 col-sm-8 col-sm-offset-2">			
+		<div class="col-xs-12 col-md-8 col-md-offset-2">			
 			<h1>Bitte prüfen Sie Ihre Bestellung.</h1>
 		</div>
 	</div>
@@ -32,7 +32,7 @@
 </div>
 <div class="mb-model-detail-tech-specs container-md">
 	<div class="row">
-		<div class="col-xs-12 col-sm-8 col-sm-offset-2">	
+		<div class="col-xs-12 col-md-8 col-md-offset-2">	
 			<div class="row">
 				<h2 class="mb-model-detail-tech-specs-title">Ihr Fahrzeug - A 180 AMG Line.</h2>
 				<div class="col-xs-8 mb-model-detail-tech-specs-column width-66">
@@ -96,7 +96,7 @@
 </div>
 <div class="mb-model-detail-offer-region container-md">
 	<div class="row">
-		<div class="col-xs-12 col-sm-8 col-sm-offset-2">
+		<div class="col-xs-12 col-md-8 col-md-offset-2">
 		  <h2>Ihr Angebot.</h2>
 		  <ul class="mb-offer-detail-list">
 		    <li class="row">
@@ -179,7 +179,7 @@
 </div>
 <div class="container-md">
 	<div class="row">
-		<div class="col-xs-8 col-xs-offset-2 mb-checkout-buyer-summary">
+		<div class="col-xs-12 col-md-8 col-md-offset-2 mb-checkout-buyer-summary">
 			<div class="row">
 				<div class="col-xs-12">
 					<h2>Ihre Daten und Wünsche.</h2>
@@ -226,7 +226,7 @@
 </div>
 <div class="container-md">
 	<div class="row">
-		<div class="col-xs-8 col-xs-offset-2 mb-checkout-order-summary">
+		<div class="col-xs-12 col-md-8 col-md-offset-2 mb-checkout-order-summary">
 			<h2>Ihre Bestellung.</h2>
 			<p>
 				Mit Betätigung des Buttons "Zahlungspflichtig bestellen" am Ende dieser Bestellung bestellen Sie in einem ersten Schritt das o.g. Fahrzeug zum angegebenen Kaufpreis. Mit Übergabe des Fahrzeugs an Sie tritt die Mercedes-Benz Leasing GmbH (oder ein mit ihr gemäß §§ 15 ff AktG verbundenes Unternehmen) gemäß den Leasingbedingungen in den Kaufvertrag ein. Der Kaufvertrag wird jedoch erst bei Abschluss des - dieser Bestellung nachfolgenden - Leasingvertrages wirksam (aufschiebende Bedingung). Zum Zwecke des Abschlusses und der Durchführung des Leasingvertrages übermittelt die Daimler AG Ihre Vertragsdaten an die Mercedes-Benz Leasing GmbH.
@@ -235,43 +235,50 @@
 				<br>
 				Mit dieser Bestellung gehen Sie keine Pflicht zum Abschluss des Leasingvertrages ein. Sollte nicht innerhalb von drei Wochen nach Absendung dieser Bestellung der - Ihnen noch zuzusendende - Leasingantrag bei der Mercedes-Benz Leasing GmbH eingehen, ist die Daimler AG zum Rücktritt vom Kaufvertrag berechtigt.
 			</p>
-			<ul class="mb-form-list-switches">
-				<li>
-					<label>
-            <input type="radio" name="order-summary-options">
-            <span class="mb-catalogue-filter-checkbox-wrapper"></span>
-            <span class="mb-catalogue-filter-title">
-            	Ich akzeptiere die 
-            	<a href="#">Neufahrzeug-Verkaufsbedingungen</a>
-            	der Daimler AG
-            </span>
-          </label>
-				</li>
-				<li>
-					<label>
-            <input type="radio" name="order-summary-options">
-            <span class="mb-catalogue-filter-checkbox-wrapper"></span>
-            <span class="mb-catalogue-filter-title">
-            	Ich bin mit der oben genannten Nebenleistung „Wartung und Verschleißreparaturen“ einverstanden.
-            </span>
-          </label>
-				</li>
-				<li>
-					<label>
-            <input type="radio" name="order-summary-options">
-            <span class="mb-catalogue-filter-checkbox-wrapper"></span>
-            <span class="mb-catalogue-filter-title">
-            	Ich bin mit der oben genannten Nebenleistung „Überführung und Zulassung“ einverstanden.
-            </span>
-          </label>
-				</li>
-			</ul>
+			<form>
+				<ul class="mb-form-list-switches">
+					<li>
+						<label>
+	            <input type="radio" name="order-summary-options">
+	            <span class="mb-catalogue-filter-checkbox-wrapper"></span>
+	            <span class="mb-catalogue-filter-title">
+	            	Ich akzeptiere die 
+	            	<a href="#">Neufahrzeug-Verkaufsbedingungen</a>
+	            	der Daimler AG
+	            	<br class="visible-sm">
+	            </span>
+	          </label>
+					</li>
+					<li>
+						<label>
+	            <input type="radio" name="order-summary-options">
+	            <span class="mb-catalogue-filter-checkbox-wrapper"></span>
+	            <span class="mb-catalogue-filter-title">
+	            	Ich bin mit der oben genannten Nebenleistung „Wartung und Verschleißreparaturen“ 
+								<br class="visible-sm">
+	            	einverstanden.
+	            </span>
+	          </label>
+					</li>
+					<li>
+						<label>
+	            <input type="radio" name="order-summary-options">
+	            <span class="mb-catalogue-filter-checkbox-wrapper"></span>
+	            <span class="mb-catalogue-filter-title">
+	            	Ich bin mit der oben genannten Nebenleistung „Überführung und Zulassung“ 
+								<br class="visible-sm">
+	            	einverstanden.
+	            </span>
+	          </label>
+					</li>
+				</ul>
+			</form>
 		</div>
 	</div>
 </div>
 <div class="container-md">
 	<div class="row">
-		<div class="col-xs-8 col-xs-offset-2">
+		<div class="col-xs-12 col-md-8 col-md-offset-2">
 			<div class="mb-checkout-cancellation-block">
 				<div class="mb-checkout-cancellation-description">
 					<h2>Widerrufsbelehrung.</h2>
@@ -308,7 +315,7 @@
 		
 	</div>
 	<div class="row">
-		<div class="col-xs-8 col-xs-offset-2">
+		<div class="col-xs-12 col-md-8 col-md-offset-2">
 			<div class="mb-checkout-register-info">
 				<h3>Hinweis</h3>
 				<p>
@@ -322,13 +329,13 @@
 </div>
 <div class="container-md">
 	<div class="row">
-		<div class="col-xs-8 col-xs-offset-2 mb-checkout-form-navigation-block">
+		<div class="col-xs-12 col-md-8 col-md-offset-2 mb-checkout-form-navigation-block">
 			<div class="row">
 		    <div class="col-xs-6 text-left">
-		      <button class="btn btn-default mb-checkout-form-navigation-back js-prev">Back</button>
+		      <button class="btn btn-default mb-checkout-form-navigation-back js-prev">Meine Daten und Wünsche</button>
 		    </div>
 		    <div class="col-xs-6 text-right">
-		      <button class="btn btn-primary mb-checkout-form-navigation-next js-next">Next</button>
+		      <button class="btn btn-primary mb-checkout-form-navigation-next js-next">Zahlungspflichtig bestellen</button>
 		    </div>
   		</div>
   	</div>

@@ -22,9 +22,14 @@
   width: 20%;
   float: left;
 }
+.container-md {
+	padding-left: @xs-indent; 
+	padding-right: @xs-indent;
+}
 @media (min-width: @screen-sm) {
   .col-sm-eighth { width: 12.5%; float: left; }
   .col-sm-fifth { width: 20%; float: left; }
+  .container-md {padding-left: @xs-indent; padding-right: @xs-indent;}
 }
 @media (min-width: @screen-md) {
   .col-md-eighth { width: 12.5%; float: left; }

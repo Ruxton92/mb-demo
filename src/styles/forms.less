@@ -1,6 +1,11 @@
 form {
 	max-width: 920px;
 	margin: 0 auto;
+	h1 {
+		color: #333333;
+		font: 42px / 46px "Corp A";
+		margin: 51px 0 17px 0;
+	}
 	h2 {
 		color: #333333;
 		font: 34px / 42px "Corp A";
@@ -14,6 +19,16 @@ form {
 		color: #333;
 		b {
 			
+		}
+		a {
+			text-decoration: underline;
+			color: #333;
+			&:hover,
+			&:active,
+			&:focus {
+				text-decoration: underline;
+				color: #333;
+			}
 		}
 	}
 	.row {
@@ -219,6 +234,108 @@ form {
 			}
 		}
 	}
+  .mb-form-list-switches {
+    padding: 0;
+    margin: 15px 0 45px 0;
+    li {
+      list-style: none;
+      margin-bottom: 0;
+      >.mb-catalogue-filter-title {
+      	font-size: 16px;
+        color: #333;
+        line-height: 37px;
+        display: inline-block;
+        vertical-align: top;
+        min-width: 220px;
+      }
+      label {
+        margin-bottom: 15px;
+        input[type="checkbox"],
+        input[type="radio"] {
+          display: none;
+          &:checked {
+            &+.mb-catalogue-filter-checkbox-wrapper {
+              background: #f8f8f8;
+              &:after {
+                content: "";
+                display: block;
+                width: 15px;
+                height: 15px;
+                .border-radius(20px);
+                background: #00acf2;
+                position: absolute;
+                top: 10px;
+                left: 10px;
+              }
+            }
+          }      
+        }
+        input[type="checkbox"] {
+        	&:checked {
+            &+.mb-catalogue-filter-checkbox-wrapper {
+            	background: transparent url(/images/icons/accept-blue-check.png) 50% 50% no-repeat;
+            	&:after {
+            		display: none;
+            	}
+            }
+          }
+        }
+        .mb-catalogue-filter-checkbox-wrapper {
+          border: 1px solid #9b9b9b;
+          background: #f8f8f8;
+          height: 37px;
+          width: 37px;
+          display: inline-block;
+          margin: 0 10px 0 0;
+          .border-radius(20px);
+          position: relative;
+        }
+        .mb-catalogue-filter-title {
+          font-size: 16px;
+          color: #333;
+          line-height: 37px;
+          display: inline-block;
+          vertical-align: top;
+        }
+        a {
+          text-decoration: underline;
+          color: #333;
+        }
+        &+label {
+        	margin-left: 30px;
+        }
+      }
+    }
+  }
+  .mb-save-form-block {
+  	color: #bfbfbf;
+  	background: #949494;
+  	line-height: 44px;
+  	padding: 0 15px;
+  	.border-radius(1px);
+  	margin-top: 30px;
+  	border: none;
+  	.no-box-shadow();
+  	&:hover,
+  	&:hover,
+  	&:hover {
+  		outline: none;
+  		color: #bfbfbf;
+  		background: #949494;
+  	}
+  	&.active {
+  		color: #fff;
+			background: #949494;
+			.no-box-shadow();
+  		&:hover,
+	  	&:hover,
+	  	&:hover {
+	  		outline: none;
+	  		background: #949494;
+	  		color: #fff;
+	  	}
+  	}
+  }
 	.modal-footer {
 		border-color: #d9d9d9;
 		padding: 25px 2px 25px;

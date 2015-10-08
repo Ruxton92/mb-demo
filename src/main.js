@@ -10,13 +10,14 @@ import HeaderService from './header/header-service';
 import SpinnerService from './spinner/spinner-service';
 import PaginationService from './pagination/pagination-service';
 
-import IndexRouter from './index/router';
 import AboutRouter from './about/router';
+import CatalogueRouter from './catalogue_page/router';
+import CheckoutRouter from './checkout/router';
+import ContactRouter from './contact/router';
+import IndexRouter from './index/router';
+import MeinDataRouter from './my_store/my_data/router';
 import ModelsRouter from './models/router';
 import OfferRouter from './offer/router';
-import CatalogueRouter from './catalogue_page/router';
-import ContactRouter from './contact/router';
-import CheckoutRouter from './checkout/router';
 import ProductDetailRouter from './product_detail/router';
 import StoreInfoRouter from './store_info/router';
 import WatchlistRouter from './watchlist/router';
@@ -73,6 +74,10 @@ app.product_detail = new ProductDetailRouter({
 });
 
 app.store_info = new StoreInfoRouter({
+  container: app.layout.content
+});
+
+app.my_data = new MeinDataRouter({
   container: app.layout.content
 });
 

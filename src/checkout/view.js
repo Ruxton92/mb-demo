@@ -135,6 +135,14 @@ let StepTwoView = ItemView.extend({
     });
     Backbone.Validation.bind(this);
   },
+
+  onShow() {
+    $('#field-date').datetimepicker({
+      inline: true,
+      minDate: moment().format(),
+      daysOfWeekDisabled: [6]
+    });
+  },
   
   clickNext(e) {
     e.preventDefault();

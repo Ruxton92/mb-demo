@@ -13,7 +13,6 @@ export default ItemView.extend({
   },
 
   onModalShow() {
-  	console.debug('modalShowed');
   	$('#field-date').datetimepicker({
         inline: true,
         minDate: moment().format(),

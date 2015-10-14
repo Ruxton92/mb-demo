@@ -13,6 +13,7 @@ import PaginationService from './pagination/pagination-service';
 import AboutRouter from './about/router';
 import CatalogueRouter from './catalogue_page/router';
 import CheckoutRouter from './checkout/router';
+import CompareRouter from './compare/router';
 import ContactRouter from './contact/router';
 import IndexRouter from './index/router';
 import MeinDataRouter from './my_store/my_data/router';
@@ -65,7 +66,7 @@ app.contact = new ContactRouter({
   container: app.layout.content
 });
 
-app.contact = new CheckoutRouter({
+app.checkout = new CheckoutRouter({
   container: app.layout.content
 });
 
@@ -82,6 +83,10 @@ app.my_data = new MeinDataRouter({
 });
 
 app.watchlist = new WatchlistRouter({
+  container: app.layout.content
+});
+
+app.compare = new CompareRouter({
   container: app.layout.content
 });
 

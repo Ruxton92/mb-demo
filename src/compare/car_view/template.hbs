@@ -1,0 +1,187 @@
+{{#if stageModules}}
+<div class="mb-compare-carousel-wrapper">
+  <div id="mb-compare-carousel-{{model}}" class="mb-carousel carousel slide mb-carousel-light" data-interval="false">
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="{{stageModules.0.data.0.car.images360ExtDayClosed.31.md.url}}"/>
+      </div>
+      <div class="item">
+        <img src="{{stageModules.0.data.0.car.images360IntDayClosed.0.md.url}}"/>
+      </div>
+    </div>
+
+    <a class="left carousel-control" role="button" data-slide="prev">
+      <span class=""></span>
+    </a>
+    <a class="right carousel-control" role="button" data-slide="next">
+      <span class=""></span>
+    </a>
+    <div class="mb-carousel-progress progress">
+		  <div class="progress-bar" role="progressbar">
+		  </div>
+		</div>
+  </div>
+</div>
+<div class="mb-model-detail-tech-specs container-fluid">
+	<div class="row">
+		<div class="col-xs-10 col-xs-offset-1">	
+				<h2 class="mb-model-detail-tech-specs-title">Ihr Fahrzeug - A 180 AMG Line.</h2>
+				<p class="mb-model-detail-tech-specs-short-descr">
+					403,00 Euro mtl. Gesamt-Leasing-Rate<sup>*</sup>
+					<br>
+					<span>32.349,50 Euro Kaufpreis ab Werk</span>
+				</p>
+				<button class="btn btn-default mb-compare-title-button">Auswahl ändern</button>
+				<button class="btn btn-default mb-compare-title-button">Zum Angebot</button>
+				<h3>Ausstattungshighlights</h3>
+				<ul class="mb-model-detail-tech-specs-options">
+					<li>AMG Line</li>
+					<li>Bi-Xenon Scheinwerfer</li>
+					<li>Becker-Map-Pilot</li>
+					<li>Aktiver Parkassistent</li>
+					<li>Sitzheizung Vordersitze</li>
+					<li>Spiegel Paket</li>
+				</ul>
+				<h3 class="mb-model-detail-tech-specs-subtitle">
+					Motor- &amp; Leistungsdaten
+				</h3>
+				<dl class="mb-model-detail-tech-specs-list">
+					<dt>Leistung</dt>
+					<dd>{{engine.facts.0.value}}</dd>
+					<dt>Hubraum</dt>
+					<dd>{{engine.facts.3.value}}</dd>
+					<dt>Getriebe</dt>
+					<dd>{{engine.facts.1.value}}</dd>
+					<dt>Kraftstoffart</dt>
+					<dd>{{engine.facts.5.value}}</dd>
+					<dt>Beschleunigung (0-100 km/h)</dt>
+					<dd>{{engine.facts.2.value}} s</dd>
+				</dl>
+				<div class="mb-model-detail-tech-specs-eco-list-wrapper mb-model-detail-tech-specs-column">
+					<ul class="mb-model-detail-tech-specs-eco-list">
+						<li class="class-ap">
+							<span>A+</span>
+						</li>
+						<li class="class-a">
+							<span>A</span>
+						</li>
+						<li class="class-b">
+							<span>B</span>
+						</li>
+						<li class="class-c">
+							<span>C</span>
+						</li>
+						<li class="class-d">
+							<span>D</span>
+						</li>
+						<li class="class-e">
+							<span>E</span>
+						</li>
+						<li class="class-f">
+							<span>F</span>
+						</li>
+						<li class="class-g">
+							<span>G</span>
+						</li>
+					</ul>
+					<p class="mb-model-detail-tech-specs-eco-class class-{{engine.facts.9.value}}">
+						<span>{{engine.facts.9.value}}</span>
+					</p>
+					<p class="mb-model-detail-tech-specs-eco-descr">
+						<b class="hidden-xs">CO2-Effizienz</b>
+						<br class="hidden-xs">
+						Auf Grundlage der gemessenen CO2-Emissionen unter Berücksichtigung der Masse des Fahrzeugs ermittelt.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="mb-model-detail-offer-region container-fluid">
+	<div class="row">
+		<div class="col-xs-10 col-xs-offset-1">
+			<h3>Motor- &amp; Leistungsdaten</h3>
+		  <ul class="mb-offer-detail-list">
+		    <li class="row">
+		      <span class="col-xs-8">Nettokaufpreis Fahrzeug</span>
+		      <p class="col-xs-4 text-right">37.105,00 Euro</p>
+		    </li>
+		    <li class="row">
+		      <span class="col-xs-8">Zuzüglich derzeit 19% Umsatzsteuer</span>
+		      <p class="col-xs-4 text-right">7.049,95 Euro</p>
+		    </li>
+		    <li class="row">
+		      <span class="col-xs-8">Bruttokaufpreis Fahrzeug</span>
+		      <p class="col-xs-4 text-right">44.154,95 Euro</p>
+		    </li>
+		    <li class="row">
+		      <span class="col-xs-8">
+		        Zuzüglich Überführung (797,30 Euro) und 
+		        Zulassung (160,00 Euro)
+		      </span>
+		      <p class="col-xs-4 text-right">122 g/km</p>
+		    </li>
+		    <li class="row important">
+		      <span class="col-xs-8">Gesamtpreis</span>
+		      <p class="col-xs-4 text-right">44.154,95 Euro</p>
+		    </li>
+		  </ul>
+		  <h3>Leasing-Komplett-Paket (Ein Angebot der Mercedes-Benz Leasing GmbH, Siemensstraße 7, 70469 Stuttgart)</h3>
+		  <ul class="mb-offer-detail-list">
+		    <li class="row">
+		      <span class="col-xs-8">Laufzeit</span>
+		      <p class="col-xs-4 text-right">36 Monate</p>
+		    </li>
+		    <li class="row">
+		      <span class="col-xs-8">Gesamtlaufleistung</span>
+		      <p class="col-xs-4 text-right">30.000,00 km</p>
+		    </li>
+		    <li class="row">
+		      <span class="col-xs-8">Leasing Sonderzahlung (0% des Bruttokaufpreises ab Werk) <i class="mb-icon-i"></i></span>
+		      <p class="col-xs-4 text-right">0,00 Euro</p>
+		    </li>
+		    <li class="row">
+		      <span class="col-xs-8">Gesamtkreditbetrag (Nettodarlehensbetrag)</span>
+		      <p class="col-xs-4 text-right">31.731,00 Euro</p>
+		    </li>
+		    <li class="row">
+		      <span class="col-xs-8">Gesamtbetrag<sup>1</sup></span>
+		      <p class="col-xs-4 text-right">20.616,22 Euro</p>
+		    </li>
+		    <li class="row">
+		      <span class="col-xs-8">Monatliche Leasingrate für Gebrauchsüberlassung</span>
+		      <p class="col-xs-4 text-right">280,00 Euro</p>
+		    </li>
+		    <li class="row">
+		      <span class="col-xs-8">Monatliche Rate für Überführung und Zulassung <i class="mb-icon-i"></i></span>
+		      <p class="col-xs-4 text-right">10,00 Euro</p>
+		    </li>
+		    <li class="row">
+		      <span class="col-xs-8">Monatliche Rate für Kfz-Versicherung (Haftpflicht und Vollkasko) inklusive Versicherungssteuer <i class="mb-icon-i"></i></span>
+		      <p class="col-xs-4 text-right">10,00 Euro</p>
+		    </li>
+		    <li class="row">
+		      <span class="col-xs-8">Monatliche Rate für Wartung und Verschleißreparaturen <i class="mb-icon-i"></i></span>
+		      <p class="col-xs-4 text-right">69,00 Euro <i class="mb-icon-i"></i></p>
+		    </li>
+		    <li class="row">
+		      <span class="col-xs-8">Sollzinssatz % p.a. gebunden <i class="mb-icon-i"></i></span>
+		      <p class="col-xs-4 text-right">-5,38 %</p>
+		    </li>
+		    <li class="row">
+		      <span class="col-xs-8">Effektiver Jahreszins</span>
+		      <p class="col-xs-4 text-right">-4,63 %</p>
+		    </li>
+		    <li class="row very-important">
+		      <span class="col-xs-8">Monatliche Gesamt-Leasing-Rate<sup>*</sup> <i class="mb-icon-i"></i></span>
+		      <p class="col-xs-4 text-right">450,00 Euro</p>
+		    </li>
+		  </ul>
+		</div>
+	</div>
+</div>
+{{else}}
+	<a class="mb-compare-car-block-empty">
+		<span>Angebot auswählen</span>
+	</a>
+{{/if}}

@@ -10,7 +10,7 @@ import stepFourTemplate from './step_four_template.hbs';
 
 import FormValidatorHelper from '../common/form-validation-helper';
 
-let validatedPersonalData;
+let validatedFormData;
 
 let CheckoutModel = Backbone.Model.extend({
   validation: {
@@ -80,7 +80,7 @@ let StepOneView = ItemView.extend({
   },
 
   onShow() {
-    $('html, body').animate({ scrollTop: 0 }, 'fast');
+    $('html, body').animate({scrollTop: 0}, 'fast');
     this.ui.carousel.carousel({
       interval: false
     });
@@ -91,7 +91,7 @@ let StepOneView = ItemView.extend({
   },
 
   slideStart(e) {
-    if(e.direction == 'left') {
+    if (e.direction == 'left') {
       if (this.currentSlide == this.slidesNum) this.currentSlide = 1;
       else this.currentSlide += 1;
     }
@@ -143,19 +143,76 @@ let StepTwoView = ItemView.extend({
       daysOfWeekDisabled: [6]
     });
   },
-  
+
   clickNext(e) {
     e.preventDefault();
-    let data = {};
+    let modelData = {};
 
     $('.data-field').each(function (index) {
-      data[$(this).attr('name')] = $(this).val();
+      modelData[$(this).attr('name')] = $(this).val();
     });
 
-    this.model.set(data);
+    this.model.set(modelData);
 
     if (this.model.isValid(true)) {
-      validatedPersonalData = data;
+      validatedFormData = modelData;
+      let datePicker = $('#field-date').data("DateTimePicker").date()._d;
+      let year = datePicker.getFullYear();
+      let month = datePicker.getMonth();
+      let date = datePicker.getDate();
+      let hour = validatedFormData['delivery-time'];
+      let dateOfDelivery = new Date(year, month, date, hour);
+
+      let data = {
+        "customer": {
+          "salutation": validatedFormData['personal-salutation'],
+          "title": validatedFormData['personal-title'],
+          "firstName": validatedFormData['personal-first-name'],
+          "lastName": validatedFormData['personal-second-name'],
+          "phone": validatedFormData['personal-phone'],
+          "email": validatedFormData['personal-email'],
+          "postalCode": validatedFormData['personal-index'],
+          "city": validatedFormData['personal-city'],
+          "carTypeVal": "",
+          "specialRequests": "",
+          "subject": "",
+          "message": ""
+        },
+        "delivery": {
+          "firstName": validatedFormData['personal-first-name'],
+          "lastName": validatedFormData['personal-second-name'],
+          "streetName": validatedFormData['delivery-street'],
+          "streetNumber": validatedFormData['delivery-house'],
+          "address": validatedFormData['delivery-house'] + ' ' + validatedFormData['delivery-additional'],
+          "postalCode": validatedFormData['delivery-index'],
+          "city": validatedFormData['delivery-city']
+        },
+        "dealer": {
+          "gssnId": "",
+          "city": "",
+          "name": "",
+          "street": "",
+          "zip": ""
+        },
+        "financeType": [
+          "LEASING"
+        ],
+        "dateOfDelivery": [
+          dateOfDelivery
+        ]
+      };
+      console.log(data);
+
+      //$.ajax({
+      //  url: 'https://sos-dev.nolteundlauth.de/api/v2/offer/checkout/10211219410',
+      //  type: 'POST',
+      //  contentType: 'application/json',
+      //  dataType: 'json',
+      //  data: JSON.stringify(data),
+      //  success: (response) => {
+      //    console.log(response);
+      //  }
+      //});
       this.trigger('step:next');
     }
   },
@@ -188,7 +245,7 @@ let StepThreeView = ItemView.extend({
 
   templateHelpers() {
     return {
-      'personalData': validatedPersonalData
+      'personalData': validatedFormData
     }
   },
 
@@ -203,7 +260,7 @@ let StepThreeView = ItemView.extend({
   },
 
   slideStart(e) {
-    if(e.direction == 'left') {
+    if (e.direction == 'left') {
       if (this.currentSlide == this.slidesNum) this.currentSlide = 1;
       else this.currentSlide += 1;
     }
@@ -291,20 +348,20 @@ export default LayoutView.extend({
   },
 
   stepOneShow() {
-    $('html, body').animate({ scrollTop: 0 }, 'fast');
+    $('html, body').animate({scrollTop: 0}, 'fast');
     this.stepTwoRegion.$el.hide();
     this.stepOneRegion.$el.show();
   },
 
   stepTwoShow() {
-    $('html, body').animate({ scrollTop: 0 }, 'fast');
+    $('html, body').animate({scrollTop: 0}, 'fast');
     this.stepOneRegion.$el.hide();
     this.stepThreeRegion.$el.hide();
     this.stepTwoRegion.$el.show();
   },
 
   stepThreeShow() {
-    $('html, body').animate({ scrollTop: 0 }, 'fast');
+    $('html, body').animate({scrollTop: 0}, 'fast');
     this.stepTwoRegion.$el.hide();
     this.stepFourRegion.$el.hide();
     this.stepThreeView.render();
@@ -312,7 +369,7 @@ export default LayoutView.extend({
   },
 
   stepFourShow() {
-    $('html, body').animate({ scrollTop: 0 }, 'fast');
+    $('html, body').animate({scrollTop: 0}, 'fast');
     this.stepThreeRegion.$el.hide();
     this.stepFourRegion.$el.show();
   }

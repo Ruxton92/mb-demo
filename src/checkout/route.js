@@ -1,7 +1,7 @@
 import {Route} from 'backbone-routing';
 import View from './view';
 import SpinnerService from '../spinner/spinner-service';
-import ProductModel from '../product_detail/model';
+import CheckoutModel from './model';
 
 export default Route.extend({
   initialize(options = {}) {
@@ -9,7 +9,7 @@ export default Route.extend({
   },
 
   render() {
-    let model = new ProductModel();
+    let model = new CheckoutModel();
     model.url = model.urlRoot + '10211219410';
     this.listenTo(model, 'request', this.showSpinner);
     this.listenTo(model, 'sync', this.hideSpinner);

@@ -206,7 +206,7 @@ let StepTwoView = ItemView.extend({
       console.log(data);
 
       //$.ajax({
-      //  url: 'https://sos-dev.nolteundlauth.de/api/v2/offer/checkout/10211219410',
+      //  url: '/api/v2/offer/checkout/10211219410',
       //  type: 'POST',
       //  contentType: 'application/json',
       //  dataType: 'json',

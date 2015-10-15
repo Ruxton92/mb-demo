@@ -7,6 +7,7 @@ import LayoutView from './layout-view';
 
 let routerChannel = Radio.channel('router');
 let overlayChannel = Radio.channel('overlay');
+let config = require('../config');
 
 nprogress.configure({
   showSpinner: false
@@ -30,6 +31,10 @@ export default Application.extend({
     });
 
     // this.setHeaders();
+    $.ajaxPrefilter( ( options, originalOptions, jqXHR ) => {
+      options.url = config.api.url + options.url;
+      return (options);
+    });
   },
 
   // setHeaders() {

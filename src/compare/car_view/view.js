@@ -2,6 +2,8 @@ import $ from 'jquery';
 import {ItemView} from 'backbone.marionette';
 import template from './template.hbs';
 
+import ProductModel from '../../product_detail/model';
+
 import ModalService from '../../modal/service';
 import SpinnerService from '../../spinner/spinner-service';
 
@@ -21,12 +23,13 @@ export default ItemView.extend({
     'buttonNext': '.right',
     'buttonPrev': '.left',
     'selectCarButton': '.mb-compare-car-block-empty',
+    'resetButton': '.mb-reset-button',
   },
 
   templateHelpers() {
-    // return {
-    //   'id': this.model.get('stageModules')[0].data[0].offerNumber,
-    // }
+    return {
+      'id': this.model.get('stageModules')[0].data[0].offerNumber,
+    }
   },
 
   initialize() {
@@ -34,11 +37,12 @@ export default ItemView.extend({
   },
 
   events: {
-    'mouseEnter @ui.carousel': 'carouselMouseEnter',
-    'mouseLeave @ui.carousel': 'carouselMouseLeave',
+    'mouseenter @ui.carousel': 'carouselMouseEnter',
+    'mouseleave @ui.carousel': 'carouselMouseLeave',
     'click @ui.buttonPrev': 'carouselPrev',
     'click @ui.buttonNext': 'carouselNext',
     'click @ui.selectCarButton': 'openSelectCarModal',
+    'click @ui.resetButton': 'openSelectCarModal',
   },
 
   onShow() {
@@ -73,13 +77,11 @@ export default ItemView.extend({
 
   carouselMouseEnter(e) {
     e.preventDefault();
-    console.debug('carouselMouseEnter');
     this.trigger('carousel:enter');
   },
 
   carouselMouseLeave(e) {
     e.preventDefault();
-    console.debug('carouselMouseLeave');
     this.trigger('carousel:leave');
   },
 
@@ -100,8 +102,23 @@ export default ItemView.extend({
     this.listenTo(catalogueCollection, 'sync', this.hideSpinner);
     catalogueCollection.fetch({
       'success': ()=> {
-        let catalogueView = new SelectCarModalView({collection: catalogueCollection});
-        ModalService.request('open', catalogueView);
+        this.carSelectView = new SelectCarModalView({collection: catalogueCollection});
+        ModalService.request('open', this.carSelectView);
+        this.listenTo(this.carSelectView, 'car:selected', this.carSelected);
+      }
+    });
+  },
+
+  carSelected(data) {
+    this.carSelectView.trigger('cancel');
+    let carModel= new ProductModel();
+    this.listenTo(carModel, 'request', this.showSpinner);
+    this.listenTo(carModel, 'sync', this.hideSpinner);
+    carModel.url = carModel.urlRoot + 10211219410;
+    carModel.fetch({
+      'success': ()=> {
+        this.model = carModel;
+        this.render();
       }
     });
   },
@@ -112,5 +129,5 @@ export default ItemView.extend({
 
   hideSpinner() {
     SpinnerService.request('hideSpinner');
-  },
+  }
 });

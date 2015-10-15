@@ -36,18 +36,18 @@ export default LayoutView.extend({
   },
 
   templateHelpers() {
-    // let comparePhotos = [];
-    // if (this.model1.get('stageModules').length) {
-    //   for (let i = 0; i < this.model1.get('stageModules')[0].data[0].car.images360ExtDayClosed.length; i++) {
-    //     comparePhotos.push({
-    //       'model1': this.model1.get('stageModules')[0].data[0].car.images360ExtDayClosed[i],
-    //       'model2': this.model2.get('stageModules')[0].data[0].car.images360ExtDayClosed[i],
-    //     });
-    //   }
-    // }
-    // return {
-    //   'comparePhotos': comparePhotos
-    // }
+    let comparePhotos = [];
+    if (this.model1.get('stageModules').length) {
+      for (let i = 0; i < this.model1.get('stageModules')[0].data[0].car.images360ExtDayClosed.length; i++) {
+        comparePhotos.push({
+          'model1': this.model1.get('stageModules')[0].data[0].car.images360ExtDayClosed[i],
+          'model2': this.model2.get('stageModules')[0].data[0].car.images360ExtDayClosed[i],
+        });
+      }
+    }
+    return {
+      'comparePhotos': comparePhotos
+    }
   },
 
   initialize(data) {
@@ -62,6 +62,14 @@ export default LayoutView.extend({
     this.rightCarView = new CarView({model: this.model2});
     this.leftCar.show(this.leftCarView);
     this.rightCar.show(this.rightCarView);
+
+    this.listenTo(this.leftCarView, 'carousel:enter', this.carouselMouseEnter);
+    this.listenTo(this.leftCarView, 'carousel:leave', this.carouselMouseLeave);
+    this.listenTo(this.leftCarView, 'car:selected', this.carSelected);
+
+    this.listenTo(this.rightCarView, 'carousel:enter', this.carouselMouseEnter);
+    this.listenTo(this.rightCarView, 'carousel:leave', this.carouselMouseLeave);
+    this.listenTo(this.rightCarView, 'car:selected', this.carSelected);
   },
 
   activateCompareView(e) {
@@ -130,6 +138,26 @@ export default LayoutView.extend({
   slid(e) {
     e.preventDefault();
     this.ui.carousel.find('.mb-compare-gallery-model-1 img').css('min-width', this.ui.carousel.find('.active .mb-compare-gallery-model-2').css('width'));
+  },
+
+  carouselMouseEnter() {
+    this.ui.compareButton.addClass('active');
+  },
+
+  carouselMouseLeave() {
+    this.ui.compareButton.removeClass('active');
+  },
+
+  carSelected(data) {
+    // console.debug(data);
+    // let carModel= new ProductModel();
+    // carModel.url = carModel.urlRoot + 10211219410;
+    // carModel.fetch({
+    //   'success': ()=> {
+    //     this.rightCarView = new CarView({model: carModel});
+    //     this.render();
+    //   }
+    // });
   }
 
 });

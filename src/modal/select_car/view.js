@@ -18,7 +18,7 @@ let OfferView = ItemView.extend({
 
   selectModel(e) {
     e.preventDefault();
-    console.debug('selectModel');
+    this.trigger('car:selected', {'id': 10211219410});
   }
 
 });
@@ -34,6 +34,10 @@ export default CompositeView.extend({
     'click .close'       : 'cancel',
   },
 
+  childEvents: {
+    'car:selected': 'carSelected'
+  },
+
   ui: {
   },
 
@@ -43,5 +47,9 @@ export default CompositeView.extend({
 
   onShow() {
   },
+
+  carSelected() {
+    this.trigger('car:selected', {'id': 10211219410});
+  }
 
 });

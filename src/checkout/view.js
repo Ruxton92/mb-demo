@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import _ from 'lodash';
 import Backbone from 'backbone';
 import {LayoutView} from 'backbone.marionette';
 import {ItemView} from 'backbone.marionette';
@@ -12,6 +13,11 @@ import FormValidatorHelper from '../common/form-validation-helper';
 
 let validatedFormData;
 
+_.extend(Backbone.Validation.patterns, {
+  postalCode: /[0-9]{5}/,
+  date: /[0-9]{2}\\.[0-9]{2}\\.[0-9]{4}/,
+});
+
 let CheckoutModel = Backbone.Model.extend({
   validation: {
     'delivery-street': {
@@ -21,7 +27,8 @@ let CheckoutModel = Backbone.Model.extend({
       required: false
     },
     'delivery-index': {
-      required: false
+      required: false,
+      pattern: 'postalCode',
     },
     'delivery-city': {
       required: false
@@ -42,19 +49,22 @@ let CheckoutModel = Backbone.Model.extend({
       required: false
     },
     'personal-index': {
-      required: false
+      required: false,
+      pattern: 'postalCode',
     },
     'personal-city': {
       required: false
     },
     'personal-email': {
-      required: false
+      required: false,
+      pattern: 'email'
     },
     'trade-in-model': {
       required: false
     },
     'trade-in-date': {
-      required: false
+      required: false,
+      pattern: ''
     },
     'trade-in-km': {
       required: false
@@ -203,18 +213,17 @@ let StepTwoView = ItemView.extend({
           dateOfDelivery
         ]
       };
-      console.log(data);
 
-      //$.ajax({
-      //  url: '/api/v2/offer/checkout/10211219410',
-      //  type: 'POST',
-      //  contentType: 'application/json',
-      //  dataType: 'json',
-      //  data: JSON.stringify(data),
-      //  success: (response) => {
-      //    console.log(response);
-      //  }
-      //});
+      $.ajax({
+       url: 'https://sos-dev.nolteundlauth.de/api/v2/offer/checkout/10211219410',
+       type: 'POST',
+       contentType: 'application/json',
+       dataType: 'json',
+       data: JSON.stringify(data),
+       success: (response) => {
+         console.log(response);
+       }
+      });
       this.trigger('step:next');
     }
   },

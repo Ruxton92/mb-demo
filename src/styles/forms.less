@@ -152,10 +152,14 @@ form {
 				line-height: 44px;
 				min-width: 145px;
 				color: #333;
+				.border-radius(3px 0 0 3px);
 				.no-box-shadow();
 				border: none;
 				&.active {
 					background: #d9d9d9;
+				}
+				&+label {
+					.border-radius(0 3px 3px 0);
 				}
 			}
 		}

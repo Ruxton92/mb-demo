@@ -115,12 +115,14 @@ let StepTwoView = ItemView.extend({
 
   ui: {
     'next': '.js-next',
-    'prev': '.js-prev'
+    'prev': '.js-prev',
+    'deliveryTypes': '.delivery-type',
   },
 
   events: {
     'click @ui.next': 'clickNext',
-    'click @ui.prev': 'clickPrev'
+    'click @ui.prev': 'clickPrev',
+    'change [name="delivery-type"]': 'changeDeliveryType'
   },
 
   initialize() {
@@ -220,6 +222,12 @@ let StepTwoView = ItemView.extend({
   clickPrev(e) {
     e.preventDefault();
     this.trigger('step:prev');
+  },
+
+  changeDeliveryType(e) {
+    e.preventDefault();
+    this.ui.deliveryTypes.addClass('hide');
+    this.$el.find(`.${$(e.currentTarget).val()}`).removeClass('hide');
   }
 
 });

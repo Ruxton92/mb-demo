@@ -21,7 +21,7 @@ export default LayoutView.extend({
 
   onShow() {
     this.ui.tabs.addClass('hide');
-    this.ui.tabs.eq(0).removeClass('hide');
+    this.$el.find('.tab1').removeClass('hide');
   },
 
   tabLinkClick(e) {

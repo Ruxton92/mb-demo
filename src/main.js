@@ -91,4 +91,6 @@ app.getPromise().then(function() {
   });
 
   Backbone.history.start();
-})
+});
+
+export default app;

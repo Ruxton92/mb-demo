@@ -9,12 +9,15 @@ import LocaleHelper from '../common/locale-helper'
 
 let routerChannel = Radio.channel('router');
 let overlayChannel = Radio.channel('overlay');
-let config = require('../config');
 let localeChannel = Radio.channel('locale');
+let config = require('../config');
 
 nprogress.configure({
   showSpinner: false
 });
+
+Radio.DEBUG = true;
+
 
 export default Application.extend({
   initialize() {
@@ -34,9 +37,9 @@ export default Application.extend({
       'overlay:hide'        : this.hideOverlay
     });
 
-    this.listenTo(localeChannel, {
+    localeChannel.reply({
       'locale:get': this.getFromLocale,
-    });
+    }, this);
 
     this.promise = this.loadJSON().then((json) => {
       this.json = json;
@@ -110,10 +113,8 @@ export default Application.extend({
     })
   },
 
-  getFromLocale() {
-    console.debug('getFromLocale');
-    console.debug(this.json);
+  getFromLocale(key) {
+    return this.json[key];
   }
  
-
 });

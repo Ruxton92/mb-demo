@@ -12,7 +12,7 @@ export default class LocaleHelper{
     let localeChannel = Radio.channel('locale');
     Handlebars.registerHelper('locale', function(key, options) {
       let response = localeChannel.request('locale:get', key);
-      return response;
+      return new Handlebars.SafeString(response);
     });
   }
 }

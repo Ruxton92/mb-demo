@@ -1,7 +1,7 @@
 <div class="mb-checkout-form-wrapper container-md">
   <div class="row">
     <form class="col-xs-12 col-md-8 col-md-offset-2">
-      <h2>Wo möchten Sie beraten werden?</h2>
+      <h2>{{locale "checkout.step.2.title"}}</h2>
       <div class="row">
         <div class="col-xs-12">
           <div class="btn-group btn-group-lg" data-toggle="buttons">
@@ -15,25 +15,25 @@
         </div>
       </div>
       <div class="delivery-type delivery-address">
-        <h3>Bitte geben Sie Ihre Wunschadresse im Hamburger Stadtgebiet an. Wir kommen zu Ihnen.</h3>
+        <h3>{{locale "checkout.step.2.form.delivery.subtitle"}}</h3>
         <div class="row">
           <div class="col-xs-12">
             <div class="row">
               <div class="col-xs-4">
                 <div class="form-group">
-                  <label for="field-1">Straße <sup>*</sup></label>
+                  <label for="field-1">{{locale "checkout.step.2.form.delivery.street"}} <sup>*</sup></label>
                   <input type="text" class="form-control data-field" id="field-1" name="delivery-street">
                 </div>
               </div>
               <div class="col-xs-2">
                 <div class="form-group">
-                  <label for="field-2">Nummer <sup>*</sup></label>
+                  <label for="field-2">{{locale "checkout.step.2.form.delivery.house"}} <sup>*</sup></label>
                   <input type="text" class="form-control data-field" id="field-2" name="delivery-house">
                 </div>
               </div>
               <div class="col-xs-6">
                 <div class="form-group">
-                  <label for="field-3">Adresszusatz</label>
+                  <label for="field-3">{{locale "checkout.step.2.form.delivery.additional"}}</label>
                   <input type="text" class="form-control data-field" id="field-3" name="delivery-additional">
                 </div>
               </div>
@@ -45,23 +45,23 @@
             <div class="row">
               <div class="col-xs-3">
                 <div class="form-group">
-                  <label for="field-4">PLZ <sup>*</sup></label>
+                  <label for="field-4">{{locale "checkout.step.2.form.delivery.index"}} <sup>*</sup></label>
                   <input type="text" class="form-control data-field" id="field-4" name="delivery-index">
                 </div>
               </div>
               <div class="col-xs-9">
                 <div class="form-group">
-                  <label for="field-5">Ort <sup>*</sup></label>
+                  <label for="field-5">{{locale "checkout.step.2.form.delivery.city"}} <sup>*</sup></label>
                   <input type="text" class="form-control data-field" id="field-5" name="delivery-city">
                 </div>
               </div>
             </div>
           </div>
-          <label class="mb-form-sublabel"><sup>*</sup> Pflichtfelder</label>
+          <label class="mb-form-sublabel"><sup>*</sup> {{locale "checkout.step.2.form.required"}}</label>
         </div>
       </div>
       <div class="delivery-type delivery-dealer hide">
-        <h3>Bitte wählen Sie einen Fachhändler.</h3>
+        <h3>{{locale "checkout.step.2.form.dealer.subtitle"}}</h3>
         <div class="row">
           <div class="col-xs-12">
             <ul class="mb-form-list-switches">
@@ -97,21 +97,21 @@
         </div>
       </div>
       <hr>
-      <h2>Wann möchten Sie beraten werden?</h2>
+      <h2>{{locale "checkout.step.2.form.delivery.date.subtitle"}}</h2>
       <div class="row">
         <div class="col-xs-12">
           <div class="row">
             <div class="col-xs-6">
               <div class="form-group">
                 <div class='input-group mb-date-wrapper' id='field-date-wrapper'>
-                  <label for="field-1">Datum</label>
+                  <label for="field-1">{[locale "checkout.step.2.form.delivery.date.date"]}</label>
                   <div id="field-date" name="delivery-date"></div>
                 </div>
               </div>
             </div>
             <div class="col-xs-3">
               <div class="form-group">
-                <label for="field-5">Startzeit</label>
+                <label for="field-5">{{locale "checkout.step.2.form.delivery.date.time"}}</label>
                 <select class="form-control data-field" id="field-1" name="delivery-time">
                   <option value="9">9 : 00 Uhr</option>
                   <option value="10">10 : 00 Uhr</option>
@@ -123,13 +123,13 @@
           </div>
         </div>
       </div>
-      <h2>Persönliche Daten.</h2>
+      <h2>{{locale "checkout.step.2.form.personal_data.subtitle"}}</h2>
       <div class="row">
         <div class="col-xs-12">
           <div class="row">
             <div class="col-xs-2">
               <div class="form-group">
-                <label for="field-1">Anrede <sup>*</sup></label>
+                <label for="field-1">{{locale "checkout.step.2.form.personal_data.salutation"}} <sup>*</sup></label>
                 <select class="form-control data-field" id="field-1" name="personal-salutation">
                   <option value="1">1</option>
                   <option value="2">2</option>
@@ -140,7 +140,7 @@
             </div>
             <div class="col-xs-4">
               <div class="form-group">
-                <label for="field-5">Titel</label>
+                <label for="field-5">{{locale "checkout.step.2.form.personal_data.title"}}</label>
                 <select class="form-control data-field" id="field-1" name="personal-title">
                   <option value="a">a</option>
                   <option value="b">b</option>
@@ -157,13 +157,13 @@
           <div class="row">
             <div class="col-xs-6">
               <div class="form-group">
-                <label for="field-1">Vorname <sup>*</sup></label>
+                <label for="field-1">{{locale "checkout.step.2.form.personal_data.first_name"}} <sup>*</sup></label>
                 <input type="text" class="form-control data-field" id="field-5" name="personal-first-name">
               </div>
             </div>
             <div class="col-xs-6">
               <div class="form-group">
-                <label for="field-1">Nachname <sup>*</sup></label>
+                <label for="field-1">{{locale "checkout.step.2.form.personal_data.second_name"}} <sup>*</sup></label>
                 <input type="text" class="form-control data-field" id="field-5" name="personal-second-name">
               </div>
             </div>
@@ -175,7 +175,7 @@
           <div class="row">
             <div class="col-xs-12">
               <div class="form-group">
-                <label for="field-1">Firma</label>
+                <label for="field-1">{{locale "checkout.step.2.form.personal_data.company"}}</label>
                 <input type="text" class="form-control data-field" id="field-5" name="personal-company">
               </div>
             </div>
@@ -185,13 +185,13 @@
           <div class="row">
             <div class="col-xs-9">
               <div class="form-group">
-                <label for="field-1">Straße <sup>*</sup></label>
+                <label for="field-1">{{locale "checkout.step.2.form.delivery.street"}} <sup>*</sup></label>
                 <input type="text" class="form-control data-field" id="field-1" name="personal-street">
               </div>
             </div>
             <div class="col-xs-3">
               <div class="form-group">
-                <label for="field-2">Nummer <sup>*</sup></label>
+                <label for="field-2">{{locale "checkout.step.2.form.delivery.house"}} <sup>*</sup></label>
                 <input type="text" class="form-control data-field" id="field-2" name="personal-house">
               </div>
             </div>
@@ -203,7 +203,7 @@
           <div class="row">
             <div class="col-xs-12">
               <div class="form-group">
-                <label for="field-1">Adresszusatz</label>
+                <label for="field-1">{{locale "checkout.step.2.form.delivery.additional"}}</label>
                 <input type="text" class="form-control data-field" id="field-5" name="personal-additional">
               </div>
             </div>
@@ -213,13 +213,13 @@
           <div class="row">
             <div class="col-xs-3">
               <div class="form-group">
-                <label for="field-4">PLZ <sup>*</sup></label>
+                <label for="field-4">{{locale "checkout.step.2.form.delivery.index"}} <sup>*</sup></label>
                 <input type="text" class="form-control data-field" id="field-4" name="personal-index">
               </div>
             </div>
             <div class="col-xs-9">
               <div class="form-group">
-                <label for="field-5">Ort <sup>*</sup></label>
+                <label for="field-5">{{locale "checkout.step.2.form.delivery.city"}} <sup>*</sup></label>
                 <input type="text" class="form-control data-field" id="field-5" name="personal-city">
               </div>
             </div>
@@ -231,7 +231,7 @@
           <div class="row">
             <div class="col-xs-12">
               <div class="form-group">
-                <label for="field-1">E-Mail <sup>*</sup></label>
+                <label for="field-1">{{locale "checkout.step.2.form.personal_data.email"}} <sup>*</sup></label>
                 <input type="text" class="form-control data-field" id="field-5" name="personal-email">
               </div>
             </div>
@@ -241,44 +241,43 @@
           <div class="row">
             <div class="col-xs-12">
               <div class="form-group">
-                <label for="field-1">Telefon</label>
+                <label for="field-1">{{locale "checkout.step.2.form.personal_data.phone"}}</label>
                 <input type="text" class="form-control data-field" id="field-5" name="personal-phone">
               </div>
             </div>
           </div>
         </div>
-        <label class="mb-form-sublabel"><sup>*</sup> Pflichtfelder</label>
+        <label class="mb-form-sublabel"><sup>*</sup> {{locale "checkout.step.2.form.required"}}</label>
       </div>
-      <h2>Besondere Wünsche.</h2>
-      <h3><b>Haben Sie ein Wunschkennzeichen?</b></h3>
+      <h2>{{locale "checkout.step.2.form.special_wishes.title"}}</h2>
+      <h3><b>{{locale "checkout.step.2.form.special_wishes.subtitle.1"}}</b></h3>
       <h3>
-        Wir werden Ihr Wunschkennzeichen beantragen. Sollte Ihr Wunschkennzeichen bereits vergeben sein, werden wir Sie direkt darüber informieren und Alternativen vorschlagen.
+        {{locale "checkout.step.2.form.special_wishes.subtitle.2"}}
       </h3>
       <div class="row">
         <div class="col-xs-6">
           <div class="row">
             <div class="col-xs-10">
               <div class="form-group">
-                <label for="field-1">Wunschkennzeichen</label>
+                <label for="field-1">{{locale "checkout.step.2.form.special_wishes.license_plate"}}</label>
                 <input type="text" class="form-control data-field" id="field-5" name="license-plates">
               </div>
             </div>
           </div>
         </div>
       </div>
-      <h3><b>Möchten Sie Ihr aktuelles Fahrzeug in Zahlung geben?</b></h3>
+      <h3><b>{{locale "checkout.step.2.form.special_wishes.subtitle.3"}}</b></h3>
       <h3>
-        Nutzen Sie Ihr aktuelles Fahrzeug als Startkapital. Unsere Experten bewerten gerne Ihr Fahrzeug und bieten
-        Ihnen einen fairen Inzahlungnahmepreis an.
+        {{locale "checkout.step.2.form.special_wishes.subtitle.4"}}
       </h3>
       <div class="row">
         <div class="col-xs-4">
           <div class="btn-group btn-group-sm" data-toggle="buttons">
             <label class="btn btn-primary active">
-              <input type="radio" name="trade-in" id="option-1" autocomplete="off" checked> Ja
+              <input type="radio" name="trade-in" id="option-1" autocomplete="off" checked> {{locale "checkout.step.2.form.special_wishes.yes"}}
             </label>
             <label class="btn btn-primary">
-              <input type="radio" name="trade-in" id="option-2" autocomplete="off"> Nein
+              <input type="radio" name="trade-in" id="option-2" autocomplete="off"> {{locale "checkout.step.2.form.special_wishes.no"}}
             </label>
           </div>
         </div>
@@ -288,7 +287,7 @@
           <div class="row">
             <div class="col-xs-12">
               <div class="form-group">
-                <label for="field-1">Hersteller/Typ <sup>*</sup></label>
+                <label for="field-1">{{locale "checkout.step.2.form.trade_in.model"}} <sup>*</sup></label>
                 <input type="text" class="form-control data-field" id="field-5" name="trade-in-model">
               </div>
             </div>
@@ -298,14 +297,14 @@
           <div class="row">
             <div class="col-xs-6">
               <div class="form-group">
-                <label for="field-4">Erstzulassung <sup>*</sup></label>
+                <label for="field-4">{{locale "checkout.step.2.form.trade_in.registered"}} <sup>*</sup></label>
                 <input type="text" class="form-control data-field" id="field-4" name="trade-in-date">
                 <span class="form-error-message"></span>
               </div>
             </div>
             <div class="col-xs-6">
               <div class="form-group">
-                <label for="field-5">Kilometerstand <sup>*</sup></label>
+                <label for="field-5">{{locale "checkout.step.2.form.trade_in.milege"}} <sup>*</sup></label>
                 <div class="input-group">
                   <input type="text" class="form-control data-field" id="field-5" name="trade-in-km">
                   <span class="input-group-addon" id="basic-addon2">km</span>
@@ -324,11 +323,14 @@
     <div class="col-xs-12 col-md-8 col-md-offset-2 mb-checkout-form-navigation-block">
       <div class="row">
         <div class="col-xs-6 text-left">
-          <button class="btn btn-default mb-checkout-form-navigation-back js-prev">Back</button>
+          <button class="btn btn-default mb-checkout-form-navigation-back js-prev">{{locale "checkout.step.2.prev"}}</button>
         </div>
         <div class="col-xs-6 text-right">
-          <button class="btn btn-primary mb-checkout-form-navigation-next js-next">Next</button>
+          <button class="btn btn-primary mb-checkout-form-navigation-next js-next">{{locale "checkout.step.2.next"}}</button>
         </div>
+      </div>
+      <div class="row text-right">
+        <label class="mb-form-sublabel">{{locale "checkout.step.2.check_order_again"}}</label>
       </div>
     </div>
   </div>

@@ -1,7 +1,7 @@
 <div class="container-md mb-checkout-header">
 	<div class="row">
 		<div class="col-xs-12 col-md-8 col-md-offset-2">			
-			<h1>Bitte prüfen Sie Ihre Bestellung.</h1>
+			<h1>{{locale "checkout.step.3.title"}}</h1>
 		</div>
 	</div>
 </div>
@@ -34,7 +34,7 @@
 	<div class="row">
 		<div class="col-xs-12 col-md-8 col-md-offset-2">	
 			<div class="row">
-				<h2 class="mb-model-detail-tech-specs-title">Ihr Fahrzeug - A 180 AMG Line.</h2>
+				<h2 class="mb-model-detail-tech-specs-title">{{locale "checkout.step.1.your_car"}} - A 180 AMG Line.</h2>
 				<div class="col-xs-8 mb-model-detail-tech-specs-column width-66">
 					<ul class="mb-model-detail-tech-specs-options">
 						<li>AMG Line</li>
@@ -97,7 +97,7 @@
 <div class="mb-model-detail-offer-region container-md">
 	<div class="row">
 		<div class="col-xs-12 col-md-8 col-md-offset-2">
-		  <h2>Ihr Angebot.</h2>
+		  <h2>{{locale "checkout.step.1.your_offer"}}</h2>
 		  <ul class="mb-offer-detail-list">
 		    <li class="row">
 		      <span class="col-xs-6">Nettokaufpreis Fahrzeug</span>
@@ -123,7 +123,7 @@
 		      <p class="col-xs-6 text-right">44.154,95 Euro</p>
 		    </li>
 		  </ul>
-		  <h3>Leasing-Komplett-Paket (Ein Angebot der Mercedes-Benz Leasing GmbH, Siemensstraße 7, 70469 Stuttgart)</h3>
+		  <h3>{{locale "checkout.step.1.leasing_package"}}</h3>
 		  <ul class="mb-offer-detail-list">
 		    <li class="row">
 		      <span class="col-xs-6">Laufzeit</span>
@@ -182,43 +182,43 @@
 		<div class="col-xs-12 col-md-8 col-md-offset-2 mb-checkout-buyer-summary">
 			<div class="row">
 				<div class="col-xs-12">
-					<h2>Ihre Daten und Wünsche.</h2>
+					<h2>{{locale "checkout.step.3.data_desires.title"}}</h2>
 				</div>
 			</div>
 			<div class="row mb-checkout-buyer-summary-row">
-				<div class="col-xs-4">Name</div>
+				<div class="col-xs-4">{{locale "checkout.step.3.data_desires.name"}}</div>
 				<div class="col-xs-8">{{personalData.personal-first-name}} {{personalData.personal-second-name}}</div>
 			</div>
 			<div class="row mb-checkout-buyer-summary-row">
-				<div class="col-xs-4">Geburtsdatum</div>
+				<div class="col-xs-4">{{locale "checkout.step.3.data_desires.birth"}}</div>
 				<div class="col-xs-8">23.05.1984</div>
 			</div>
 			<div class="row mb-checkout-buyer-summary-row">
-				<div class="col-xs-4">Anschrift</div>
+				<div class="col-xs-4">{{locale "checkout.step.3.data_desires.personal_address"}}</div>
 				<div class="col-xs-8">{{personalData.delivery-street}} {{personalData.delivery-house}}, {{personalData.delivery-index}} {{personalData.delivery-city}}</div>
 			</div>
 			<div class="row mb-checkout-buyer-summary-row">
-				<div class="col-xs-4">E-Mail</div>
+				<div class="col-xs-4">{{locale "checkout.step.3.data_desires.email"}}</div>
 				<div class="col-xs-8">{{personalData.personal-email}}</div>
 			</div>
 			<div class="row mb-checkout-buyer-summary-row">
-				<div class="col-xs-4">Telefon</div>
+				<div class="col-xs-4">{{locale "checkout.step.3.data_desires.phone"}}</div>
 				<div class="col-xs-8">{{personalData.personal-phone}}</div>
 			</div>
 			<div class="row mb-checkout-buyer-summary-row">
-				<div class="col-xs-4">Lieferadresse</div>
+				<div class="col-xs-4">{{locale "checkout.step.3.data_desires.delivery_address"}}</div>
 				<div class="col-xs-8">{{personalData.personal-street}} {{personalData.personal-house}}, {{personalData.personal-index}} {{personalData.personal-city}}</div>
 			</div>
 			<div class="row mb-checkout-buyer-summary-row">
-				<div class="col-xs-4">Lieferdatum</div>
+				<div class="col-xs-4">{{locale "checkout.step.3.data_desires.delivery_date"}}</div>
 				<div class="col-xs-8">voraussichtlich 15.08.2015, 09:00 - 12:00 Uhr</div>
 			</div>
 			<div class="row mb-checkout-buyer-summary-row">
-				<div class="col-xs-4">Wunschkennzeichen</div>
+				<div class="col-xs-4">{{locale "checkout.step.3.data_desires.license_plates"}}</div>
 				<div class="col-xs-8">{{personalData.license-plates}}</div>
 			</div>
 			<div class="row mb-checkout-buyer-summary-row">
-				<div class="col-xs-4">Inzahlungnahme</div>
+				<div class="col-xs-4">{{locale "checkout.step.3.data_desires.trade_in"}}</div>
 				<div class="col-xs-8">keine Inzahlungnahme</div>
 			</div>
 		</div>
@@ -227,47 +227,47 @@
 <div class="container-md">
 	<div class="row">
 		<div class="col-xs-12 col-md-8 col-md-offset-2 mb-checkout-order-summary">
-			<h2>Ihre Bestellung.</h2>
+			<h2>{{locale "checkout.step.3.your_order.title"}}</h2>
 			<p>
-				Mit Betätigung des Buttons "Zahlungspflichtig bestellen" am Ende dieser Bestellung bestellen Sie in einem ersten Schritt das o.g. Fahrzeug zum angegebenen Kaufpreis. Mit Übergabe des Fahrzeugs an Sie tritt die Mercedes-Benz Leasing GmbH (oder ein mit ihr gemäß §§ 15 ff AktG verbundenes Unternehmen) gemäß den Leasingbedingungen in den Kaufvertrag ein. Der Kaufvertrag wird jedoch erst bei Abschluss des - dieser Bestellung nachfolgenden - Leasingvertrages wirksam (aufschiebende Bedingung). Zum Zwecke des Abschlusses und der Durchführung des Leasingvertrages übermittelt die Daimler AG Ihre Vertragsdaten an die Mercedes-Benz Leasing GmbH.
+				{{locale "checkout.step.3.your_order.text.1"}}
 				<br>
-				Das Zustandekommen des Leasingvertrags ist abhängig von Ihrer Bonität. Falls kein Leasingvertrag zustande kommt, sind Sie auch nicht mehr an die Bestellung bzw. den Kaufvertrag gebunden.
+				{{locale "checkout.step.3.your_order.text.2"}}
 				<br>
-				Mit dieser Bestellung gehen Sie keine Pflicht zum Abschluss des Leasingvertrages ein. Sollte nicht innerhalb von drei Wochen nach Absendung dieser Bestellung der - Ihnen noch zuzusendende - Leasingantrag bei der Mercedes-Benz Leasing GmbH eingehen, ist die Daimler AG zum Rücktritt vom Kaufvertrag berechtigt.
+				{{locale "checkout.step.3.your_order.text.3"}}
 			</p>
 			<form>
 				<ul class="mb-form-list-switches">
 					<li>
 						<label>
-	            <input type="radio" name="order-summary-options">
+	            <input type="checkbox" name="order-summary-options">
 	            <span class="mb-catalogue-filter-checkbox-wrapper"></span>
 	            <span class="mb-catalogue-filter-title">
-	            	Ich akzeptiere die 
-	            	<a href="#">Neufahrzeug-Verkaufsbedingungen</a>
-	            	der Daimler AG
+	            	{{locale "checkout.step.3.accept.text.1.1"}}
+	            	<a href="#">{{locale "checkout.step.3.accept.text.1.2"}}</a>
+	            	{{locale "checkout.step.3.accept.text.1.3"}}
 	            	<br class="visible-sm">
 	            </span>
 	          </label>
 					</li>
 					<li>
 						<label>
-	            <input type="radio" name="order-summary-options">
+	            <input type="checkbox" name="order-summary-options">
 	            <span class="mb-catalogue-filter-checkbox-wrapper"></span>
 	            <span class="mb-catalogue-filter-title">
-	            	Ich bin mit der oben genannten Nebenleistung „Wartung und Verschleißreparaturen“ 
+	            	{{locale "checkout.step.3.accept.text.2.1"}}
 								<br class="visible-sm">
-	            	einverstanden.
+	            	{{locale "checkout.step.3.accept.text.2.2"}}
 	            </span>
 	          </label>
 					</li>
 					<li>
 						<label>
-	            <input type="radio" name="order-summary-options">
+	            <input type="checkbox" name="order-summary-options">
 	            <span class="mb-catalogue-filter-checkbox-wrapper"></span>
 	            <span class="mb-catalogue-filter-title">
-	            	Ich bin mit der oben genannten Nebenleistung „Überführung und Zulassung“ 
+	            	{{locale "checkout.step.3.accept.text.3.1"}}
 								<br class="visible-sm">
-	            	einverstanden.
+	            	{{locale "checkout.step.3.accept.text.3.2"}}
 	            </span>
 	          </label>
 					</li>
@@ -281,34 +281,33 @@
 		<div class="col-xs-12 col-md-8 col-md-offset-2">
 			<div class="mb-checkout-cancellation-block">
 				<div class="mb-checkout-cancellation-description">
-					<h2>Widerrufsbelehrung.</h2>
-					<p><b>Widerrufsrecht</b></p>
+					<h2>{{locale "checkout.step.3.cancellation.title"}}</h2>
+					<p><b>{{locale "checkout.step.3.cancellation.text.1"}}</b></p>
 					<p>
-						Sie haben das Recht, binnen vierzehn Tagen ohne Angabe von Gründen diesen Vertrag zu widerrufen.
+						{{locale "checkout.step.3.cancellation.text.2"}}
 					</p>
 					<p>
-						Die Widerrufsfrist beträgt vierzehn Tage ab dem Tag an dem Sie oder ein von Ihnen benannter Dritter, der nicht der Beförderer ist, die Waren in Besitz genommen haben bzw. hat.
+						{{locale "checkout.step.3.cancellation.text.3"}}
 					</p>
 					<p>
-						Um Ihr Widerrufsrecht auszuüben, müssen Sie uns (Daimler AG, Mercedes-Benz Niederlassung Hamburg, Friedrich-Ebert-Damm 115, 22047 Hamburg, Telefon 040 / 6941 4444, Telefax 040/6941-2099, E-Mail support@mercedes-benz.com) mittels einer eindeutigen Erklärung (z.B. ein mit der Post versandter Brief, Telefax oder E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren. Sie können dafür das beigefügte Muster-Widerrufsformular verwenden, das jedoch nicht vorgeschrieben ist.
+						{{locale "checkout.step.3.cancellation.text.4"}}
 					</p>
 					<p>
-						Zur Wahrung der Widerrufsfrist reicht es aus, dass Sie die Mitteilung über die Ausübung des Widerrufsrechts vor Ablauf der Widerrufsfrist absenden.
+						{{locale "checkout.step.3.cancellation.text.5"}}
 					</p>
-					<p><b>Folgen des Widerrufs</b></p>
+					<p><b>{{locale "checkout.step.3.cancellation.text.6"}}</b></p>
 					<p>
-						Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen, die wir von Ihnen erhalten haben, einschließlich 
-						der Lieferkosten (mit Ausnahme der zusätzlichen Kosten, die sich daraus ergeben, dass Sie eine andere Art der Lieferung als die von uns angebotene, günstigste Standardlieferung gewählt haben), unverzüglich und spätestens binnen vierzehn Tagen ab dem Tag zurückzuzahlen, an dem die Mitteilung über Ihren Widerruf dieses Vertrags bei uns eingegangen ist. Für diese Rückzahlung verwenden wir dasselbe Zahlungsmittel, das Sie bei der ursprünglichen Transaktion eingesetzt haben, es sei denn, mit Ihnen wurde ausdrücklich etwas anderes vereinbart; in keinem Fall werden Ihnen wegen dieser Rückzahlung Entgelte berechnet. Wir können die Rückzahlung verweigern, bis wir die Waren wieder zurückerhalten haben oder bis Sie den Nachweis erbracht haben, dass Sie die Waren zurückgesandt haben, je nachdem, welches der frühere Zeitpunkt ist.
+						{{locale "checkout.step.3.cancellation.text.7"}}
 					</p>
 					<p>
-						Sie haben die Waren unverzüglich und in jedem Fall spätestens binnen vierzehn Tagen ab dem Tag, an dem Sie uns über den Widerruf dieses Vertrages unterrichten, an uns zurückzusenden oder zu übergeben. Die Frist ist gewahrt, wenn Sie die Waren vor Ablauf der Frist von vierzehn Tagen absenden. Wir tragen die Kosten der Rücksendung der Waren. Sie müssen für einen etwaigen Wertverlust der Waren nur aufkommen, wenn dieser Wertverlust auf einen zur Prüfung der Beschaffenheit, Eigenschaften und Funktionsweise der Waren nicht notwendigen Umgang mit ihnen zurückzuführen ist.
+						{{locale "checkout.step.3.cancellation.text.8"}}
 					</p>
 				</div>
 				<p>
-					Das Widerrufsrecht gilt nur für Verbraucher. Verbraucher ist jede natürliche Person, die ein Rechtsgeschäft zu Zwecken abschließt, die überwiegend weder ihrer gewerblichen noch ihrer selbstständigen beruflichen Tätigkeit zugerechnet werden können.  
+					{{locale "checkout.step.3.cancellation.text.9"}}
 				</p>
-				<p>
-					Das in der vorstehenden Widerrufsbelehrung erwähnte Muster-Widerrufsformular finden Sie unter „<a href="">Store-Info/Widerruf</a>“.
+				<p>1
+					{{locale "checkout.step.3.cancellation.text.10"}} „<a href="">{{locale "checkout.step.3.cancellation.text.11"}}</a>“.
 				</p>
 			</div>
 		</div>
@@ -317,12 +316,11 @@
 	<div class="row">
 		<div class="col-xs-12 col-md-8 col-md-offset-2">
 			<div class="mb-checkout-register-info">
-				<h3>Hinweis</h3>
+				<h3>{{locale "checkout.step.3.note.title"}}</h3>
 				<p>
-					Für die Bestellung ist es notwendig, dass Sie Ihre Registrierung im Mercedes-Benz Online Store abschließen. Ist Ihre 
-					Registrierung noch nicht vollständig abgeschlossen, folgen Sie dafür bitten dem Link, den wir Ihnen per E-Mail geschickt haben.
+					{{locale "checkout.step.3.note.text.1"}}
 				</p>
-				<p>Vielen Dank.</p>
+				<p>{{locale "checkout.step.3.note.text.2"}}</p>
 			</div>
 		</div>
 	</div>

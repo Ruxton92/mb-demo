@@ -1,24 +1,13 @@
-import $ from 'jquery';
 import Syphon from 'backbone.syphon';
-import Behavior from './behavior';
-
+import {Behavior} from 'backbone.marionette';
 
 export default Behavior.extend({
   events: {
-    'submit form' :                   'handleSubmit',
-    'change form input':              'validateInput',
-    'blur form input':                'validateInput',
-    'keyup form input.input-money':   'parseMoneyInput',
-    'change form select':             'validateInput',
-  },
-
-  listen: {
-    'change model': 'onChange'
+    'submit form' : 'handleSubmit'
   },
 
   initialize() {
-    // this.listenTo(this.view.options.model, 'change', this.onChange);
-    // this.view.form = this.view.options.model.attributes;
+    this.listenTo(this.view.model, 'change', this.onChange);
   },
 
   serialize() {
@@ -49,35 +38,6 @@ export default Behavior.extend({
 
   handleSubmit(event) {
     event.preventDefault();
-    this.serialize()
-    // this.view.form = Syphon.serialize(this);
-  },
-
-  parseMoneyInput(e) {
-    e.preventDefault();
-    $(e.target).val(this.prettifyNumber($(e.target).val(), ' '));
-  },
-
-  validateInput(e) {
-    var model = this.view.model;
-    var input_name = $(e.target).attr('name');
-    var input_money = $(e.target).hasClass('input-money');
-    var input_value = '';
-    if ($(e.target).attr('type') === 'checkbox') {
-      input_value = $(e.target).is(':checked');
-    } else {
-      input_value = $(e.target).val().trim() || $(e.target).find(':selected').val() || '';
-    }
-    model.set(input_name, input_value);
-    model.isValid(input_name);
-  },
-
-  prettifyNumber(x, separator) {
-    let x = x.toString().replace(/[^\d]/g, '');
-    return x.replace(/ /g,'').replace(/\B(?=(\d{3})+(?!\d))/g, " ");
-  },
-
-  unprettifyNumber(x, separator) {
-    return x.split(separator).join('');
-  },
+    this.view.form = Syphon.serialize(this);
+  }
 });

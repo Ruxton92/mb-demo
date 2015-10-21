@@ -384,6 +384,9 @@
   "detail.exteriror.text": "Eine markante Linienführung, dynamisch geschwungene Flächen und <br>eine coupéhafte Fensterlinie bestimmen das sportlich-emotionale <br>Exterieur der A-Klasse.",
   "detail.exteriror.button": "360&deg; rotate",
   "detail.equipment_highlights.subtitle": "Ausstattungshighlights.",
-  "detail.equipment_highlights.text": "Alle Ausstattungen<br>anzeigen"
+  "detail.equipment_highlights.text": "Alle Ausstattungen<br>anzeigen",
+
+  "compare.title": "Angebote vergleichen.",
+  "compare.select_model": "Angebot auswählen"
 
 }

@@ -25,6 +25,8 @@ export default Application.extend({
 
     this.$body = $(document.body);
     this.layout = new LayoutView();
+    let isTouchDevice = true == ("ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch);
+    if (isTouchDevice) this.$body.addClass('mb-device-touch');
 
     this.listenTo(routerChannel, {
       'before:enter:route' : this.onBeforeEnterRoute,

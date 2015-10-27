@@ -22,11 +22,11 @@ export default LayoutView.extend({
     'click .js-call-callback-modal': 'showCallbackModal',
     'click .js-call-email-modal': 'showEmailModal',
     'click .js-support-modal': 'showSupportModal',
-    'click .js-tab': 'switchTab',
+    'click .js-tab': 'switchTab'
   },
 
   ui: {
-    'overlay': '.mb-catalogue-overlay',
+    'overlay': '.mb-catalogue-overlay'
   },
 
   regions: {
@@ -80,7 +80,6 @@ export default LayoutView.extend({
     e.preventDefault();
     this.$('.js-tab').removeClass('active');
     $(e.currentTarget).addClass('active');
-  },
-
+  }
 
 });

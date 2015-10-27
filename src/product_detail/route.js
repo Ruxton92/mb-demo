@@ -6,7 +6,8 @@ import ProductModel from './model';
 export default Route.extend({
   initialize(options = {}) {
     this.container = options.container;
-    this.productID = parseInt(options.productID);
+    //I had to remove parseInt, because Ids with leading 00 were corrupted
+    this.productID = options.productID;
   },
 
   render() {

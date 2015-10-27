@@ -1,5 +1,6 @@
 import {ItemView} from 'backbone.marionette';
 import {CompositeView} from 'backbone.marionette';
+import Backbone from 'backbone';
 import collection_template from './collection_template.hbs';
 import itemTemplate from './item_template.hbs';
 import $ from 'jquery';
@@ -12,10 +13,24 @@ let OfferView = ItemView.extend({
   },
 
   events: {
+    "click": "onOfferClick"
   },
 
   initialize() {
+  },
+
+  onOfferClick(e) {
+
+    e.stopPropagation()
+
+    var $clickedItem = $(e.currentTarget),
+      $linkInside = $clickedItem.find('a'),
+      link = $linkInside.attr('href');
+
+    window.location.href = link;
+
   }
+
 
 });
 

@@ -5,7 +5,7 @@ let production = false;
 if (production) {
   config.api.url = '//sos-dev.nolteundlauth.de';
 } else{
-  config.api.url = '//sos-dev.nolteundlauth.de';
+  config.api.url = '//mbos-dev.nolteundlauth.de';
 }
 
 module.exports = config;

@@ -1,0 +1,69 @@
+.application__spinner__overlay {
+	position: absolute;
+	z-index: 100;
+	display: none;
+	left: -9999px;
+	right: auto;
+	top: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	&.active {
+		left: 0;
+		right: 0;
+		display: block;
+	}
+	.mb-spinner {
+		position: absolute;
+		top: 50%;
+		margin-top: -3.5em;
+		left: 50%;
+		margin-left: -3.5em;
+		z-index: 20;
+		display: none;
+		background: transparent url(/images/mercedes-benz-logo.png) 50% 50% no-repeat;
+		background-size: 70%;
+	  .mb-spinner-loader {
+	  	display: inline-block;
+		  margin: 0 auto;
+		  font-size: 10px;
+		  position: relative;
+		  text-indent: -9999em;
+		  border-top: 1em solid rgba(255, 255, 255, 0.2);
+		  border-right: 1em solid rgba(255, 255, 255, 0.2);
+		  border-bottom: 1em solid rgba(255, 255, 255, 0.2);
+		  border-left: 1em solid #ffffff;
+		  -webkit-transform: translateZ(0);
+		  -ms-transform: translateZ(0);
+		  transform: translateZ(0);
+		  -webkit-animation: mbloader 1.1s infinite linear;
+		  animation: mbloader 1.1s infinite linear;
+		}
+		.mb-spinner-loader,
+		.mb-spinner-loader :after {
+		  border-radius: 50%;
+		  width: 10em;
+		  height: 10em;
+		}
+		@-webkit-keyframes mbloader {
+		  0% {
+		    -webkit-transform: rotate(0deg);
+		    transform: rotate(0deg);
+		  }
+		  100% {
+		    -webkit-transform: rotate(360deg);
+		    transform: rotate(360deg);
+		  }
+		}
+		@keyframes mbloader {
+		  0% {
+		    -webkit-transform: rotate(0deg);
+		    transform: rotate(0deg);
+		  }
+		  100% {
+		    -webkit-transform: rotate(360deg);
+		    transform: rotate(360deg);
+		  }
+		}
+
+	}
+}

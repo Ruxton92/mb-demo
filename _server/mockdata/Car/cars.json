@@ -1,0 +1,1734 @@
+{
+  "data": [
+    {
+      "internalName":"",
+      "equipmentLine": "south of siena",
+      "highlights": [
+        {
+          "name": "Panoramadach",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cool & Audio-Paket",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "Sport-Paket",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "weiß-blaue Sitze in Lederoptik",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        }
+      ],
+      "bundleDescription":"All-in-Leasing-Rate 169 € (mtl.)<br>Ohne Sonderzahlung",
+      "title":"south of siena",
+      "fuelConsumption": 100,
+      "fuelConsumptionUrban": 100,
+      "fuelConsumptionHighway":100,
+      "emission":100,
+      "model": "smart fortwo",
+      "factoryPriceNetto": 20000,
+      "factoryPriceBrutto": 20000,
+      "vat": 2000,
+      "transferPrice": 500,
+      "registrationPrice": 500,
+      "transferAndRegistrationPrice": 500,
+      "velocity": 75,
+      "power": 75,
+      "powerPS": 75,
+      "powerHybrid": 75,
+      "powerHybridPS": 75,
+      "hybrid": false,
+      "fuelType": "Benzin",
+      "acceleration": 100,
+      "volume": 100,
+      "cylinders": 100,
+      "gearType": "gear",
+      "color": {
+        "bodypanel": "white",
+        "tridion": "orange"
+      },
+      "variant": "south of siena",
+      "engine": "Motor",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, a fugiat sint, autem maxime expedita, consequuntur quos tempore necessitatibus quo libero nostrum repudiandae, velit possimus alias quae minima aspernatur mollitia.",
+      "imagesStageBackground": {
+        "sd": {
+          "url": "/images/fortwo/4/imageStageBackground_sd.jpg",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/fortwo/4/imageStageBackground_md.jpg",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/fortwo/4/imageStageBackground_hd.jpg",
+          "altText": ""
+        }
+      },
+      "imagesStage": {
+        "sd": {
+          "url": "/images/fortwo/1/imageStage_sd.png",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/fortwo/1/imageStage_md.png",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/fortwo/1/imageStage_hd.png",
+          "altText": ""
+        }
+      },
+      "imagesCar": {
+        "sd": {
+          "url": "http://placehold.it/400x400",
+          "altText": ""
+        },
+        "md": {
+          "url": "http://placehold.it/800x800",
+          "altText": ""
+        },
+        "hd": {
+          "url": "http://placehold.it/1200x1200",
+          "altText": ""
+        }
+      },
+      "imagesCatalogue": {
+        "sd": {
+          "url": "/images/fortwo/1/imageCatalogue_sd.png",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/fortwo/1/imageCatalogue_md.png",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/fortwo/1/imageCatalogue_hd.png",
+          "altText": ""
+        }
+      },
+      "testdriveImage": {
+        "sd": "http://placehold.it/410x240",
+        "md": "http://placehold.it/820x480",
+        "hd": "http://placehold.it/820x480"
+      },
+      "imageInterior": {
+        "sd": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        },
+        "md": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        },
+        "hd": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        }
+      }
+    },
+    {
+      "internalName":"",
+      "equipmentLine": "south of siena",
+      "highlights": [
+        {
+          "name": "Panoramadach",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cool & Audio-Paket",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "Sport-Paket",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "weiß-blaue Sitze in Lederoptik",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        }
+      ],
+      "bundleDescription":"All-in-Leasing-Rate 169 € (mtl.)<br>Ohne Sonderzahlung",
+      "bundleDescriptionBanner":true,
+      "title":"south of siena",
+      "fuelConsumption": 100,
+      "fuelConsumptionUrban": 100,
+      "fuelConsumptionHighway":100,
+      "emission":100,
+      "model": "smart fortwo",
+      "factoryPriceNetto": 20000,
+      "factoryPriceBrutto": 20000,
+      "vat": 2000,
+      "transferPrice": 500,
+      "registrationPrice": 500,
+      "transferAndRegistrationPrice": 500,
+      "velocity": 75,
+      "power": 75,
+      "powerPS": 75,
+      "powerHybrid": 75,
+      "powerHybridPS": 75,
+      "hybrid": false,
+      "fuelType": "Benzin",
+      "acceleration": 100,
+      "volume": 100,
+      "cylinders": 100,
+      "gearType": "gear",
+      "color": {
+        "bodypanel": "brown",
+        "tridion": "black"
+      },
+      "variant": "south of siena",
+      "engine": "Motor",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, a fugiat sint, autem maxime expedita, consequuntur quos tempore necessitatibus quo libero nostrum repudiandae, velit possimus alias quae minima aspernatur mollitia.",
+      "imagesStageBackground": {
+        "sd": {
+          "url": "/images/fortwo/4/imageStageBackground_sd.jpg",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/fortwo/4/imageStageBackground_md.jpg",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/fortwo/4/imageStageBackground_hd.jpg",
+          "altText": ""
+        }
+      },
+      "imagesStage": {
+        "sd": {
+          "url": "/images/fortwo/4/imageStage_sd.png",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/fortwo/4/imageStage_md.png",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/fortwo/4/imageStage_hd.png",
+          "altText": ""
+        }
+      },
+      "imagesCar": {
+        "sd": {
+          "url": "http://placehold.it/400x400",
+          "altText": ""
+        },
+        "md": {
+          "url": "http://placehold.it/800x800",
+          "altText": ""
+        },
+        "hd": {
+          "url": "http://placehold.it/1200x1200",
+          "altText": ""
+        }
+      },
+      "imagesCatalogue": {
+        "sd": {
+          "url": "/images/fortwo/2/imageCatalogue_sd.png",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/fortwo/2/imageCatalogue_md.png",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/fortwo/2/imageCatalogue_hd.png",
+          "altText": ""
+        }
+      },
+      "testdriveImage": {
+        "sd": "http://placehold.it/410x240",
+        "md": "http://placehold.it/820x480",
+        "hd": "http://placehold.it/820x480"
+      },
+      "imageInterior": {
+        "sd": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        },
+        "md": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        },
+        "hd": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        }
+      }
+    },
+    {
+      "internalName":"",
+      "equipmentLine": "south of siena",
+      "highlights": [
+        {
+          "name": "Panoramadach",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cool & Audio-Paket",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "Sport-Paket",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "weiß-blaue Sitze in Lederoptik",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        }
+      ],
+      "bundleDescription":"All-in-Leasing-Rate 169 € (mtl.)<br>Ohne Sonderzahlung",
+      "title":"south of siena",
+      "fuelConsumption": 100,
+      "fuelConsumptionUrban": 100,
+      "fuelConsumptionHighway":100,
+      "emission":100,
+      "model": "smart fortwo",
+      "factoryPriceNetto": 20000,
+      "factoryPriceBrutto": 20000,
+      "vat": 2000,
+      "transferPrice": 500,
+      "registrationPrice": 500,
+      "transferAndRegistrationPrice": 500,
+      "velocity": 75,
+      "power": 75,
+      "powerPS": 75,
+      "powerHybrid": 75,
+      "powerHybridPS": 75,
+      "hybrid": false,
+      "fuelType": "Benzin",
+      "acceleration": 100,
+      "volume": 100,
+      "cylinders": 100,
+      "gearType": "gear",
+      "color": {
+        "bodypanel": "orange",
+        "tridion": "black"
+      },
+      "variant": "south of siena",
+      "engine": "Motor",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, a fugiat sint, autem maxime expedita, consequuntur quos tempore necessitatibus quo libero nostrum repudiandae, velit possimus alias quae minima aspernatur mollitia.",
+      "imagesStageBackground": {
+        "sd": {
+          "url": "/images/fortwo/4/imageStageBackground_sd.jpg",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/fortwo/4/imageStageBackground_md.jpg",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/fortwo/4/imageStageBackground_hd.jpg",
+          "altText": ""
+        }
+      },
+      "imagesStage": {
+        "sd": {
+          "url": "/images/fortwo/1/imageStage_sd.png",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/fortwo/1/imageStage_md.png",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/fortwo/1/imageStage_hd.png",
+          "altText": ""
+        }
+      },
+      "imagesCar": {
+        "sd": {
+          "url": "http://placehold.it/400x400",
+          "altText": ""
+        },
+        "md": {
+          "url": "http://placehold.it/800x800",
+          "altText": ""
+        },
+        "hd": {
+          "url": "http://placehold.it/1200x1200",
+          "altText": ""
+        }
+      },
+      "imagesCatalogue": {
+        "sd": {
+          "url": "/images/fortwo/3/imageCatalogue_sd.png",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/fortwo/3/imageCatalogue_md.png",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/fortwo/3/imageCatalogue_hd.png",
+          "altText": ""
+        }
+      },
+      "testdriveImage": {
+        "sd": "http://placehold.it/410x240",
+        "md": "http://placehold.it/820x480",
+        "hd": "http://placehold.it/820x480"
+      },
+      "imageInterior": {
+        "sd": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        },
+        "md": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        },
+        "hd": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        }
+      }
+    },
+    {
+      "internalName":"",
+      "equipmentLine": "south of siena",
+      "highlights": [
+        {
+          "name": "Panoramadach",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cool & Audio-Paket",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "Sport-Paket",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "weiß-blaue Sitze in Lederoptik",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        }
+      ],
+      "bundleDescription":"All-in-Leasing-Rate 169 € (mtl.)<br>Ohne Sonderzahlung",
+      "title":"south of siena",
+      "fuelConsumption": 100,
+      "fuelConsumptionUrban": 100,
+      "fuelConsumptionHighway":100,
+      "emission":100,
+      "model": "smart fortwo",
+      "factoryPriceNetto": 20000,
+      "factoryPriceBrutto": 20000,
+      "vat": 2000,
+      "transferPrice": 500,
+      "registrationPrice": 500,
+      "transferAndRegistrationPrice": 500,
+      "velocity": 75,
+      "power": 75,
+      "powerPS": 75,
+      "powerHybrid": 75,
+      "powerHybridPS": 75,
+      "hybrid": false,
+      "fuelType": "Benzin",
+      "acceleration": 100,
+      "volume": 100,
+      "cylinders": 100,
+      "gearType": "gear",
+      "color": {
+        "bodypanel": "blue",
+        "tridion": "grey"
+      },
+      "variant": "south of siena",
+      "engine": "Motor",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, a fugiat sint, autem maxime expedita, consequuntur quos tempore necessitatibus quo libero nostrum repudiandae, velit possimus alias quae minima aspernatur mollitia.",
+      "imagesStageBackground": {
+        "sd": {
+          "url": "/images/fortwo/4/imageStageBackground_sd.jpg",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/fortwo/4/imageStageBackground_md.jpg",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/fortwo/4/imageStageBackground_hd.jpg",
+          "altText": ""
+        }
+      },
+      "imagesStage": {
+        "sd": {
+          "url": "/images/fortwo/1/imageStage_sd.png",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/fortwo/1/imageStage_md.png",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/fortwo/1/imageStage_hd.png",
+          "altText": ""
+        }
+      },
+      "imagesCar": {
+        "sd": {
+          "url": "http://placehold.it/400x400",
+          "altText": ""
+        },
+        "md": {
+          "url": "http://placehold.it/800x800",
+          "altText": ""
+        },
+        "hd": {
+          "url": "http://placehold.it/1200x1200",
+          "altText": ""
+        }
+      },
+      "imagesCatalogue": {
+        "sd": {
+          "url": "/images/fortwo/4/imageCatalogue_sd.png",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/fortwo/4/imageCatalogue_md.png",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/fortwo/4/imageCatalogue_hd.png",
+          "altText": ""
+        }
+      },
+      "testdriveImage": {
+        "sd": "http://placehold.it/410x240",
+        "md": "http://placehold.it/820x480",
+        "hd": "http://placehold.it/820x480"
+      },
+      "imageInterior": {
+        "sd": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        },
+        "md": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        },
+        "hd": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        }
+      }
+    },
+    {
+      "internalName":"",
+      "equipmentLine": "south of siena",
+      "highlights": [
+        {
+          "name": "Panoramadach",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cool & Audio-Paket",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "Sport-Paket",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "weiß-blaue Sitze in Lederoptik",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        }
+      ],
+      "bundleDescription":"All-in-Leasing-Rate 169 € (mtl.)<br>Ohne Sonderzahlung",
+      "title":"south of siena",
+      "fuelConsumption": 100,
+      "fuelConsumptionUrban": 100,
+      "fuelConsumptionHighway":100,
+      "emission":100,
+      "model": "smart forfour",
+      "factoryPriceNetto": 20000,
+      "factoryPriceBrutto": 20000,
+      "vat": 2000,
+      "transferPrice": 500,
+      "registrationPrice": 500,
+      "transferAndRegistrationPrice": 500,
+      "velocity": 75,
+      "power": 75,
+      "powerPS": 75,
+      "powerHybrid": 75,
+      "powerHybridPS": 75,
+      "hybrid": false,
+      "fuelType": "Benzin",
+      "acceleration": 100,
+      "volume": 100,
+      "cylinders": 100,
+      "gearType": "gear",
+      "color": {
+        "bodypanel": "brown",
+        "tridion": "black"
+      },
+      "variant": "south of siena",
+      "engine": "Motor",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, a fugiat sint, autem maxime expedita, consequuntur quos tempore necessitatibus quo libero nostrum repudiandae, velit possimus alias quae minima aspernatur mollitia.",
+      "imagesStageBackground": {
+        "sd": {
+          "url": "/images/forfour/4/imageStageBackground_sd.jpg",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/forfour/4/imageStageBackground_md.jpg",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/forfour/4/imageStageBackground_hd.jpg",
+          "altText": ""
+        }
+      },
+      "imagesStage": {
+        "sd": {
+          "url": "/images/forfour/1/imageStage_sd.png",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/forfour/1/imageStage_md.png",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/forfour/1/imageStage_hd.png",
+          "altText": ""
+        }
+      },
+      "imagesCar": {
+        "sd": {
+          "url": "http://placehold.it/400x400",
+          "altText": ""
+        },
+        "md": {
+          "url": "http://placehold.it/800x800",
+          "altText": ""
+        },
+        "hd": {
+          "url": "http://placehold.it/1200x1200",
+          "altText": ""
+        }
+      },
+      "imagesCatalogue": {
+        "sd": {
+          "url": "/images/forfour/1/imageCatalogue_sd.png",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/forfour/1/imageCatalogue_md.png",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/forfour/1/imageCatalogue_hd.png",
+          "altText": ""
+        }
+      },
+      "testdriveImage": {
+        "sd": "http://placehold.it/410x240",
+        "md": "http://placehold.it/820x480",
+        "hd": "http://placehold.it/820x480"
+      },
+      "imageInterior": {
+        "sd": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        },
+        "md": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        },
+        "hd": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        }
+      }
+    },
+    {
+      "internalName":"",
+      "equipmentLine": "south of siena",
+      "highlights": [
+        {
+          "name": "Panoramadach",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cool & Audio-Paket",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "Sport-Paket",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "weiß-blaue Sitze in Lederoptik",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        }
+      ],
+      "bundleDescription":"All-in-Leasing-Rate 169 € (mtl.)<br>Ohne Sonderzahlung",
+      "title":"south of siena",
+      "fuelConsumption": 100,
+      "fuelConsumptionUrban": 100,
+      "fuelConsumptionHighway":100,
+      "emission":100,
+      "model": "smart forfour",
+      "factoryPriceNetto": 20000,
+      "factoryPriceBrutto": 20000,
+      "vat": 2000,
+      "transferPrice": 500,
+      "registrationPrice": 500,
+      "transferAndRegistrationPrice": 500,
+      "velocity": 75,
+      "power": 75,
+      "powerPS": 75,
+      "powerHybrid": 75,
+      "powerHybridPS": 75,
+      "hybrid": false,
+      "fuelType": "Benzin",
+      "acceleration": 100,
+      "volume": 100,
+      "cylinders": 100,
+      "gearType": "gear",
+      "color": {
+        "bodypanel": "red",
+        "tridion": "black"
+      },
+      "variant": "south of siena",
+      "engine": "Motor",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, a fugiat sint, autem maxime expedita, consequuntur quos tempore necessitatibus quo libero nostrum repudiandae, velit possimus alias quae minima aspernatur mollitia.",
+      "imagesStageBackground": {
+        "sd": {
+          "url": "/images/forfour/4/imageStageBackground_sd.jpg",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/forfour/4/imageStageBackground_md.jpg",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/forfour/4/imageStageBackground_hd.jpg",
+          "altText": ""
+        }
+      },
+      "imagesStage": {
+        "sd": {
+          "url": "/images/forfour/1/imageStage_sd.png",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/forfour/1/imageStage_md.png",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/forfour/1/imageStage_hd.png",
+          "altText": ""
+        }
+      },
+      "imagesCar": {
+        "sd": {
+          "url": "http://placehold.it/400x400",
+          "altText": ""
+        },
+        "md": {
+          "url": "http://placehold.it/800x800",
+          "altText": ""
+        },
+        "hd": {
+          "url": "http://placehold.it/1200x1200",
+          "altText": ""
+        }
+      },
+      "imagesCatalogue": {
+        "sd": {
+          "url": "/images/forfour/2/imageCatalogue_sd.png",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/forfour/2/imageCatalogue_md.png",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/forfour/2/imageCatalogue_hd.png",
+          "altText": ""
+        }
+      },
+      "testdriveImage": {
+        "sd": "http://placehold.it/410x240",
+        "md": "http://placehold.it/820x480",
+        "hd": "http://placehold.it/820x480"
+      },
+      "imageInterior": {
+        "sd": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        },
+        "md": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        },
+        "hd": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        }
+      }
+    },
+    {
+      "internalName":"",
+      "equipmentLine": "south of siena",
+      "highlights": [
+        {
+          "name": "Panoramadach",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cool & Audio-Paket",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "Sport-Paket",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "weiß-blaue Sitze in Lederoptik",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        }
+      ],
+      "bundleDescription":"All-in-Leasing-Rate 169 € (mtl.)<br>Ohne Sonderzahlung",
+      "title":"south of siena",
+      "fuelConsumption": 100,
+      "fuelConsumptionUrban": 100,
+      "fuelConsumptionHighway":100,
+      "emission":100,
+      "model": "smart forfour",
+      "factoryPriceNetto": 20000,
+      "factoryPriceBrutto": 20000,
+      "vat": 2000,
+      "transferPrice": 500,
+      "registrationPrice": 500,
+      "transferAndRegistrationPrice": 500,
+      "velocity": 75,
+      "power": 75,
+      "powerPS": 75,
+      "powerHybrid": 75,
+      "powerHybridPS": 75,
+      "hybrid": false,
+      "fuelType": "Benzin",
+      "acceleration": 100,
+      "volume": 100,
+      "cylinders": 100,
+      "gearType": "gear",
+      "color": {
+        "bodypanel": "grey",
+        "tridion": "orange"
+      },
+      "variant": "south of siena",
+      "engine": "Motor",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, a fugiat sint, autem maxime expedita, consequuntur quos tempore necessitatibus quo libero nostrum repudiandae, velit possimus alias quae minima aspernatur mollitia.",
+      "imagesStageBackground": {
+        "sd": {
+          "url": "/images/forfour/4/imageStageBackground_sd.jpg",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/forfour/4/imageStageBackground_md.jpg",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/forfour/4/imageStageBackground_hd.jpg",
+          "altText": ""
+        }
+      },
+      "imagesStage": {
+        "sd": {
+          "url": "/images/forfour/1/imageStage_sd.png",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/forfour/1/imageStage_md.png",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/forfour/1/imageStage_hd.png",
+          "altText": ""
+        }
+      },
+      "imagesCar": {
+        "sd": {
+          "url": "http://placehold.it/400x400",
+          "altText": ""
+        },
+        "md": {
+          "url": "http://placehold.it/800x800",
+          "altText": ""
+        },
+        "hd": {
+          "url": "http://placehold.it/1200x1200",
+          "altText": ""
+        }
+      },
+      "imagesCatalogue": {
+        "sd": {
+          "url": "/images/forfour/3/imageCatalogue_sd.png",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/forfour/3/imageCatalogue_md.png",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/forfour/3/imageCatalogue_hd.png",
+          "altText": ""
+        }
+      },
+      "testdriveImage": {
+        "sd": "http://placehold.it/410x240",
+        "md": "http://placehold.it/820x480",
+        "hd": "http://placehold.it/820x480"
+      },
+      "imageInterior": {
+        "sd": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        },
+        "md": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        },
+        "hd": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        }
+      }
+    },
+    {
+      "internalName":"",
+      "equipmentLine": "south of siena",
+      "highlights": [
+        {
+          "name": "Panoramadach",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cool & Audio-Paket",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "Sport-Paket",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "weiß-blaue Sitze in Lederoptik",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        }
+      ],
+      "bundleDescription":"All-in-Leasing-Rate 169 € (mtl.)<br>Ohne Sonderzahlung",
+      "title":"south of siena",
+      "fuelConsumption": 100,
+      "fuelConsumptionUrban": 100,
+      "fuelConsumptionHighway":100,
+      "emission":100,
+      "model": "smart forfour",
+      "factoryPriceNetto": 20000,
+      "factoryPriceBrutto": 20000,
+      "vat": 2000,
+      "transferPrice": 500,
+      "registrationPrice": 500,
+      "transferAndRegistrationPrice": 500,
+      "velocity": 75,
+      "power": 75,
+      "powerPS": 75,
+      "powerHybrid": 75,
+      "powerHybridPS": 75,
+      "hybrid": false,
+      "fuelType": "Benzin",
+      "acceleration": 100,
+      "volume": 100,
+      "cylinders": 100,
+      "gearType": "gear",
+      "color": {
+        "bodypanel": "yellow",
+        "tridion": "black"
+      },
+      "variant": "south of siena",
+      "engine": "Motor",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, a fugiat sint, autem maxime expedita, consequuntur quos tempore necessitatibus quo libero nostrum repudiandae, velit possimus alias quae minima aspernatur mollitia.",
+      "imagesStageBackground": {
+        "sd": {
+          "url": "/images/forfour/4/imageStageBackground_sd.jpg",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/forfour/4/imageStageBackground_md.jpg",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/forfour/4/imageStageBackground_hd.jpg",
+          "altText": ""
+        }
+      },
+      "imagesStage": {
+        "sd": {
+          "url": "/images/forfour/1/imageStage_sd.png",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/forfour/1/imageStage_md.png",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/forfour/1/imageStage_hd.png",
+          "altText": ""
+        }
+      },
+      "imagesCar": {
+        "sd": {
+          "url": "http://placehold.it/400x400",
+          "altText": ""
+        },
+        "md": {
+          "url": "http://placehold.it/800x800",
+          "altText": ""
+        },
+        "hd": {
+          "url": "http://placehold.it/1200x1200",
+          "altText": ""
+        }
+      },
+      "imagesCatalogue": {
+        "sd": {
+          "url": "/images/forfour/4/imageCatalogue_sd.png",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/forfour/4/imageCatalogue_md.png",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/forfour/4/imageCatalogue_hd.png",
+          "altText": ""
+        }
+      },
+      "testdriveImage": {
+        "sd": "http://placehold.it/410x240",
+        "md": "http://placehold.it/820x480",
+        "hd": "http://placehold.it/820x480"
+      },
+      "imageInterior": {
+        "sd": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        },
+        "md": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        },
+        "hd": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        }
+      }
+    },
+    {
+      "internalName":"",
+      "equipmentLine": "south of siena",
+      "highlights": [
+        {
+          "name": "Panoramadach",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cool & Audio-Paket",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "Sport-Paket",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "weiß-blaue Sitze in Lederoptik",
+          "text": "",
+          "images": [
+            {
+              "sd": {
+                "url": "",
+                "altText": ""
+              },
+              "md": {
+                "url": "",
+                "altText": ""
+              },
+              "hd": {
+                "url": "",
+                "altText": ""
+              }
+            }
+          ]
+        }
+      ],
+      "bundleDescription":"All-in-Leasing-Rate 169 € (mtl.)<br>Ohne Sonderzahlung",
+      "bundleDescriptionBanner":true,
+      "title":"south of siena",
+      "fuelConsumption": 100,
+      "fuelConsumptionUrban": 100,
+      "fuelConsumptionHighway":100,
+      "emission":100,
+      "model": "smart forfour",
+      "factoryPriceNetto": 20000,
+      "factoryPriceBrutto": 20000,
+      "vat": 2000,
+      "transferPrice": 500,
+      "registrationPrice": 500,
+      "transferAndRegistrationPrice": 500,
+      "velocity": 75,
+      "power": 75,
+      "powerPS": 75,
+      "powerHybrid": 75,
+      "powerHybridPS": 75,
+      "hybrid": false,
+      "fuelType": "Benzin",
+      "acceleration": 100,
+      "volume": 100,
+      "cylinders": 100,
+      "gearType": "gear",
+      "color": {
+        "bodypanel": "white",
+        "tridion": "grey"
+      },
+      "variant": "south of siena",
+      "engine": "Motor",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, a fugiat sint, autem maxime expedita, consequuntur quos tempore necessitatibus quo libero nostrum repudiandae, velit possimus alias quae minima aspernatur mollitia.",
+      "imagesStageBackground": {
+        "sd": {
+          "url": "/images/forfour/4/imageStageBackground_sd.jpg",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/forfour/4/imageStageBackground_md.jpg",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/forfour/4/imageStageBackground_hd.jpg",
+          "altText": ""
+        }
+      },
+      "imagesStage": {
+        "sd": {
+          "url": "/images/forfour/1/imageStage_sd.png",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/forfour/1/imageStage_md.png",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/forfour/1/imageStage_hd.png",
+          "altText": ""
+        }
+      },
+      "imagesCar": {
+        "sd": {
+          "url": "http://placehold.it/400x400",
+          "altText": ""
+        },
+        "md": {
+          "url": "http://placehold.it/800x800",
+          "altText": ""
+        },
+        "hd": {
+          "url": "http://placehold.it/1200x1200",
+          "altText": ""
+        }
+      },
+      "imagesCatalogue": {
+        "sd": {
+          "url": "/images/forfour/5/imageCatalogue_sd.png",
+          "altText": ""
+        },
+        "md": {
+          "url": "/images/forfour/5/imageCatalogue_md.png",
+          "altText": ""
+        },
+        "hd": {
+          "url": "/images/forfour/5/imageCatalogue_hd.png",
+          "altText": ""
+        }
+      },
+      "testdriveImage": {
+        "sd": "http://placehold.it/410x240",
+        "md": "http://placehold.it/820x480",
+        "hd": "http://placehold.it/820x480"
+      },
+      "imageInterior": {
+        "sd": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        },
+        "md": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        },
+        "hd": {
+          "url": "http://placehold.it/365x200",
+          "altText": ""
+        }
+      }
+    }
+  ]
+}

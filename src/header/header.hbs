@@ -1,0 +1,116 @@
+<nav class="navbar navbar-default mb-header-navbar">
+  <div class="container-fluid">
+    <div class="mb-header-navbar-main-area">
+      <div class="mb-header-logo-wrapper">
+        <a class="mb-header-logo" href="#">
+          <span class="mb-header-logo-image"></span>
+          <span class="mb-header-logo-text"></span>
+        </a>
+      </div>
+      <div class="mb-header-mobile-title-wrapper hidden-sm hidden-md hidden-lg hidden">
+        <a class="mb-header-mobile-back" href="#"></a>
+        <h1 class="mb-header-mobile-title">{{locale "topnav.item.all_offers"}}</h1>
+      </div>
+      <div class="mb-topnav-wrapper hidden-xs">
+        <ul class="mb-topnav-level-1">
+          <li class="mb-topnav-level-1-item hidden-xs">
+            <a href="/">{{locale "topnav.item.index"}}</a>
+          </li>
+          <li class="mb-topnav-level-1-item hidden-xs hidden-lg hidden-md-desktop">
+            <a href="#">{{locale "topnav.item.store_info"}}</a>
+          </li>
+          <li class="mb-topnav-level-1-item hidden-xs hidden-md hidden-lg">
+            <a href="#">{{locale "topnav.item.contacts"}}</a>
+          </li>
+          <li class="mb-topnav-level-1-item hidden-xs hidden-md hidden-lg">
+            <a href="#">{{locale "topnav.item.login"}}</a>
+          </li>
+          <li class="mb-topnav-level-1-item hidden-xs">
+            <a href="#" class="js-store-info">
+              <span class="mb-topnav-info-icon"></span>
+              {{locale "topnav.item.supplier_privacy"}}
+            </a>
+          </li>
+        </ul>
+        <ul class="mb-topnav-level-2">
+          <li class="mb-topnav-level-2-item hidden-xs">
+            <a href="#catalogue">{{locale "topnav.item.all_offers"}}</a>
+          </li>
+          <li class="mb-topnav-level-2-item hidden-xs">
+            <a href="#models">{{locale "topnav.item.models"}}</a>
+          </li>
+          <li class="mb-topnav-level-2-item hidden-xs">
+            <a href="#watchlist">{{locale "topnav.item.watch_list"}}</a>
+          </li>
+          <li class="mb-topnav-level-2-item hidden-xs hidden-sm hidden-md-tablet">
+            <a href="#storeinfo">{{locale "topnav.item.store_info"}}</a>
+          </li>
+          <li class="mb-topnav-level-2-item hidden-xs hidden-sm">
+            <a href="#contact">{{locale "topnav.item.contacts"}}</a>
+          </li>
+          <li class="mb-topnav-level-2-item hidden-xs hidden-sm">
+            <a href="#">{{locale "topnav.item.login"}}</a>
+          </li>
+          <li class="mb-topnav-level-2-item dropdown hidden-xs hidden-sm">
+            <a href="#" class="dropdown-toggle" id="myStoreDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              {{locale "topnav.item.my_store"}}
+            </a>
+            <ul class="dropdown-menu pull-right" aria-labelledby="myStoreDropdown">
+              <li class="mb-mein-store-dropdown-important"><a>Herr Klaus Schmidt</a></li>
+              <li><a href="#mydata">{{locale "topnav.item.my_data"}}</a></li>
+              <li><a href="#">{{locale "topnav.item.my_offers"}}</a></li>
+              <li class="mb-mein-store-dropdown-logout"><a href="#">{{locale "topnav.item.sign_off"}}</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="mb-topnav-mobile-wrapper hidden-sm hidden-md hidden-lg">
+        <a href="#" class="mb-topnav-mobile-info"></a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mb-sidebar" aria-expanded="false">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse mb-sidebar-wrapper" id="mb-sidebar">
+        <ul class="nav navbar-nav mb-sidebar-list">
+          <li class="mb-sidebar-item">
+            <a href="/">{{locale "topnav.item.index"}}</a>
+          </li>
+          <li class="mb-sidebar-item">
+            <a href="#" class="js-store-info">
+              <span class="mb-topnav-info-icon"></span>
+              {{locale "topnav.item.supplier_privacy"}}
+            </a>
+          </li>
+          <li class="mb-sidebar-item">
+            <a href="#">{{locale "topnav.item.watch_list"}}</a>
+          </li>
+          <li class="mb-sidebar-item">
+            <a href="#">{{locale "topnav.item.store_info"}}</a>
+          </li>
+          <li class="mb-sidebar-item">
+            <a href="#">{{locale "topnav.item.contacts"}}</a>
+          </li>
+          <li class="mb-sidebar-item">
+            <a href="#">{{locale "topnav.item.login"}}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="mb-header-navbar-additional-area hidden-xs hidden-sm hidden-md hidden-lg">
+      <div class="row">
+        <div class="col-xs-6">
+          <a class="mb-header-navbar-additional-link" href="#catalogue">{{locale "topnav.item.all_offers"}}</a>
+        </div>
+        <div class="col-xs-6">
+          <a class="mb-header-navbar-additional-link" href="#">
+            <span class="mb-header-navbar-search-icon"></span>
+            {{locale "topnav.item.models"}}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

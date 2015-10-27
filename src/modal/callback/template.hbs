@@ -1,0 +1,104 @@
+<button type="button" class="close" aria-hidden="true">&times;</button>
+<div class="modal-content">
+
+  <div class="modal-header">
+    <h4 class="modal-title">Rückruf anfordern.</h4>
+  </div>
+  <form>
+    <div class="modal-body">
+      <h3>
+        <b>Sie wünschen eine Beratung per Telefon?</b>
+        <br>
+        Nennen Sie uns Ihren Namen, Ihre Telefonnummer und wann wir Sie zurückrufen dürfen.
+      </h3>
+      <div class="row">
+        <div class="col-xs-6">
+          <div class="row">
+            <div class="col-xs-5">
+              <div class="form-group">
+                <label for="field-1">Anrede <sup>*</sup></label>
+                <select class="form-control" id="field-1" name="customer[salutation]">
+                  <option value="test">test</option>
+                  <option value="test">test</option>
+                  <option value="test">test</option>
+                  <option value="test">test</option>
+                </select>
+                <label for="field-1" class="mb-select-arrow"></label>
+              </div>
+            </div>
+            <div class="col-xs-7">
+              <div class="form-group">
+                <label for="field-2">Titel</label>
+                <select class="form-control" id="field-2" name="customer[title]">
+                  <option value="test">test</option>
+                  <option value="test">test</option>
+                  <option value="test">test</option>
+                  <option value="test">test</option>
+                </select>
+                <label for="field-2" class="mb-select-arrow"></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="form-group">
+                <label for="field-3">Vorname <sup>*</sup></label>
+                <input type="text" class="form-control" id="field-3" name="customer[firstName]">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="form-group">
+                <label for="field-4">Nachname <sup>*</sup></label>
+                <input type="text" class="form-control" id="field-4" name="customer[lastName]">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="form-group">
+                <label for="field-5">Telefon</label>
+                <input type="text" class="form-control" id="field-5" name="customer[phone]">
+                <label for="field-5" class="mb-form-sublabel"><sup>*</sup> Pflichtfelder</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6">
+          <div class="row">
+            <div class="col-xs-12">
+              <span>Wann sollen wir Sie anrufen?</span>
+              <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-primary active">
+                  <input type="radio" id="option-1" autocomplete="off" checked> Sofort
+                </label>
+                <label class="btn btn-primary">
+                  <input type="radio" id="option-2" autocomplete="off"> Wunschtermin
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-footer">
+      <button type="submit" class="btn btn-primary">Rückruf anfordern</button>
+    </div>
+  </form>
+</div>

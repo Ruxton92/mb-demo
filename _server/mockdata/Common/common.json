@@ -1,0 +1,44 @@
+{
+  "data": {
+    "models": [
+      {
+        "name": "fortwo",
+        "image": "/images/fortwo/imageNav_md.png",
+        "links": [
+          {
+            "target": "/catalogue/fortwo/onlineeditions",
+            "name": "Online Edition"
+          },
+          {
+            "target": "/catalogue/fortwo",
+            "name": "All offers"
+          }
+        ]
+      },
+      {
+        "name": "forfour",
+        "image": "/images/forfour/imageNav_md.png",
+        "links": [
+          {
+            "target": "/catalogue/forfour/onlineeditions",
+            "name": "Online Edition"
+          },
+          {
+            "target": "/catalogue/forfour",
+            "name": "All offers"
+          }
+        ]
+      },
+      {
+        "name": "smart times 2015",
+        "image": "/images/campaigns/smarttimes/imageNav_md.png",
+        "links": [
+          {
+            "target": "/offers/smarttime2015",
+            "name": "Specical offers"
+          }
+        ]
+      }
+    ]
+  }
+}

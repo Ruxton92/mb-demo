@@ -1,0 +1,504 @@
+{
+  "filters": [
+    {
+      "name": "price",
+      "filterSections": [
+        {
+          "type": "radioGroup",
+          "key": "financing",
+          "headline": "Financing models",
+          "filters": [
+            {
+              "type": "radio",
+              "deactivated": false,
+              "selected": false,
+              "key": "leasing",
+              "label": "Leasing"
+            },
+            {
+              "type": "radio",
+              "deactivated": false,
+              "selected": false,
+              "key": "financing",
+              "label": "Financing"
+            }
+          ]
+        },
+        {
+          "type": "sliderGroup",
+          "key": "price",
+          "headline": "Price range",
+          "filters": [
+            {
+              "type": "slider",
+              "valueMin": "100",
+              "valueMax": "500",
+              "steps": "25",
+              "labelPrefix": "€"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Model",
+      "filterSections": [
+        {
+          "type": "checkboxGroup",
+          "key": "model",
+          "headline": "Model",
+          "filters": [
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "all",
+              "label": "all"
+            },
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "fortwo",
+              "label": "fortwo"
+            },
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "forfour",
+              "label": "forfour"
+            }
+          ]
+        },
+        {
+          "type": "checkboxGroup",
+          "key": "line",
+          "headline": "Line",
+          "filters": [
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "all",
+              "label": "all"
+            },
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "passion",
+              "label": "passion"
+            },
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "prime",
+              "label": "prime"
+            },
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "proxy",
+              "label": "proxy"
+            }
+          ]
+        },
+        {
+          "type": "checkboxGroup",
+          "key": "specials",
+          "headline": "Specials",
+          "filters": [
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "smarttimes",
+              "label": "smart times offers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Exterior",
+      "filterSections": [
+        {
+          "type": "checkboxGroup",
+          "key": "bodypanels",
+          "headline": "bodypanels",
+          "filters": [
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "all",
+              "label": "all"
+            },
+            {
+              "type": "illustrated-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "group": "bodypanels",
+              "key": "black",
+              "image": "/images/catalogue/filter/color_black.png"
+            },
+            {
+              "type": "illustrated-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "group": "bodypanels",
+              "key": "grey",
+              "image": "/images/catalogue/filter/color_black.png"
+            },
+            {
+              "type": "illustrated-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "group": "bodypanels",
+              "key": "grey",
+              "image": "/images/catalogue/filter/color_black.png"
+            },
+            {
+              "type": "illustrated-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "group": "bodypanels",
+              "key": "grey",
+              "image": "/images/catalogue/filter/color_black.png"
+            },
+            {
+              "type": "illustrated-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "group": "bodypanels",
+              "key": "grey",
+              "image": "/images/catalogue/filter/color_black.png"
+            },
+            {
+              "type": "illustrated-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "group": "bodypanels",
+              "key": "grey",
+              "image": "/images/catalogue/filter/color_black.png"
+            },
+            {
+              "type": "illustrated-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "group": "bodypanels",
+              "key": "grey",
+              "image": "/images/catalogue/filter/color_black.png"
+            },
+            {
+              "type": "illustrated-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "group": "bodypanels",
+              "key": "grey",
+              "label": "Leather, Black",
+              "image": "/images/catalogue/filter/color_black.png"
+            }
+          ]
+        },
+        {
+          "type": "checkboxGroup",
+          "key": "tridion",
+          "headline": "Tridion",
+          "filters": [
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "all",
+              "label": "all"
+            },
+            {
+              "type": "illustrated-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "group": "bodypanels",
+              "key": "black",
+              "image": "/images/catalogue/filter/color_black.png"
+            },
+            {
+              "type": "illustrated-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "group": "bodypanels",
+              "key": "grey",
+              "label": "Leather, Black",
+              "image": "/images/catalogue/filter/color_black.png"
+            },
+            {
+              "type": "illustrated-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "group": "bodypanels",
+              "key": "grey",
+              "image": "/images/catalogue/filter/color_black.png"
+            },
+            {
+              "type": "illustrated-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "group": "bodypanels",
+              "key": "grey",
+              "image": "/images/catalogue/filter/color_black.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Interior",
+      "filterSections": [
+        {
+          "type": "checkboxGroup",
+          "key": "upholstery",
+          "headline": "Upholstery",
+          "filters": [
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "all",
+              "label": "all"
+            },
+            {
+              "type": "illustrated-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "group": "bodypanels",
+              "key": "leather_black",
+              "label": "Test",
+              "image": "/images/catalogue/filter/color_leather_black.jpg"
+            },
+            {
+              "type": "illustrated-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "group": "bodypanels",
+              "key": "fabric_black_white",
+              "label": "Test",
+              "image": "/images/catalogue/filter/color_leather_black.jpg"
+            },
+            {
+              "type": "illustrated-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "group": "bodypanels",
+              "key": "fabric_black_white",
+              "label": "Test",
+              "image": "/images/catalogue/filter/color_leather_black.jpg"
+            },
+            {
+              "type": "illustrated-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "group": "bodypanels",
+              "key": "fabric_black_white",
+              "label": "Test",
+              "image": "/images/catalogue/filter/color_leather_black.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Options",
+      "filterSections": [
+        {
+          "type": "checkboxGroup",
+          "key": "packages",
+          "headline": "Packages",
+          "filters": [
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "all",
+              "label": "all"
+            },
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "comfort_package",
+              "label": "Comfort Package"
+            },
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "premium_package",
+              "label": "Premium Package"
+            },
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "premium_plus_package",
+              "label": "Premium Plus Package"
+            }
+          ]
+        },
+        {
+          "type": "checkboxGroup",
+          "key": "exterior",
+          "headline": "Exterior",
+          "filters": [
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "all",
+              "label": "all"
+            },
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "comfort_package",
+              "label": "Comfort Package"
+            },
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "premium_package",
+              "label": "Premium Package"
+            },
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "premium_plus_package",
+              "label": "Premium Plus Package"
+            }
+          ]
+        },
+        {
+          "type": "checkboxGroup",
+          "key": "interior",
+          "headline": "Interior",
+          "filters": [
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "all",
+              "label": "all"
+            },
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "comfort_package",
+              "label": "Comfort Package"
+            },
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "premium_package",
+              "label": "Premium Package"
+            },
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "premium_plus_package",
+              "label": "Premium Plus Package"
+            }
+          ]
+        },
+        {
+          "type": "checkboxGroup",
+          "key": "audio_navigation",
+          "headline": "Audio/navigation",
+          "filters": [
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "all",
+              "label": "all"
+            },
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "comfort_package",
+              "label": "Comfort Package"
+            },
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "premium_package",
+              "label": "Premium Package"
+            },
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "premium_plus_package",
+              "label": "Premium Plus Package"
+            }
+          ]
+        },
+        {
+          "type": "checkboxGroup",
+          "key": "safety",
+          "headline": "Safety",
+          "filters": [
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "all",
+              "label": "all"
+            },
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "comfort_package",
+              "label": "Comfort Package"
+            },
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "premium_package",
+              "label": "Premium Package"
+            },
+            {
+              "type": "labeled-checkbox",
+              "deactivated": false,
+              "selected": false,
+              "key": "premium_plus_package",
+              "label": "Premium Plus Package"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sortby": [
+    {
+      "key": "latest",
+      "name": "latest"
+    }
+  ],
+  "page": {
+    "pageNumber": "1",
+    "pageNumberNext": "2",
+    "pageNumberPrev": "11",
+    "pageSize": "9"
+  }
+}

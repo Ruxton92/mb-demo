@@ -1,0 +1,647 @@
+.mb-catalogue-region {
+  position: relative;
+}
+.mb-catalogue-wrapper {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  .mb-catalogue-line {
+    position: relative;
+    height: 29px;
+    border-bottom: 1px solid #ccc;
+    .mb-catalogue-tabs {
+      position: absolute;
+      height: 29px;
+      .mb-tab {
+        color: #999;
+        font: 400 15px/20px 'Corp S', 'Helvetica Neue';
+        height: 100%;
+        float: left;
+        padding: 0 24px;
+        cursor: pointer;
+        &.active {
+          color: #00adef;
+          border-bottom: 3px solid #00adef;
+          cursor: default;
+        }
+      }
+    }
+  }
+  .mb-catalogue-items {
+    position: relative;
+    padding-top: 0px;
+    .mb-catalogue-dark-block {
+      height: 371px;
+      margin-bottom: 40px;
+      background-color: #3c3c3c;
+      padding: 20px;
+      margin-left: -3.48%;
+      width: 110.3%;
+      .mb-dark-block-title {
+        color: #fff;
+        font: 100 26px/26px 'Corp A';
+      }
+      ul.mb-dark-block-list {
+        display: block;
+        width: 100%;
+        border-top: 1px solid #999;
+        padding: 0;
+        margin-top: 42px;
+        li {
+          position: relative;
+          display: block;
+          cursor: pointer;
+          width: 100%;
+          height: 58px;
+          color: #999;
+          font: 400 18px/58px 'Corp S';
+          border-bottom: 1px solid #999;
+          padding-left: 38px;
+        }
+      }
+    }
+    .mb-catalogue-item {
+      position: relative;
+      float: none;
+      min-height: 320px;
+      padding-top: 10px;
+      padding-bottom: 0;
+      margin: 0 0 8px 0;
+      .mb-item-img-wrapper {
+        width: 100%;
+        min-height: 30px;
+        margin-top: 13px;
+        padding-bottom: 1px;
+        img {
+          max-width: 95%;
+        }
+        &.mb-default {
+          border-bottom: 1px solid #ccc;
+        }
+        &.mb-full-height {
+          position: relative;
+          img {
+            height: 100%;
+            width: auto;
+          }
+        }
+      }
+      h3.mb-item-title {
+        color: #333;
+        font: 27px/27px 'Corp A';
+        margin: 23px 0 16px 0;
+        a {
+          color: #333;
+          text-decoration: none;
+          &:hover,
+          &:active,
+          &:focus {
+            text-decoration: none;
+          }
+        }
+      }
+      .mb-item-title-var-two {
+        margin-top: 10px;
+        background: url(/images/icons/right-angle-dark.png);
+        background-repeat: no-repeat;
+        background-position: 0 5px;
+        color: #333;
+        font: 27px/27px 'Corp A';
+        padding-left: 22px;
+      }
+      .mb-item-content-1 {
+        position: relative;
+        width: 285px;
+        color: #333;
+        font: 400 17px/23px 'Corp S';
+        margin-bottom: 8px;
+      }
+      .mb-item-content-2 {
+        color: #999;
+        font: 400 14px/18px 'Corp S';
+      }
+      .mb-icon-i {
+        position: absolute;
+        background: url(/images/icons/i.png);
+        width: 28px;
+        height: 28px;
+        right: -7px;
+        top: -5px;
+      }
+      .mb-item-flag {
+        position: absolute;
+        right: 19px;
+        top: 38px;
+        color: #999;
+        font: 14px/20px 'Corp A';
+        border-bottom: 2px solid #999;
+        border-top: 2px solid #999;
+      }
+    }
+  }
+}
+.mb-catalogue-header  {
+  margin-top: -31px;
+  .mb-catalogue-total {
+    color: #333;
+    font: 400 27px / 32px "Corp A";
+    margin: 0;
+  }
+  div {
+    position: relative;
+  }
+  .mb-catalogue-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    .border-radius(1px);
+    background: #666666;
+    color: #fff;
+    font: 400 18px / 18px "Corp S";
+    height: 44px;
+    width: 224px;
+    display: inline-block;
+    border: none;
+    margin: -4px 0 0 0;
+  }
+  .mb-select-arrow {
+    background: transparent url(/images/icons/dropdown-arrow-light.png) left top no-repeat;
+    height: 8px;
+    width: 14px;
+    display: block;
+    position: absolute;
+    right: 35px;
+    top: 15px;
+  }
+}
+.mb-catalogue-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  opacity: 0;
+  display: block;
+  left: 99999px;
+  .transition(opacity 0.1s linear);
+  &.active {
+    left: 0;
+    opacity: 1;
+    .transition(opacity 0.3s linear);
+  }
+}
+.mb-icon-phone {
+  position: absolute;
+  display: inline-block;
+  left: 2px;
+  margin-top: 18px;
+  width: 18px;
+  height: 24px;
+  background: url(/images/icons/phone.png);
+}
+.mb-icon-chat {
+  position: absolute;
+  display: inline-block;
+  left: 2px;
+  margin-top: 18px;
+  width: 26px;
+  height: 20px;
+  background: url(/images/icons/chat.png);
+}
+.mb-icon-people {
+  position: absolute;
+  display: inline-block;
+  left: 2px;
+  margin-top: 18px;
+  width: 18px;
+  height: 22px;
+  background: url(/images/icons/people.png);
+}
+.mb-icon-letter {
+  position: absolute;
+  display: inline-block;
+  left: 2px;
+  margin-top: 18px;
+  width: 22px;
+  height: 20px;
+  background: url(/images/icons/letter.png);
+}
+.md-icon-right-angle {
+  display: block;
+  width: 10px;
+  height: 18px;
+  right: 0;
+  margin-top: 20px;
+  background: url(/images/icons/right-angle.png);
+}
+
+@media (min-width: @screen-sm) and (max-width: (@screen-md - 1)) {
+  .mb-catalogue-header  {
+    margin-top: -31px;
+    .mb-catalogue-total {
+      color: #333;
+      font: 400 36px / 42px "Corp A";
+      margin: 0;
+    }
+    .mb-catalogue-select {
+      font: 400 18px / 18px "Corp S";
+      height: 44px;
+      width: 224px;
+      display: inline-block;
+      border: none;
+      margin: 2px -3px 0 0;
+    }
+    .mb-select-arrow {
+      background: transparent url(/images/icons/dropdown-arrow-light.png) left top no-repeat;
+      height: 8px;
+      width: 14px;
+      display: block;
+      position: absolute;
+      right: 25px;
+      top: 20px;
+    }
+  }
+  .mb-catalogue-wrapper {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    .mb-catalogue-items {
+      position: relative;
+      padding-top: 4px;
+      .mb-catalogue-dark-block {
+        height: 371px;
+        margin-bottom: 40px;
+        background-color: #3c3c3c;
+        padding: 20px;
+        float: right;
+        width: calc(50% - 2 * 2.34375%);
+        margin: 0 2.34375%;
+        // calc(-1.5625% + -4.6875%)
+        .mb-dark-block-title {
+          color: #fff;
+          font: 100 26px/26px 'Corp A';
+        }
+        ul.mb-dark-block-list {
+          display: block;
+          width: 100%;
+          border-top: 1px solid #999;
+          padding: 0;
+          margin-top: 42px;
+          li {
+            position: relative;
+            display: block;
+            cursor: pointer;
+            width: 100%;
+            height: 58px;
+            color: #999;
+            font: 400 18px/58px 'Corp S';
+            border-bottom: 1px solid #999;
+            padding-left: 38px;
+          }
+        }
+      }
+      .mb-catalogue-item {
+        position: relative;
+        float: left;
+        min-height: 365px;
+        padding: 10px 17px 0;
+        margin: 0 0 5px 0;
+        .mb-item-img-wrapper {
+          width: 100%;
+          min-height: 30px;
+          margin-top: 13px;
+          padding-bottom: 1px;
+          img {
+            max-width: 100%;
+            max-height: 180px;
+          }
+          &.mb-default {
+            border-bottom: 1px solid #ccc;
+          }
+          &.mb-full-height {
+            position: relative;
+            img {
+              height: 100%;
+              width: auto;
+            }
+          }
+        }
+        h3.mb-item-title {
+          color: #333;
+          font: 27px/27px 'Corp A';
+          margin: 14px 0 16px 0;
+        }
+        .mb-item-title-var-two {
+          margin-top: 10px;
+          background: url(/images/icons/right-angle-dark.png);
+          background-repeat: no-repeat;
+          background-position: 0 5px;
+          color: #333;
+          font: 27px/27px 'Corp A';
+          padding-left: 22px;
+        }
+        .mb-item-content-1 {
+          position: relative;
+          width: 285px;
+          color: #333;
+          font: 400 17px/23px 'Corp S';
+          margin-bottom: 11px;
+        }
+        .mb-item-content-2 {
+          color: #999;
+          font: 400 14px/18px 'Corp S';
+        }
+        .mb-icon-i {
+          position: absolute;
+          background: url(/images/icons/i.png);
+          width: 28px;
+          height: 28px;
+          right: -44px;
+          top: 0px;
+        }
+        .mb-item-flag {
+          position: absolute;
+          right: 19px;
+          top: 38px;
+          color: #999;
+          font: 14px/20px 'Corp A';
+          border-bottom: 2px solid #999;
+          border-top: 2px solid #999;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: @screen-md) and (max-width: (@screen-lg - 1)) {
+  .mb-catalogue-header  {
+    margin-top: -31px;
+    .mb-catalogue-total {
+      color: #333;
+      font: 400 42px / 42px "Corp A";
+      margin: 0;
+    }
+    .mb-catalogue-select {
+      font: 400 18px / 18px "Corp S";
+      height: 44px;
+      width: 224px;
+      display: inline-block;
+      border: none;
+      margin: -3px 3px 0 0;
+    }
+    .mb-select-arrow {
+      background: transparent url(/images/icons/dropdown-arrow-light.png) left top no-repeat;
+      height: 8px;
+      width: 14px;
+      display: block;
+      position: absolute;
+      right: 30px;
+      top: 15px;
+    }
+  }
+  .mb-catalogue-wrapper {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    .mb-catalogue-items {
+      position: relative;
+      padding-top: 32px;
+      .mb-catalogue-dark-block {
+        height: 371px;
+        margin-bottom: 40px;
+        background-color: #3c3c3c;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        float: right;
+        width: calc(33.333333% - 2.34375%);
+        margin: 0 calc(2.34375% / 2);
+        .mb-dark-block-title {
+          color: #fff;
+          font: 100 26px/26px 'Corp A';
+        }
+        ul.mb-dark-block-list {
+          display: block;
+          width: 100%;
+          border-top: 1px solid #999;
+          padding: 0;
+          margin-top: 42px;
+          li {
+            position: relative;
+            display: block;
+            cursor: pointer;
+            width: 100%;
+            height: 58px;
+            color: #999;
+            font: 400 15px/58px 'Corp S';
+            border-bottom: 1px solid #999;
+            padding-left: 34px;
+          }
+        }
+      }
+      .mb-catalogue-item {
+        position: relative;
+        float: left;
+        min-height: 400px;
+        padding-top: 10px;
+        padding-bottom: 0;
+        margin: 0 0 24px 0;
+        .mb-item-img-wrapper {
+          width: 100%;
+          min-height: 30px;
+          margin-top: 13px;
+          padding-bottom: 1px;
+          img {
+            max-width: 100%;
+            max-height: 180px;
+          }
+          &.mb-default {
+            border-bottom: 1px solid #ccc;
+          }
+          &.mb-full-height {
+            position: relative;
+            img {
+              height: 100%;
+              width: auto;
+            }
+          }
+        }
+        h3.mb-item-title {
+          color: #333;
+          font: 27px/27px 'Corp A';
+          margin: 14px 0 16px 0;
+        }
+        .mb-item-title-var-two {
+          margin-top: 10px;
+          background: url(/images/icons/right-angle-dark.png);
+          background-repeat: no-repeat;
+          background-position: 0 5px;
+          color: #333;
+          font: 27px/27px 'Corp A';
+          padding-left: 22px;
+        }
+        .mb-item-content-1 {
+          position: relative;
+          width: 285px;
+          color: #333;
+          font: 400 17px/23px 'Corp S';
+          margin-bottom: 11px;
+        }
+        .mb-item-content-2 {
+          color: #999;
+          font: 400 14px/18px 'Corp S';
+        }
+        .mb-icon-i {
+          position: absolute;
+          background: url(/images/icons/i.png);
+          width: 28px;
+          height: 28px;
+          right: 5px;
+          top: -5px;
+        }
+        .mb-item-flag {
+          position: absolute;
+          right: 19px;
+          top: 15px;
+          color: #999;
+          font: 14px/20px 'Corp A';
+          border-bottom: 2px solid #999;
+          border-top: 2px solid #999;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: @screen-lg) {
+  .mb-catalogue-header  {
+    margin-top: -31px;
+    .mb-catalogue-total {
+      color: #333;
+      font: 400 42px / 42px "Corp A";
+      margin: 0;
+    }
+    .mb-catalogue-select {
+      font: 400 18px / 18px "Corp S";
+      height: 44px;
+      width: 224px;
+      display: inline-block;
+      border: none;
+      margin: -3px 3px 0 0;
+    }
+    .mb-select-arrow {
+      background: transparent url(/images/icons/dropdown-arrow-light.png) left top no-repeat;
+      height: 8px;
+      width: 14px;
+      display: block;
+      position: absolute;
+      right: 25px;
+      top: 20px;
+    }
+  }
+  .mb-catalogue-wrapper {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    .mb-catalogue-items {
+      position: relative;
+      padding-top: 32px;
+      .mb-catalogue-dark-block {
+        height: 371px;
+        margin-bottom: 40px;
+        background-color: #3c3c3c;
+        padding: 20px inherit;
+        float: right;
+        width: calc(33.333333% - 2.34375%);
+        margin: 0 calc(2.34375% / 2);
+        .mb-dark-block-title {
+          color: #fff;
+          font: 100 26px/26px 'Corp A';
+        }
+        ul.mb-dark-block-list {
+          display: block;
+          width: 100%;
+          border-top: 1px solid #999;
+          padding: 0;
+          margin-top: 42px;
+          li {
+            position: relative;
+            display: block;
+            cursor: pointer;
+            width: 100%;
+            height: 58px;
+            color: #999;
+            font: 400 18px/58px 'Corp S';
+            border-bottom: 1px solid #999;
+            padding-left: 38px;
+          }
+        }
+      }
+      .mb-catalogue-item {
+        position: relative;
+        float: left;
+        min-height: 365px;
+        padding: 10px 17px 0;
+        margin: 0 0 24px 0;
+        .mb-item-img-wrapper {
+          width: 100%;
+          min-height: 30px;
+          margin-top: 13px;
+          padding-bottom: 1px;
+          img {
+            max-height: 180px;
+            max-width: 100%;
+          }
+          &.mb-default {
+            border-bottom: 1px solid #ccc;
+          }
+          &.mb-full-height {
+            position: relative;
+            img {
+              height: 100%;
+              width: auto;
+            }
+          }
+        }
+        h3.mb-item-title {
+          color: #333;
+          font: 27px/27px 'Corp A';
+          margin: 14px 0 16px 0;
+        }
+        .mb-item-title-var-two {
+          margin-top: 10px;
+          background: url(/images/icons/right-angle-dark.png);
+          background-repeat: no-repeat;
+          background-position: 0 5px;
+          color: #333;
+          font: 27px/27px 'Corp A';
+          padding-left: 22px;
+        }
+        .mb-item-content-1 {
+          position: relative;
+          width: 285px;
+          color: #333;
+          font: 400 17px/23px 'Corp S';
+          margin-bottom: 11px;
+        }
+        .mb-item-content-2 {
+          color: #999;
+          font: 400 14px/18px 'Corp S';
+        }
+        .mb-icon-i {
+          position: absolute;
+          background: url(/images/icons/i.png);
+          width: 28px;
+          height: 28px;
+          right: -36px;
+          top: 1px;
+        }
+        .mb-item-flag {
+          position: absolute;
+          right: 6px;
+          top: 11px;
+          color: #999;
+          font: 22px/28px 'Corp A';
+          border-bottom: 2px solid #999;
+          border-top: 2px solid #999;
+        }
+      }
+    }
+  }
+}

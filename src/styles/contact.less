@@ -169,7 +169,48 @@
     background: url(/images/icons/contact_info.png);
   }
 }
-
+.mb-contacts-dark-block {
+  background: #3c3c3c;
+  padding: 20px;
+  h3 {
+    font: 34px / 36px "Corp A";
+    color: #fff;
+    margin: 0 0 25px 0;
+  }
+  .row {
+    &>div {
+      text-align: center;
+      border-left: 1px solid #666666;
+      &:first-child {
+        border: none; 
+      }
+      a {
+        display: block;
+        min-height: 100px;
+        padding-top: 55px;
+        color: #999999;
+        &:hover,
+        &:focus,
+        &:active {
+          text-decoration: none;
+          outline: none;
+        }
+        &.mb-contacts-dark-block-callback {
+          background: transparent url(/images/icons/contact_phone.png) 50% 10px no-repeat;
+        }
+        &.mb-contacts-dark-block-chat {
+          background: transparent url(/images/icons/contact_chat.png) 50% 10px no-repeat;
+        }
+        &.mb-contacts-dark-block-consult {
+          background: transparent url(/images/icons/contact_users.png) 50% 10px no-repeat;
+        }
+        &.mb-contacts-dark-block-email {
+          background: transparent url(/images/icons/contact_letter.png) 50% 10px no-repeat;
+        }
+      }
+    }
+  }
+}
 @media (min-width: @screen-sm) and (max-width: (@screen-md - 1)) {
   .mb-contact-banner {
     position: relative;

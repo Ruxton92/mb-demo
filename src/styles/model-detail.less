@@ -742,6 +742,8 @@
 		position: relative;
 		.mb-campaign-hero {
 			margin-left: 0;
+			margin-top: 250px;
+			margin-bottom: 50px;
 		}
 		.mb-model-header-back {
 			display: inline-block;
@@ -787,7 +789,7 @@
 			position: absolute;
 			z-index: 3;
 			top: 266px;
-	    left: 91px;
+	    	left: 91px;
 			display: inline-block;
 			font: 400 18px / 44px "Corp S";
 			color: #ffffff;
@@ -835,7 +837,7 @@
 			position: absolute;
 			z-index: 3;
 			left: 91px;
-			bottom: 27px;
+			bottom: 0px;
 			margin: 0;
 		}
 	}
@@ -901,7 +903,7 @@
 							&:active {
 								outline: none;
 							}
-							margin-top: 31px;
+							margin-top: 20px;
 						}
 						.dropdown-menu {
 							li {
@@ -978,19 +980,13 @@
 			font: 400 42px / 42px "Corp A";
 			color: #333333;
 			margin: 0;
-			position: absolute;
-			top: 57px;
-			left:  0;
-			z-index: 5;
+			
 		}
 		.mb-exterior-block-subtitle {
 			font: 400 18px / 22px "Corp S";
 			color: #333333;
 			margin: 0;
-			position: absolute;
-			top: 162px;
-			left: 0;
-			z-index: 5;
+			
 		}
 		.mb-exterior-block-show-modal {
 			height: 44px;
@@ -1010,9 +1006,12 @@
 		background: #1f1f1f;
 		.mb-model-detail-interior-block  {
 			margin: 0;
+
 			.mb-interior-header  {
 				padding: 0;
 				position: relative;
+				width: 100%;
+				margin-bottom: 340px;
 				.mb-interior-block-title {
 					font: 400 42px / 42px "Corp A";
 					color: #fff;
@@ -1046,7 +1045,7 @@
 				}
 			}
 			.mb-interior-large-photo-block {
-
+				width: 100%;
 				.mb-interior-large-photo {
 					padding: 0;
 					img {
@@ -1126,9 +1125,6 @@
 		.gradient(rgba(255, 255, 255, 0.7), rgba(241, 241, 241, 0.7));
 		margin-bottom: 60px;
 		margin-top: 20px;
-		.row {
-			background: transparent url(http://placehold.it/400x500.png) right 10px no-repeat;
-		}
 		.col-xs-12 {
 			border-top: 1px solid #cccccc;
 		}
@@ -1170,6 +1166,7 @@
 @media (min-width: @screen-md) and (max-width: (@screen-lg - 1)) {
 	.mb-model-detail-campaign {
 		position: relative;
+		padding-top: 125px;
 		.mb-campaign-hero {
 			margin-left: 0;
 		}
@@ -1393,6 +1390,7 @@
 	.mb-model-detail-exterior-region {
 		.mb-model-detail-exterior-block {
 			position: relative;
+			padding-top: 120px;
 			.mb-carousel {
 				.carousel-inner {
 					text-align: right;
@@ -1444,21 +1442,21 @@
 				padding: 0;
 				position: relative;
 				.mb-interior-block-title {
-					font: 400 42px / 42px "Corp A";
+					font: 400 32px / 36px "Corp A";
 					color: #fff;
 					margin: 0;
 					position: absolute;
-					top: 57px;
-					left:  92px;
+					top: 15px;
+					left:  25px;
 					z-index: 5;
 				}
 				.mb-interior-block-subtitle {
-					font: 400 18px / 23px "Corp S";
+					font: 400 16px / 23px "Corp S";
 					color: #fff;
 					margin: 0;
 					position: absolute;
-					top: 160px;
-					left: 92px;
+					top: 100px;
+					left: 25px;
 					z-index: 5;
 				}
 				.mb-interior-block-show-modal {
@@ -1468,8 +1466,8 @@
 					color: #ffffff;
 					padding: 0 20px;
 					position: absolute;
-					top: 280px;
-					left: 92px;
+					top: 200px;
+					left: 25px;
 					border: none;
 					z-index: 5;
 					.border-radius(1px);
@@ -1548,7 +1546,7 @@
 		margin-bottom: 60px;
 		margin-top: 20px;
 		.row {
-			background: transparent url(http://placehold.it/400x500.png) right 10px no-repeat;
+			background: transparent url(/images/model-detail-tech-specs.png) right center no-repeat;
 		}
 		.col-xs-12 {
 			border-top: 1px solid #cccccc;
@@ -1969,7 +1967,7 @@
 		margin-bottom: 60px;
 		margin-top: 20px;
 		.row {
-			background: transparent url(http://placehold.it/400x500.png) right 10px no-repeat;
+			background: transparent url(/images/model-detail-tech-specs.png) right center no-repeat;
 		}
 		.col-xs-12 {
 			border-top: 1px solid #cccccc;

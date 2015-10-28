@@ -1,29 +1,58 @@
+.mb-checkout-cancellation-block {
+  margin: 0 auto;
+  margin-bottom: 15px;
+  .mb-checkout-cancellation-description {
+    border: 1px solid #dddddd;
+    padding: 0 32px;
+    margin-bottom: 15px;
+  }
+  h2 {
+    font: 27px / 23.998px "Corp A";
+    color: #333333;
+    text-align: center;
+  }
+  p {
+    font: 400 18px / 23.998px "Corp S";
+    color: #333333;
+    margin-bottom: 1.2em;
+    a {
+      color: #333;
+      text-decoration: underline;
+    }
+  }
+}
+.mb-checkout-buyer-summary {
+  margin-bottom: 15px;
+  h2 {
+    font: 34px / 36px "Corp A";
+    color: #333333;
+    margin: 0 0 40px 0;
+  }
+  h3 {
+    font: 34px / 36px "Corp A";
+    color: #333333;
+    margin: 0 0 40px 0;
+  }
+  .mb-checkout-buyer-summary-row {
+    line-height: 38px;
+    font: 400 18px / 38px "Corp S";
+    color: #333333;
+    margin: 0;
+    &>div {
+      padding: 0;
+      border-top: 1px solid #ececec;
+    }
+    &+.mb-checkout-buyer-summary-row {
+      &>div {
+        border-top: none;
+        border-bottom: 1px solid #ececec; 
+      }
+    }
+  }
+}
 .mb-checkout-step {
   form {
     max-width: 9999px;
-  }
-  .mb-checkout-cancellation-block {
-    margin: 0 auto;
-    margin-bottom: 15px;
-    .mb-checkout-cancellation-description {
-      border: 1px solid #dddddd;
-      padding: 0 32px;
-      margin-bottom: 15px;
-    }
-    h2 {
-      font: 27px / 23.998px "Corp A";
-      color: #333333;
-      text-align: center;
-    }
-    p {
-      font: 400 18px / 23.998px "Corp S";
-      color: #333333;
-      margin-bottom: 1.2em;
-      a {
-        color: #333;
-        text-decoration: underline;
-      }
-    }
   }
   .mb-checkout-register-info {
     background: #ececec;
@@ -42,30 +71,6 @@
       font: 400 18px / 23.998px "Corp S";
       color: #333333;
       margin-bottom: 1.2em;
-    }
-  }
-  .mb-checkout-buyer-summary {
-    margin-bottom: 15px;
-    h2 {
-      font: 34px / 36px "Corp A";
-      color: #333333;
-      margin: 0 0 40px 0;
-    }
-    .mb-checkout-buyer-summary-row {
-      line-height: 38px;
-      font: 400 18px / 38px "Corp S";
-      color: #333333;
-      margin: 0;
-      &>div {
-        padding: 0;
-        border-top: 1px solid #ececec;
-      }
-      &+.mb-checkout-buyer-summary-row {
-        &>div {
-          border-top: none;
-          border-bottom: 1px solid #ececec; 
-        }
-      }
     }
   }
   .mb-contacts-dark-block {
@@ -380,32 +385,56 @@
   }
 }
 @media (min-width: @screen-sm) and (max-width: (@screen-md - 1)) { 
+  .mb-checkout-cancellation-block {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    .mb-checkout-cancellation-description {
+      border: 1px solid #dddddd;
+      padding: 0 32px;
+      margin-bottom: 15px;
+    }
+    h2 {
+      font: 27px / 23.998px "Corp A";
+      color: #333333;
+      text-align: center;
+    }
+    p {
+      font: 400 18px / 23.998px "Corp S";
+      color: #333333;
+      margin-bottom: 1.2em;
+      a {
+        color: #333;
+        text-decoration: underline;
+      }
+    }
+  }
+  .mb-checkout-buyer-summary {
+    margin-bottom: 15px;
+    h2 {
+      font: 34px / 36px "Corp A";
+      color: #333333;
+      margin: 0 0 40px 0;
+    }
+    .mb-checkout-buyer-summary-row {
+      line-height: 38px;
+      font: 400 18px / 38px "Corp S";
+      color: #333333;
+      margin: 0;
+      &>div {
+        padding: 0;
+        border-top: 1px solid #ececec;
+      }
+      &+.mb-checkout-buyer-summary-row {
+        &>div {
+          border-top: none;
+          border-bottom: 1px solid #ececec; 
+        }
+      }
+    }
+  }
   .mb-checkout-step {
     form {
       max-width: 9999px;
-    }
-    .mb-checkout-cancellation-block {
-      margin: 0 auto;
-      margin-bottom: 15px;
-      .mb-checkout-cancellation-description {
-        border: 1px solid #dddddd;
-        padding: 0 32px;
-        margin-bottom: 15px;
-      }
-      h2 {
-        font: 27px / 23.998px "Corp A";
-        color: #333333;
-        text-align: center;
-      }
-      p {
-        font: 400 18px / 23.998px "Corp S";
-        color: #333333;
-        margin-bottom: 1.2em;
-        a {
-          color: #333;
-          text-decoration: underline;
-        }
-      }
     }
     .mb-checkout-register-info {
       background: #ececec;
@@ -424,30 +453,6 @@
         font: 400 18px / 23.998px "Corp S";
         color: #333333;
         margin-bottom: 1.2em;
-      }
-    }
-    .mb-checkout-buyer-summary {
-      margin-bottom: 15px;
-      h2 {
-        font: 34px / 36px "Corp A";
-        color: #333333;
-        margin: 0 0 40px 0;
-      }
-      .mb-checkout-buyer-summary-row {
-        line-height: 38px;
-        font: 400 18px / 38px "Corp S";
-        color: #333333;
-        margin: 0;
-        &>div {
-          padding: 0;
-          border-top: 1px solid #ececec;
-        }
-        &+.mb-checkout-buyer-summary-row {
-          &>div {
-            border-top: none;
-            border-bottom: 1px solid #ececec; 
-          }
-        }
       }
     }
     .mb-contacts-dark-block {

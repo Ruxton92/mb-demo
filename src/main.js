@@ -16,7 +16,9 @@ import CheckoutRouter from './checkout/router';
 import CompareRouter from './compare/router';
 import ContactRouter from './contact/router';
 import IndexRouter from './index/router';
-import MeinDataRouter from './my_store/my_data/router';
+import MyDataRouter from './my_store/my_data/router';
+import MyOrderRouter from './my_store/my_order/router';
+import MyOrdersRouter from './my_store/my_orders/router';
 import ModelsRouter from './models/router';
 import OfferRouter from './offer/router';
 import ProductDetailRouter from './product_detail/router';
@@ -78,7 +80,15 @@ app.getPromise().then(function() {
     container: app.layout.content
   });
 
-  app.my_data = new MeinDataRouter({
+  app.my_data = new MyDataRouter({
+    container: app.layout.content
+  });
+
+  app.my_order = new MyOrderRouter({
+    container: app.layout.content
+  });
+
+  app.my_orders = new MyOrdersRouter({
     container: app.layout.content
   });
 

@@ -1,0 +1,44 @@
+<div class="index__billboard">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12">
+				<h1>{{locale "compare.title"}}</h1>
+			</div>
+		</div>
+	</div>
+	<div class="mb-compare-block">
+		{{#if comparePhotos}}
+			<button class="mb-compare-car-photos-button"></button>
+			<button class="mb-compare-car-photos-button-close hide">&times;</button>
+		{{/if}}
+		<div class="mb-compare-gallery hide">
+		  <div id="mb-compare-carousel" class="mb-carousel carousel slide mb-carousel-light" data-interval="false">
+		    <div class="carousel-inner" role="listbox">
+		      {{#each comparePhotos}}
+		      	<div class="item">
+		      		<div class="mb-compare-gallery-model-1" style="background-image: url()">
+		      			<a class="mb-compare-photos-control left"></a>
+		      			<a class="mb-compare-photos-draggable"></a>
+			      		<a class="mb-compare-photos-control right"></a>
+			      		<div class="mb-mb-compare-gallery-img-wrapper">
+			      			<img src="{{model1.hd.url}}" alt="">
+			      		</div>
+		      		</div>
+			      	<img class="mb-compare-gallery-model-2" src="{{model2.hd.url}}" alt="">
+		      	</div>
+		      {{/each}}
+		    </div>
+		    <a class="left carousel-control" href="#mb-compare-carousel" role="button" data-slide="prev">
+		      <span class=""></span>
+		    </a>
+		    <a class="right carousel-control" href="#mb-compare-carousel" role="button" data-slide="next">
+		      <span class=""></span>
+		    </a>
+		  </div>
+		</div>
+		<div class="mb-compare-car-block mb-compare-car-block-left">
+		</div>
+		<div class="mb-compare-car-block mb-compare-car-block-right">
+		</div>
+	</div>
+</div>

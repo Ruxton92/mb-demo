@@ -1,0 +1,3544 @@
+{
+  "stageModules": [
+    {
+      "name": "StageMulti",
+      "data": {
+        "bannerHeadline": "All-in-Leasing mit 10%",
+        "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+        "topOfferText": "Top Offer Text",
+        "totalMonthlyRate": 100,
+        "car": {
+          "offerGroupId": "123",
+          "equipmentLine": "south of siena",
+          "images360": [
+            {
+              "exterior": {
+                "day": {
+                  "open": [
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    }
+                  ],
+                  "closed": [
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    }
+                  ]
+                },
+                "night": {
+                  "open": [
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    }
+                  ],
+                  "closed": [
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    }
+                  ]
+                }
+              },
+              "interior": {
+                "day": {
+                  "open": [
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    }
+                  ],
+                  "closed": [
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    }
+                  ]
+                },
+                "night": {
+                  "open": [
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    }
+                  ],
+                  "closed": [
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    },
+                    {
+                      "sd":{
+                        "url": "",
+                        "altText": ""
+                      },
+                      "md": {
+                        "url": "",
+                        "altText": ""
+                      },
+                      "hd": {
+                        "url": "",
+                        "altText": ""
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "availableColors": [
+            {
+              "bodypanel": "blue",
+              "tridion": "black"
+            },
+            {
+              "bodypanel": "red",
+              "tridion": "white",
+              "active": true
+            },
+            {
+              "bodypanel": "brown",
+              "tridion": "yellow"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "navigation": {
+    "groups": [
+      {
+        "items": [
+          {
+            "url": "/detail/overview",
+            "label": "Overview",
+            "selected": false
+          },
+          {
+            "url": "/detail/design",
+            "label": "Design",
+            "selected": false
+          },
+          {
+            "url": "/detail/enigne",
+            "label": "Engine",
+            "selected": false
+          },
+          {
+            "url": "/detail/highlights",
+            "label": "Highlights",
+            "selected": false
+          },
+          {
+            "url": "/detail/leasingfinancing",
+            "label": "Leasing & Financing",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "url": "/chat",
+            "label": "Chat",
+            "selected": false,
+            "icon": "chat"
+          },
+          {
+            "url": "/call",
+            "label": "Call",
+            "selected": false,
+            "icon": "phone"
+          },
+          {
+            "url": "/mail",
+            "label": "Mail",
+            "selected": false,
+            "icon": "mail"
+          }
+        ]
+      }
+    ]
+  },
+  "modelDescription": {
+    "headline": ">>The smart forfour proxy",
+    "subheadline": "Now available starting at €41 per month only.",
+    "image": {
+      "sd": {
+        "url": "",
+        "altText": ""
+      },
+      "md": {
+        "url": "",
+        "altText": ""
+      },
+      "hd": {
+        "url": "",
+        "altText": ""
+      }
+    },
+    "highlights": {
+      "headline": "Special features of the online edition:",
+      "items": [
+        [
+          {
+            "name": "Panoramadach"
+          },
+          {
+            "name": "Panoramadach"
+          },
+          {
+            "name": "Panoramadach"
+          },
+          {
+            "name": "Panoramadach"
+          }
+        ]
+      ]
+    },
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat doloremque similique quos ex reprehenderit voluptates atque tenetur quibusdam vitae voluptate magni, aliquam debitis minima possimus quae est ducimus sapiente nisi vel aspernatur! Voluptas doloribus eius distinctio sapiente blanditiis nulla voluptate quas. Debitis neque vero eos. Voluptate porro nihil beatae dignissimos."
+  },
+  "design": {
+    "exterior": {
+      "rows": [
+        {
+          "headline": ">>Design",
+          "subheadline": "exterior & interior.",
+          "text": "Every moment I expected the fire of some hidden battery to spring upon him. The figure of the Martian grew smaller as he receded, and presently the mist and the gathering night had swallowed him up.",
+          "imageSideRight": {
+            "sd": {
+              "url": "",
+              "altText": ""
+            },
+            "md": {
+              "url": "",
+              "altText": ""
+            },
+            "hd": {
+              "url": "",
+              "altText": ""
+            }
+          }
+        },
+        {
+          "headline": ">>Design",
+          "subheadline": "exterior & interior.",
+          "text": "Every moment I expected the fire of some hidden battery to spring upon him. The figure of the Martian grew smaller as he receded, and presently the mist and the gathering night had swallowed him up.",
+          "imageFront": {
+            "sd": {
+              "url": "",
+              "altText": ""
+            },
+            "md": {
+              "url": "",
+              "altText": ""
+            },
+            "hd": {
+              "url": "",
+              "altText": ""
+            }
+          }
+        },
+        {
+          "headline": ">>Design",
+          "subheadline": "exterior & interior.",
+          "text": "Every moment I expected the fire of some hidden battery to spring upon him. The figure of the Martian grew smaller as he receded, and presently the mist and the gathering night had swallowed him up.",
+          "imageSideRight": {
+            "sd": {
+              "url": "",
+              "altText": ""
+            },
+            "md": {
+              "url": "",
+              "altText": ""
+            },
+            "hd": {
+              "url": "",
+              "altText": ""
+            }
+          }
+        },
+        {
+          "headline": ">>Design",
+          "subheadline": "exterior & interior.",
+          "text": "Every moment I expected the fire of some hidden battery to spring upon him. The figure of the Martian grew smaller as he receded, and presently the mist and the gathering night had swallowed him up.",
+          "imageBack": {
+            "sd": {
+              "url": "",
+              "altText": ""
+            },
+            "md": {
+              "url": "",
+              "altText": ""
+            },
+            "hd": {
+              "url": "",
+              "altText": ""
+            }
+          }
+        }
+      ]
+    },
+    "interior": {
+      "rows": [
+        {
+          "headline": "",
+          "subheadline": "",
+          "text": "",
+          "imageFullsize": {
+            "sd": {
+              "url": "",
+              "altText": ""
+            },
+            "md": {
+              "url": "",
+              "altText": ""
+            },
+            "hd": {
+              "url": "",
+              "altText": ""
+            }
+          }
+        },
+        {
+          "headline": "",
+          "subheadline": "",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem ea enim earum unde nam architecto provident excepturi qui minus voluptatibus.",
+          "imageBack": {
+            "sd": {
+              "url": "",
+              "altText": ""
+            },
+            "md": {
+              "url": "",
+              "altText": ""
+            },
+            "hd": {
+              "url": "",
+              "altText": ""
+            }
+          }
+        },
+        {
+          "headline": "",
+          "subheadline": "",
+          "text": "",
+          "imageFront": {
+            "sd": {
+              "url": "",
+              "altText": ""
+            },
+            "md": {
+              "url": "",
+              "altText": ""
+            },
+            "hd": {
+              "url": "",
+              "altText": ""
+            }
+          },
+          "imageFrontZoom": {
+            "sd": {
+              "url": "",
+              "altText": ""
+            },
+            "md": {
+              "url": "",
+              "altText": ""
+            },
+            "hd": {
+              "url": "",
+              "altText": ""
+            }
+          }
+        }
+      ]
+    }
+  },
+  "engine": {
+    "headline": ">>Engine.",
+    "subheadline": "52kW/71hp",
+    "image": {
+      "sd": {
+        "url": "",
+        "altText": ""
+      },
+      "md": {
+        "url": "",
+        "altText": ""
+      },
+      "hd": {
+        "url": "",
+        "altText": ""
+      }
+    },
+    "facts": {
+      "left": [
+        {
+          "value": "52kW/71 PS",
+          "label": "Motor- & Fahrleistung"
+        },
+        {
+          "value": "52kW/71 PS",
+          "label": "Motor- & Fahrleistung"
+        },
+        {
+          "value": "52kW/71 PS",
+          "label": "Motor- & Fahrleistung"
+        },
+        {
+          "value": "52kW/71 PS",
+          "label": "Motor- & Fahrleistung"
+        },
+        {
+          "value": "52kW/71 PS",
+          "label": "Motor- & Fahrleistung"
+        }
+      ],
+      "right": [
+        {
+          "value": "52kW/71 PS",
+          "label": "Motor- & Fahrleistung"
+        },
+        {
+          "value": "52kW/71 PS",
+          "label": "Motor- & Fahrleistung"
+        },
+        {
+          "value": "52kW/71 PS",
+          "label": "Motor- & Fahrleistung"
+        },
+        {
+          "value": "52kW/71 PS",
+          "label": "Motor- & Fahrleistung"
+        },
+        {
+          "value": "52kW/71 PS",
+          "label": "Motor- & Fahrleistung"
+        }
+      ]
+    }
+  },
+  "highlights": {
+    "headline": ">>Highlights.",
+    "text": "<b>Progressive, sporty, trendsetting:</b> with highlights such as the panoramic roof, Cool & Audio package, Sports package and white/blue seats in leather look and fabric, the web passion online edition exudes urban coolness.",
+    "items": [
+      {
+        "name": "Panoramic roof",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi corporis itaque repudiandae ipsum nihil quas laboriosam beatae voluptates nesciunt dolorem.",
+        "images": [
+          {
+            "sd": {
+              "url": "",
+              "altText": ""
+            },
+            "md": {
+              "url": "",
+              "altText": ""
+            },
+            "hd": {
+              "url": "",
+              "altText": ""
+            }
+          },
+          {
+            "sd": {
+              "url": "",
+              "altText": ""
+            },
+            "md": {
+              "url": "",
+              "altText": ""
+            },
+            "hd": {
+              "url": "",
+              "altText": ""
+            }
+          }
+        ]
+      },
+      {
+        "name": "Panoramic roof",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium asperiores obcaecati nobis minima qui minus reprehenderit nulla molestias mollitia dignissimos.",
+        "images": [
+          {
+            "sd": {
+              "url": "",
+              "altText": ""
+            },
+            "md": {
+              "url": "",
+              "altText": ""
+            },
+            "hd": {
+              "url": "",
+              "altText": ""
+            }
+          },
+          {
+            "sd": {
+              "url": "",
+              "altText": ""
+            },
+            "md": {
+              "url": "",
+              "altText": ""
+            },
+            "hd": {
+              "url": "",
+              "altText": ""
+            }
+          }
+        ]
+      },
+      {
+        "name": "Panoramic roof",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quod omnis sequi doloribus veritatis perferendis asperiores molestias accusantium et odio.",
+        "images": [
+          {
+            "sd": {
+              "url": "",
+              "altText": ""
+            },
+            "md": {
+              "url": "",
+              "altText": ""
+            },
+            "hd": {
+              "url": "",
+              "altText": ""
+            }
+          },
+          {
+            "sd": {
+              "url": "",
+              "altText": ""
+            },
+            "md": {
+              "url": "",
+              "altText": ""
+            },
+            "hd": {
+              "url": "",
+              "altText": ""
+            }
+          }
+        ]
+      },
+      {
+        "name": "Panoramic roof",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque temporibus adipisci blanditiis minus debitis iure veniam quos enim dolore quas.",
+        "images": [
+          {
+            "sd": {
+              "url": "",
+              "altText": ""
+            },
+            "md": {
+              "url": "",
+              "altText": ""
+            },
+            "hd": {
+              "url": "",
+              "altText": ""
+            }
+          },
+          {
+            "sd": {
+              "url": "",
+              "altText": ""
+            },
+            "md": {
+              "url": "",
+              "altText": ""
+            },
+            "hd": {
+              "url": "",
+              "altText": ""
+            }
+          }
+        ]
+      },
+      {
+        "name": "Panoramic roof",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis vel, mollitia accusantium numquam veritatis quasi excepturi impedit labore molestias rem.",
+        "images": [
+          {
+            "sd": {
+              "url": "",
+              "altText": ""
+            },
+            "md": {
+              "url": "",
+              "altText": ""
+            },
+            "hd": {
+              "url": "",
+              "altText": ""
+            }
+          },
+          {
+            "sd": {
+              "url": "",
+              "altText": ""
+            },
+            "md": {
+              "url": "",
+              "altText": ""
+            },
+            "hd": {
+              "url": "",
+              "altText": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "financing": {
+    "options": [
+      {
+        "headline": ">>Leasing.",
+        "subheadline": "Incluso Servizio e assicurazioni.",
+        "bannerHeadline": "€41/month",
+        "attributes": [
+          {
+            "label": "Period",
+            "value": "Per 3 anni"
+          },
+          {
+            "label": "Period",
+            "value": "Per 3 anni"
+          },
+          {
+            "label": "Period",
+            "value": "Per 3 anni"
+          },
+          {
+            "label": "Period",
+            "value": "Per 3 anni"
+          },
+          {
+            "label": "Period",
+            "value": "Per 3 anni"
+          },
+          {
+            "label": "Period",
+            "value": "Per 3 anni"
+          },
+          {
+            "label": "Period",
+            "value": "Per 3 anni"
+          }
+        ]
+      },
+      {
+        "headline": ">>Leasing.",
+        "subheadline": "Incluso Servizio e assicurazioni.",
+        "bannerHeadline": "€41/month",
+        "attributes": [
+          {
+            "label": "Period",
+            "value": "Per 3 anni"
+          },
+          {
+            "label": "Period",
+            "value": "Per 3 anni"
+          },
+          {
+            "label": "Period",
+            "value": "Per 3 anni"
+          },
+          {
+            "label": "Period",
+            "value": "Per 3 anni"
+          },
+          {
+            "label": "Period",
+            "value": "Per 3 anni"
+          },
+          {
+            "label": "Period",
+            "value": "Per 3 anni"
+          },
+          {
+            "label": "Period",
+            "value": "Per 3 anni"
+          }
+        ]
+      }
+    ]
+  },
+  "additional": {
+    "headline": ">>Insurance & service.",
+    "options": [
+      {
+        "headline": "My Insurance",
+        "bannerText": "FOR free!",
+        "texts": [
+          "<b>Our insurance offers you a great way<br>of protecting your smart.</b>",
+          "<b>My insurance is an easy-to-manage smart insurance policy.<br>It helps ensure your smart alloy wheels are kept in showroom condition.</b>",
+          "<b>My insurance is an easy-to-manage smart insurance policy.<br>It helps ensure your smart alloy wheels are kept in showroom condition.</b>"
+        ]
+      },
+      {
+        "headline": "My Insurance",
+        "bannerText": "FOR free!",
+        "texts": [
+          "<b>Our insurance offers you a great way<br>of protecting your smart.</b>",
+          "<b>My insurance is an easy-to-manage smart insurance policy.<br>It helps ensure your smart alloy wheels are kept in showroom condition.</b>",
+          "<b>My insurance is an easy-to-manage smart insurance policy.<br>It helps ensure your smart alloy wheels are kept in showroom condition.</b>"
+        ]
+      }
+    ]
+  },
+  "testdrive":{
+    "image": {
+      "sd":{
+        "url": "",
+        "altText": ""
+      },
+      "md": {
+        "url": "",
+        "altText": ""
+      },
+      "hd": {
+        "url": "",
+        "altText": ""
+      }
+    }
+  },
+  "similarOffers": [
+    {
+      "topOfferText": "",
+      "bannerHeadline": "All-in-Leasing mit 10%",
+      "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+      "car": {
+          "equipmentLine": "prime",
+          "highlights": [
+            {
+              "name": "",
+              "text": "",
+              "images": [
+                {
+                  "sd":{
+                    "url": "",
+                    "altText": ""
+                  },
+                  "md": {
+                    "url": "",
+                    "altText": ""
+                  },
+                  "hd": {
+                    "url": "",
+                    "altText": ""
+                  }
+                }
+              ]
+            }
+          ],
+          "model": "smart fortwo",
+          "imagesCar": {
+            "sd": {
+              "url": "http://placehold.it/400x400",
+              "altText": ""
+            },
+            "md": {
+              "url": "http://placehold.it/800x800",
+              "altText": ""
+            },
+            "hd": {
+              "url": "http://placehold.it/1200x1200",
+              "altText": ""
+            }
+          },
+          "imageInterior": {
+            "sd": {
+              "url": "http://placehold.it/365x200",
+              "altText": ""
+            },
+            "md": {
+              "url": "http://placehold.it/365x200",
+              "altText": ""
+            },
+            "hd": {
+              "url": "http://placehold.it/365x200",
+              "altText": ""
+            }
+          },
+          "color": [
+            {
+              "bodypanel": "red",
+              "tridion": "black"
+            }
+          ]
+      },
+      "availableColors": [
+        {
+          "bodypanel": "white",
+          "tridion": "grey"
+        },
+        {
+          "bodypanel": "brown",
+          "tridion": "yellow"
+        },
+        {
+          "bodypanel": "blue",
+          "tridion": "black"
+        }
+      ]
+    },
+    {
+      "topOfferText": "",
+      "bannerHeadline": "All-in-Leasing mit 10%",
+      "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+      "car": {
+          "equipmentLine": "prime",
+          "highlights": [
+            {
+              "name": "",
+              "text": "",
+              "images": [
+                {
+                  "sd":{
+                    "url": "",
+                    "altText": ""
+                  },
+                  "md": {
+                    "url": "",
+                    "altText": ""
+                  },
+                  "hd": {
+                    "url": "",
+                    "altText": ""
+                  }
+                }
+              ]
+            }
+          ],
+          "model": "smart fortwo",
+          "imagesCar": {
+            "sd": {
+              "url": "http://placehold.it/400x400",
+              "altText": ""
+            },
+            "md": {
+              "url": "http://placehold.it/800x800",
+              "altText": ""
+            },
+            "hd": {
+              "url": "http://placehold.it/1200x1200",
+              "altText": ""
+            }
+          },
+          "imageInterior": {
+            "sd": {
+              "url": "http://placehold.it/365x200",
+              "altText": ""
+            },
+            "md": {
+              "url": "http://placehold.it/365x200",
+              "altText": ""
+            },
+            "hd": {
+              "url": "http://placehold.it/365x200",
+              "altText": ""
+            }
+          },
+          "color": [
+            {
+              "bodypanel": "red",
+              "tridion": "black"
+            }
+          ]
+      },
+      "availableColors": [
+        {
+          "bodypanel": "white",
+          "tridion": "grey"
+        },
+        {
+          "bodypanel": "brown",
+          "tridion": "yellow"
+        },
+        {
+          "bodypanel": "blue",
+          "tridion": "black"
+        }
+      ]
+    },
+    {
+      "topOfferText": "",
+      "bannerHeadline": "All-in-Leasing mit 10%",
+      "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+      "car": {
+          "equipmentLine": "prime",
+          "highlights": [
+            {
+              "name": "",
+              "text": "",
+              "images": [
+                {
+                  "sd":{
+                    "url": "",
+                    "altText": ""
+                  },
+                  "md": {
+                    "url": "",
+                    "altText": ""
+                  },
+                  "hd": {
+                    "url": "",
+                    "altText": ""
+                  }
+                }
+              ]
+            }
+          ],
+          "model": "smart fortwo",
+          "imagesCar": {
+            "sd": {
+              "url": "http://placehold.it/400x400",
+              "altText": ""
+            },
+            "md": {
+              "url": "http://placehold.it/800x800",
+              "altText": ""
+            },
+            "hd": {
+              "url": "http://placehold.it/1200x1200",
+              "altText": ""
+            }
+          },
+          "imageInterior": {
+            "sd": {
+              "url": "http://placehold.it/365x200",
+              "altText": ""
+            },
+            "md": {
+              "url": "http://placehold.it/365x200",
+              "altText": ""
+            },
+            "hd": {
+              "url": "http://placehold.it/365x200",
+              "altText": ""
+            }
+          },
+          "color": [
+            {
+              "bodypanel": "red",
+              "tridion": "black"
+            }
+          ]
+      },
+      "availableColors": [
+        {
+          "bodypanel": "white",
+          "tridion": "grey"
+        },
+        {
+          "bodypanel": "brown",
+          "tridion": "yellow"
+        },
+        {
+          "bodypanel": "blue",
+          "tridion": "black"
+        }
+      ]
+    },
+    {
+      "topOfferText": "",
+      "bannerHeadline": "All-in-Leasing mit 10%",
+      "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+      "car": {
+          "equipmentLine": "prime",
+          "highlights": [
+            {
+              "name": "",
+              "text": "",
+              "images": [
+                {
+                  "sd":{
+                    "url": "",
+                    "altText": ""
+                  },
+                  "md": {
+                    "url": "",
+                    "altText": ""
+                  },
+                  "hd": {
+                    "url": "",
+                    "altText": ""
+                  }
+                }
+              ]
+            }
+          ],
+          "model": "smart fortwo",
+          "imagesCar": {
+            "sd": {
+              "url": "http://placehold.it/400x400",
+              "altText": ""
+            },
+            "md": {
+              "url": "http://placehold.it/800x800",
+              "altText": ""
+            },
+            "hd": {
+              "url": "http://placehold.it/1200x1200",
+              "altText": ""
+            }
+          },
+          "imageInterior": {
+            "sd": {
+              "url": "http://placehold.it/365x200",
+              "altText": ""
+            },
+            "md": {
+              "url": "http://placehold.it/365x200",
+              "altText": ""
+            },
+            "hd": {
+              "url": "http://placehold.it/365x200",
+              "altText": ""
+            }
+          },
+          "color": [
+            {
+              "bodypanel": "red",
+              "tridion": "black"
+            }
+          ]
+      },
+      "availableColors": [
+        {
+          "bodypanel": "white",
+          "tridion": "grey"
+        },
+        {
+          "bodypanel": "brown",
+          "tridion": "yellow"
+        },
+        {
+          "bodypanel": "blue",
+          "tridion": "black"
+        }
+      ]
+    }
+  ],
+  "bestseller": [
+    {
+      "topOfferText": "",
+      "bannerHeadline": "All-in-Leasing mit 10%",
+      "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+      "car": {
+          "equipmentLine": "prime",
+          "highlights": [
+            {
+              "name": "",
+              "text": "",
+              "images": [
+                {
+                  "sd":{
+                    "url": "",
+                    "altText": ""
+                  },
+                  "md": {
+                    "url": "",
+                    "altText": ""
+                  },
+                  "hd": {
+                    "url": "",
+                    "altText": ""
+                  }
+                }
+              ]
+            }
+          ],
+          "model": "smart fortwo",
+          "imagesCar": {
+            "sd": {
+              "url": "http://placehold.it/400x400",
+              "altText": ""
+            },
+            "md": {
+              "url": "http://placehold.it/800x800",
+              "altText": ""
+            },
+            "hd": {
+              "url": "http://placehold.it/1200x1200",
+              "altText": ""
+            }
+          },
+          "imageInterior": {
+            "sd": {
+              "url": "http://placehold.it/365x200",
+              "altText": ""
+            },
+            "md": {
+              "url": "http://placehold.it/365x200",
+              "altText": ""
+            },
+            "hd": {
+              "url": "http://placehold.it/365x200",
+              "altText": ""
+            }
+          },
+          "color": [
+            {
+              "bodypanel": "red",
+              "tridion": "black"
+            }
+          ]
+      },
+      "availableColors": [
+        {
+          "bodypanel": "white",
+          "tridion": "grey"
+        },
+        {
+          "bodypanel": "brown",
+          "tridion": "yellow"
+        },
+        {
+          "bodypanel": "blue",
+          "tridion": "black"
+        }
+      ]
+    },
+    {
+      "topOfferText": "",
+      "bannerHeadline": "All-in-Leasing mit 10%",
+      "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+      "car": {
+          "equipmentLine": "prime",
+          "highlights": [
+            {
+              "name": "",
+              "text": "",
+              "images": [
+                {
+                  "sd":{
+                    "url": "",
+                    "altText": ""
+                  },
+                  "md": {
+                    "url": "",
+                    "altText": ""
+                  },
+                  "hd": {
+                    "url": "",
+                    "altText": ""
+                  }
+                }
+              ]
+            }
+          ],
+          "model": "smart fortwo",
+          "imagesCar": {
+            "sd": {
+              "url": "http://placehold.it/400x400",
+              "altText": ""
+            },
+            "md": {
+              "url": "http://placehold.it/800x800",
+              "altText": ""
+            },
+            "hd": {
+              "url": "http://placehold.it/1200x1200",
+              "altText": ""
+            }
+          },
+          "imageInterior": {
+            "sd": {
+              "url": "http://placehold.it/365x200",
+              "altText": ""
+            },
+            "md": {
+              "url": "http://placehold.it/365x200",
+              "altText": ""
+            },
+            "hd": {
+              "url": "http://placehold.it/365x200",
+              "altText": ""
+            }
+          },
+          "color": [
+            {
+              "bodypanel": "red",
+              "tridion": "black"
+            }
+          ]
+      },
+      "availableColors": [
+        {
+          "bodypanel": "white",
+          "tridion": "grey"
+        },
+        {
+          "bodypanel": "brown",
+          "tridion": "yellow"
+        },
+        {
+          "bodypanel": "blue",
+          "tridion": "black"
+        }
+      ]
+    },
+    {
+      "topOfferText": "",
+      "bannerHeadline": "All-in-Leasing mit 10%",
+      "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+      "car": {
+          "equipmentLine": "prime",
+          "highlights": [
+            {
+              "name": "",
+              "text": "",
+              "images": [
+                {
+                  "sd":{
+                    "url": "",
+                    "altText": ""
+                  },
+                  "md": {
+                    "url": "",
+                    "altText": ""
+                  },
+                  "hd": {
+                    "url": "",
+                    "altText": ""
+                  }
+                }
+              ]
+            }
+          ],
+          "model": "smart fortwo",
+          "imagesCar": {
+            "sd": {
+              "url": "http://placehold.it/400x400",
+              "altText": ""
+            },
+            "md": {
+              "url": "http://placehold.it/800x800",
+              "altText": ""
+            },
+            "hd": {
+              "url": "http://placehold.it/1200x1200",
+              "altText": ""
+            }
+          },
+          "imageInterior": {
+            "sd": {
+              "url": "http://placehold.it/365x200",
+              "altText": ""
+            },
+            "md": {
+              "url": "http://placehold.it/365x200",
+              "altText": ""
+            },
+            "hd": {
+              "url": "http://placehold.it/365x200",
+              "altText": ""
+            }
+          },
+          "color": [
+            {
+              "bodypanel": "red",
+              "tridion": "black"
+            }
+          ]
+      },
+      "availableColors": [
+        {
+          "bodypanel": "white",
+          "tridion": "grey"
+        },
+        {
+          "bodypanel": "brown",
+          "tridion": "yellow"
+        },
+        {
+          "bodypanel": "blue",
+          "tridion": "black"
+        }
+      ]
+    },
+    {
+      "topOfferText": "",
+      "bannerHeadline": "All-in-Leasing mit 10%",
+      "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+      "car": {
+          "equipmentLine": "prime",
+          "highlights": [
+            {
+              "name": "",
+              "text": "",
+              "images": [
+                {
+                  "sd":{
+                    "url": "",
+                    "altText": ""
+                  },
+                  "md": {
+                    "url": "",
+                    "altText": ""
+                  },
+                  "hd": {
+                    "url": "",
+                    "altText": ""
+                  }
+                }
+              ]
+            }
+          ],
+          "model": "smart fortwo",
+          "imagesCar": {
+            "sd": {
+              "url": "http://placehold.it/400x400",
+              "altText": ""
+            },
+            "md": {
+              "url": "http://placehold.it/800x800",
+              "altText": ""
+            },
+            "hd": {
+              "url": "http://placehold.it/1200x1200",
+              "altText": ""
+            }
+          },
+          "imageInterior": {
+            "sd": {
+              "url": "http://placehold.it/365x200",
+              "altText": ""
+            },
+            "md": {
+              "url": "http://placehold.it/365x200",
+              "altText": ""
+            },
+            "hd": {
+              "url": "http://placehold.it/365x200",
+              "altText": ""
+            }
+          },
+          "color": [
+            {
+              "bodypanel": "red",
+              "tridion": "black"
+            }
+          ]
+      },
+      "availableColors": [
+        {
+          "bodypanel": "white",
+          "tridion": "grey"
+        },
+        {
+          "bodypanel": "brown",
+          "tridion": "yellow"
+        },
+        {
+          "bodypanel": "blue",
+          "tridion": "black"
+        }
+      ]
+    }
+  ]
+
+}

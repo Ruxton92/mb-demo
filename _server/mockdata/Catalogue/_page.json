@@ -1,0 +1,1840 @@
+{
+  "data": {
+      "filters": [
+          {
+              "name": "price",
+              "filterSections": [
+                  {
+                      "type": "radioGroup",
+                      "key": "financing",
+                      "headline": "Financing models",
+                      "filters": [
+                          {
+                              "type": "radio",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "leasing",
+                              "label": "Leasing"
+                          },
+                          {
+                              "type": "radio",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "financing",
+                              "label": "Financing"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "sliderGroup",
+                      "key": "price",
+                      "headline": "Price range",
+                      "filters": [
+                          {
+                              "type": "slider",
+                              "valueMin": "100",
+                              "valueMax": "500",
+                              "steps": "25",
+                              "labelPrefix": "€"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "name": "Model",
+              "filterSections": [
+                  {
+                      "type": "checkboxGroup",
+                      "key": "model",
+                      "headline": "Model",
+                      "filters": [
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "all",
+                              "label": "all"
+                          },
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "fortwo",
+                              "label": "fortwo"
+                          },
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "forfour",
+                              "label": "forfour"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "checkboxGroup",
+                      "key": "line",
+                      "headline": "Line",
+                      "filters": [
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "all",
+                              "label": "all"
+                          },
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "passion",
+                              "label": "passion"
+                          },
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "prime",
+                              "label": "prime"
+                          },
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "proxy",
+                              "label": "proxy"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "checkboxGroup",
+                      "key": "specials",
+                      "headline": "Specials",
+                      "filters": [
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "smarttimes",
+                              "label": "smart times offers"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "name": "Exterior",
+              "filterSections": [
+                  {
+                      "type": "checkboxGroup",
+                      "key": "bodypanels",
+                      "headline": "bodypanels",
+                      "filters": [
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "all",
+                              "label": "all"
+                          },
+                          {
+                              "type": "illustrated-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "group": "bodypanels",
+                              "key": "black",
+                              "image": "/images/catalogue/filter/color_black.png"
+                          },
+                          {
+                              "type": "illustrated-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "group": "bodypanels",
+                              "key": "grey",
+                              "image": "/images/catalogue/filter/color_black.png"
+                          },
+                          {
+                              "type": "illustrated-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "group": "bodypanels",
+                              "key": "grey",
+                              "image": "/images/catalogue/filter/color_black.png"
+                          },
+                          {
+                              "type": "illustrated-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "group": "bodypanels",
+                              "key": "grey",
+                              "image": "/images/catalogue/filter/color_black.png"
+                          },
+                          {
+                              "type": "illustrated-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "group": "bodypanels",
+                              "key": "grey",
+                              "image": "/images/catalogue/filter/color_black.png"
+                          },
+                          {
+                              "type": "illustrated-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "group": "bodypanels",
+                              "key": "grey",
+                              "image": "/images/catalogue/filter/color_black.png"
+                          },
+                          {
+                              "type": "illustrated-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "group": "bodypanels",
+                              "key": "grey",
+                              "image": "/images/catalogue/filter/color_black.png"
+                          },
+                          {
+                              "type": "illustrated-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "group": "bodypanels",
+                              "key": "grey",
+                              "image": "/images/catalogue/filter/color_black.png"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "checkboxGroup",
+                      "key": "tridion",
+                      "headline": "Tridion",
+                      "filters": [
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "all",
+                              "label": "all"
+                          },
+                          {
+                              "type": "illustrated-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "group": "bodypanels",
+                              "key": "black",
+                              "image": "/images/catalogue/filter/color_black.png"
+                          },
+                          {
+                              "type": "illustrated-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "group": "bodypanels",
+                              "key": "grey",
+                              "image": "/images/catalogue/filter/color_black.png"
+                          },
+                          {
+                              "type": "illustrated-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "group": "bodypanels",
+                              "key": "grey",
+                              "image": "/images/catalogue/filter/color_black.png"
+                          },
+                          {
+                              "type": "illustrated-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "group": "bodypanels",
+                              "key": "grey",
+                              "image": "/images/catalogue/filter/color_black.png"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "name": "Interior",
+              "filterSections": [
+                  {
+                      "type": "checkboxGroup",
+                      "key": "upholstery",
+                      "headline": "Upholstery",
+                      "filters": [
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "all",
+                              "label": "all"
+                          },
+                          {
+                              "type": "illustrated-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "group": "bodypanels",
+                              "key": "leather_black",
+                              "image": "/images/catalogue/filter/color_leather_black.jpg"
+                          },
+                          {
+                              "type": "illustrated-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "group": "bodypanels",
+                              "key": "fabric_black_white",
+                              "image": "/images/catalogue/filter/color_leather_black.jpg"
+                          },
+                          {
+                              "type": "illustrated-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "group": "bodypanels",
+                              "key": "fabric_black_white",
+                              "image": "/images/catalogue/filter/color_leather_black.jpg"
+                          },
+                          {
+                              "type": "illustrated-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "group": "bodypanels",
+                              "key": "fabric_black_white",
+                              "image": "/images/catalogue/filter/color_leather_black.jpg"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "name": "Options",
+              "filterSections": [
+                  {
+                      "type": "checkboxGroup",
+                      "key": "packages",
+                      "headline": "Packages",
+                      "filters": [
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "all",
+                              "label": "all"
+                          },
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "comfort_package",
+                              "label": "Comfort Package"
+                          },
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "premium_package",
+                              "label": "Premium Package"
+                          },
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "premium_plus_package",
+                              "label": "Premium Plus Package"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "checkboxGroup",
+                      "key": "exterior",
+                      "headline": "Exterior",
+                      "filters": [
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "all",
+                              "label": "all"
+                          },
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "comfort_package",
+                              "label": "Comfort Package"
+                          },
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "premium_package",
+                              "label": "Premium Package"
+                          },
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "premium_plus_package",
+                              "label": "Premium Plus Package"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "checkboxGroup",
+                      "key": "interior",
+                      "headline": "Interior",
+                      "filters": [
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "all",
+                              "label": "all"
+                          },
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "comfort_package",
+                              "label": "Comfort Package"
+                          },
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "premium_package",
+                              "label": "Premium Package"
+                          },
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "premium_plus_package",
+                              "label": "Premium Plus Package"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "checkboxGroup",
+                      "key": "audio_navigation",
+                      "headline": "Audio/navigation",
+                      "filters": [
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "all",
+                              "label": "all"
+                          },
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "comfort_package",
+                              "label": "Comfort Package"
+                          },
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "premium_package",
+                              "label": "Premium Package"
+                          },
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "premium_plus_package",
+                              "label": "Premium Plus Package"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "checkboxGroup",
+                      "key": "safety",
+                      "headline": "Safety",
+                      "filters": [
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "all",
+                              "label": "all"
+                          },
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "comfort_package",
+                              "label": "Comfort Package"
+                          },
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "premium_package",
+                              "label": "Premium Package"
+                          },
+                          {
+                              "type": "labeled-checkbox",
+                              "deactivated": false,
+                              "selected": false,
+                              "key": "premium_plus_package",
+                              "label": "Premium Plus Package"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ],
+      "offers": [
+          {
+              "topOfferText": "Top Offer Text",
+              "bannerHeadline": "All-in-Leasing mit 10%",
+              "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+              "availableColors": [
+                  {
+                      "bodypanel": "white",
+                      "tridion": "grey"
+                  },
+                  {
+                      "bodypanel": "brown",
+                      "tridion": "yellow"
+                  },
+                  {
+                      "bodypanel": "blue",
+                      "tridion": "black"
+                  }
+              ],
+              "car": {
+                  "equipmentLine": "south of siena",
+                  "highlights": [
+                      {
+                          "name": "Panoramadach",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "Cool & Audio-Paket",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "Sport-Paket",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "weiß-blaue Sitze in Lederoptik",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "bundleDescription": "All-in-Leasing-Rate 169 € (mtl.)<br>Ohne Sonderzahlung",
+                  "model": "smart fortwo",
+                  "color": {
+                      "bodypanel": "white",
+                      "tridion": "orange"
+                  },
+                  "imagesCar": {
+                      "sd": {
+                          "url": "http://placehold.it/400x400",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/800x800",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/1200x1200",
+                          "altText": ""
+                      }
+                  },
+                  "imagesCatalogue": {
+                      "sd": {
+                          "url": "/images/fortwo/1/imageCatalogue_sd.png",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "/images/fortwo/1/imageCatalogue_md.png",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "/images/fortwo/1/imageCatalogue_hd.png",
+                          "altText": ""
+                      }
+                  },
+                  "imageInterior": {
+                      "sd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      }
+                  }
+              }
+          },
+          {
+              "topOfferText": "Top Offer Text",
+              "bannerHeadline": "All-in-Leasing mit 10%",
+              "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+              "availableColors": [
+                  {
+                      "bodypanel": "blue",
+                      "tridion": "black"
+                  },
+                  {
+                      "bodypanel": "red",
+                      "tridion": "white",
+                      "active": true
+                  },
+                  {
+                      "bodypanel": "brown",
+                      "tridion": "yellow"
+                  }
+              ],
+              "car": {
+                  "equipmentLine": "south of siena",
+                  "highlights": [
+                      {
+                          "name": "Panoramadach",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "Cool & Audio-Paket",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "Sport-Paket",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "weiß-blaue Sitze in Lederoptik",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "bundleDescription": "All-in-Leasing-Rate 169 € (mtl.)<br>Ohne Sonderzahlung",
+                  "bundleDescriptionBanner": true,
+                  "model": "smart fortwo",
+                  "color": {
+                      "bodypanel": "brown",
+                      "tridion": "black"
+                  },
+                  "imagesCar": {
+                      "sd": {
+                          "url": "http://placehold.it/400x400",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/800x800",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/1200x1200",
+                          "altText": ""
+                      }
+                  },
+                  "imagesCatalogue": {
+                      "sd": {
+                          "url": "/images/fortwo/2/imageCatalogue_sd.png",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "/images/fortwo/2/imageCatalogue_md.png",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "/images/fortwo/2/imageCatalogue_hd.png",
+                          "altText": ""
+                      }
+                  },
+                  "imageInterior": {
+                      "sd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      }
+                  }
+              }
+          },
+          {
+              "topOfferText": "Top Offer Text",
+              "bannerHeadline": "All-in-Leasing mit 10%",
+              "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+              "availableColors": [
+                  {
+                      "bodypanel": "brown",
+                      "tridion": "yellow"
+                  },
+                  {
+                      "bodypanel": "white",
+                      "tridion": "grey",
+                      "active": true
+                  }
+              ],
+              "car": {
+                  "equipmentLine": "south of siena",
+                  "highlights": [
+                      {
+                          "name": "Panoramadach",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "Cool & Audio-Paket",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "Sport-Paket",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "weiß-blaue Sitze in Lederoptik",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "bundleDescription": "All-in-Leasing-Rate 169 € (mtl.)<br>Ohne Sonderzahlung",
+                  "model": "smart fortwo",
+                  "color": {
+                      "bodypanel": "orange",
+                      "tridion": "black"
+                  },
+                  "imagesCar": {
+                      "sd": {
+                          "url": "http://placehold.it/400x400",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/800x800",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/1200x1200",
+                          "altText": ""
+                      }
+                  },
+                  "imagesCatalogue": {
+                      "sd": {
+                          "url": "/images/fortwo/3/imageCatalogue_sd.png",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "/images/fortwo/3/imageCatalogue_md.png",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "/images/fortwo/3/imageCatalogue_hd.png",
+                          "altText": ""
+                      }
+                  },
+                  "imageInterior": {
+                      "sd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      }
+                  }
+              }
+          },
+          {
+              "topOfferText": "Top Offer Text",
+              "bannerHeadline": "All-in-Leasing mit 10%",
+              "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+              "availableColors": [
+                  {
+                      "bodypanel": "white",
+                      "tridion": "grey",
+                      "active": true
+                  },
+                  {
+                      "bodypanel": "brown",
+                      "tridion": "yellow"
+                  }
+              ],
+              "car": {
+                  "equipmentLine": "south of siena",
+                  "highlights": [
+                      {
+                          "name": "Panoramadach",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "Cool & Audio-Paket",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "Sport-Paket",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "weiß-blaue Sitze in Lederoptik",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "bundleDescription": "All-in-Leasing-Rate 169 € (mtl.)<br>Ohne Sonderzahlung",
+                  "model": "smart fortwo",
+                  "color": {
+                      "bodypanel": "blue",
+                      "tridion": "grey"
+                  },
+                  "imagesCar": {
+                      "sd": {
+                          "url": "http://placehold.it/400x400",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/800x800",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/1200x1200",
+                          "altText": ""
+                      }
+                  },
+                  "imagesCatalogue": {
+                      "sd": {
+                          "url": "/images/fortwo/4/imageCatalogue_sd.png",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "/images/fortwo/4/imageCatalogue_md.png",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "/images/fortwo/4/imageCatalogue_hd.png",
+                          "altText": ""
+                      }
+                  },
+                  "imageInterior": {
+                      "sd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      }
+                  }
+              }
+          },
+          {
+              "topOfferText": "Top Offer Text",
+              "bannerHeadline": "All-in-Leasing mit 10%",
+              "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+              "availableColors": [
+                  {
+                      "bodypanel": "white",
+                      "tridion": "grey",
+                      "active": true
+                  },
+                  {
+                      "bodypanel": "brown",
+                      "tridion": "yellow"
+                  }
+              ],
+              "car": {
+                  "equipmentLine": "south of siena",
+                  "highlights": [
+                      {
+                          "name": "Panoramadach",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "Cool & Audio-Paket",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "Sport-Paket",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "weiß-blaue Sitze in Lederoptik",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "bundleDescription": "All-in-Leasing-Rate 169 € (mtl.)<br>Ohne Sonderzahlung",
+                  "model": "smart forfour",
+                  "color": {
+                      "bodypanel": "brown",
+                      "tridion": "black"
+                  },
+                  "imagesCar": {
+                      "sd": {
+                          "url": "http://placehold.it/400x400",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/800x800",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/1200x1200",
+                          "altText": ""
+                      }
+                  },
+                  "imagesCatalogue": {
+                      "sd": {
+                          "url": "/images/forfour/1/imageCatalogue_sd.png",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "/images/forfour/1/imageCatalogue_md.png",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "/images/forfour/1/imageCatalogue_hd.png",
+                          "altText": ""
+                      }
+                  },
+                  "imageInterior": {
+                      "sd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      }
+                  }
+              }
+          },
+          {
+              "topOfferText": "Top Offer Text",
+              "bannerHeadline": "All-in-Leasing mit 10%",
+              "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+              "availableColors": [
+                  {
+                      "bodypanel": "white",
+                      "tridion": "grey",
+                      "active": true
+                  },
+                  {
+                      "bodypanel": "brown",
+                      "tridion": "yellow"
+                  }
+              ],
+              "car": {
+                  "equipmentLine": "south of siena",
+                  "highlights": [
+                      {
+                          "name": "Panoramadach",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "Cool & Audio-Paket",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "Sport-Paket",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "weiß-blaue Sitze in Lederoptik",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "bundleDescription": "All-in-Leasing-Rate 169 € (mtl.)<br>Ohne Sonderzahlung",
+                  "model": "smart forfour",
+                  "color": {
+                      "bodypanel": "red",
+                      "tridion": "black"
+                  },
+                  "imagesCar": {
+                      "sd": {
+                          "url": "http://placehold.it/400x400",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/800x800",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/1200x1200",
+                          "altText": ""
+                      }
+                  },
+                  "imagesCatalogue": {
+                      "sd": {
+                          "url": "/images/forfour/2/imageCatalogue_sd.png",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "/images/forfour/2/imageCatalogue_md.png",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "/images/forfour/2/imageCatalogue_hd.png",
+                          "altText": ""
+                      }
+                  },
+                  "imageInterior": {
+                      "sd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      }
+                  }
+              }
+          },
+          {
+              "topOfferText": "Top Offer Text",
+              "bannerHeadline": "All-in-Leasing mit 10%",
+              "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+              "availableColors": [
+                  {
+                      "bodypanel": "white",
+                      "tridion": "grey",
+                      "active": true
+                  },
+                  {
+                      "bodypanel": "brown",
+                      "tridion": "yellow"
+                  }
+              ],
+              "car": {
+                  "equipmentLine": "south of siena",
+                  "highlights": [
+                      {
+                          "name": "Panoramadach",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "Cool & Audio-Paket",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "Sport-Paket",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "weiß-blaue Sitze in Lederoptik",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "bundleDescription": "All-in-Leasing-Rate 169 € (mtl.)<br>Ohne Sonderzahlung",
+                  "model": "smart forfour",
+                  "color": {
+                      "bodypanel": "grey",
+                      "tridion": "orange"
+                  },
+                  "imagesCar": {
+                      "sd": {
+                          "url": "http://placehold.it/400x400",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/800x800",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/1200x1200",
+                          "altText": ""
+                      }
+                  },
+                  "imagesCatalogue": {
+                      "sd": {
+                          "url": "/images/forfour/3/imageCatalogue_sd.png",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "/images/forfour/3/imageCatalogue_md.png",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "/images/forfour/3/imageCatalogue_hd.png",
+                          "altText": ""
+                      }
+                  },
+                  "imageInterior": {
+                      "sd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      }
+                  }
+              }
+          },
+          {
+              "topOfferText": "Top Offer Text",
+              "bannerHeadline": "All-in-Leasing mit 10%",
+              "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+              "availableColors": [
+                  {
+                      "bodypanel": "white",
+                      "tridion": "grey",
+                      "active": true
+                  },
+                  {
+                      "bodypanel": "brown",
+                      "tridion": "yellow"
+                  }
+              ],
+              "car": {
+                  "equipmentLine": "south of siena",
+                  "highlights": [
+                      {
+                          "name": "Panoramadach",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "Cool & Audio-Paket",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "Sport-Paket",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "weiß-blaue Sitze in Lederoptik",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "bundleDescription": "All-in-Leasing-Rate 169 € (mtl.)<br>Ohne Sonderzahlung",
+                  "model": "smart forfour",
+                  "color": {
+                      "bodypanel": "yellow",
+                      "tridion": "black"
+                  },
+                  "imagesCar": {
+                      "sd": {
+                          "url": "http://placehold.it/400x400",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/800x800",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/1200x1200",
+                          "altText": ""
+                      }
+                  },
+                  "imagesCatalogue": {
+                      "sd": {
+                          "url": "/images/forfour/4/imageCatalogue_sd.png",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "/images/forfour/4/imageCatalogue_md.png",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "/images/forfour/4/imageCatalogue_hd.png",
+                          "altText": ""
+                      }
+                  },
+                  "imageInterior": {
+                      "sd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      }
+                  }
+              }
+          },
+          {
+              "topOfferText": "Top Offer Text",
+              "bannerHeadline": "All-in-Leasing mit 10%",
+              "bannerSubheadline": "Online-Vorteil: 129€/Monat",
+              "availableColors": [
+                  {
+                      "bodypanel": "white",
+                      "tridion": "grey",
+                      "active": true
+                  },
+                  {
+                      "bodypanel": "brown",
+                      "tridion": "yellow"
+                  }
+              ],
+              "car": {
+                  "equipmentLine": "south of siena",
+                  "highlights": [
+                      {
+                          "name": "Panoramadach",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "Cool & Audio-Paket",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "Sport-Paket",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "name": "weiß-blaue Sitze in Lederoptik",
+                          "text": "",
+                          "images": [
+                              {
+                                  "sd": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "md": {
+                                      "url": "",
+                                      "altText": ""
+                                  },
+                                  "hd": {
+                                      "url": "",
+                                      "altText": ""
+                                  }
+                              }
+                          ]
+                      }
+                  ],
+                  "bundleDescription": "All-in-Leasing-Rate 169 € (mtl.)<br>Ohne Sonderzahlung",
+                  "bundleDescriptionBanner": true,
+                  "model": "smart forfour",
+                  "color": {
+                      "bodypanel": "white",
+                      "tridion": "grey"
+                  },
+                  "imagesCar": {
+                      "sd": {
+                          "url": "http://placehold.it/400x400",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/800x800",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/1200x1200",
+                          "altText": ""
+                      }
+                  },
+                  "imagesCatalogue": {
+                      "sd": {
+                          "url": "/images/forfour/5/imageCatalogue_sd.png",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "/images/forfour/5/imageCatalogue_md.png",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "/images/forfour/5/imageCatalogue_hd.png",
+                          "altText": ""
+                      }
+                  },
+                  "imageInterior": {
+                      "sd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "md": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      },
+                      "hd": {
+                          "url": "http://placehold.it/365x200",
+                          "altText": ""
+                      }
+                  }
+              }
+          }
+      ]
+  }
+}

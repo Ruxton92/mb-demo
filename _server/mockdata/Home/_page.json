@@ -1,0 +1,53 @@
+{
+  "data": {
+    "offerModule": [{
+      "newest": [{
+        "title": "C 200 T-Modell EXCLUSIVE",
+
+        "text": "Kraftstoffverbrauch kombiniert* 5,7l/100km, CO2-Emission*** 129g/km, Energieeffizienzklasse***B",
+        "images": {
+          "sd": "/images/offers/offer_1_hd",
+          "md": "/images/offers/offer_1_hd",
+          "hd": "/images/offers/offer_1_hd"
+        }
+      }, {
+        "title": "A180 Sondermodell StreetStyle",
+
+        "text": "Kraftstoffverbrauch kombiniert* 5,7l/100km, CO2-Emission*** 129g/km, Energieeffizienzklasse***B",
+        "images": {
+          "sd": "/images/offers/offer_2_hd",
+          "md": "/images/offers/offer_2_hd",
+          "hd": "/images/offers/offer_2_hd"
+        }
+      }, {
+        "title": "C 200 T-Modell EXCLUSIVE",
+
+        "text": "Kraftstoffverbrauch kombiniert* 5,7l/100km, CO2-Emission*** 129g/km, Energieeffizienzklasse***B",
+        "images": {
+          "sd": "/images/offers/offer_2_hd",
+          "md": "/images/offers/offer_2_hd",
+          "hd": "/images/offers/offer_2_hd"
+        }
+      }],
+      "popular": [{
+        "title": "C 200 T-Modell EXCLUSIVE",
+
+        "text": "Kraftstoffverbrauch kombiniert* 5,7l/100km, CO2-Emission*** 129g/km, Energieeffizienzklasse***B",
+        "images": {
+          "sd": "/images/offers/offer_1_hd",
+          "md": "/images/offers/offer_1_hd",
+          "hd": "/images/offers/offer_1_hd"
+        }
+      }, {
+        "title": "A180 Sondermodell StreetStyle",
+        
+        "text": "Kraftstoffverbrauch kombiniert* 5,7l/100km, CO2-Emission*** 129g/km, Energieeffizienzklasse***B",
+        "images": {
+          "sd": "/images/offers/offer_2_hd",
+          "md": "/images/offers/offer_2_hd",
+          "hd": "/images/offers/offer_2_hd"
+        }
+      }]
+    }]
+  }
+}

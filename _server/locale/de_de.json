@@ -1,0 +1,43 @@
+{
+  "header.topNavLinks": [{
+    "url": "#",
+    "name": "Startseite",
+    "active": true,
+    "icon": ""
+  }, {
+    "url": "#",
+    "name": "Anbieter/Datenschutz",
+    "active": false,
+    "icon": "info-icon"
+  }],
+  "header.mainNavLinks": [{
+    "url": "#",
+    "active": false,
+    "name": "Alle Angebote"
+  }, {
+    "url": "#",
+    "active": false,
+    "name": "Modellübersicht"
+  }, {
+    "url": "#",
+    "active": true,
+    "name": "Store-Info"
+  }, {
+    "url": "#",
+    "active": false,
+    "name": "Kontakt"
+  }, {
+    "url": "#",
+    "active": false,
+    "name": "Store-Login"
+  }],
+  "connectionOptions.list": [
+    "So funktioniert der Autokauf im Mercedes-Benz Online Store.",
+    "159 sofort verfügbare Mercedes-Benz Neufahrzeuge im Angebot.",
+    "Alle Angebote als Leasing-Komplett-Paket inkl. Versicherung, Service & Überführung."
+  ],
+  "quickEntryLevelTemplate.header": "Welcher Mercedes passt zu Ihnen?",
+  "stage.btn": "Zu den StreetStyle-Angeboten",
+  "offers.tabs.newINStore": "Neu im Store",
+  "offers.tabs.mostViewed": "Meist angesehen"
+}

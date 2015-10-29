@@ -24,3 +24,37 @@
     }
   }
 }
+
+@media (max-width: @screen-xs) {
+  .mb-teaser-block{
+    position: relative;
+    top: 250px;
+    &-offers{
+      &-img{
+        display: block;
+        width: 100%;
+      }
+      &-item{
+        &-text{
+          position: relative;
+          padding-left: 20px;
+          padding-top: 20px;
+          font: 27px 'Corp A';
+        }
+        &-text:before {
+          position: absolute;
+          width: 10px;
+          height: 18px;
+          display: block;
+          content: "";
+          top: 28px;
+          left: 0;
+          background: transparent url(/images/how-it-work-arrow.png) left top no-repeat;
+        }
+      }
+    }
+  }
+  .icon-angle-up {
+    margin-left: 0pt;
+  }
+}

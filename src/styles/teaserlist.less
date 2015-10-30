@@ -25,10 +25,10 @@
   }
 }
 
-@media (max-width: @screen-xs) {
+@media (max-width: (@screen-sm - 1)){
   .mb-teaser-block{
     position: relative;
-    top: 250px;
+    top: 360px;
     &-offers{
       &-img{
         display: block;
@@ -58,3 +58,5 @@
     margin-left: 0pt;
   }
 }
+
+@media (min-width: @screen-sm) and (max-width: (@screen-md - 1)){}

@@ -532,7 +532,7 @@
   }
 }
 
-@media (max-width: @screen-xs) {
+@media (max-width: (@screen-sm - 1)){
   .mb-header-navbar{
     .container-fluid{
       .mb-header-navbar-main-area{
@@ -555,3 +555,5 @@
     }
   }
 }
+
+@media (min-width: @screen-sm) and (max-width: (@screen-md - 1)){}

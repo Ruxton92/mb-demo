@@ -150,3 +150,36 @@
     }
   }
 }
+
+@media (min-width: @screen-md) and (max-width: (@screen-lg - 1)){
+  .mb-carousel {
+    background-color: #000000;
+    .carousel-inner{
+      height: 464px;
+      .mb-campaign{
+        height: inherit;
+        .mb-campaign-text-block{
+          left: 130px;
+          bottom: 36px;
+          .mb-campaign-header{
+            font-size: 34px;
+            line-height: 1;
+          }
+          .mb-campaign-text{
+            font-size: 16px;
+          }
+          .mb-campaign-text-important{
+            font-size: 24px;
+          }
+        }
+        .mb-campaign-action-block{
+          right: 130px;
+          bottom: 36px;
+          margin-left: auto;
+          margin-right: auto;
+          width: 25%;
+        }
+      }
+    }
+  }
+}

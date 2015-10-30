@@ -7,21 +7,21 @@
 </div>  
 {{else}}
 <div class="mb-catalogue-header row">
-  <div class="hidden-xs hidden-sm col-md-6 col-lg-6">
+  <div class="hidden-xs hidden-sm hidden-md col-lg-6">
     <h2 class="mb-catalogue-total">{{locale "catalogue.title"}}</h2>
   </div>
-  <div class="hidden-xs hidden-sm col-md-6 col-lg-6 text-right">
+  <div class="hidden-xs hidden-sm hidden-md col-lg-6 text-right">
     <select class="form-control mb-catalogue-select" name="" id="">
       <option value="">{{locale "catalogue.tab.latest_offers"}}</option>
       <option value="">{{locale "catalogue.tab.most_popular"}}</option>
     </select>
     <label for="field-1" class="mb-select-arrow"></label>
   </div>
-  <div class="col-xs-12 col-sm-12 hidden-md hidden-lg">
-      <div class="col-xs-6 col-sm-3">
+  <div class="col-xs-12 col-sm-12 col-md-12 hidden-lg">
+      <div class="col-xs-6 col-sm-3 col-md-2">
           <h3 class="mb-catalogue-header-xs active">Neu im Store</h3>
       </div>
-      <div class="col-xs-6 col-sm-3">
+      <div class="col-xs-6 col-sm-3 col-md-2">
           <h3 class="mb-catalogue-header-xs">Meist angesehen</h3>
       </div>
   </div>
@@ -44,12 +44,6 @@
   {{/if}}
   <div class="mb-catalogue-items-region"></div>
   {{#if viewType}}
-  <div class="mb-catalogue-item col-xs-12 col-sm-6 col-md-4 col-lg-4">
-    <div class="mb-item-img-wrapper mb-full-height">
-      <img src="/images/content/All_Offers_Teaser.png" alt=""/>
-    </div>
-    <div class="mb-item-title-var-two">Alle Angebote entdecken und Wunschfahrzeug finden.</div>
-  </div>
   {{/if}}
   {{#unless viewType}}
   <div class="mb-catalogue-dark-block col-xs-12 col-sm-6 col-md-4 col-lg-4">
@@ -64,6 +58,12 @@
     </ul>
   </div>
   {{/unless}}
+  <div class="mb-catalogue-item col-xs-12 col-sm-6 col-md-4 col-lg-4">
+    <div class="mb-item-img-wrapper mb-full-height">
+      <img src="/images/content/All_Offers_Teaser.png" alt=""/>
+    </div>
+    <div class="mb-item-title-var-two">Alle Angebote entdecken und Wunschfahrzeug finden.</div>
+  </div>
 </div>
 <div class="mb-pagination-region hidden-xs hidden-sm"></div>
 <div class="mb-catalogue-overlay"></div>

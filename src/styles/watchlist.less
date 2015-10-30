@@ -1,0 +1,245 @@
+.mb-watchlist-page-wrapper {
+	padding: 70px 0;
+
+	.mb-watchlist-warning-icon {
+		display: block;
+		float: left;
+		width: 7px;
+		height: 36px;
+		margin-right: 15px;
+		margin-top: 5px;
+		background: url(/images/icons/icon-watchlist-warning.png);
+	}
+	.mb-icon-compare {
+		display: block;
+		float: left;
+		width: 23px;
+		height: 20px;
+		margin-right: 15px;
+		margin-top: 12px;
+		background: url(/images/icons/icon-compare.png);
+	}
+	.mb-watchlist-button {
+		display: inline-block;
+  	height: 44px;
+    font: 400 18px / 44px "Corp S";
+    text-decoration: none;
+    background: #666666;
+    color: #ffffff;
+    padding: 0 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 1px;
+
+    &:hover,
+    &:focus {
+    	text-decoration: none;
+    }
+	}
+  .mb-watchlist-text {
+	  color: #444;
+	  font: 400 18px/24px 'Corp S';
+	  padding: 0 0 20px;
+	  margin-bottom: 20px;
+	  position: relative;
+	  .mb-watchlist-text-title {
+		  color: #333;
+		  font: 42px/42px 'Corp A';
+		  padding-bottom: 26px;
+		}
+	  .mb-watchlist-warning {
+	  	color: #222;
+		  font: 400 18px/24px 'Corp S';
+	  	margin-top: 25px;
+	  	padding-left: 20px;
+	  	position: relative;
+	  	.mb-watchlist-warning-icon {
+	  		position: absolute;
+	  		top: 0;
+	  		left: 0;
+	  	}
+	  }
+	  .mb-watchlist-compare {
+	  	margin-top: 15px;
+	  }
+  }
+
+  .mb-watchlist-items {
+  	.mb-watchlist-item {
+  		position: relative;
+  		margin: 0 0 24px 0;
+  		.mb-item-img-wrapper {
+  			img {
+  				max-width: 100%;
+  			}
+  		}
+  		h3.mb-item-title {
+    		color: #333;
+    		font: 27px/27px 'Corp A';
+    		margin: 14px 0 16px 0;
+
+    		&.mb-item-title_gray {
+    			color: #999999;
+    		}
+  		}
+  	}
+  }
+	.mb-catalogue-dark-block {
+		padding: 15px;
+		margin: 0;
+	}
+  .mb-watchlist-catalogue {
+  	margin-top: 50px;
+		.mb-watchlist-catalogue-item {
+			position: relative;
+  		margin: 0 0 24px 0;
+
+  		.mb-item-img-wrapper {
+  			width: 100%;
+			  min-height: 30px;
+			  margin-top: 13px;
+			  padding-bottom: 1px;
+			  text-align: center;
+  			img {
+  				max-width: 100%;
+  			}
+
+  		}
+  		.mb-item-title {
+			  color: #334;
+			  font: 27px/27px 'Corp A';
+			  margin: 23px 0 16px 0;
+
+			  a {
+				  color: #333;
+				  text-decoration: none;
+
+				  &:hover,
+					&:active,
+					&:focus {
+					  text-decoration: none;
+					}
+				}
+  		}
+  		.mb-item-content-1 {
+  			position: relative;
+			  width: 285px;
+			  color: #333;
+			  font: 400 17px/23px 'Corp S';
+			  margin-bottom: 8px;
+			  span {
+			  	color: #999;
+			  }
+  		}
+  		.mb-item-content-3 {
+  			color: #999;
+			  font: 400 14px/18px 'Corp S';
+  		}
+  		.mb-icon-i {
+			  position: absolute;
+			  background: url(/images/icons/i.png);
+			  width: 28px;
+			  height: 28px;
+			  right: -30px;
+			  top: -5px;
+			}
+			.mb-item-flag {
+			  position: absolute;
+			  right: 19px;
+			  top: 38px;
+			  color: #999;
+			  font: 14px/20px 'Corp A';
+			  border-bottom: 2px solid #999;
+			  border-top: 2px solid #999;
+			}
+			.mb-item-action-button {
+				.mb-watchlist-button {
+					margin-bottom: 15px;
+				}
+				.mb-watchlist-remove {
+					display: inline-block;
+					position: relative;
+					padding-left: 15px;
+					font: 18px/18px 'Corp A';
+					color: #999999;
+					text-decoration: none;
+
+					&:hover,
+					&:focus {
+						color: #666;
+					}
+				}
+				.mb-watchlist-right-angle {
+					position: absolute;
+					top: 2px;
+					left: 0;
+					display: inline-block;
+					width: 10px;
+					height: 14px;
+					background: url(../images/icons/right-angle.png) no-repeat;
+					background-size: contain;
+				}
+			}
+		}
+  }
+}
+
+
+
+@media (min-width: @screen-sm) and (max-width: (@screen-md - 1)) {
+	.mb-watchlist-page-wrapper {
+		.mb-watchlist-text {
+			.mb-watchlist-compare {
+				position: absolute;
+				bottom: 20px;
+				right: 0;
+			}
+		}
+		.mb-catalogue-dark-block {
+  		width: 98%;
+  		height: 200px;
+  		padding: 15px;
+  		margin: 0;
+  		.mb-dark-block-list {
+  			border-top: none;
+  			text-align: center;
+  			li {
+  				float: left;
+  				margin: 0 4.5%;
+  				padding: 0;
+  				width: 102px;
+  				line-height: 18px;
+  				min-height: 50px;
+  				border-bottom: none;
+  				i {
+  					display: block;
+  					position: relative;
+  					margin: auto;
+  					margin-bottom: 10px;
+  				}
+  				.md-icon-right-angle {
+  					display: none;
+  				}
+  			}
+  		}
+  	}
+
+	}
+}
+
+@media (min-width: @screen-md) and (max-width: (@screen-lg - 1)) {
+	.mb-watchlist-page-wrapper {
+		.mb-watchlist-text {
+			.mb-watchlist-compare {
+				position: absolute;
+				top: 0;
+				right: 0;
+			}
+		}
+		.mb-watchlist-items {
+			
+
+		}
+	}
+}

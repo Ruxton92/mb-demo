@@ -393,8 +393,10 @@
   }
 }
 
-@media (max-width: @screen-xs) {
+@media (max-width: (@screen-sm - 1)){
   .mb-footer{
-    margin-top: 330px;
+    margin-top: 380px;
   }
 }
+
+@media (min-width: @screen-sm) and (max-width: (@screen-md - 1)){}

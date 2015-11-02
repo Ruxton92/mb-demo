@@ -2,6 +2,7 @@
   width: 100%;
   min-height: 60px;
   background-color: #000;
+  margin-top: 371px;
   font-family: 'Corp S', 'Helvetica Neue';
   .mb-footer-wrap {
     position: relative;
@@ -93,6 +94,10 @@
         float: right;
         margin-top: 19px;
         margin-bottom: 10px;
+
+        i {
+          margin-left: 0pt;
+        }
       }
       a.scroll-top:hover {
         text-decoration: underline !important;
@@ -110,9 +115,12 @@
     font-size: 14px;
   }
 }
+
 @media (min-width: @screen-sm) and (max-width: (@screen-md - 1)) {
   .mb-footer {
+    margin-top: 0;
     .mb-footer-wrap {
+      padding-top: 31px;
       ul.mb-link-list {
         li {
           white-space: normal;
@@ -209,8 +217,8 @@
           float: none;
           margin: 0;
           font-size: 14px;
-          right: 7px;
-          bottom: 29px;
+          right: 17px;
+          bottom: 30px;
           i {
             margin-left: 5px;
           }
@@ -222,6 +230,7 @@
     }
   }
 }
+
 @media (min-width: @screen-md) and (max-width: (@screen-lg - 1)) {
   .mb-footer {
     .mb-footer-wrap {
@@ -392,26 +401,3 @@
     }
   }
 }
-
-@media (max-width: (@screen-sm - 1)){
-  .mb-footer{
-    margin-top: 380px;
-  }
-  .icon-angle-up {
-    margin-left: 0pt;
-  }
-}
-
-@media (min-width: @screen-sm) and (max-width: (@screen-md - 1)){
-  .mb-footer{
-    .mb-footer-wrap{
-      .mb-subfooter{
-        a.scroll-top{
-          right: 20px;
-        }
-      }
-     }
-  }
-}
-
-@media (min-width: @screen-md) and (max-width: (@screen-lg - 1)){}

@@ -21,7 +21,7 @@
       }
       .mb-header-logo-wrapper {
         float: left;
-        padding:  15px 0 0 15px;
+        padding:  7px 0 0 15px;
         width: 220px;
         .mb-header-logo {
           display: block;
@@ -127,6 +127,7 @@
           }
           .mb-header-navbar-additional-link {
             color: #333;
+            font-size: 17px;
             text-decoration: none;
             &:active,
             &:focus,
@@ -137,7 +138,7 @@
             .mb-header-navbar-search-icon {
               width: 12px;
               height: 16px;
-              display: inline-block;
+              display: none;
               background: transparent url(/images/lens-icon.png) 0px 0px no-repeat;
               vertical-align: -3px;
             }
@@ -424,6 +425,7 @@
     }
   }
 }
+
 @media (min-width: @screen-lg) {
   .mb-header-navbar {
     height: 96px;
@@ -531,31 +533,3 @@
     }
   }
 }
-
-@media (max-width: (@screen-sm - 1)){
-  .mb-header-navbar{
-    .container-fluid{
-      .mb-header-navbar-main-area{
-        .mb-header-logo-wrapper{
-          padding-top: 7px;
-        }
-      }
-      .mb-header-navbar-additional-area{
-        font-size: 17px;
-        .row{
-          .col-xs-6{
-            .mb-header-navbar-additional-link{
-              .mb-header-navbar-search-icon{
-                display: none;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (min-width: @screen-sm) and (max-width: (@screen-md - 1)){}
-
-@media (min-width: @screen-md) and (max-width: (@screen-lg - 1)){}

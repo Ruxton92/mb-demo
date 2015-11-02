@@ -40,6 +40,7 @@
 		.modal-header {
 			border: none;
 			padding: 0;
+			padding-left: 16px;
 			max-width: 920px;
 			margin: 0 auto;
 			.modal-title {
@@ -56,19 +57,48 @@
 			.modal-title {
 				font-size: 42px;
 				font-family: "Corp A";
-				margin: 0 102px 6px 102px;
 				color: #333;
+				padding-left: 16px;
 			}
 			h5 {
 				color: #333333;
-    		font: 400 18px / 24px "Corp S";
-    		margin: 0 102px 0 102px;
+    			font: 400 18px / 24px "Corp S";
+    			padding-left: 16px;
 			}
 			.mb-teaser-list {
 				padding-top: 52px;
 			}
 			&+.modal-header {
 				padding-top: 40px;
+			}
+
+			@media (min-width: @screen-sm) {
+				.modal-title {
+					margin: 0 102px 6px 102px;
+				}
+				h5 {
+					margin: 0 102px 0 102px;
+				}
+			}
+		}
+		form {
+			padding: 0 16px;
+
+			.row {
+				margin-bottom: 5px;
+
+				.form-group {
+					margin-bottom: 15px;
+				}
+			}
+		}
+
+		@media (min-width: @screen-md) {
+			.modal-header {
+				padding: 0;
+			}
+			form {
+				padding: 0;
 			}
 		}
 	}

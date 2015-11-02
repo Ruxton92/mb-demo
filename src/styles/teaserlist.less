@@ -24,3 +24,31 @@
     }
   }
 }
+
+@media (min-width: @screen-sm) and (max-width: (@screen-md - 1)){
+  .mb-teaser-block{
+//    position: relative;
+    .mb-teaser-list{
+      .mb-teaser-item{
+        margin-bottom: 50px;
+        display: block;
+        float: right;
+      }
+    }
+  }
+}
+
+@media (min-width: @screen-md) and (max-width: (@screen-lg - 1)){
+  .mb-teaser-block{
+    .mb-teaser-list {
+      .mb-teaser-item {
+        .mb-teaser-title {
+          font-size: 24px;
+        }
+        .mb-teaser-descr {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

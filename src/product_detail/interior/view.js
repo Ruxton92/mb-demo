@@ -12,7 +12,7 @@ import InteriorModalView from '../../modal/interior/view';
 
 let SlideView = ItemView.extend({
   template: itemTemplate,
-  className: 'mb-interior-large-photo col-xs-12 col-sm-6 item',
+  className: 'mb-interior-large-photo col-xs-12 col-md-6 item',
 
   ui: {
   },

@@ -1,16 +1,17 @@
 .mb-contact-banner {
   position: relative;
   margin-bottom: 72px;
-  padding-top: 85px;
+  padding-top: 0;
   .mb-banner-text-block {
     position: relative;
     z-index: 5;
     padding: 0 15px;
     .mb-banner-text-wrap {
       .mb-banner-text-title {
-        color: #fff;
+        color: #333;
         font: 300 32px/32px 'Corp A';
-        margin-bottom: 35px;        
+        margin-bottom: 35px; 
+        margin-top: 15px;       
       }
       .mb-banner-text {
         color: #333;
@@ -21,9 +22,9 @@
   }
   img {
     max-width: 100%;
-    position: absolute;
-    z-index: 3;
-    top: 0;
+    //position: absolute;
+    //z-index: 3;
+    //top: 0;
   }
 }
 .contact-wrapper {
@@ -79,6 +80,18 @@
   position: absolute;
 }
 
+.mb-icon-contact-phone-wh {
+  float: left;
+  height: 36px;
+  width: 56px;
+  .mb-icon-contact {
+    height: 40px;
+    width: 29px;
+    margin-top: 10px;
+    background: url(/images/icons/contact_phone-wh.png);
+  }
+}
+
 .mb-icon-contact-phone {
   float: left;
   height: 36px;
@@ -88,6 +101,10 @@
     width: 26px;
     margin-top: 20px;
     background: url(/images/icons/contact_phone.png);
+
+    &.mb-icon-contact-wh {
+      background: url(/images/icons/contact_phone-wh.png);
+    }
   }
 }
 
@@ -172,19 +189,27 @@
         position: absolute;
         height: 190px;
         top: 50%;
+        right: 10%;
         margin-left: 33%;
         margin-top: -95px;
         width: 346px;
         .mb-banner-text-title {
           color: #fff;
           font: 300 32px/32px 'Corp A';
-          padding-bottom: 26px;
+          margin-top: 0;
         }
         .mb-banner-text {
           color: #fff;
           font: 400 18/24px 'Corp S';
-          padding-bottom: 26px;
         }
+      }
+      &.mb-banner-text-left {
+        left: 0;
+        background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+        background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+        background: -o-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+        background: -ms-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
       }
     }
     img {
@@ -210,7 +235,7 @@
       .mb-banner-text-wrap {
         position: absolute;
         height: 190px;
-        top: 50%;
+        top: 40%;
         margin-left: 33%;
         margin-top: -95px;
         width: 346px;
@@ -249,7 +274,7 @@
       .mb-banner-text-wrap {
         position: absolute;
         height: 190px;
-        top: 50%;
+        top: 40%;
         margin-left: 33%;
         margin-top: -95px;
         width: 346px;

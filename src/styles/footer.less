@@ -392,3 +392,26 @@
     }
   }
 }
+
+@media (max-width: (@screen-sm - 1)){
+  .mb-footer{
+    margin-top: 380px;
+  }
+  .icon-angle-up {
+    margin-left: 0pt;
+  }
+}
+
+@media (min-width: @screen-sm) and (max-width: (@screen-md - 1)){
+  .mb-footer{
+    .mb-footer-wrap{
+      .mb-subfooter{
+        a.scroll-top{
+          right: 20px;
+        }
+      }
+     }
+  }
+}
+
+@media (min-width: @screen-md) and (max-width: (@screen-lg - 1)){}

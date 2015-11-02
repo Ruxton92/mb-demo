@@ -531,3 +531,31 @@
     }
   }
 }
+
+@media (max-width: (@screen-sm - 1)){
+  .mb-header-navbar{
+    .container-fluid{
+      .mb-header-navbar-main-area{
+        .mb-header-logo-wrapper{
+          padding-top: 7px;
+        }
+      }
+      .mb-header-navbar-additional-area{
+        font-size: 17px;
+        .row{
+          .col-xs-6{
+            .mb-header-navbar-additional-link{
+              .mb-header-navbar-search-icon{
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: @screen-sm) and (max-width: (@screen-md - 1)){}
+
+@media (min-width: @screen-md) and (max-width: (@screen-lg - 1)){}

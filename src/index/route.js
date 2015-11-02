@@ -8,7 +8,7 @@ export default Route.extend({
     this.container = options.container;
   },
 
-  render() {
+  render() {    
     let model = new IndexModel();
     this.listenTo(model, 'request', this.showSpinner);
     this.listenTo(model, 'sync', this.hideSpinner);

@@ -7,6 +7,7 @@ import {Application} from 'backbone.marionette';
 import LayoutView from './layout-view';
 import LocaleHelper from '../common/locale-helper'
 
+
 let routerChannel = Radio.channel('router');
 let overlayChannel = Radio.channel('overlay');
 let localeChannel = Radio.channel('locale');
@@ -77,6 +78,7 @@ export default Application.extend({
         nprogress.start();
       }
     });
+
   },
 
   onEnterRoute() {

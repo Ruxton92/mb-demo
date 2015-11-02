@@ -1,0 +1,105 @@
+.mb-my-offers-page-wrapper {
+  h1 {
+    font: 400 42px / 42px "Corp A";
+    margin: 15px 0 40px 0;
+  }
+  .mb-contacts-dark-block {
+    margin-bottom: 90px;
+  }
+  .mb-my-offers-list {
+    padding: 0;
+    margin: 0 0 45px 0;
+    .mb-my-offers-list-item {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 25px 0;
+      h3 {
+        font: 400 34px / 34px "Corp A";
+        margin: 15px 0 40px 0;
+        a {
+          text-decoration: none;
+          color: #333;
+        } 
+      }
+      hr {
+        border-top: 1px solid #ececec;
+        height: 0;
+        margin: 0;
+      }
+      ul {
+        padding: 0;
+        .row {
+          list-style: none;
+          padding: 0;
+          border-top: 1px solid #ececec;
+          border-bottom: 1px solid #ececec;
+          &:first-child, &:last-child {
+            border: none;
+          }
+          &>span:first-child {
+            line-height: 24px;
+            color: #999999;
+          }
+          span {
+            font-size: 18px;
+            color: #333;
+            padding: 7px 0;
+          }
+        }
+      }
+    }
+  }
+  .mb-model-detail-tech-specs-additional {
+    padding-left: 2px;
+    margin-bottom: 25px;
+    li {
+      list-style-position: inside;
+      font: 400 18px / 30px "Corp S";
+      margin-right: 20px;
+      color: #333;
+      .mb-icon-i {
+        background: url(/images/icons/i.png);
+        width: 28px;
+        height: 28px;
+        display: inline-block;
+        margin-left: 10px;
+        vertical-align: top;
+      }
+    }
+  }
+  .mb-model-detail-edition-highlights-equipment-link {
+    display: inline-block;
+    margin: 0 0 40px 0;
+    background: #666 url(/images/icons/document_icon.png) 10px 9px no-repeat;
+    color: #fff;
+    font-size: 18px;
+    line-height: 44px;
+    padding: 0 20px 0 40px;
+    .border-radius(1px);
+    text-decoration: none;
+    background-size: 8%;
+    &:focus,
+    &:active,
+    &:hover {
+      text-decoration: none;
+    }
+    &~p {
+      border: none;
+    }
+  }
+  .mb-model-detail-tech-specs .row {
+    background: transparent;
+  }
+  .mb-model-detail-tech-specs-column {
+    margin-right: 0;
+    border: none;
+    width: auto;
+    &.col-xs-8 {
+      width: 66.66666667%;
+    }
+    &.col-xs-4 {
+      width: 33.33333333%;
+    }
+    
+  }
+}

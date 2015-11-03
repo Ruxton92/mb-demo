@@ -17,8 +17,13 @@ export default ItemView.extend({
   className: 'mb-fullscreen-modal-content',
   model: model,
 
+  ui: {
+    'callbackTimeType': '.callbacktime-type',
+  },
+
   events: {
-    'submit form': 'handleSubmit'
+    'submit form': 'handleSubmit',
+    'change [name="callbacktime-type"]': 'changeTimeType'
   },
 
   triggers: {
@@ -35,6 +40,14 @@ export default ItemView.extend({
       console.log(errors);
     });
     Backbone.Validation.bind(this);
+  },
+
+  onShow() {
+    $('#callbacktime-date').datetimepicker({
+      inline: true,
+      minDate: moment().format(),
+      daysOfWeekDisabled: [6]
+    });
   },
 
   handleSubmit(e) {
@@ -62,5 +75,11 @@ export default ItemView.extend({
         }
       });
     }
+  },
+
+  changeTimeType(e) {
+    e.preventDefault();
+    this.ui.callbackTimeType.addClass('hide');
+    this.$el.find(`.${$(e.currentTarget).val()}`).removeClass('hide');
   }
 });

@@ -115,8 +115,7 @@
     .row {
       margin: 0;
       &>div {
-        padding: 30px 0 0 0;
-        border-top: 1px solid #dddddd;
+        padding: 10px 0 0 0;        
         .btn {
           background: transparent;
           border: none;
@@ -161,7 +160,13 @@
             background-size: 100%;
           }
         }
+        &.mb-checkout-form-btn-left {
+          border-top: 1px solid #dddddd;
+        }
       }
+    }
+    .mb-form-sublabel {
+      margin-top: 10px;
     }
   }
   .mb-sheckout-final-step {
@@ -219,10 +224,10 @@
       margin-right: 0;
       border: none;
       &.width-66 {
-        width: 66%;
+        //width: 66%;
       }
       &.width-33 {
-        width: 33%;
+        //width: 33%;
       }
       .mb-model-detail-edition-highlights-equipment-link {
         display: inline-block;
@@ -319,25 +324,42 @@
   }
   .mb-offer-detail-list {
     .row {
-      padding-right: 0;
+      padding: 10px 0;
       span {
-        line-height: 38px;
         padding: 0;
-        padding-right: 1.21951208%;
-        padding-left: 1.21951208%;
+        padding-right: 30px;
       }
       p {
-        line-height: 38px;
         padding: 0;
-        padding-right: 1.21951208%;
-        padding-left: 1.21951208%;
       }
       .mb-icon-i {
-        display: inline-block;
-        position: static;
-        margin-left: 15px;
-        margin-top: 5px;
-        vertical-align: top;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+    }
+  }
+  .mb-checkout-form-wrapper {
+    form {
+      .row {
+        margin-bottom: 0;
+        .form-group {
+          margin-bottom: 15px;
+
+          input.form-control {
+            &:focus,
+            &:active {
+              background-color: #fff;
+            }
+          }
+          .bootstrap-datetimepicker-widget,
+          input.form-control,
+          .input-group .input-group-addon,
+          select.form-control {
+            border-color: #d9d9d9;
+            background: #f8f8f8;
+          }
+        }
       }
     }
   }
@@ -379,6 +401,8 @@
     margin-bottom: 1em;
   }
 }
+
+
 @media (min-width: @screen-sm) and (max-width: (@screen-md - 1)) { 
   .mb-checkout-step {
     form {
@@ -542,6 +566,9 @@
               background-position: right top;
               background-size: 100%;
             }
+          }
+          &.mb-checkout-form-btn-right {
+            text-align: right;
           }
         }
       }
@@ -722,23 +749,18 @@
       .row {
         padding-right: 0;
         span {
-          line-height: 38px;
           padding: 0;
           padding-right: 1.21951208%;
           padding-left: 1.21951208%;
         }
         p {
-          line-height: 38px;
           padding: 0;
           padding-right: 1.21951208%;
           padding-left: 1.21951208%;
+          text-align: right;
         }
         .mb-icon-i {
-          display: inline-block;
-          position: static;
-          margin-left: 15px;
-          margin-top: 5px;
-          vertical-align: top;
+          right: -30px;
         }
       }
     }
@@ -783,6 +805,170 @@
     }
   }
 }
+
+
 @media (min-width: @screen-md) and (max-width: (@screen-lg - 1)) {
-  
+  .mb-checkout-step {
+    .mb-checkout-form-navigation-block {
+      margin-bottom: 60px;
+      .row {
+        margin: 0;
+        &>div {
+          padding: 30px 0 0 0;
+          border-top: 1px solid #dddddd;
+          .btn {
+            background: transparent;
+            border: none;
+            color: #fff;
+            font: 400 18px / 44px "Corp S";
+            padding: 0 20px;
+            position: relative;
+          }
+          .btn-default {
+            background: #666666;
+          }
+          .btn-primary {
+            background: #00adef;
+          }
+          .js-next {
+            padding-right: 35px; 
+            &:after {
+              content: "";
+              display: inline-block;
+              height: 20px;
+              width: 11px;
+              position: absolute;
+              top: 12px;
+              right: 15px;
+              background-image: url(/images/carousel-arrow-right.png);
+              background-position: right top;
+              background-size: 100%;
+            }
+          }
+          .js-prev {
+            padding-left: 35px; 
+            &:before {
+              content: "";
+              display: inline-block;
+              height: 20px;
+              width: 11px;
+              position: absolute;
+              left: 15px;
+              top: 12px;
+              background-image: url(/images/carousel-arrow-left.png);
+              background-position: right top;
+              background-size: 100%;
+            }
+          }
+          &.mb-checkout-form-btn-right {
+            text-align: right;
+          }
+        }
+      }
+    }
+
+    .mb-offer-detail-list {
+      .row {
+        padding-right: 0;
+        span {
+          padding: 0;
+          padding-right: 1.21951208%;
+          padding-left: 1.21951208%;
+        }
+        p {
+          padding: 0;
+          padding-right: 1.21951208%;
+          padding-left: 1.21951208%;
+          text-align: right;
+        }
+        .mb-icon-i {
+          right: -30px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: @screen-lg) {
+  .mb-checkout-step {
+    .mb-checkout-form-navigation-block {
+      margin-bottom: 60px;
+      .row {
+        margin: 0;
+        &>div {
+          padding: 30px 0 0 0;
+          border-top: 1px solid #dddddd;
+          .btn {
+            background: transparent;
+            border: none;
+            color: #fff;
+            font: 400 18px / 44px "Corp S";
+            padding: 0 20px;
+            position: relative;
+          }
+          .btn-default {
+            background: #666666;
+          }
+          .btn-primary {
+            background: #00adef;
+          }
+          .js-next {
+            padding-right: 35px; 
+            &:after {
+              content: "";
+              display: inline-block;
+              height: 20px;
+              width: 11px;
+              position: absolute;
+              top: 12px;
+              right: 15px;
+              background-image: url(/images/carousel-arrow-right.png);
+              background-position: right top;
+              background-size: 100%;
+            }
+          }
+          .js-prev {
+            padding-left: 35px; 
+            &:before {
+              content: "";
+              display: inline-block;
+              height: 20px;
+              width: 11px;
+              position: absolute;
+              left: 15px;
+              top: 12px;
+              background-image: url(/images/carousel-arrow-left.png);
+              background-position: right top;
+              background-size: 100%;
+            }
+          }
+          &.mb-checkout-form-btn-right {
+            text-align: right;
+          }
+        }
+      }
+    }
+
+    .mb-offer-detail-list {
+      .row {
+        padding-right: 0;
+        span {
+          line-height: 38px;
+          padding: 0;
+          padding-right: 1.21951208%;
+          padding-left: 1.21951208%;
+        }
+        p {
+          line-height: 38px;
+          padding: 0;
+          padding-right: 1.21951208%;
+          padding-left: 1.21951208%;
+          text-align: right;
+        }
+        .mb-icon-i {
+          right: -20px;
+        }
+      }
+    }
+  }
 }

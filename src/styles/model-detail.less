@@ -1168,7 +1168,6 @@
 @media (min-width: @screen-md) and (max-width: (@screen-lg - 1)) {
 	.mb-model-detail-campaign {
 		position: relative;
-		padding-top: 125px;
 		.mb-campaign-hero {
 			margin-left: 0;
 		}
@@ -1392,10 +1391,12 @@
 	.mb-model-detail-exterior-region {
 		.mb-model-detail-exterior-block {
 			position: relative;
-			padding-top: 120px;
+			padding-top: 300px;
+            padding-bottom: 20px;
 			.mb-carousel {
 				.carousel-inner {
 					text-align: right;
+                    height: auto;
 					.item {
 						&.active {
 							display: inline-block;
@@ -1403,6 +1404,7 @@
 					}
 				}
 			}
+
 		}
 		.mb-exterior-block-title {
 			font: 400 42px / 42px "Corp A";

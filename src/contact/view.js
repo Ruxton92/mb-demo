@@ -5,6 +5,7 @@ import CallbackModalView from '../modal/callback/view';
 import EmailModalView from '../modal/email/view';
 import SupportModalView from '../modal/support/view';
 
+
 export default ItemView.extend({
   template: template,
   className: 'contact-wrapper',
@@ -12,7 +13,8 @@ export default ItemView.extend({
   events: {
     'click .js-call-callback-modal': 'showCallbackModal',
     'click .js-call-email-modal': 'showEmailModal',
-    'click .js-support-modal': 'showSupportModal'
+    'click .js-support-modal': 'showSupportModal',
+    'click .js-dream-car': 'showDreamcarModal'
   },
   showCallbackModal(e) {
     e.preventDefault();
@@ -30,6 +32,10 @@ export default ItemView.extend({
     e.preventDefault();
     var view = new SupportModalView();
     ModalService.request('open', view);
+  },
+
+  showDreamcarModal(e){
+    e.preventDefault();
   }
 
 });

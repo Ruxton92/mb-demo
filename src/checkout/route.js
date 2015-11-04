@@ -6,11 +6,12 @@ import CheckoutModel from './model';
 export default Route.extend({
   initialize(options = {}) {
     this.container = options.container;
+    this.productID = options.productID;
   },
 
   render() {
     let model = new CheckoutModel();
-    model.url = model.urlRoot + '10211219410';
+    model.url = model.urlRoot + this.productID;
     this.listenTo(model, 'request', this.showSpinner);
     this.listenTo(model, 'sync', this.hideSpinner);
     model.fetch({

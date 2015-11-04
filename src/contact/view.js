@@ -36,7 +36,6 @@ export default ItemView.extend({
 
   showDreamcarModal(e){
     e.preventDefault();
-    console.log(e)
   }
 
 });

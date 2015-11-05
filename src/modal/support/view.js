@@ -8,12 +8,12 @@ export default ItemView.extend({
 
   ui: {
     'deliveryTypes': '.delivery-type',
-    'exchangeCar': '.exchange-car'
+    'exchangeCar': '.js-exchange-car'
   },
 
   events: {
     'change [name="delivery-type"]': 'changeDeliveryType',
-    'change [name="exchange-car"]': 'changeBayType'
+    'change [name="js-exchange-car"]': 'changeBayType'
   },
 
   triggers: {

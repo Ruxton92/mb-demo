@@ -8,10 +8,12 @@ export default ItemView.extend({
 
   ui: {
     'deliveryTypes': '.delivery-type',
+    'exchangeCar': '.exchange-car'
   },
 
   events: {
-    'change [name="delivery-type"]': 'changeDeliveryType'
+    'change [name="delivery-type"]': 'changeDeliveryType',
+    'change [name="exchange-car"]': 'changeBayType'
   },
 
   triggers: {
@@ -31,5 +33,17 @@ export default ItemView.extend({
     e.preventDefault();
     this.ui.deliveryTypes.addClass('hide');
     this.$el.find(`.${$(e.currentTarget).val()}`).removeClass('hide');
+  },
+  changeBayType(e){
+    e.preventDefault();
+    var val = $(e.currentTarget).val();
+
+    if ( val === 'yes' ) {
+      this.ui.exchangeCar.removeClass('hide')
+    } else {
+      this.ui.exchangeCar.addClass('hide')
+    };
+
+
   }
 });

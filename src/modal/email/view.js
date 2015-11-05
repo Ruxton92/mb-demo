@@ -43,7 +43,6 @@ export default ItemView.extend({
 
     let additional_data = {
       "delivery": {},
-      "financeType": null,
       "dateOfDelivery": 0
     };
     _.extend(form, additional_data);

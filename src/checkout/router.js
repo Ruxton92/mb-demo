@@ -14,12 +14,13 @@ export default Router.extend({
   },
 
   routes: {
-    'checkout': 'checkout'
+    'checkout/:id': 'checkout'
   },
 
-  checkout() {
+  checkout(id) {
     return new StoreInfoRoute({
-      container: this.container
+      container: this.container,
+      productID: id
     });
   }
 });

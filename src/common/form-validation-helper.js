@@ -23,6 +23,7 @@ export default class FormValidatorHelper {
       },
 
       invalid(view, attr, error, selector) {
+        console.log(attr)
         //var errorMessage = $(view.el).find(`[name='${attr}']`).siblings('.form-error-message');
         var inputGroup = $(view.el).find(`[name='${attr}']`).parent();
         if (inputGroup.length) {

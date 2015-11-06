@@ -119,11 +119,27 @@ form {
 					font: 400 18px / 11px "Corp S";
 				}
 			}
+			.form-error-message {
+				color: #9f0002;
+				font-family: "Corp S";
+				font-size: 16px;
+				margin-top: 9px;
+				display: none;
+			}
 			.mb-form-sublabel {
 				float: right;
 				color: #999;
 				font-size: 16px;
 				margin: 15px 0 -7px 0;
+			}
+
+			&.has-error {
+				.form-control {
+					border-color: #9f0002;
+				}
+				.form-error-message {
+					display: inline-block;
+				}
 			}
 		}
 		.btn-group {

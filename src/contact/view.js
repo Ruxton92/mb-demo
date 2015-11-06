@@ -4,6 +4,7 @@ import ModalService from '../modal/service';
 import CallbackModalView from '../modal/callback/view';
 import EmailModalView from '../modal/email/view';
 import SupportModalView from '../modal/support/view';
+import DreamCarModalView from '../modal/dreamcar/view';
 
 
 export default ItemView.extend({
@@ -36,6 +37,8 @@ export default ItemView.extend({
 
   showDreamcarModal(e){
     e.preventDefault();
+    var view = new DreamCarModalView();
+    ModalService.request('open', view);
   }
 
 });

@@ -5,19 +5,19 @@ export default Model.extend({
   urlRoot: '/api/v2/lead/callback',
 
   validation: {
-    "customer[salutation]": {
+    "salutation": {
       required: true
     },
-    "customer[title]": {
+    "title": {
       required: false
     },
-    "customer[firstName]": {
+    "firstName": {
       required: true
     },
-    "customer[lastName]": {
+    "lastName": {
       required: true
     },
-    "customer[phone]": {
+    "phone": {
       required: false
     }
   }

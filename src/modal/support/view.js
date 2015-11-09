@@ -36,14 +36,7 @@ export default ItemView.extend({
   },
   changeBayType(e){
     e.preventDefault();
-    var val = $(e.currentTarget).val();
 
-    if ( val === 'yes' ) {
-      this.ui.exchangeCar.removeClass('hide')
-    } else {
-      this.ui.exchangeCar.addClass('hide')
-    };
-
-
+    this.ui.exchangeCar.toggleClass('hide');
   }
 });

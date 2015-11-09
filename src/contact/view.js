@@ -19,25 +19,25 @@ export default ItemView.extend({
   },
   showCallbackModal(e) {
     e.preventDefault();
-    var view = new CallbackModalView();
+    let view = new CallbackModalView();
     ModalService.request('open', view);
   },
 
   showEmailModal(e) {
     e.preventDefault();
-    var view = new EmailModalView();
+    let view = new EmailModalView();
     ModalService.request('open', view);
   },
 
   showSupportModal(e) {
     e.preventDefault();
-    var view = new SupportModalView();
+    let view = new SupportModalView();
     ModalService.request('open', view);
   },
 
   showDreamcarModal(e){
     e.preventDefault();
-    var view = new DreamCarModalView();
+    let view = new DreamCarModalView();
     ModalService.request('open', view);
   }
 

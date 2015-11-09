@@ -36,7 +36,6 @@ export default ItemView.extend({
   },
   changeBayType(e){
     e.preventDefault();
-
     this.ui.exchangeCar.toggleClass('hide');
   }
 });

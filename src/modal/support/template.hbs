@@ -57,19 +57,21 @@
               <div class="col-xs-6 col-sm-4">
                 <div class="form-group">
                   <label for="field-1">{{locale "checkout.step.2.form.delivery.street"}} <sup>*</sup></label>
-                  <input type="text" class="form-control data-field" id="field-1" name="delivery-street">
+                  <input type="text" class="form-control data-field" id="field-1" name="deliveryStreet">
+                  <span class="form-error-message">Enter value</span>
                 </div>
               </div>
               <div class="col-xs-6 col-sm-2">
                 <div class="form-group">
                   <label for="field-2">{{locale "checkout.step.2.form.delivery.house"}} <sup>*</sup></label>
-                  <input type="text" class="form-control data-field" id="field-2" name="delivery-house">
+                  <input type="text" class="form-control data-field" id="field-2" name="deliveryHouse">
+                  <span class="form-error-message">Enter value</span>
                 </div>
               </div>
               <div class="col-xs-8 col-sm-6">
                 <div class="form-group">
                   <label for="field-3">{{locale "checkout.step.2.form.delivery.additional"}}</label>
-                  <input type="text" class="form-control data-field" id="field-3" name="delivery-additional">
+                  <input type="text" class="form-control data-field" id="field-3" name="deliveryAdditional">
                 </div>
               </div>
             </div>
@@ -81,13 +83,15 @@
               <div class="col-xs-3">
                 <div class="form-group">
                   <label for="field-4">{{locale "checkout.step.2.form.delivery.index"}} <sup>*</sup></label>
-                  <input type="text" class="form-control data-field" id="field-4" name="delivery-index">
+                  <input type="text" class="form-control data-field" id="field-4" name="deliveryIndex">
+                  <span class="form-error-message">Enter value</span>
                 </div>
               </div>
               <div class="col-xs-9">
                 <div class="form-group">
                   <label for="field-5">{{locale "checkout.step.2.form.delivery.city"}} <sup>*</sup></label>
-                  <input type="text" class="form-control data-field" id="field-5" name="delivery-city">
+                  <input type="text" class="form-control data-field" id="field-5" name="deliveryCity">
+                  <span class="form-error-message">Enter value</span>
                 </div>
               </div>
             </div>
@@ -203,13 +207,15 @@
               <div class="col-xs-6">
                 <div class="form-group">
                   <label for="field-9">Hersteller/Typ <sup>*</sup></label>
-                  <input type="text" class="form-control" id="field-9">
+                  <input type="text" class="form-control" name="currentcarModel" id="field-9">
+                  <span class="form-error-message">Enter value</span>
                 </div>
               </div>
               <div class="col-xs-6">
                 <div class="form-group">
                   <label for="field-5">Erstzulassung <sup>*</sup></label>
-                  <input type="text" class="form-control" id="field-5" placeholder="TT.MM.JJJJ">
+                  <input type="text" class="form-control" name="currentcarYear" id="field-5" placeholder="TT.MM.JJJJ">
+                  <span class="form-error-message">Enter value</span>
                 </div>
               </div>
             </div>
@@ -222,8 +228,9 @@
                 <div class="form-group">
                   <label for="field-9">Kilometerstand <sup>*</sup></label>
                   <div class="input-group">
-                    <input type="text" class="form-control" id="field-9">
+                    <input type="text" class="form-control" name="currentcarMileage" id="field-9">
                     <span class="input-group-addon" id="basic-addon2">km</span>
+                    <span class="form-error-message">Enter value</span>
                   </div>
                 </div>
               </div>
@@ -240,7 +247,7 @@
             <div class="col-xs-5">
               <div class="form-group">
                 <label for="field-4">Anrede <sup>*</sup></label>
-                <select class="form-control" id="field-1">
+                <select class="form-control" name="salutation" id="field-1">
                   <option value="">-</option>
                   <option value="">-</option>
                   <option value="">-</option>
@@ -248,6 +255,7 @@
                   <option value="">-</option>
                 </select>
                 <label for="field-1" class="mb-select-arrow"></label>
+                <span class="form-error-message">Enter value</span>
               </div>
             </div>
             <div class="col-xs-7">
@@ -272,13 +280,15 @@
             <div class="col-xs-6">
               <div class="form-group">
                 <label for="field-9">Vorname <sup>*</sup></label>
-                <input type="text" class="form-control" id="field-9">
+                <input type="text" class="form-control" name="firstName" id="field-9">
+                <span class="form-error-message">Enter value</span>
               </div>
             </div>
             <div class="col-xs-6">
               <div class="form-group">
                 <label for="field-5">Nachname <sup>*</sup></label>
-                <input type="text" class="form-control" id="field-5">
+                <input type="text" class="form-control" name="lastName" id="field-5">
+                <span class="form-error-message">Enter value</span>
               </div>
             </div>
           </div>
@@ -290,7 +300,8 @@
             <div class="col-xs-6">
               <div class="form-group">
                 <label for="field-9">E-Mail <sup>*</sup></label>
-                <input type="text" class="form-control" id="field-9">
+                <input type="text" class="form-control" name="email" id="field-9">
+                <span class="form-error-message">Enter value</span>
               </div>
             </div>
             <div class="col-xs-6">

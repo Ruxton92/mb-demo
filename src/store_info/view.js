@@ -27,8 +27,25 @@ export default LayoutView.extend({
   },
 
   onShow() {
+    
     this.ui.tabs.addClass('hide');
     this.$el.find('.tab1').removeClass('hide');
+
+    // (#storeinfo?tab=tab3) => ["tab", "tab3"]
+    let hashSplit = location.hash.slice(location.hash.indexOf('?')+1).split('=');
+    
+    if ( hashSplit[0] === 'tab') {
+      let activeTab = hashSplit[1];
+
+      if ( this.$el.find('.' + activeTab).length ){
+        this.ui.tabs.addClass('hide');
+        this.$el.find('.' + activeTab).removeClass('hide');
+
+        this.ui.tabLinks.removeClass('active');
+        this.ui.tabLinks.filter('[data-tab=' + activeTab + ']').addClass('active');
+      }
+    }
+
   },
 
   showCallbackModal(e) {

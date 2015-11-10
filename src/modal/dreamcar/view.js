@@ -25,7 +25,16 @@ export default ItemView.extend({
     'click .btn-default' : 'cancel',
     'click .close'       : 'cancel'
   },
-
+  initialize() {
+    new FormValidatorHelper().initialize();
+    this.model.bind('validated:valid', function (model) {
+      console.log('everything is valid');
+    });
+    this.model.bind('validated:invalid', function (model, errors) {
+      console.log(errors);
+    });
+    Backbone.Validation.bind(this);
+  },
   onShow() {
     $('#callbacktime-date').datetimepicker({
       inline: true,
@@ -33,8 +42,14 @@ export default ItemView.extend({
       daysOfWeekDisabled: [6]
     });
   },
-
   handleSubmit(e) {
     e.preventDefault();
+    let form = Syphon.serialize(this);
+
+    this.model.set(form);
+
+    if ( this.model.isValid(true) ) {
+      // 
+    };
   }
 });

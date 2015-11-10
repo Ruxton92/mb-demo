@@ -119,11 +119,27 @@ form {
 					font: 400 18px / 11px "Corp S";
 				}
 			}
+			.form-error-message {
+				color: #9f0002;
+				font-family: "Corp S";
+				font-size: 16px;
+				margin-top: 9px;
+				display: none;
+			}
 			.mb-form-sublabel {
 				float: right;
 				color: #999;
 				font-size: 16px;
 				margin: 15px 0 -7px 0;
+			}
+
+			&.has-error {
+				.form-control {
+					border-color: #9f0002;
+				}
+				.form-error-message {
+					display: inline-block;
+				}
 			}
 		}
 		.btn-group {
@@ -174,6 +190,7 @@ form {
 	}
 	.mb-date-wrapper {
 		width: 100%;
+
 		.bootstrap-datetimepicker-widget {
 			border: 1px solid #d9d9d9;
 			background: #fff;
@@ -202,11 +219,21 @@ form {
 						span::before {
 							display: none;
 						}
+
+						&:hover,
+						&:focus {
+							background: transparent url(/images/model-nav-arrow-right.png) right 50% no-repeat;
+						}
 					}
 					&.prev {
 						background: transparent url(/images/model-nav-arrow-left.png) left 50% no-repeat;
 						span::before {
 							display: none;
+						}
+
+						&:hover,
+						&:focus {
+							background: transparent url(/images/model-nav-arrow-left.png) left 50% no-repeat;
 						}
 					}
 				}
@@ -242,6 +269,7 @@ form {
   .mb-form-list-switches {
     padding: 0;
     margin: 15px 0 45px 0;
+
     li {
       list-style: none;
       margin-bottom: 0;
@@ -311,6 +339,13 @@ form {
         	margin-left: 30px;
         }
       }
+    }
+
+    &.mb-form-list-switches-inline {
+    	li {
+    		display: inline-block;
+    		margin-right: 20px;
+    	}
     }
   }
   .mb-save-form-block {

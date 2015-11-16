@@ -20,7 +20,6 @@ let OfferView = ItemView.extend({
   },
 
   onOfferClick(e) {
-
     e.stopPropagation();
 
     let $clickedItem = $(e.currentTarget),
@@ -28,8 +27,6 @@ let OfferView = ItemView.extend({
         link = $linkInside.attr('href');
 
     window.location.href = link;
-
-
   }
 
 

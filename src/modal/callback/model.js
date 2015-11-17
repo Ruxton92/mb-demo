@@ -6,16 +6,16 @@ export default Model.extend({
 
   validation: {
     "salutation": {
-      required: true
+      required: false
     },
     "title": {
       required: false
     },
     "firstName": {
-      required: true
+      required: false
     },
     "lastName": {
-      required: true
+      required: false
     },
     "phone": {
       required: false

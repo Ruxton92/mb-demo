@@ -9,7 +9,9 @@ import {Model} from 'backbone';
 import SupportModel from './model';
 import template from './template.hbs';
 
+import FormCustomRequired from '../../common/form-custom-required';
 import FormValidatorHelper from '../../common/form-validation-helper';
+
 let model = new SupportModel();
 
 export default ItemView.extend({
@@ -34,7 +36,7 @@ export default ItemView.extend({
   },
 
   onShow(){
-    //new FormCustomRequired().initialize(this);
+    new FormCustomRequired().initialize(this);
   },
   initialize() {
     new FormValidatorHelper().initialize();

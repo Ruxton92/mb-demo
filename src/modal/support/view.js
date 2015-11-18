@@ -10,7 +10,6 @@ import SupportModel from './model';
 import template from './template.hbs';
 
 import FormValidatorHelper from '../../common/form-validation-helper';
-
 let model = new SupportModel();
 
 export default ItemView.extend({
@@ -32,7 +31,10 @@ export default ItemView.extend({
   triggers: {
     'click .btn-default' : 'cancel',
     'click .close'       : 'cancel',
-    
+  },
+
+  onShow(){
+    //new FormCustomRequired().initialize(this);
   },
   initialize() {
     new FormValidatorHelper().initialize();

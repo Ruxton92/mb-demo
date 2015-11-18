@@ -3,7 +3,6 @@ import {Model} from 'backbone';
 
 export default Model.extend({
   urlRoot: '/api/v2/lead/support',
-
   validation: {
     "deliveryStreet": {
       required: true

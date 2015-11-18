@@ -6,22 +6,22 @@ export default Model.extend({
 
   validation: {
     "description": {
-      required: true
+      required: false
     },
     "salutation": {
-      required: true
+      required: false
     },
     "firstName": {
-      required: true
+      required: false
     },
     "lastName": {
-      required: true
+      required: false
     },
     "email": {
-      required: true
+      required: false
     },
     "phone": {
-      required: true
+      required: false
     }
   }
 

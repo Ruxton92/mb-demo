@@ -6,32 +6,32 @@ export default Model.extend({
 
   validation: {
     "subject": {
-      required: true
+      required: false
     },
     "message": {
       required: true
     },
     "salutation": {
-      required: true
+      required: false
     },
     "title": {
-      required: true
+      required: false
     },
     "firstName": {
-      required: true
+      required: false
     },
     "lastName": {
-      required: true
+      required: false
     },
     "postalCode": {
-      required: true,
+      required: false,
       pattern: /[0-9]{5}/
     },
     "city": {
-      required: true
+      required: false
     },
     "consentContactByEmail": {
-      required: true
+      required: false
     }
   }
 

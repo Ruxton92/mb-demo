@@ -1,4 +1,6 @@
 import $ from 'jquery';
+import Backbone from 'backbone';
+import Radio from 'backbone.radio';
 
 export default class FormCustomRequired {
   initialize(view) {
@@ -10,8 +12,8 @@ export default class FormCustomRequired {
 
       if ($labelText.indexOf('*') !== -1) {
         fields[field].required = true;
-      };
+      }
     }
-
+    
   }
 }

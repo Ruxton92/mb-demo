@@ -3,43 +3,42 @@ import {Model} from 'backbone';
 
 export default Model.extend({
   urlRoot: '/api/v2/lead/support',
-
   validation: {
     "deliveryStreet": {
-      required: true
+      required: false
     },
     "deliveryHouse": {
-      required: true
+      required: false
     },
     "deliveryAdditional": {
       required: false
     },
     "deliveryIndex": {
-      required: true
+      required: false
     },
     "deliveryCity": {
-      required: true
+      required: false
     },
     "currentcarModel": {
-      required: true
+      required: false
     },
     "currentcarYear": {
-      required: true
+      required: false
     },
     "currentcarMileage": {
-      required: true
+      required: false
     },
     "salutation": {
-      required: true
+      required: false
     },
     "firstName": {
-      required: true
+      required: false
     },
     "lastName": {
-      required: true
+      required: false
     },
     "email": {
-      required: true
+      required: false
     }
   }
 

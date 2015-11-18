@@ -9,6 +9,7 @@ import {Model} from 'backbone';
 import SupportModel from './model';
 import template from './template.hbs';
 
+import FormCustomRequired from '../../common/form-custom-required';
 import FormValidatorHelper from '../../common/form-validation-helper';
 
 let model = new SupportModel();
@@ -32,7 +33,10 @@ export default ItemView.extend({
   triggers: {
     'click .btn-default' : 'cancel',
     'click .close'       : 'cancel',
-    
+  },
+
+  onShow(){
+    new FormCustomRequired().initialize(this);
   },
   initialize() {
     new FormValidatorHelper().initialize();

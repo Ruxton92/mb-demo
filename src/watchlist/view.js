@@ -8,6 +8,8 @@ import CallbackModalView from '../modal/callback/view';
 import EmailModalView from '../modal/email/view';
 import SupportModalView from '../modal/support/view';
 
+import TestDriveModalView from '../modal/test_drive/view';
+
 export default LayoutView.extend({
   template: template,
   className: 'mb-watchlist-page-wrapper',
@@ -19,6 +21,9 @@ export default LayoutView.extend({
     'click .js-call-callback-modal': 'showCallbackModal',
     'click .js-call-email-modal': 'showEmailModal',
     'click .js-support-modal': 'showSupportModal',
+
+    'click .js-test-drive': 'showTestDriveModal',
+
     'click .js-tab': 'switchTab'
   },
 
@@ -40,6 +45,12 @@ export default LayoutView.extend({
   showSupportModal(e) {
     e.preventDefault();
     var view = new SupportModalView();
+    ModalService.request('open', view);
+  },
+
+  showTestDriveModal(e){
+    e.preventDefault();
+    var view = new TestDriveModalView();
     ModalService.request('open', view);
   },
 

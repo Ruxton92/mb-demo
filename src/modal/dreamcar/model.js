@@ -2,14 +2,23 @@ import $ from 'jquery';
 import {Model} from 'backbone';
 
 export default Model.extend({
-  urlRoot: '/api/v2/lead/callback',
+  urlRoot: '/api/v2/lead/dreamcar',
 
   validation: {
+    "description": {
+      required: false
+    },
+    "salutation": {
+      required: false
+    },
     "firstName": {
-      required: true
+      required: false
     },
     "lastName": {
-      required: true
+      required: false
+    },
+    "email": {
+      required: false
     },
     "phone": {
       required: false

@@ -8,6 +8,7 @@ import {Model} from 'backbone';
 import EmailModel from './model';
 import template from './template.hbs';
 
+import FormCustomRequired from '../../common/form-custom-required';
 import FormValidatorHelper from '../../common/form-validation-helper';
 
 let model = new EmailModel();
@@ -35,6 +36,10 @@ export default ItemView.extend({
       console.log(errors);
     });
     Backbone.Validation.bind(this);
+  },
+  
+  onShow(){
+    new FormCustomRequired().initialize(this);
   },
 
   handleSubmit(e) {

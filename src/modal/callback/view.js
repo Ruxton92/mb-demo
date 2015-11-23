@@ -8,6 +8,7 @@ import {Model} from 'backbone';
 import CallbackModel from './model';
 import template from './template.hbs';
 
+import FormCustomRequired from '../../common/form-custom-required';
 import FormValidatorHelper from '../../common/form-validation-helper';
 
 let model = new CallbackModel();
@@ -33,6 +34,7 @@ export default ItemView.extend({
 
   initialize() {
     new FormValidatorHelper().initialize();
+    
     this.model.bind('validated:valid', function (model) {
       console.log('everything is valid');
     });
@@ -48,6 +50,7 @@ export default ItemView.extend({
       minDate: moment().format(),
       daysOfWeekDisabled: [6]
     });
+    new FormCustomRequired().initialize(this);
   },
 
   handleSubmit(e) {

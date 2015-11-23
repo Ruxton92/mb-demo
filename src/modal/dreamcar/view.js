@@ -8,6 +8,10 @@ import {Model} from 'backbone';
 import DreamCarModel from './model';
 import template from './template.hbs';
 
+<<<<<<< HEAD
+=======
+import FormCustomRequired from '../../common/form-custom-required';
+>>>>>>> 360fe370874d1d98ced58e60fd771e89f0479549
 import FormValidatorHelper from '../../common/form-validation-helper';
 
 let model = new DreamCarModel();
@@ -26,6 +30,16 @@ export default ItemView.extend({
     'click .close'       : 'cancel'
   },
 
+  initialize() {
+    new FormValidatorHelper().initialize();
+    this.model.bind('validated:valid', function (model) {
+      console.log('everything is valid');
+    });
+    this.model.bind('validated:invalid', function (model, errors) {
+      console.log(errors);
+    });
+    Backbone.Validation.bind(this);
+  },
   onShow() {
     $('#callbacktime-date').datetimepicker({
       inline: true,
@@ -33,8 +47,14 @@ export default ItemView.extend({
       daysOfWeekDisabled: [6]
     });
   },
-
   handleSubmit(e) {
     e.preventDefault();
+    let form = Syphon.serialize(this);
+
+    this.model.set(form);
+
+    if ( this.model.isValid(true) ) {
+      // 
+    };
   }
 });

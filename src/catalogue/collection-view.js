@@ -20,15 +20,13 @@ let OfferView = ItemView.extend({
   },
 
   onOfferClick(e) {
+    e.stopPropagation();
 
-    e.stopPropagation()
-
-    var $clickedItem = $(e.currentTarget),
-      $linkInside = $clickedItem.find('a'),
-      link = $linkInside.attr('href');
+    let $clickedItem = $(e.currentTarget),
+        $linkInside = $clickedItem.find('a'),
+        link = $linkInside.attr('href');
 
     window.location.href = link;
-
   }
 
 

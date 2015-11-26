@@ -8,10 +8,7 @@ import {Model} from 'backbone';
 import DreamCarModel from './model';
 import template from './template.hbs';
 
-<<<<<<< HEAD
-=======
 import FormCustomRequired from '../../common/form-custom-required';
->>>>>>> 360fe370874d1d98ced58e60fd771e89f0479549
 import FormValidatorHelper from '../../common/form-validation-helper';
 
 let model = new DreamCarModel();

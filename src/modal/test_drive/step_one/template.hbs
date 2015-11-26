@@ -1,0 +1,254 @@
+<div class="mb-test-drive-banner">
+	<img class="mb-model-detail-testdrive-img visible-xs-block" src="/images/contact/contact-banner-sm-1.jpg" alt="...">
+	<img class="mb-model-detail-testdrive-img visible-sm-block" src="images/contact/contact-banner-md-1.jpg" alt="...">
+	<img class="mb-model-detail-testdrive-img hidden-lg visible-md-block" src="/images/campaign/campaign-poster-1.jpg" alt="...">
+	<img class="mb-model-detail-testdrive-img visible-lg-block" src="/images/contact-banner.png" alt="...">
+	<div class="mb-banner-text-block mb-banner-text-left">
+		<div class="mb-banner-text-wrap">
+			<div class="mb-banner-text-title">
+			    Ihr CLA Shooting Brake steht für Sie bereit.
+			</div>
+		  	<div class="mb-banner-text">
+		    	Nur noch wenige Schritte zur Probefahrt.
+		  	</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="mb-test-drive-form-wrapper container-md">
+	<form>
+		<div class="modal-body">
+		  <h2>Wo soll die Probefahrt beginnen?</h2>
+		  <div class="row">
+		  	<div class="col-xs-12">
+		  		<div class="form-group">
+		  			<label for="mb-car">Modell wählen</label>
+		  			<input type="hidden" id="mb-car" class="form-control" />
+		  			<span class="mb-form-sublabel-left" >Kraftstoffverbrauch kombiniert* 5,7l/100km, CO2-Emission***, 129g/km, Energieeffizienzklasse***B</span>
+		  		</div> 
+		  	</div>
+		  </div>
+		  <div class="row">
+		   	<div class="col-xs-12">
+		  		<div class="form-group">
+		  			<label for="">Haben Sie besondere Wünsche (Motor, Ausstattungslinie, Sonderausstattung)?</label>
+		  			<textarea name="mas" id="" rows="10" class="form-control" ></textarea>
+		  		</div>
+		  	</div>
+		  </div>
+		  <div class="row">
+		    <div class="col-xs-12">
+		      <div class="btn-group btn-group-lg" data-toggle="buttons">
+		        <label class="btn btn-primary active">
+		          <input type="radio" name="delivery-type" id="option-1" value="delivery-address" autocomplete="off" checked> Wunschadresse
+		        </label>
+		        <label class="btn btn-primary">
+		          <input type="radio" name="delivery-type" id="option-2" value="delivery-dealer" autocomplete="off"> Mercedes-Benz Partner
+		        </label>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="delivery-type delivery-address">
+		    <h3>Bitte geben Sie Ihre Wunschadresse im Hamburger Stadtgebiet an. Wir bringen das Fahrzeug zu Ihnen und holen es nach der Probefahrt wieder ab. </h3>
+		    <div class="row">
+		      <div class="col-xs-12">
+		        <div class="row">
+		          <div class="col-xs-6 col-sm-4">
+		            <div class="form-group">
+		              <label for="field-1">{{locale "checkout.step.2.form.delivery.street"}} <sup>*</sup></label>
+		              <input type="text" class="form-control data-field" id="field-1" name="deliveryStreet">
+		              <span class="form-error-message">Enter value</span>
+		            </div>
+		          </div>
+		          <div class="col-xs-6 col-sm-2">
+		            <div class="form-group">
+		              <label for="field-2">{{locale "checkout.step.2.form.delivery.house"}} <sup>*</sup></label>
+		              <input type="text" class="form-control data-field" id="field-2" name="deliveryHouse">
+		              <span class="form-error-message">Enter value</span>
+		            </div>
+		          </div>
+		          <div class="col-xs-8 col-sm-6">
+		            <div class="form-group">
+		              <label for="field-3">{{locale "checkout.step.2.form.delivery.additional"}}</label>
+		              <input type="text" class="form-control data-field" id="field-3" name="deliveryAdditional">
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		    <div class="row">
+		      <div class="col-xs-12 col-sm-6">
+		        <div class="row">
+		          <div class="col-xs-3">
+		            <div class="form-group">
+		              <label for="field-4">{{locale "checkout.step.2.form.delivery.index"}} <sup>*</sup></label>
+		              <input type="text" class="form-control data-field" id="field-4" name="deliveryIndex">
+		              <span class="form-error-message">Enter value</span>
+		            </div>
+		          </div>
+		          <div class="col-xs-9">
+		            <div class="form-group">
+		              <label for="field-5">{{locale "checkout.step.2.form.delivery.city"}} <sup>*</sup></label>
+		              <input type="text" class="form-control data-field" id="field-5" name="deliveryCity">
+		              <span class="form-error-message">Enter value</span>
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+		      <label class="mb-form-sublabel"><sup>*</sup> {{locale "checkout.step.2.form.required"}}</label>
+		    </div>
+		  </div>
+		  <div class="delivery-type delivery-dealer hide">
+		    <h3>{{locale "checkout.step.2.form.dealer.subtitle"}}</h3>
+		    <div class="row">
+		      <div class="col-xs-12">
+		        <ul class="mb-form-list-switches">
+		          <li>
+		            <label>
+		              <input type="radio" name="order-summary-options">
+		              <span class="mb-catalogue-filter-checkbox-wrapper"></span>
+		              <span class="mb-catalogue-filter-title">
+		                Der erste Händler.
+		              </span>
+		            </label>
+		          </li>
+		          <li>
+		            <label>
+		              <input type="radio" name="order-summary-options">
+		              <span class="mb-catalogue-filter-checkbox-wrapper"></span>
+		              <span class="mb-catalogue-filter-title">
+		                Die zweite Händler.
+		              </span>
+		            </label>
+		          </li>
+		          <li>
+		            <label>
+		              <input type="radio" name="order-summary-options">
+		              <span class="mb-catalogue-filter-checkbox-wrapper"></span>
+		              <span class="mb-catalogue-filter-title">
+		                Ein dritter Händler.
+		              </span>
+		            </label>
+		          </li>
+		        </ul>
+		      </div>
+		    </div>
+		  </div>
+		  <hr>
+		  <h2>Wann möchten Sie beraten werden?</h2>
+		  <div class="row">
+		    <div class="col-xs-12">
+		      <div class="row">
+		        <div class="col-sm-6">
+		          <div class="form-group">
+		            <div class='input-group mb-date-wrapper' id='field-date-wrapper'>
+		              <label for="field-1">Datum</label>
+		              <div id="field-date"></div>
+		            </div>
+		          </div>
+		        </div>
+		        <div class="col-sm-3">
+		          <div class="form-group">
+		            <label for="field-5">Startzeit</label>
+		            <select class="form-control" id="field-1">
+		              <option value="">9 : 00 Uhr</option>
+		              <option value="">10 : 00 Uhr</option>
+		              <option value="">11 : 00 Uhr</option>
+		            </select>
+		            <label for="field-1" class="mb-select-arrow"></label>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		  <hr>
+
+		  <h2>Wie können wir Sie erreichen?</h2>
+		  <div class="row">
+		    <div class="col-xs-12 col-sm-6">
+		      <div class="row">
+		        <div class="col-xs-5">
+		          <div class="form-group">
+		            <label for="field-4">Anrede <sup>*</sup></label>
+		            <select class="form-control" name="salutation" id="field-1">
+		              <option value="">-</option>
+		              <option value="">-</option>
+		              <option value="">-</option>
+		              <option value="">-</option>
+		              <option value="">-</option>
+		            </select>
+		            <label for="field-1" class="mb-select-arrow"></label>
+		            <span class="form-error-message">Enter value</span>
+		          </div>
+		        </div>
+		        <div class="col-xs-7">
+		          <div class="form-group">
+		            <label for="field-5">Titel</label>
+		            <select class="form-control" id="field-1">
+		              <option value="">-</option>
+		              <option value="">-</option>
+		              <option value="">-</option>
+		              <option value="">-</option>
+		              <option value="">-</option>
+		            </select>
+		            <label for="field-1" class="mb-select-arrow"></label>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="row">
+		    <div class="col-xs-12">
+		      <div class="row">
+		        <div class="col-xs-6">
+		          <div class="form-group">
+		            <label for="field-9">Vorname <sup>*</sup></label>
+		            <input type="text" class="form-control" name="firstName" id="field-9">
+		            <span class="form-error-message">Enter value</span>
+		          </div>
+		        </div>
+		        <div class="col-xs-6">
+		          <div class="form-group">
+		            <label for="field-5">Nachname <sup>*</sup></label>
+		            <input type="text" class="form-control" name="lastName" id="field-5">
+		            <span class="form-error-message">Enter value</span>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="row">
+		    <div class="col-xs-12">
+		      <div class="row">
+		        <div class="col-xs-6">
+		          <div class="form-group">
+		            <label for="field-9">E-Mail <sup>*</sup></label>
+		            <input type="text" class="form-control" name="email" id="field-9">
+		            <span class="form-error-message">Enter value</span>
+		          </div>
+		        </div>
+		        <div class="col-xs-6">
+		          <div class="form-group">
+		            <label for="field-5">Telefon</label>
+		            <input type="text" class="form-control" id="field-5" name="phone">
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		    <label class="mb-form-sublabel"><sup>*</sup> Pflichtfelder</label>
+		  </div>
+		</div>
+		<div class="modal-footer">
+		  <button type="submit" class="btn btn-primary mb-test-dive-form-navigation-next js-next">
+		    Anfrage senden
+		    <span class="mb-button-arrow-icon"></span>
+		  </button>
+		</div>
+	</form>
+	<div class="mb-test-drive_footer-dscr">
+		<h3>Wo soll die Probefahrt beginnen?</h3>
+		<h4>Für eine Probefahrt benötigen Sie einen gültigen EU-Führerschein. Der Kraftstoff wird nicht gestellt. 
+		Vor Fahrantritt vereinbaren wir mit Ihneneinen Benutzungsvertrag mit einer Selbstbeteiligung von 1.000 € sowie eine gültige Datenschutzerklärung. Die Probefahrt findet ohne </h4>
+	</div>
+</div>

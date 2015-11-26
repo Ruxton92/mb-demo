@@ -41,7 +41,8 @@ gulp.task('styles', function() {
 });
 
 gulp.task('images', function() {
-  return gulp.src('./src/images/**/*')
+  var images = ['./src/images/**/*', './node_modules/select2/*.png']
+  return gulp.src(images)
     .pipe(gulp.dest('./dist/images/'));
 });
 

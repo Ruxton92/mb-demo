@@ -9,6 +9,7 @@ import {Model} from 'backbone';
 import SupportModel from './model';
 import template from './template.hbs';
 
+
 import FormCustomRequired from '../../common/form-custom-required';
 import FormValidatorHelper from '../../common/form-validation-helper';
 
@@ -37,6 +38,27 @@ export default ItemView.extend({
 
   onShow(){
     new FormCustomRequired().initialize(this);
+  },
+  initialize() {
+    new FormValidatorHelper().initialize();
+    this.model.bind('validated:valid', function (model) {
+      console.log('everything is valid');
+    });
+    this.model.bind('validated:invalid', function (model, errors) {
+      console.log(errors);
+    });
+    Backbone.Validation.bind(this);
+  },
+
+  handleSubmit(e) {
+    e.preventDefault();
+    let form = Syphon.serialize(this);
+
+    this.model.set(form);
+
+    if ( this.model.isValid(true) ) {
+      // 
+    };
   },
   initialize() {
     new FormValidatorHelper().initialize();

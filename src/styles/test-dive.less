@@ -1,0 +1,657 @@
+.select2-container {
+  .select2-choice {
+    abbr {
+      background: url('/images/select2.png') right top no-repeat;
+    }
+    .select2-arrow b {
+        background: url('/images/select2.png') no-repeat 0 1px;
+    }
+  }
+}
+
+.select2-search {
+  input {
+    background: #fff url('/images/select2.png') no-repeat 100% -22px;
+    background: url('/images/select2.png') no-repeat 100% -22px, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, #fff), color-stop(0.99, #eee));
+    background: url('/images/select2.png') no-repeat 100% -22px, -webkit-linear-gradient(center bottom, #fff 85%, #eee 99%);
+    background: url('/images/select2.png') no-repeat 100% -22px, -moz-linear-gradient(center bottom, #fff 85%, #eee 99%);
+    background: url('/images/select2.png') no-repeat 100% -22px, linear-gradient(to bottom, #fff 85%, #eee 99%) 0 0;
+    
+    &.select2-active {
+        background: #fff url('/images/select2-spinner.gif') no-repeat 100%;
+        background: url('/images/select2-spinner.gif') no-repeat 100%, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, #fff), color-stop(0.99, #eee));
+        background: url('/images/select2-spinner.gif') no-repeat 100%, -webkit-linear-gradient(center bottom, #fff 85%, #eee 99%);
+        background: url('/images/select2-spinner.gif') no-repeat 100%, -moz-linear-gradient(center bottom, #fff 85%, #eee 99%);
+        background: url('/images/select2-spinner.gif') no-repeat 100%, linear-gradient(to bottom, #fff 85%, #eee 99%) 0 0;
+    }
+  }
+}
+
+/* Retina-ize icons */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx)  {
+    .select2-search input,
+    .select2-search-choice-close,
+    .select2-container .select2-choice abbr,
+    .select2-container .select2-choice .select2-arrow b {
+        background-image: url('/images/select2x2.png') !important;
+    }
+}
+
+
+
+
+.mb-test-drive-select {
+  &.select2-drop-active {
+    border-color: #d9d9d9;
+  }
+  .select2-search {
+    input {
+      border-color: #999;
+      background: #fff;
+    }
+  }
+  .select2-results {
+    li {
+      position: relative;
+      height: 62px;
+      line-height: 62px;
+      font-family: "Corp S";
+      font-size: 16px;
+      vertical-align: middle;
+
+      img {
+        position: absolute;
+        top: 6px;
+        right: 6px;
+        max-height: 50px;
+      }
+    }
+  }
+}
+
+.mb-test-drive-banner {
+  position: relative;
+  margin-bottom: 72px;
+  padding-top: 0;
+  .mb-banner-text-block {
+    position: relative;
+    z-index: 5;
+    padding: 0 15px;
+    .mb-banner-text-wrap {
+      .mb-banner-text-title {
+        color: #333;
+        font: 300 32px/32px 'Corp A';
+        margin-bottom: 35px; 
+        margin-top: 15px;       
+      }
+      .mb-banner-text {
+        color: #333;
+        font: 400 17px / 23px "Corp S";
+        margin-bottom: 25px;
+      }
+    }
+  }
+  img {
+    width: 100%;
+  }
+}
+
+
+.mb-test-dive-page-wrapper {
+	background: #fff;
+}
+
+.mb-test-drive-step {
+  .mb-test-drive-form-navigation-block {
+    margin-bottom: 60px;
+    .row {
+      margin: 0;
+      &>div {
+        padding: 10px 0 0 0;        
+        .btn {
+          background: transparent;
+          border: none;
+          color: #fff;
+          font: 400 18px / 44px "Corp S";
+          padding: 0 20px;
+          position: relative;
+        }
+        .btn-default {
+          background: #666666;
+        }
+        .btn-primary {
+          background: #00adef;
+        }
+        .js-next {
+          padding-right: 35px; 
+          &:after {
+            content: "";
+            display: inline-block;
+            height: 20px;
+            width: 11px;
+            position: absolute;
+            top: 12px;
+            right: 15px;
+            background-image: url(/images/carousel-arrow-right.png);
+            background-position: right top;
+            background-size: 100%;
+          }
+        }
+        .js-prev {
+          padding-left: 35px; 
+          &:before {
+            content: "";
+            display: inline-block;
+            height: 20px;
+            width: 11px;
+            position: absolute;
+            left: 15px;
+            top: 12px;
+            background-image: url(/images/carousel-arrow-left.png);
+            background-position: right top;
+            background-size: 100%;
+          }
+        }
+        &.mb-test-drive-form-btn-left {
+          border-top: 1px solid #dddddd;
+        }
+      }
+    }
+    .mb-form-sublabelrive-form-wrapper {
+      margin-top: 10px;
+    }
+  }
+	.mb-test-drive-detail-list {
+	  border-top: 1px solid #dddddd;
+	  padding: 0;
+	  margin: 18px 0 30px 0;
+    .row {
+      padding: 10px 0;
+      margin: 0;
+      span {
+        padding: 0;
+        padding-right: 30px;
+      }
+      p {
+        padding: 0;
+      }
+      .mb-icon-i {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+    }
+		li {
+		  list-style: none;
+		  padding: 0;
+		  border-bottom: 1px solid #dddddd;
+		  position: relative;
+		  padding-right: 32px;
+			&:last-child {
+				border: none;
+			}
+		}
+		li.important {
+		  background: #f8f8f8;
+		  padding-left: 5px;
+		}
+		li span {
+		  font: 400 14px / 18px "Corp S";
+		  color: #333333;
+		  padding: 8px 0 2px 0;
+		  display: block;
+		}
+		li p {
+		  font: 400 17px / 23px "Corp S";
+		  color: #333333;
+		  margin: 0;
+		  padding: 2px 0 7px 0;
+		  display: block;
+		}
+	}
+  .mb-test-drive-form-wrapper {
+    form {
+      .row {
+        .form-group {
+          margin-bottom: 15px;
+
+          &.has-error {
+            .bootstrap-datetimepicker-widget,
+            .form-control,
+            .input-group .input-group-addon {
+              border-color: #9f0002;
+            }
+          }
+
+          input.form-control {
+            &:focus,
+            &:active {
+              background-color: #fff;
+            }
+          }
+
+          .bootstrap-datetimepicker-widget,
+          .form-control,
+          .input-group .input-group-addon {
+            border-color: #d9d9d9;
+            background: #f8f8f8;
+          }
+
+          .mb-form-sublabel-left {
+            color: #999;
+            font-size: 16px;
+            line-height: 36px;
+          }
+
+          .select2-container {
+            padding: 0;
+            height: 60px;
+            box-shadow: none;
+            border: 1px solid #d9d9d9;
+            border-radius: 0;
+
+            &:hover,
+            &:focus {
+              border-color: #d9d9d9;      
+            }
+
+            &.select2-drop-active {
+              border-color: #999;
+            }
+            .select2-choice {
+              height: 62px;
+              background: #f8f8f8;
+              border-radius: 0;
+              .select2-chosen {
+                min-height: 60px;
+                line-height: 60px;
+                padding: 0 5px;
+                font-family: "Corp S";
+                font-size: 18px;
+                color: #333;
+                vertical-align: middle;
+              }
+              .select2-arrow {
+                display: none;
+              }
+              img {
+                position: absolute;
+                top: 6px;
+                right: 6px;
+                max-height: 50px;
+              }
+            }
+
+            &.select2-container-active {
+              .select2-choice {
+                box-shadow: none;
+              }
+            }
+            &.select2-container-disabled {
+              .select2-choice {
+                background: rgb(238, 238, 238);
+                cursor: not-allowed;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .mb-form-list-switches {
+    li {
+      label {
+        position: relative;
+        min-height: 40px;
+        padding-left: 50px;
+
+        .mb-catalogue-filter-checkbox-wrapper {
+          position: absolute;
+          left: 0;
+          top: 0;
+        }
+        .mb-catalogue-filter-title {
+          height: auto;
+          padding-top: 5px;
+        }
+      }
+    }
+  }
+  .mb-test-drive_footer-dscr {
+    color: #999999;
+    max-width: 920px;
+    margin: auto;
+    margin-top: 20px;
+    
+    h3 {
+      font: 18px / 23px "Corp S";
+      color: #999;
+      font-weight: bold;
+      line-height: 24px;
+      margin-bottom: 8px;
+    }
+    
+    h4 {
+      font-family: "Corp S";
+      font-size: 17px;
+      line-height: 24px;
+      margin-bottom: 8px;
+    }
+  }
+}
+
+@media (min-width: @screen-sm) and (max-width: (@screen-md - 1)) { 
+  .mb-test-drive-banner {
+    position: relative;
+    margin-bottom: 72px;
+    .mb-banner-text-block {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 58%;
+      height: 100%;
+      background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      background: -o-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      background: -ms-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      background: linear-gradient(-90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      .mb-banner-text-wrap {
+        position: absolute;
+        height: 190px;
+        top: 50%;
+        right: 10%;
+        margin-left: 33%;
+        margin-top: -95px;
+        width: 346px;
+        .mb-banner-text-title {
+          color: #fff;
+          font: 300 32px/32px 'Corp A';
+          margin-top: 0;
+        }
+        .mb-banner-text {
+          color: #fff;
+          font: 400 18/24px 'Corp S';
+        }
+      }
+      &.mb-banner-text-left {
+        left: 0;
+        background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+        background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+        background: -o-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+        background: -ms-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      }
+    }
+    img {
+      width: 100%;
+    }
+  }
+  .mb-test-drive-step {
+    .mb-test-drive-form-navigation-block {
+      margin-bottom: 60px;
+      .row {
+        margin: 0;
+        &>div {
+          padding: 30px 0 0 0;
+          border-top: 1px solid #dddddd;
+          .btn {
+            background: transparent;
+            border: none;
+            color: #fff;
+            font: 400 18px / 44px "Corp S";
+            padding: 0 20px;
+            position: relative;
+          }
+          .btn-default {
+            background: #666666;
+          }
+          .btn-primary {
+            background: #00adef;
+          }
+          .js-next {
+            padding-right: 35px; 
+            &:after {
+              content: "";
+              display: inline-block;
+              height: 20px;
+              width: 11px;
+              position: absolute;
+              top: 12px;
+              right: 15px;
+              background-image: url(/images/carousel-arrow-right.png);
+              background-position: right top;
+              background-size: 100%;
+            }
+          }
+          .js-prev {
+            padding-left: 35px; 
+            &:before {
+              content: "";
+              display: inline-block;
+              height: 20px;
+              width: 11px;
+              position: absolute;
+              left: 15px;
+              top: 12px;
+              background-image: url(/images/carousel-arrow-left.png);
+              background-position: right top;
+              background-size: 100%;
+            }
+          }
+          &.mb-test-drive-form-btn-right {
+            text-align: right;
+          }
+        }
+        .mb-checkout-form-btn-right {
+      		text-align: right;
+	      }
+      }
+    }
+  }
+}
+
+
+@media (min-width: @screen-md) and (max-width: (@screen-lg - 1)) {
+	.mb-test-drive-banner {
+    position: relative;
+    margin-bottom: 72px;
+    .mb-banner-text-block {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 58%;
+      height: 100%;
+      background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      background: -o-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      background: -ms-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      background: linear-gradient(-90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      .mb-banner-text-wrap {
+        position: absolute;
+        height: 190px;
+        top: 40%;
+        margin-left: 33%;
+        margin-top: -95px;
+        width: 346px;
+        .mb-banner-text-title {
+          color: #fff;
+          font: 300 32px/32px 'Corp A';
+          padding-bottom: 26px;
+        }
+        .mb-banner-text {
+          color: #fff;
+          font: 400 18/24px 'Corp S';
+          padding-bottom: 26px;
+        }
+      }
+    }
+    img {
+      width: 100%;
+    }
+  }
+  .mb-test-drive-step {
+    .mb-test-drive-form-navigation-block {
+      margin-bottom: 60px;
+      .row {
+        margin: 0;
+        &>div {
+          padding: 30px 0 0 0;
+          border-top: 1px solid #dddddd;
+          .btn {
+            background: transparent;
+            border: none;
+            color: #fff;
+            font: 400 18px / 44px "Corp S";
+            padding: 0 20px;
+            position: relative;
+          }
+          .btn-default {
+            background: #666666;
+          }
+          .btn-primary {
+            background: #00adef;
+          }
+          .js-next {
+            padding-right: 35px; 
+            &:after {
+              content: "";
+              display: inline-block;
+              height: 20px;
+              width: 11px;
+              position: absolute;
+              top: 12px;
+              right: 15px;
+              background-image: url(/images/carousel-arrow-right.png);
+              background-position: right top;
+              background-size: 100%;
+            }
+          }
+          .js-prev {
+            padding-left: 35px; 
+            &:before {
+              content: "";
+              display: inline-block;
+              height: 20px;
+              width: 11px;
+              position: absolute;
+              left: 15px;
+              top: 12px;
+              background-image: url(/images/carousel-arrow-left.png);
+              background-position: right top;
+              background-size: 100%;
+            }
+          }
+          &.mb-test-drive-form-btn-right {
+            text-align: right;
+          }
+        }
+       	.mb-checkout-form-btn-right {
+      		text-align: right;
+	      }
+      }
+    }
+  }
+}
+
+@media (min-width: @screen-lg) {
+	.mb-test-drive-banner {
+    position: relative;
+    margin-bottom: 72px;
+    .mb-banner-text-block {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 58%;
+      height: 100%;
+      background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      background: -o-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      background: -ms-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      background: linear-gradient(-90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+      .mb-banner-text-wrap {
+        position: absolute;
+        height: 190px;
+        top: 40%;
+        margin-left: 33%;
+        margin-top: -95px;
+        width: 346px;
+        .mb-banner-text-title {
+          color: #fff;
+          font: 300 32px/32px 'Corp A';
+          padding-bottom: 26px;
+        }
+        .mb-banner-text {
+          color: #fff;
+          font: 400 18/24px 'Corp S';
+          padding-bottom: 26px;
+        }
+      }
+    }
+    img {
+      width: 100%;
+    }
+  }
+  .mb-test-drive-step {
+    .mb-test-drive-form-navigation-block {
+      margin-bottom: 60px;
+      .row {
+        margin: 0;
+        &>div {
+          padding: 30px 0 0 0;
+          border-top: 1px solid #dddddd;
+          .btn {
+            background: transparent;
+            border: none;
+            color: #fff;
+            font: 400 18px / 44px "Corp S";
+            padding: 0 20px;
+            position: relative;
+          }
+          .btn-default {
+            background: #666666;
+          }
+          .btn-primary {
+            background: #00adef;
+          }
+          .js-next {
+            padding-right: 35px; 
+            &:after {
+              content: "";
+              display: inline-block;
+              height: 20px;
+              width: 11px;
+              position: absolute;
+              top: 12px;
+              right: 15px;
+              background-image: url(/images/carousel-arrow-right.png);
+              background-position: right top;
+              background-size: 100%;
+            }
+          }
+          .js-prev {
+            padding-left: 35px; 
+            &:before {
+              content: "";
+              display: inline-block;
+              height: 20px;
+              width: 11px;
+              position: absolute;
+              left: 15px;
+              top: 12px;
+              background-image: url(/images/carousel-arrow-left.png);
+              background-position: right top;
+              background-size: 100%;
+            }
+          }
+          &.mb-test-drive-form-btn-right {
+            text-align: right;
+          }
+        }
+        .mb-checkout-form-btn-right {
+      		text-align: right;
+	      }
+      }
+    }
+  }
+}

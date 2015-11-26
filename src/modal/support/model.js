@@ -5,40 +5,37 @@ export default Model.extend({
   urlRoot: '/api/v2/lead/support',
   validation: {
     "deliveryStreet": {
-      required: false
+      required: true
     },
     "deliveryHouse": {
-      required: false
+      required: true
     },
     "deliveryAdditional": {
       required: false
     },
     "deliveryIndex": {
-      required: false
+      required: true
     },
     "deliveryCity": {
-      required: false
+      required: true
     },
     "currentcarModel": {
-      required: false
+      required: true
     },
     "currentcarYear": {
-      required: false
+      required: true
     },
     "currentcarMileage": {
-      required: false
+      required: true
     },
     "salutation": {
-      required: false
+      required: true
     },
     "firstName": {
-      required: false
+      required: true
     },
     "lastName": {
-      required: false
-    },
-    "email": {
-      required: false
+      required: true
     }
   }
 

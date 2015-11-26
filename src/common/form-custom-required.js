@@ -13,7 +13,6 @@ export default class FormCustomRequired {
       if ($labelText.indexOf('*') !== -1) {
         fields[field].required = true;
       }
-    }
-    
+    }    
   }
 }

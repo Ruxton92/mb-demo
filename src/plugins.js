@@ -8,6 +8,7 @@ import 'backbone.syphon';
 import 'backbone-query-parameters';
 import 'babel/polyfill';
 import 'slick-carousel';
+import 'select2';
 import 'eonasdan-bootstrap-datetimepicker';
 import moment from 'moment';
 window.moment = moment;

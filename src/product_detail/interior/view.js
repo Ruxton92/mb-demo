@@ -48,7 +48,7 @@ export default CompositeView.extend({
   },
 
   onShow() {
-    this.$el.find('.mb-interior-large-photo').slice(0,2).addClass('active');
+    this.ui.carousel.find('.mb-interior-large-photo').slice(0,2).addClass('active');
     this.ui.carousel.carousel({
       interval: 2000,
       

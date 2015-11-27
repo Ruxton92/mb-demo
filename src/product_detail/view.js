@@ -9,6 +9,9 @@ import ProductModel from './model';
 import OfferDetailView from './offer_detail/view';
 import EquipmentHighlightsView from './equipment_highlights/view';
 
+import ModalService from '../modal/service';
+import TestDriveModalView from '../modal/test_drive/view';
+
 export default LayoutView.extend({
   template,
   className: 'mb-catalogue-page-wrapper',
@@ -58,6 +61,7 @@ export default LayoutView.extend({
 
   events: {
     'click .mb-model-detail-scroll-to-top': 'scrollTop',
+    'click .js-open-test-drive': 'openTestDrive',
   },
 
   scrollTop(e) {
@@ -78,6 +82,12 @@ export default LayoutView.extend({
         $('.mb-model-detail-navigation').removeClass('sticky');
       }
     }
+  },
+
+  openTestDrive(e) {
+    e.preventDefault();
+    var view = new TestDriveModalView();
+    ModalService.request('open', view);
   },
 
   onShow() {

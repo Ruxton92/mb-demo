@@ -36,14 +36,15 @@ export default LayoutView.extend({
     
     $(window).on("scroll", this.checkScroll);
 
-    let extDay = this.model.get('stageModules')[0].data[0].car.images360ExtDayClosed;
-    let extNight = this.model.get('stageModules')[0].data[0].car.images360ExtNightClosed;
+
+    let extDay = this.model.get('design').exterior.images;
+    let extNight = this.model.get('design').exterior.images;
     let slidesExt = [];
     for (let i = 0; i < extDay.length; i++) {
-      slidesExt.push({day: extDay[i].md.url, night: 'http://placehold.it/1305x734'});
+      slidesExt.push({day: extDay[i].hd.url, night: ''});
     }
     this.exteriorSlidesCollection = new Backbone.Collection(slidesExt);
-    this.exteriorView = new ExteriorView({collection: this.exteriorSlidesCollection});
+    this.exteriorView = new ExteriorView({model: this.model, collection: this.exteriorSlidesCollection});
 
     let intDay = this.model.get('stageModules')[0].data[0].car.images360IntDayClosed;
     let intNight = this.model.get('stageModules')[0].data[0].car.images360IntNightClosed;

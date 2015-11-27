@@ -1,8 +1,8 @@
 <div class="index__billboard">
   <div class="mb-campaign mb-model-detail-campaign">
-    <img class="mb-campaign-hero" src="/images/campaign/campaign-poster-3.jpg" alt="...">
+    <img class="mb-campaign-hero" src="{{stageModules.0.data.0.car.imagesStageLeft.xsd.url}}" alt="...">
     <a href="#" class="mb-model-header-back hidden-xs">Angebotsübersicht</a>
-    <h1 class="mb-model-header-name">A 180 StreetStyle Sondermodell.</h1>
+    <h1 class="mb-model-header-name">{{stageModules.0.data.0.car.model}} {{stageModules.0.data.0.car.equipmentLine}}</h1>
     <h2 class="mb-model-header-descr-short">
     	349 € mtl. Gesamt-Leasing-Rate (Leasing-Komplett-Paket inkl. 
 			<br>
@@ -22,12 +22,9 @@
 				<br>
 				Energieeffizienzklasse<sup>***</sup> B
     	</li>
-    	<li class="mb-model-header-advantage">AMG Line</li>
-    	<li class="mb-model-header-advantage">Bi-Xenon Scheinwerfer</li>
-    	<li class="mb-model-header-advantage">Becker-Map-Pilot</li>
-    	<li class="mb-model-header-advantage">Aktiver Park-Assistent</li>
-    	<li class="mb-model-header-advantage">Sitzheizung Vordersitze</li>
-    	<li class="mb-model-header-advantage">Spiegel-Paket</li>
+    	{{#each stageModules.0.data.0.car.offerHighlights}}
+    		<li class="mb-model-header-advantage">{{name}}</li>
+    	{{/each}}
     	
     </ul>
     <p class="mb-model-header-footnote hidden-xs">
@@ -41,7 +38,7 @@
 			<button class="mb-model-detail-scroll-to-top"></button>
 			<div class="mb-model-detail-navigation-sub">
 				<p class="mb-model-detail-navigation-sub-title hidden-xs hidden-sm">
-					A 180 - Sondermodell StreetStyle - Gesamtpreis 39.269,35 €
+					{{stageModules.0.data.0.car.model}} - {{stageModules.0.data.0.car.equipmentLine}} - Gesamtpreis 39.269,35 €
 				</p>
 				<div class="dropdown hidden-lg">
 				  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">

@@ -39,24 +39,34 @@ export default LayoutView.extend({
     
     $(window).on("scroll", this.checkScroll);
 
+    // Feature cols
+    let featureCols = this.model.get('features').cols;
+    let extCol = null;
+    let intCol = [];
+    for (let i = 0; i < featureCols.length; i++) {
+      if ( featureCols[i].appliedImageNumber === 1 ) {
+        extCol = featureCols[i]
+      } else {
+        intCol.push(featureCols[i]) 
+      }
+    }
 
     let extDay = this.model.get('design').exterior.images;
     let extNight = this.model.get('design').exterior.images;
     let slidesExt = [];
     for (let i = 0; i < extDay.length; i++) {
-      slidesExt.push({day: extDay[i].hd.url, night: ''});
+      slidesExt.push({day: extDay[i].hd.url, col: extCol});
     }
     this.exteriorSlidesCollection = new Backbone.Collection(slidesExt);
     this.exteriorView = new ExteriorView({model: this.model, collection: this.exteriorSlidesCollection});
 
-    let intDay = this.model.get('stageModules')[0].data[0].car.images360IntDayClosed;
-    let intNight = this.model.get('stageModules')[0].data[0].car.images360IntNightClosed;
+    let intDay = this.model.get('design').interior.images;
     let slidesInt = [];
     for (let i = 0; i < intDay.length; i++) {
-      slidesInt.push({day: intDay[i].md.url, night: 'http://placehold.it/1305x734'});
+      slidesInt.push({car: intDay[i].hd.url, col: intCol[i]});
     }
     this.interiorSlidesCollection = new Backbone.Collection(slidesInt);
-    this.interiorView = new InteriorView({collection: this.interiorSlidesCollection});
+    this.interiorView = new InteriorView({model: this.model, collection: this.interiorSlidesCollection});
   },
 
   events: {

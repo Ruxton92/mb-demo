@@ -54,7 +54,7 @@ export default CompositeView.extend({
 
   onShow() {
     this.ui.carousel.carousel({
-      interval: 200,
+      interval: 2000,
     }).carousel('pause');
     this.$el.find('.item:first').addClass('active');
     this.slidesNum = this.collection.length;
@@ -67,8 +67,15 @@ export default CompositeView.extend({
 
   showExteriorModal(e) {
     e.preventDefault();
-
-    let view = new ExteriorModalView({collection: this.collection});
+    
+    let extDay = this.model.get('stageModules')[0].data[0].car.images360ExtDayClosed;
+    let extNight = this.model.get('stageModules')[0].data[0].car.images360ExtNightClosed;
+    let slidesExt = [];
+    for (let i = 0; i < extDay.length; i++) {
+      slidesExt.push({day: extDay[i].md.url, night: 'http://placehold.it/1305x734'});
+    }
+    this.exteriorSlidesCollection = new Backbone.Collection(slidesExt);
+    let view = new ExteriorModalView({collection: this.exteriorSlidesCollection});
     ModalService.request('open', view);
   },
 
